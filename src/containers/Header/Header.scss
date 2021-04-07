@@ -1,0 +1,178 @@
+.header {
+  // display: flex;
+  // justify-content: space-between;
+
+  height: 84px;
+  background: #ffffff;
+  max-width: 1920px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.line {
+  width: 100%;
+  height: 4px;
+  margin-bottom: 22px;
+  background-color: #2a72e5;
+}
+
+.header-title {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 28px;
+
+  > .tokamak-logo {
+    width: 45px;
+    height: 30px;
+    object-fit: contain;
+    margin-left: 112px;
+  }
+
+  > .tokamak-text {
+    width: 207px;
+    height: 22px;
+    object-fit: contain;
+  }
+
+  > .language {
+    color: #3e495c;
+    font-size: 14px;
+    margin-right: 112px;
+  }
+}
+
+.header-sub {
+  background: #fafbfc;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+
+  .beta {
+    margin-top: 4px;
+
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1c1c1c;
+
+    margin-left: 4px;
+
+    &-sub {
+      color: #2a72e5;
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  z-index: 1;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.logo-tablet {
+  display: flex;
+  align-items: center;
+
+  z-index: 1;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+button {
+  width: 76px;
+  height: 35px;
+  padding: 8px 20px;
+  border-radius: 19px;
+  border: solid 1px #6c9ed0;
+  background: #0062c2;
+  outline: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a6c8e9
+}
+button:hover {
+  cursor: pointer;
+}
+
+.claim {
+  background: #2a72e5;
+  color: #ffffff;
+}
+
+.logo img {
+  width: 306px;
+  height: 30px;
+}
+
+.menu {
+  width: 100%;
+  max-width: 500px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  z-index: 1;
+}
+
+.menu-item {
+  /* font styles */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1c1c1c;
+
+  text-decoration: none;
+}
+
+.menu-item-sub {
+  color: #3e495c;
+}
+
+.menu-item-sub:hover {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2a72e5;
+}
+
+.selected {
+  color: #2a72e5;
+}
+
+.container {
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+
+  z-index: 1;
+}
