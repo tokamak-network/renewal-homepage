@@ -26,6 +26,9 @@ export default {
     "roadmap-container": RoadMapContainer,
     "tokamak-info-container": TokamakInfoContainer,
   },
+  created() {
+    this.$store.dispatch("launch");
+  },
 };
 </script>
 
