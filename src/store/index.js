@@ -2,7 +2,7 @@ import Vue from "vue";
 import Vuex from "vuex";
 
 // import Web3 from "web3";
-// import axios from "axios";
+import axios from "axios";
 
 Vue.use(Vuex);
 
@@ -11,6 +11,7 @@ export default new Vuex.Store({
     web3: null,
     posts: [],
     launched: false,
+    loaded: false,
   },
   mutations: {
     SET_WEB3(state, web3) {
@@ -19,6 +20,18 @@ export default new Vuex.Store({
     SET_POSTS(state, posts) {
       state.posts = posts;
     },
+    SET_TOTALSTAKED: (state, totalStaked) => {
+      state.totalStaked = totalStaked;
+    },
+    SET_USD: (state, usd) => {
+      state.usd = usd;
+    },
+    SET_LOADED: (state, loaded) => {
+      state.loaded = loaded;
+    },
+    SET_INFO: (state, info) => {
+      state.info = info;
+    },
     LAUNCHED(state) {
       state.launched = true;
     },
@@ -26,7 +39,47 @@ export default new Vuex.Store({
   actions: {
     async launch({ commit, dispatch }) {
       await dispatch("setPosts");
+      await dispatch("getCurrencyInfo");
+      await dispatch("getUSDInfo");
+      await dispatch("getTotalStaked");
       commit("LAUNCHED");
+      dispatch("setLoaded");
+    },
+    updateData(context) {
+      setInterval(() => context.dispatch("getCurrencyInfo"), 60000);
+      setInterval(() => context.dispatch("getUSDInfo"), 60000);
+      setInterval(() => context.dispatch("getTotalStaked"), 60000);
+    },
+    async getCurrencyInfo(context) {
+      await axios
+        .get("https://api.upbit.com/v1/ticker?markets=KRW-TON")
+        .then((response) => {
+          context.commit(
+            "SET_INFO",
+            JSON.parse(JSON.stringify(response.data).replace(/]|[[]/g, ""))
+          );
+          if (context.state.loaded) {
+            document.title =
+              Math.trunc(response.data[0].trade_price).toLocaleString("en-US") +
+              " TON/KRW";
+            console.log(document.title);
+          }
+        });
+    },
+    async getTotalStaked(context) {
+      await axios
+        .get("https://price-api.tokamak.network/staking/current")
+        .then((response) => {
+          context.commit("SET_TOTALSTAKED", response.data);
+        });
+    },
+    async getUSDInfo(context) {
+      await axios
+        .get("https://api.frankfurter.app/latest?from=KRW")
+        .then((response) => context.commit("SET_USD", response.data.rates.USD));
+    },
+    async setLoaded(context) {
+      await context.commit("SET_LOADED", true);
     },
     async setPosts({ commit }) {
       const contents = {
