@@ -7,6 +7,7 @@
     <div class="image">
       <div class="text">— connecting layer 2 networks</div>
     </div>
+    <div class="line" />
   </div>
 </template>
 

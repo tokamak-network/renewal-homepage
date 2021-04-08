@@ -16,7 +16,6 @@
           :to="'/'"
           class="menu-item"
           :class="{
-            'menu-item-sub': isSub,
             selected: $route.path.includes('/'),
           }"
         >
@@ -26,7 +25,6 @@
           :to="'/solutions'"
           class="menu-item"
           :class="{
-            'menu-item-sub': isSub,
             selected: $route.path.includes('solutions'),
           }"
         >
@@ -36,7 +34,6 @@
           :to="'/services'"
           class="menu-item"
           :class="{
-            'menu-item-sub': isSub,
             selected: $route.path.includes('services'),
           }"
         >
@@ -46,7 +43,6 @@
           :to="'/developers'"
           class="menu-item"
           :class="{
-            'menu-item-sub': isSub,
             selected: $route.path.includes('developers'),
           }"
         >
@@ -56,7 +52,6 @@
           :to="'/about'"
           class="menu-item"
           :class="{
-            'menu-item-sub': isSub,
             selected: $route.path.includes('about'),
           }"
         >

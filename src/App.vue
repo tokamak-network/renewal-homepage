@@ -22,6 +22,7 @@ export default {
   font-stretch: normal;
   font-style: normal;
   color: #2c3e50;
+  width: 1920px;
 }
 
 #nav {
