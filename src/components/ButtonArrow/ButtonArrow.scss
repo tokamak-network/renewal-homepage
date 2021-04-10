@@ -1,0 +1,27 @@
+.button-step {
+  width: 35px;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
+
+button:hover img {
+  filter: brightness(50%);
+  // color: #246fed;
+}
+
+.prev {
+  width: 35px;
+}
+.prev:hover {
+  // background-image: url(../../assets/arrow-pre-active.png);
+  width: 35px;
+}
+
+.next {
+  width: 35px;
+}

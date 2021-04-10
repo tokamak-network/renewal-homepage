@@ -10,6 +10,7 @@ export default new Vuex.Store({
   state: {
     web3: null,
     posts: [],
+    roadmap: [],
     launched: false,
     loaded: false,
   },
@@ -19,6 +20,9 @@ export default new Vuex.Store({
     },
     SET_POSTS(state, posts) {
       state.posts = posts;
+    },
+    SET_ROADMAP(state, roadmap) {
+      state.posts = roadmap;
     },
     SET_TOTALSTAKED: (state, totalStaked) => {
       state.totalStaked = totalStaked;
@@ -42,6 +46,7 @@ export default new Vuex.Store({
       await dispatch("getCurrencyInfo");
       await dispatch("getUSDInfo");
       await dispatch("getTotalStaked");
+      await dispatch("setRoadMap");
       commit("LAUNCHED");
       dispatch("setLoaded");
     },
@@ -81,6 +86,57 @@ export default new Vuex.Store({
     async setLoaded(context) {
       await context.commit("SET_LOADED", true);
     },
+    async setRoadMap({ commit }) {
+      const roadmap = [
+        {
+          subject: "1. Networking the Layer 2 networks",
+          title: "Support all types of layer 2 protocol in Tokamak Network.",
+          content: "",
+        },
+        {
+          subject: "1. Networking the Layer 2 networks",
+          title: "Integrate all layer 2 protocol with TON ecosystem",
+          content: "",
+        },
+        {
+          subject: "1. Networking the Layer 2 networks",
+          title: "Support one-click cross-rollup transfer",
+          content: "",
+        },
+        {
+          subject: "1. Networking the Layer 2 networks",
+          title: "Support fast withdrawal",
+          content: "",
+        },
+        {
+          subject: "1. Networking the Layer 2 networks",
+          title: "Support full verification from day one ",
+          content: "",
+        },
+        {
+          subject: "2. Higher security, More Interoperability",
+          title: "Support stateless verification",
+          content: "",
+        },
+        {
+          subject: "2. Higher security, More Interoperability",
+          title: "Support cross-contract call",
+          content: "",
+        },
+        {
+          subject: "2. Higher security, More Interoperability",
+          title: "Eth 2.0 migration",
+          content: "",
+        },
+        {
+          subject: "Full verification with zkp",
+          title: "Support fully Ethereum-compatible zk rollups",
+          content: "",
+        },
+      ];
+
+      commit("SET_ROADMAP", roadmap);
+    },
     async setPosts({ commit }) {
       const contents = {
         status: "ok",
@@ -94,7 +150,7 @@ export default new Vuex.Store({
           image:
             "https://cdn-images-1.medium.com/proxy/1*TGH72Nnw24QL3iV9IOm4VA.png",
         },
-        items: [
+        titles: [
           {
             title:
               "Welcome our new partner Paycoin to Tokamak Network community! [EN/KR]",
@@ -325,11 +381,11 @@ export default new Vuex.Store({
       //     }
       //   )
       //   .then((res) => {
-      //     console.log(res.items);
+      //     console.log(res.titles);
       //   });
 
-      // console.log(contents.items);
-      commit("SET_POSTS", contents.items);
+      // console.log(contents.titles);
+      commit("SET_POSTS", contents.titles);
     },
   },
   modules: {},
