@@ -1,18 +1,23 @@
 <template>
-  <div class="roadmap">
+  <div class="roadmaps">
     <div class="roadmap-header">
       <div class="title">TOKAMAK NETWORK ROADMAP</div>
       <div class="prev-arrow" @click="prev" />
       <div class="next-arrow" @click="next" />
     </div>
-    <div class="post-section">
-      <div v-for="post in selectedPosts" :key="post.guid" class="post">
-        <img :src="post.thumbnail" class="img" />
-        <div class="post-title">
-          {{ post.title }}
+    <div class="roadmap-section">
+      <div
+        v-for="roadmap in selectedRoadmap"
+        :key="roadmap.guid"
+        class="roadmap"
+      >
+        <div class="roadmap-subject">
+          <div v-if="subjectChecker(roadmap.index)">
+            {{ roadmap.subject }}
+          </div>
         </div>
-        <div class="post-preview">{{ parsing(post.description) }}</div>
-        <div class="post-date">{{ post.pubDate }}</div>
+        <div class="roadmap-title">{{ roadmap.title }}</div>
+        <div class="roadmap-content">{{ roadmap.content }}</div>
       </div>
     </div>
     <div class="line" />
@@ -30,33 +35,34 @@ export default {
   data() {
     return {
       page: 0,
+      show: true,
     };
   },
   computed: {
-    ...mapState(["posts", "web3"]),
-    selectedPosts() {
-      // const first = this.page + 1;
-      // console.log(this.posts[1].description);
-      // console.log(this.posts[0].description.indexOf("<p>"));
-      return this.posts.slice(this.page, this.page + 4);
+    ...mapState(["roadmap", "web3"]),
+    selectedRoadmap() {
+      return this.roadmap.slice(this.page, this.page + 4);
     },
-  },
-  created() {
-    console.log(this.posts);
   },
   methods: {
-    parsing(content) {
-      const start = content.indexOf("<p>");
-      const end = content.indexOf("</p>");
-      return content.slice(start + 3, end);
-    },
     prev() {
       this.page !== 0 ? (this.page = this.page - 1) : (this.page = 0);
     },
     next() {
-      this.page + 3 < this.posts.length
-        ? (this.page = this.page + 1)
-        : (this.page = this.posts.length - 3);
+      this.page + 4 < 9 ? (this.page = this.page + 1) : (this.page = 9 - 4);
+    },
+    subjectChecker(index) {
+      if (this.page != index) {
+        if (this.roadmap[this.page].subject === this.roadmap[index].subject) {
+          return false;
+        } else if (this.page < 5 && index > 5) {
+          return false;
+        } else {
+          return true;
+        }
+      } else {
+        return true;
+      }
     },
   },
 };
