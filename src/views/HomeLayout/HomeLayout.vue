@@ -5,12 +5,12 @@
     <blog-container />
     <tokamak-info-container />
     <roadmap-container />
-    <backed-container />
+    <supporter-container />
   </div>
 </template>
 
 <script>
-import BackedContainer from "./containers/BackedContainer";
+import SupporterContainer from "./containers/SupporterContainer";
 import BlogContainer from "./containers/BlogContainer";
 import IntroContainer from "./containers/IntroContainer";
 import MainContainer from "./containers/MainContainer";
@@ -19,7 +19,7 @@ import TokamakInfoContainer from "./containers/TokamakInfoContainer";
 
 export default {
   components: {
-    "backed-container": BackedContainer,
+    "supporter-container": SupporterContainer,
     "blog-container": BlogContainer,
     "intro-container": IntroContainer,
     "main-container": MainContainer,
