@@ -22,7 +22,13 @@
             </div>
           </div>
           <div class="roadmap-title">{{ roadmap.title }}</div>
-          <div class="roadmap-detail">{{ roadmap.content }}</div>
+          <div
+            v-for="content in roadmap.contents"
+            :key="content.index"
+            class="roadmap-detail"
+          >
+            <div>{{ content }}</div>
+          </div>
         </div>
       </transition-group>
     </div>

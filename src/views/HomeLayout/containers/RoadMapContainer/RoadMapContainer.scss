@@ -1,7 +1,7 @@
 .roadmaps {
   margin-top: 20px;
   max-width: 1696px;
-  height: 375px;
+  // height: 375px;
   padding: 0 112px 0 112px;
 
   > .roadmap-header {
@@ -46,6 +46,7 @@
 
     max-width: 1696px;
     overflow: hidden;
+    margin-bottom: 80px;
 
     .slide-right-leave-active,
     .slide-right-enter-active {

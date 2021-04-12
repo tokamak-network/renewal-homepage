@@ -112,7 +112,6 @@
         />
       </a>
     </div>
-    <div class="line" />
   </div>
 </template>
 

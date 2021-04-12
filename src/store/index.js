@@ -92,58 +92,65 @@ export default new Vuex.Store({
           index: "0",
           subject: "Networking the Layer 2 networks",
           title: "Support all types of layer 2 protocol in Tokamak Network.",
-          content: "",
+          contents: [
+            "Support Optimistic Rollup : Optimism, Arbitrum, and more",
+            "Support Zk-Rollup : StarkEx, zkSync, and more",
+            "Support Validium : StarkEx and more",
+            "Support Plasma : Tokamak plasma and more",
+            "Add custom layer 2 building protocol",
+          ],
         },
         {
           index: "1",
           subject: "Networking the Layer 2 networks",
           title: "Integrate all layer 2 protocol with TON ecosystem",
-          content: "",
+          contents: [
+            "Integrate all layer 2 protocols with TON seigniorage pool, PowerTON game, DAO governance",
+          ],
         },
         {
           index: "2",
           subject: "Networking the Layer 2 networks",
           title: "Support one-click cross-rollup transfer",
-          content: "",
+          contents: ["Build cross-rollup transfer liquidity pool"],
         },
         {
           index: "3",
           subject: "Networking the Layer 2 networks",
           title: "Support fast withdrawal",
-          content: "",
+          contents: ["Build fast withdrawal liquidity pool"],
         },
         {
           index: "4",
           subject: "Networking the Layer 2 networks",
           title: "Support full verification from day one ",
-          content: "",
+          contents: [],
         },
         {
           index: "5",
           subject: "Higher security, More Interoperability",
           title: "Support stateless verification",
-          content: "",
+          contents: [""],
         },
         {
           index: "6",
           subject: "Higher security, More Interoperability",
           title: "Support cross-contract call",
-          content: "",
+          contents: [""],
         },
         {
           index: "7",
           subject: "Higher security, More Interoperability",
           title: "Eth 2.0 migration",
-          content: "",
+          contents: [""],
         },
         {
           index: "8",
           subject: "Full verification with zkp",
           title: "Support fully Ethereum-compatible zk rollups",
-          content: "",
+          contents: [""],
         },
       ];
-      console.log(roadmap.length);
 
       commit("SET_ROADMAP", roadmap);
     },
