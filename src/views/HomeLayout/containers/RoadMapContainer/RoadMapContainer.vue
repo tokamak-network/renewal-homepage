@@ -6,19 +6,25 @@
       <div class="next-arrow" @click="next" />
     </div>
     <div class="roadmap-section">
-      <div
-        v-for="roadmap in selectedRoadmap"
-        :key="roadmap.guid"
-        class="roadmap"
+      <transition-group
+        tag="div"
+        name="direction ? 'slide-right' : 'slide-left"
+        class="transition"
       >
-        <div class="roadmap-subject">
-          <div v-if="subjectChecker(roadmap.index)">
-            {{ roadmap.subject }}
+        <div
+          v-for="roadmap in selectedRoadmap"
+          :key="roadmap.index"
+          class="roadmap"
+        >
+          <div class="roadmap-subject">
+            <div v-if="subjectChecker(roadmap.index)">
+              {{ roadmap.subject }}
+            </div>
           </div>
+          <div class="roadmap-title">{{ roadmap.title }}</div>
+          <div class="roadmap-detail">{{ roadmap.content }}</div>
         </div>
-        <div class="roadmap-title">{{ roadmap.title }}</div>
-        <div class="roadmap-content">{{ roadmap.content }}</div>
-      </div>
+      </transition-group>
     </div>
     <div class="line" />
   </div>
@@ -26,16 +32,16 @@
 
 <script>
 import { mapState } from "vuex";
-// import ButtonArrow from "@/components/ButtonArrow";
 
 export default {
-  components: {
-    // "button-arrow": ButtonArrow,
-  },
   data() {
     return {
       page: 0,
       show: true,
+      rightClicked: false,
+      leftClicked: false,
+      direction: true,
+      roadmapLength: 9,
     };
   },
   computed: {
@@ -46,10 +52,14 @@ export default {
   },
   methods: {
     prev() {
+      this.direction = false;
       this.page !== 0 ? (this.page = this.page - 1) : (this.page = 0);
     },
     next() {
-      this.page + 4 < 9 ? (this.page = this.page + 1) : (this.page = 9 - 4);
+      this.direction = true;
+      this.page + 4 < this.roadmapLength
+        ? (this.page = this.page + 1)
+        : (this.page = this.roadmapLength - 4);
     },
     subjectChecker(index) {
       if (this.page != index) {
