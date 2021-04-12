@@ -1,0 +1,38 @@
+{
+  "blog": {
+    "title": ""
+  },
+  "intro": {
+    "specific1": {
+      "title": "",
+      "content": ""
+    },
+    "specific2": {
+      "title": "",
+      "content": ""
+    },
+    "specific3": {
+      "title": "",
+      "content": ""
+    },
+    "specific4": {
+      "title": "",
+      "content": ""
+    }
+  },
+  "main": {
+    "description": "",
+    "img": ""
+  },
+  "roadmap": {
+    "title": "",
+    "roadmaps": []
+  },
+  "supporter": {},
+  "tokamak_info": {
+    "title": "TOKAMAK NETWORK TODAY",
+    "price": "TON Price",
+    "trading_volume": "",
+    "staked_amount": ""
+  }
+}

@@ -1,40 +1,5 @@
 <template>
   <div class="supporter-container">
-    <div class="supporter-header">BACKED BY</div>
-    <div class="supporter-section">
-      <a
-        href="http://100and100capital.com/"
-        class="supporter"
-        style="margin-right: 60px"
-      >
-        <img
-          class="img"
-          src="@/assets/100-n-100.png"
-          srcset="@/assets/100-n-100@2x.png 2x, @/assets/100-n-100@3x.png 3x"
-        />
-      </a>
-      <a
-        href="https://www.blocore.com/"
-        class="supporter"
-        style="margin-right: 60px"
-      >
-        <img
-          class="img"
-          src="@/assets/blocore.png"
-          srcset="@/assets/blocore@2x.png 2x, @/assets/blocore@3x.png 3x"
-        />
-      </a>
-      <a
-        href="https://alphain.ventures/"
-        class="supporter"
-        style="margin-right: 60px"
-      >
-        <img class="img" src="@/assets/alphain.svg" />
-      </a>
-      <a href="https://www.skytalecapital.com/" class="supporter">
-        <img class="img" src="@/assets/skytale.svg" />
-      </a>
-    </div>
     <div class="supporter-header">PARTNERS & GRANT</div>
     <div class="supporter-section">
       <a
@@ -110,6 +75,41 @@
           src="@/assets/dxm.png"
           srcset="@/assets/dxm@2x.png 2x, @/assets/dxm@3x.png 3x"
         />
+      </a>
+    </div>
+    <div class="supporter-header">BACKED BY</div>
+    <div class="supporter-section">
+      <a
+        href="http://100and100capital.com/"
+        class="supporter"
+        style="margin-right: 60px"
+      >
+        <img
+          class="img"
+          src="@/assets/100-n-100.png"
+          srcset="@/assets/100-n-100@2x.png 2x, @/assets/100-n-100@3x.png 3x"
+        />
+      </a>
+      <a
+        href="https://www.blocore.com/"
+        class="supporter"
+        style="margin-right: 60px"
+      >
+        <img
+          class="img"
+          src="@/assets/blocore.png"
+          srcset="@/assets/blocore@2x.png 2x, @/assets/blocore@3x.png 3x"
+        />
+      </a>
+      <a
+        href="https://alphain.ventures/"
+        class="supporter"
+        style="margin-right: 60px"
+      >
+        <img class="img" src="@/assets/alphain.svg" />
+      </a>
+      <a href="https://www.skytalecapital.com/" class="supporter">
+        <img class="img" src="@/assets/skytale.svg" />
       </a>
     </div>
   </div>
