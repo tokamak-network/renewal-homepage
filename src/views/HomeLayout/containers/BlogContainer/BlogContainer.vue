@@ -7,11 +7,13 @@
     </div>
     <div class="post-section">
       <div v-for="post in selectedPosts" :key="post.guid" class="post">
-        <img :src="post.thumbnail" class="img" />
-        <div class="post-title">
+        <img :src="post.thumbnail" class="img" @click="redirect(post.link)" />
+        <div class="post-title" @click="redirect(post.link)">
           {{ post.title }}
         </div>
-        <div class="post-preview">{{ parsing(post.description) }}</div>
+        <div class="post-preview" @click="redirect(post.link)">
+          {{ parsing(post.description) }}
+        </div>
         <div class="post-date">{{ post.pubDate }}</div>
       </div>
     </div>
@@ -21,12 +23,8 @@
 
 <script>
 import { mapState } from "vuex";
-// import ButtonArrow from "@/components/ButtonArrow";
 
 export default {
-  components: {
-    // "button-arrow": ButtonArrow,
-  },
   data() {
     return {
       page: 0,
@@ -35,14 +33,8 @@ export default {
   computed: {
     ...mapState(["posts", "web3"]),
     selectedPosts() {
-      // const first = this.page + 1;
-      // console.log(this.posts[1].description);
-      // console.log(this.posts[0].description.indexOf("<p>"));
       return this.posts.slice(this.page, this.page + 3);
     },
-  },
-  created() {
-    console.log(this.posts);
   },
   methods: {
     parsing(content) {
@@ -58,14 +50,13 @@ export default {
         ? (this.page = this.page + 1)
         : (this.page = this.posts.length - 3);
     },
+    redirect(link) {
+      window.open(link, '_blank'); // eslint-disable-line
+    },
     // getPosts() {
     //   const options = {
     //     url: "https://medium.com/feed/onther-tech",
     //     method: "GET",
-    //     // data: {
-    //     //   email: 'user@example.com',
-    //     //   password: 'pasw0rd'
-    //     // }
     //   };
     //   this.$axios(options)
     //     .then((res) => {

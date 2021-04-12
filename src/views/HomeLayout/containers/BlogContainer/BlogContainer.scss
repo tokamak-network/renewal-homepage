@@ -53,6 +53,9 @@
         height: 297px;
         margin-bottom: 21px;
       }
+      > .img:hover {
+        cursor: pointer;
+      }
 
       > .post-title {
         font-size: 20px;
@@ -63,6 +66,9 @@
         color: #1c1c1c;
         margin-bottom: 10px;
       }
+      > .post-title:hover {
+        cursor: pointer;
+      }
 
       > .post-preview {
         font-size: 14px;
@@ -72,6 +78,9 @@
         text-align: left;
         color: #4c4c4c;
         height: 110px;
+      }
+      > .post-preview:hover {
+        cursor: pointer;
       }
 
       > .post-date {
