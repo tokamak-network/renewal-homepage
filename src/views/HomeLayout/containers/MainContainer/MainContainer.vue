@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main-container">
     <div class="description">
       On-demand Layer 2 Platform <br />
       is a protocol platform for building

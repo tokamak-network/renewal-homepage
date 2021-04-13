@@ -1,5 +1,5 @@
-.main {
-  max-width: 1920px;
+.main-container {
+  max-width: 1696px;
   // width: 90%;
   height: 443px;
   font-size: 80px;
@@ -9,25 +9,22 @@
   color: #1c1c1c;
   margin-top: 120px;
   margin-bottom: 50px;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   
   > .description {
-    margin-left: 203px;
     width: 100%;
   }
 
   > .image {
     position: relative;
     background-image: url(../../../../assets/bg-img@3x.png);
-    width: 1696px;
+    width: 100%;
     height: 234.8px;
     background-size: cover;
-    margin-left: 112px;
-    // padding: 0 90px 125.8px 460px;
   
     object-fit: contain;
     opacity: 0.8;
@@ -39,8 +36,8 @@
 
   > .line {
     max-width: 1696px;
+    width: 1696px;
     height: 1px;
     background-color: #dfe4ee;
-    margin-left: 112px;
   }
 }
