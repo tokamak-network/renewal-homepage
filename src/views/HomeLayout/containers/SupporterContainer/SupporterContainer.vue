@@ -1,6 +1,6 @@
 <template>
   <div class="supporter-container">
-    <div class="supporter-header">PARTNERS & GRANT</div>
+    <div class="supporter-header">{{ $t("home.supporter.title1") }}</div>
     <div class="supporter-section">
       <a
         href="https://medium.com/onther-tech/vitalik-buterins-big-announcements-about-plasma-evm-tokamak-network-636dc11ea257"
@@ -77,7 +77,7 @@
         />
       </a>
     </div>
-    <div class="supporter-header">BACKED BY</div>
+    <div class="supporter-header">{{ $t("home.supporter.title2") }}</div>
     <div class="supporter-section">
       <a
         href="http://100and100capital.com/"

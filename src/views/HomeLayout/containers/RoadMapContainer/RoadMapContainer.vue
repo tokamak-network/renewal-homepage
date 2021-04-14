@@ -1,7 +1,7 @@
 <template>
   <div class="roadmaps">
     <div class="roadmap-header">
-      <div class="title">TOKAMAK NETWORK ROADMAP</div>
+      <div class="title">{{ $t("home.roadmap.title") }}</div>
       <div class="prev-arrow" @click="prev" />
       <div class="next-arrow" @click="next" />
     </div>

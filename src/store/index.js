@@ -36,6 +36,9 @@ export default new Vuex.Store({
     SET_INFO: (state, info) => {
       state.info = info;
     },
+    SET_LOCALE: (state, { locale }) => {
+      state.locale = locale;
+    },
     LAUNCHED(state) {
       state.launched = true;
     },
@@ -85,6 +88,9 @@ export default new Vuex.Store({
     },
     async setLoaded(context) {
       await context.commit("SET_LOADED", true);
+    },
+    setLocale({ commit }, val) {
+      commit("SET_LOCALE", val);
     },
     async setRoadMap({ commit }) {
       const roadmap = [

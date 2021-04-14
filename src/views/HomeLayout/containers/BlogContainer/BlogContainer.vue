@@ -1,7 +1,7 @@
 <template>
   <div class="blog">
     <div class="blog-header">
-      <div class="title">RECENT BLOG POSTS</div>
+      <div class="title">{{ $t("home.blog.title") }}</div>
       <div class="prev-arrow" @click="prev" />
       <div class="next-arrow" @click="next" />
     </div>

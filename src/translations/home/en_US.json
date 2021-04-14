@@ -5,23 +5,24 @@
   "intro": {
     "specific1": {
       "title": "Easy Layer 2 Network Deployment",
-      "content": "Build a customizable layer 2 network with Tokamak<br />Network, Easier layer 2 deployment, more growth in<br />Tokamak Network."
+      "content": "Build a customizable layer 2 network with Tokamak Network, Easier layer 2 deployment, more growth in Tokamak Network."
     },
     "specific2": {
       "title": "Layer 2 Interoperability",
-      "content": "Your custom layer 2 network can be connected to any<br />other layer 2 in Tokamak Network, Cross-Layer Message<br />Protocol support network communication without going<br />through base layer."
+      "content": "Your custom layer 2 network can be connected to any other layer 2 in Tokamak Network, Cross-Layer Message Protocol support network communication without going through base layer."
     },
     "specific3": {
       "title": "Higher Security",
-      "content": "Staking TON provides higher security level for your layer 2<br />network, Tokamak Network ensure that all layer 2<br />networks are fully verified from day one."
+      "content": "Staking TON provides higher security level for your layer 2 network, Tokamak Network ensure that all layer 2 networks are fully verified from day one."
     },
     "specific4": {
       "title": "Decentralized Governance",
-      "content": "Tokamak Network is governed by TON stakeholders.<br />Decentralized governance allows for network upgrade,<br />ecosystem expansion and protocol improvement to be<br />coordinated and enacted autonomously."
+      "content": "Tokamak Network is governed by TON stakeholders. Decentralized governance allows for network upgrade, ecosystem expansion and protocol improvement to be coordinated and enacted autonomously."
     }
   },
   "main": {
-    "description": "On-demand Layer 2 Platform <br /> is a protocol platform for building",
+    "description1": "On-demand Layer 2 Platform",
+    "description2": "is a protocol platform for building",
     "img": "— connecting layer 2 networks"
   },
   "roadmap": {
@@ -92,7 +93,8 @@
     ]
   },
   "supporter": {
-    "title": "PARTNERS & GRANT"
+    "title1": "PARTNERS & GRANT",
+    "title2": "BACKED BY"
   },
   "tokamak_info": {
     "title": "TOKAMAK NETWORK TODAY",

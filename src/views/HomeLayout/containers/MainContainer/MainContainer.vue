@@ -1,11 +1,11 @@
 <template>
   <div class="main-container">
     <div class="description">
-      On-demand Layer 2 Platform <br />
-      is a protocol platform for building
+      {{ $t("home.main.description1") }}<br />
+      {{ $t("home.main.description2") }}
     </div>
     <div class="image">
-      <div class="text">— connecting layer 2 networks</div>
+      <div class="text">{{ $t("home.main.img") }}</div>
     </div>
     <div class="line" />
   </div>

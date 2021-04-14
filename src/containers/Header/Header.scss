@@ -33,6 +33,12 @@
   > .language {
     color: #3e495c;
     font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+
+    > .lang:hover {
+      cursor: pointer;
+    }
   }
 }
 
