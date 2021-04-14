@@ -116,7 +116,6 @@ export default {
       });
 
       // this._i18n.locale = this.locale;
-      console.log(storedLocale);
       this._i18n.locale = "en_US";
       this.currentFlag = storedLocale.flag;
       this.currentName = storedLocale.name;
@@ -126,6 +125,8 @@ export default {
       this.currentName = obj.name;
       this.currentFlag = obj.flag;
       this.setLocale({ locale: obj.langCode, save: true });
+      this.$store.dispatch("setLocale", obj.langCode);
+      this.$store.dispatch("setRoadMap", obj.langCode);
     },
   },
 };
