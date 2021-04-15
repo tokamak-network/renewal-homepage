@@ -1,0 +1,25 @@
+.plasma {
+    max-width: 1696px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    > .plasma-content {
+        max-width: 360px;
+      max-height: 200px;
+      width: 360px;
+      height: 200px;
+      border: solid 1px #dfe4ee;
+      background-color: #ffffff;
+      margin: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+  
+
+    }
+}

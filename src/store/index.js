@@ -11,6 +11,7 @@ export default new Vuex.Store({
     web3: null,
     posts: [],
     roadmap: [],
+    plasma: [],
     launched: false,
     loaded: false,
   },
@@ -39,6 +40,9 @@ export default new Vuex.Store({
     LAUNCHED(state) {
       state.launched = true;
     },
+    SET_PLASMA: (state, plasma) => {
+      state.plasma = plasma;
+    }
   },
   actions: {
     async launch({ commit, dispatch }) {
@@ -47,6 +51,7 @@ export default new Vuex.Store({
       await dispatch("getUSDInfo");
       await dispatch("getTotalStaked");
       await dispatch("setRoadMap");
+      await dispatch("setPlasma");
       commit("LAUNCHED");
       dispatch("setLoaded");
     },
@@ -146,6 +151,26 @@ export default new Vuex.Store({
       console.log(roadmap.length);
 
       commit("SET_ROADMAP", roadmap);
+    },
+    async setPlasma({ commit }) {
+      const plasmas = [
+        {
+          index: "1",
+          title: "Optimism Rollups",
+          content: " Layer-2 solution with on-chain data  computed off-chain. Its validity is verified with fraud-proof system"
+        },
+        {
+          index: "2",
+          title: "zk Rollups",
+          content: "Layer-2 solution with on-chain data off-chain computated. Its validity is always fully verified with validity proof(a.k.a. zero knowledge proof)"
+        }, 
+        {
+          index: "3",
+          title: "Tokamak Plasma",
+          content: "Fully EVM-compatible Plasma implementation secured with continuous-rebase"
+        }
+      ];
+      commit("SET_PLASMA", plasmas);
     },
     async setPosts({ commit }) {
       const contents = {
