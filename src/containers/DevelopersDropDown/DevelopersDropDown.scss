@@ -1,0 +1,36 @@
+.developers {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(96, 97, 112, 0.14);
+  background-color: #ffffff;
+
+  > .developers-line {
+    width: 100px;
+    height: 2px;
+    margin: 0 10px 3px;
+    background-color: #246fed;
+  }
+
+  > .tab-container {
+    width: 120px;
+    height: 106px;
+
+    > .tab {
+      text-align: left;
+      width: 120px;
+      height: 32px;
+      font-family: OpenSans;
+      border: none;
+      background-color: #ffffff;
+      color: #1c1c1c;
+      padding-left: 15px;
+    }
+    > .tab:focus {
+      border: none;
+      outline: none;
+      color: #2a72e5;
+    }
+  }
+}

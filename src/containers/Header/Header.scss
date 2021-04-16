@@ -1,25 +1,19 @@
 .header {
-  // display: flex;
-  // justify-content: space-between;
+  width: 100%;
 
   height: 84px;
   background: #ffffff;
-  max-width: 1920px;
+  max-width: 1696px;
 
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.line {
-  width: 100%;
-  height: 4px;
-  margin-bottom: 22px;
-  background-color: #2a72e5;
-}
-
 .header-title {
   display: flex;
   flex: 1;
+  // width: 1696px;
+  max-width: 1696px;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 28px;
@@ -28,7 +22,6 @@
     width: 45px;
     height: 30px;
     object-fit: contain;
-    margin-left: 112px;
   }
 
   > .tokamak-text {
@@ -40,7 +33,12 @@
   > .language {
     color: #3e495c;
     font-size: 14px;
-    margin-right: 112px;
+    display: flex;
+    justify-content: flex-end;
+
+    > .lang:hover {
+      cursor: pointer;
+    }
   }
 }
 
