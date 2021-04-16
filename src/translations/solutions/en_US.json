@@ -1,0 +1,16 @@
+{
+    "plasma": {
+       "plasma1": {
+           "title":"Optimism Rollups",
+           "content":"Layer-2 solution with on-chain data  computed off-chain. Its validity is verified with fraud-proof system"
+       },
+       "plasma2": {
+        "title":"zk Rollups",
+        "content":"Layer-2 solution with on-chain data off-chain computed. Its validity is always fully verified with validity proof (a.k.a. zero knowledge proof)"
+    },
+    "plasma3": {
+        "title":"Tokamak Plasma",
+        "content":"Fully EVM-compatible Plasma implementation secured with continuous-rebase"
+    } 
+    }
+}

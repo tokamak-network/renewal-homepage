@@ -1,7 +1,7 @@
 <template>
   <div class="solutions">
     <challenges-solutions-container />
-    <plasma-container/>
+    <plasma-container />
   </div>
 </template>
 <script>

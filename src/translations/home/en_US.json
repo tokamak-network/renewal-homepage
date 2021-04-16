@@ -1,0 +1,105 @@
+{
+  "blog": {
+    "title": "RECENT BLOG POSTS"
+  },
+  "intro": {
+    "specific1": {
+      "title": "Easy Layer 2 Network Deployment",
+      "content": "Build a customizable layer 2 network with Tokamak Network, Easier layer 2 deployment, more growth in Tokamak Network."
+    },
+    "specific2": {
+      "title": "Layer 2 Interoperability",
+      "content": "Your custom layer 2 network can be connected to any other layer 2 in Tokamak Network, Cross-Layer Message Protocol support network communication without going through base layer."
+    },
+    "specific3": {
+      "title": "Higher Security",
+      "content": "Staking TON provides higher security level for your layer 2 network, Tokamak Network ensure that all layer 2 networks are fully verified from day one."
+    },
+    "specific4": {
+      "title": "Decentralized Governance",
+      "content": "Tokamak Network is governed by TON stakeholders. Decentralized governance allows for network upgrade, ecosystem expansion and protocol improvement to be coordinated and enacted autonomously."
+    }
+  },
+  "main": {
+    "description1": "On-demand Layer 2 Platform,",
+    "description2": "Tokamak Network is a protocol platform for",
+    "img": "building and connecting layer 2 networks"
+  },
+  "roadmap": {
+    "title": "TOKAMAK NETWORK ROADMAP",
+    "roadmaps": [
+      {
+        "index": "0",
+        "subject": "Networking the Layer 2 networks",
+        "title": "Support all types of layer 2 protocol in Tokamak Network.",
+        "contents": [
+          "Support Optimistic Rollup : Optimism, Arbitrum, and more",
+          "Support Zk-Rollup : StarkEx, zkSync, and more",
+          "Support Validium : StarkEx and more",
+          "Support Plasma : Tokamak plasma and more",
+          "Add custom layer 2 building protocol"
+        ]
+      },
+      {
+        "index": "1",
+        "subject": "Networking the Layer 2 networks",
+        "title": "Integrate all layer 2 protocol with TON ecosystem",
+        "contents": [
+          "Integrate all layer 2 protocols with TON seigniorage pool, PowerTON game, DAO governance"
+        ]
+      },
+      {
+        "index": "2",
+        "subject": "Networking the Layer 2 networks",
+        "title": "Support one-click cross-rollup transfer",
+        "contents": ["Build cross-rollup transfer liquidity pool"]
+      },
+      {
+        "index": "3",
+        "subject": "Networking the Layer 2 networks",
+        "title": "Support fast withdrawal",
+        "contents": ["Build fast withdrawal liquidity pool"]
+      },
+      {
+        "index": "4",
+        "subject": "Networking the Layer 2 networks",
+        "title": "Support full verification from day one ",
+        "contents": []
+      },
+      {
+        "index": "5",
+        "subject": "Higher security, More Interoperability",
+        "title": "Support stateless verification",
+        "contents": [""]
+      },
+      {
+        "index": "6",
+        "subject": "Higher security, More Interoperability",
+        "title": "Support cross-contract call",
+        "contents": [""]
+      },
+      {
+        "index": "7",
+        "subject": "Higher security, More Interoperability",
+        "title": "Eth 2.0 migration",
+        "contents": [""]
+      },
+      {
+        "index": "8",
+        "subject": "Full verification with zkp",
+        "title": "Support fully Ethereum-compatible zk rollups",
+        "contents": [""]
+      }
+    ]
+  },
+  "supporter": {
+    "title1": "PARTNERS & GRANT",
+    "title2": "BACKED BY"
+  },
+  "tokamak_info": {
+    "title": "TOKAMAK NETWORK TODAY",
+    "price": "TON Price",
+    "trading_volume": "Trading volume",
+    "staked_amount": "TON Staked AMOUNT"
+  }
+}

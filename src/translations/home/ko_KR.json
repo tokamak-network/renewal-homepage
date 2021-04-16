@@ -1,0 +1,42 @@
+{
+  "blog": {
+    "title": "최근 블로그 글"
+  },
+  "intro": {
+    "specific1": {
+      "title": "쉬운 커스텀 레이어 2 구축",
+      "content": "토카막 네트워크로 손쉽게 커스텀 레이어 2 네트워크를 만들어보세요. 이렇게 간편한 레이어 2 구축을 통해 토카막 네트워크는 더 빠르게 확장할 수 있습니다"
+    },
+    "specific2": {
+      "title": "상호 운용성",
+      "content": "여러분의 커스텀 레이어 2는 토카막 네트워크의 모든 다른 레이어 2와 연결될 수 있습니다. 토카막 네트워크는 베이스 레이어를 거치지 않고 크로스-레이어 메세지 프로토콜을 지원합니다"
+    },
+    "specific3": {
+      "title": "높은 안전성",
+      "content": "토카막 네트워크는 여러분의 레이어 2에 높은 안전성을 제공합니다. 토카막 네트워크의 모든 레이어 2는 외부 검증자 없이 처음부터 완전히 검증됩니다."
+    },
+    "specific4": {
+      "title": "탈 중앙화 거버넌스",
+      "content": "토카막 네트워크는 모든 TON 보유자에 의해 운영됩니다. 이러한 탈중앙화된 거버넌스는 모든 네트워크 업그레이드, 생태계 확장, 프로토콜 개선 등이 자율적으로 조정되고 실행될 수 있도록 합니다"
+    }
+  },
+  "main": {
+    "description1": "On-demand Layer 2 Platform,",
+    "description2": "토카막 네트워크는 레이어 2 네트워크를 구축하고 ",
+    "img": "연결하는 프로토콜이자 플랫폼입니다."
+  },
+  "roadmap": {
+    "title": "로드맵",
+    "roadmaps": []
+  },
+  "supporter": {
+    "title1": "PARTNERS & GRANT",
+    "title2": "BACKED BY"
+  },
+  "tokamak_info": {
+    "title": "TOKAMAK NETWORK TODAY",
+    "price": "TON 가격",
+    "trading_volume": "트레이딩 볼륨",
+    "staked_amount": "스테이킹된 TON"
+  }
+}

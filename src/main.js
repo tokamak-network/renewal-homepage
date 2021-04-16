@@ -3,6 +3,33 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import AxiosPlugin from "vue-axios-cors";
+import VueI18n from "vue-i18n";
+import langShortCodes from "@/translations/getShortCodes";
+import languages from "@/translations";
+
+Vue.use(VueI18n);
+
+const getDefaultLang = () => {
+  if (router.options.base) {
+    const shortCode = router.options.base.replace("/", "");
+    if (Object.keys(langShortCodes).includes(shortCode)) {
+      store.dispatch("main/setLocale", {
+        locale: langShortCodes[shortCode],
+        save: false,
+      });
+      return langShortCodes[shortCode];
+    }
+  }
+  return "en_US";
+};
+
+const i18n = new VueI18n({
+  locale: getDefaultLang(),
+  fallbackLocale: "en_US",
+  messages: languages,
+  silentTranslationWarn: true,
+});
+Vue.$i18n = i18n;
 
 Vue.config.productionTip = false;
 
@@ -11,5 +38,6 @@ Vue.use(AxiosPlugin);
 new Vue({
   router,
   store,
+  i18n,
   render: (h) => h(App),
 }).$mount("#app");
