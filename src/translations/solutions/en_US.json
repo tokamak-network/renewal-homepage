@@ -1,6 +1,9 @@
 {
   "challenge": {},
-  "comparison": {},
+  "comparison": {
+    "title": "Comparison",
+    "description": "Simple comparison with other L2 protocols or frameworks"
+  },
   "layer2": {
     "opru": {
       "title": "Optimistic Rollups",

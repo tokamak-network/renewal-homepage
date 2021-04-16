@@ -1,1 +1,22 @@
-{}
+{
+  "challenge": {},
+  "comparison": {
+    "title": "비교",
+    "description": "다른 L2 프로토콜 혹은 프레임워크와의 간단한 비교"
+  },
+  "layer2": {
+    "opru": {
+      "title": "Optimistic Rollups",
+      "description": "데이터는 온체인 연산은 오프체인에서 관리하는 레이어 2 솔루션입니다. 연산의 유효성은 위조 증명 시스템을 통해 검증됩니다."
+    },
+    "zk-rollup": {
+      "title": "zk Rollups",
+      "description": "데이터는 온체인 연산은 오프체인에서 관리하는 레이어 2 솔루션입니다. 연산의 유효성은 유효성 증명(영지식 증명)으로 완전히 검증됩니다."
+    },
+    "plasma": {
+      "title": "Tokamak Plasma",
+      "description": "이더리움과 완전히 호환 가능한 플라즈마 입니다. Continuous Rebase를 통해 안전성이 보장됩니다."
+    }
+  },
+  "solution": {}
+}

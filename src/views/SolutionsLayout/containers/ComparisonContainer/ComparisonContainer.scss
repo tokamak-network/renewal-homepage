@@ -1,0 +1,96 @@
+.comparison-container {
+  margin-bottom: 180px;
+
+  > .title {
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1c1c;
+
+    // margin-bottom: 15px;
+  }
+
+  > .description {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #808992;
+
+  }
+  > .comparison-table {
+    border: solid 1px #eff1f6;
+    border-spacing: 0;
+    text-align: center;
+
+    .table-header {
+      height: 50px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.31;
+      letter-spacing: -0.33px;
+      text-align: center;
+      color: #1c1c1c;
+      border: solid 1px #eff1f6;
+    }
+
+    .table-header-tokamak {
+      height: 50px;
+      width: 187px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.31;
+      letter-spacing: -0.33px;
+      text-align: center;
+      color: #246fed;
+      border: solid 1px #eff1f6;
+    }
+
+    .title {
+      width: 180px;
+      border: solid 1px #eff1f6;
+    }
+
+    .content {
+      border: solid 1px #eff1f6;
+      width: 140px;
+      height: 50px;
+    }
+
+    .content-title {
+      border: solid 1px #eff1f6;
+      width: 180px;
+      height: 50px;
+      font-size: 13px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.31;
+      letter-spacing: -0.33px;
+      text-align: center;
+      color: #1c1c1c;
+    }
+    .second-row {
+      background: #eff1f6;
+    }
+    .content-tokamak {
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.5;
+      letter-spacing: -0.3px;
+      text-align: center;
+      color: #1c1c1c;
+    }
+  }
+}
