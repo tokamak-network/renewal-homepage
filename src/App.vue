@@ -70,4 +70,46 @@ export default {
     width: 100%;
   }
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-rows {
+  flex-direction: row;
+}
+
+.flex-cols {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  column-gap: 100px;
+  justify-content: center;
+  row-gap: 68px;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 </style>
