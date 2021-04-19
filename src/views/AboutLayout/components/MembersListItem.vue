@@ -7,10 +7,20 @@
         <span class="memberRole">{{ member.role }}</span>
       </div>
       <div class="social-links">
-        <a v-if="member.github" target="_blank" rel="noopener noreferrer" :href="member.github">
+        <a
+          v-if="member.github"
+          target="_blank"
+          rel="noopener noreferrer"
+          :href="member.github"
+        >
           <img src="../../../assets/github-s-icon@3x.png" alt="" />
         </a>
-        <a v-if="member.linkedin" target="_blank" rel="noopener noreferrer" :href="member.linkedin">
+        <a
+          v-if="member.linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+          :href="member.linkedin"
+        >
           <img src="../../../assets/linkedin-s-icon@3x.png" alt="" />
         </a>
       </div>
