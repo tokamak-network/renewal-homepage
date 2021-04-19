@@ -2,17 +2,17 @@
   <div class="developers"> 
     <div class="developers-line" />
     <div class="tab-container">
-      <button class="tab" @click="click()">Github</button>
-      <button class="tab">Documents</button>
-     <button class="tab">Papers</button>
+      <button class="tab" @click="click('https://github.com/Onther-Tech')">Github</button>
+      <button class="tab" @click="click('https://docs.tokamak.network/')">Documents</button>
+     <button class="tab" @click="click('https://onther-tech.github.io/papers/tech-paper.pdf')">Papers</button>
     </div>
   </div>
 </template>
 <script>
 export default {
    methods: {
-    click() {
-      console.log('hi');
+    click(link) {
+      window.open(link, '_blank')
     }
 }
 };

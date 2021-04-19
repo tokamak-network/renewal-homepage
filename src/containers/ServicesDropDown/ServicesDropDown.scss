@@ -1,11 +1,11 @@
 .services {
     position: absolute;
-  display:inline-block;
+    margin-left: -82px;
+    margin-top: 20px;
     width: 223px;
     height: 319px;
     border-radius: 4px;
     box-shadow: 0 1px 4px 0 rgba(96, 97, 112, 0.14);
-    
     background-color: #ffffff;
  > .services-line {
  width: 203px;
@@ -15,33 +15,33 @@
     }
 
   > .tab-container{
-    // width: 203px;
-   
     padding: 0 0 5px;
+
 > .tab-title{ 
     text-align: left;
-    font-family: OpenSans;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: bolder;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.23;
   letter-spacing: normal;
-  text-align: left;
   color: #1c1c1c;
   padding:7px 15px;
 }
 
   > .tab{ 
+      display: flex;
     text-align: left;
-    width: 120px;
+    width: 140px;
     height: 32px; 
-    font-family: OpenSans;
+    font-weight: normal;
     border: none;
     background-color: #ffffff;
     color: #1c1c1c;
     padding-left: 15px;
-
+    margin-left: 5px;
+    font-size: 13px;
+    align-items: center;
   }
   >.tab:focus {
       border: none;
@@ -63,12 +63,13 @@
       > .tab {
         text-align: left;
         width: 120px;
+        font-size: 13px;
         height: 32px; 
-        font-family: OpenSans;
         border: none;
         background-color: #ffffff;
         color: #1c1c1c;
         padding-left: 15px; 
+        margin-left: 5px;
       }
       >.tab:focus {
         border: none;
@@ -81,15 +82,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-//   margin: 0 0 0 35px;
-//   padding: 3px 9px 3px 10px;
   border-radius: 3px;
   border: solid 1px #dfe4ee;
   background-color: #ffffff;
   margin-right: 10px;
   font-size: 10px;
   font-weight: 600;
-  font-family: OpenSans;
   color: #83909f;
 
     }

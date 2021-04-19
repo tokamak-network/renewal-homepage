@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: OpenSans;
+font-family: 'Open Sans', sans-serif;
   font-stretch: normal;
   font-style: normal;
   color: #2c3e50;
