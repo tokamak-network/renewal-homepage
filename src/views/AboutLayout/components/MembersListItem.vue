@@ -41,7 +41,7 @@ export default {
   object-fit: contain;
 }
 .memberName {
-  font-family: OpenSans;
+font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
@@ -51,7 +51,8 @@ export default {
   color: #1c1c1c;
 }
 .memberRole {
-  font-family: OpenSans;
+
+font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 600;
   font-stretch: normal;
