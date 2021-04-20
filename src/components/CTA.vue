@@ -7,8 +7,27 @@
     <div class="">
       <div class="body">
         <div class="cta-grid">
-          <a href="#" class="action-cta">Community guide</a>
-          <a href="#" class="action-cta">Jobs</a>
+          <a href="#" class="flex justify-between align-center action-cta">
+            <span>Community guide</span>
+            <img
+              class="navigation-arrow"
+              src="../assets/goto_arrow@3x.png"
+              alt="Go to Jobs"
+            />
+          </a>
+          <a
+            href="https://medium.com/onther-tech/job-openings-blockchain-tech-902098537088"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex justify-between align-center action-cta"
+          >
+            <span>Jobs</span>
+            <img
+              class="navigation-arrow"
+              src="../assets/goto_arrow@3x.png"
+              alt="Go to Jobs"
+            />
+          </a>
         </div>
       </div>
     </div>
@@ -16,10 +35,15 @@
 </template>
 
 <style lang="scss" scoped>
+.cta-section {
+  margin-top: 50px;
+}
+
 .cta-grid {
   display: grid;
   column-gap: 10px;
   justify-content: center;
+  grid-template-columns: repeat(auto-fit, 300px);
   row-gap: 10px;
   justify-items: center;
 }
@@ -30,7 +54,7 @@
 }
 
 .action-cta {
-  padding: 23px 20px 23px 25px;
+  padding: 18px;
   border-radius: 4px;
   border: solid 1px #2a72e5;
   background-color: #ffffff;
@@ -39,6 +63,20 @@
 
 a {
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2a72e5;
+}
+
+.navigation-arrow {
+  width: 19px;
+  height: 12px;
 }
 
 @media (min-width: 600px) {

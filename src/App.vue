@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss">
 #app {
-font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-stretch: normal;
   font-style: normal;
   color: #2c3e50;
@@ -65,6 +65,11 @@ font-family: 'Open Sans', sans-serif;
 .flex-cols {
   flex-direction: column;
 }
+
+.align-center {
+  align-items: center;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -84,5 +89,4 @@ font-family: 'Open Sans', sans-serif;
   justify-content: center;
   row-gap: 50px;
 }
-
 </style>

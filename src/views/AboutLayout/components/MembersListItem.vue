@@ -46,7 +46,7 @@ export default {
   height: 128px;
 }
 .memberName {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
@@ -59,7 +59,7 @@ export default {
 }
 
 .memberRole {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 600;
   font-stretch: normal;
