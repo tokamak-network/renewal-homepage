@@ -1,7 +1,7 @@
 <template>
   <div class="member">
-    <div v-if="!member.image" class="memberImage bordered"></div>
-    <img v-else class="memberImage bordered" :src="member.image" alt="member.name" />
+    <div v-if="!member.image" class="emptyImage bordered"></div>
+    <img v-else class="memberImage" :src="member.image" alt="member.name" />
     <div class="flex flex-row justify-between align-center body">
       <div class="flex flex-cols">
         <span class="memberName">{{ member.name }}</span>
@@ -37,9 +37,13 @@ export default {
 
 <style lang="scss" scoped>
 .memberImage {
-  width: 128px;
+  width: auto;
   height: 128px;
-  object-fit: cover;
+  object-fit: scale-down;
+}
+.emptyImage {
+  width: 100px;
+  height: 128px;
 }
 .memberName {
   font-family: 'Open Sans', sans-serif;
@@ -63,6 +67,8 @@ export default {
   line-height: 1.38;
   letter-spacing: normal;
   color: #808992;
+  word-break: break-all;
+  width: 128px;
 }
 
 .bordered {
