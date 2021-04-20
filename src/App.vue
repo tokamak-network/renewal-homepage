@@ -82,6 +82,11 @@ export default {
 .flex-cols {
   flex-direction: column;
 }
+
+.align-center {
+  align-items: center;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -101,5 +106,4 @@ export default {
   justify-content: center;
   row-gap: 50px;
 }
-
 </style>
