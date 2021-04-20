@@ -1,11 +1,17 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
     <div class="line" />
     <div class="layout">
       <header-container />
       <router-view />
       <footer-container />
     </div>
+=======
+    <header-container />
+    <router-view />
+    <footer-container />
+>>>>>>> f29b62f (chore(website): update About)
   </div>
 </template>
 
@@ -24,23 +30,6 @@ export default {
 
 <style lang="scss" scoped>
 #app {
-  font-family: "Open Sans", sans-serif;
-  font-stretch: normal;
-  font-style: normal;
-  color: #2c3e50;
-  max-width: 1920px;
-  width: 100%;
-
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-}
-.line {
-  width: 100%;
-
-  height: 4px;
-  margin-bottom: 22px;
-  background-color: #2a72e5;
 }
 
 .layout {

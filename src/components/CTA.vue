@@ -7,8 +7,11 @@
     <div class="">
       <div class="body">
         <div class="cta-grid">
-          <a href="#" class="flex justify-between align-center action-cta">
-            <span>Community guide</span>
+          <a
+            href="https://discord.gg/SZw2WSR"
+            class="flex justify-between align-center action-cta"
+          >
+            <span>Join Community</span>
             <img
               class="navigation-arrow"
               src="../assets/goto_arrow@3x.png"
@@ -77,11 +80,5 @@ a {
 .navigation-arrow {
   width: 19px;
   height: 12px;
-}
-
-@media (min-width: 600px) {
-  .cta-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 </style>

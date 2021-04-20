@@ -1,5 +1,6 @@
 <template>
   <div class="header">
+    <div class="line" />
     <div class="header-title">
       <img
         src="@/assets/tokamak-symbol.svg"

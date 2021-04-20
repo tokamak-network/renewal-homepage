@@ -76,10 +76,6 @@ export default {
   border: solid 1px #c6d2d9;
 }
 
-.body {
-  width: 246px;
-}
-
 .social-links {
   a {
     img {
