@@ -79,10 +79,10 @@ font-family: 'Open Sans', sans-serif;
 
 .grid {
   display: grid;
-  column-gap: 66px;
+  column-gap: 50px;
   grid-template-columns: repeat(auto-fit, 128px);
   justify-content: center;
-  row-gap: 68px;
+  row-gap: 50px;
 }
 
 </style>
