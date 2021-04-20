@@ -96,20 +96,10 @@ export default {
 
 .grid {
   display: grid;
-  column-gap: 100px;
+  column-gap: 66px;
+  grid-template-columns: repeat(auto-fit, 128px);
   justify-content: center;
   row-gap: 68px;
 }
 
-@media (min-width: 600px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 900px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
 </style>
