@@ -1,5 +1,12 @@
 {
-  "challenge": {},
+  "challenge": {
+    "title": "",
+    "content1": "",
+    "list1": "",
+    "list2": "",
+    "list3": "",
+    "content2": ""
+  },
   "comparison": {
     "title": "비교",
     "description": "다른 L2 프로토콜 혹은 프레임워크와의 간단한 비교"

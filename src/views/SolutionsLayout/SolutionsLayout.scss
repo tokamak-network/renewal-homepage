@@ -3,4 +3,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  > .solutions-title {
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    // line-height: 1.37;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1c1c;
+
+    margin-top: 70px;
+  }
+
+  > .solutions-subtitle {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #808992;
+
+    // margin-top:16px;
+  }
 }

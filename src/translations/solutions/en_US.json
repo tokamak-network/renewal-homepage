@@ -1,5 +1,14 @@
 {
-  "challenge": {},
+  "title": "Network of Layer 2 Networks",
+  "sub-title": "Tokamak Network helps people joining the decentralized world",
+  "challenge": {
+    "title": "Challenge",
+    "content1": "Ethereum, a powerful platform for decentralized applications, has limitations.",
+    "list1": "Low TPS",
+    "list2": "High transaction fee",
+    "list3": "No customization",
+    "content2": "Various Layer2 solutions are emerging in effort to tackle such challenges. All layer2 solutions are excellnt; however, a protocol that safely connects different layer2 solutions to expand and improve the ecosystem does not exist yet. This slows down the application and improvement of layer 2, causing fragmentation of the ecosystem."
+  },
   "comparison": {
     "title": "Comparison",
     "description": "Simple comparison with other L2 protocols or frameworks"

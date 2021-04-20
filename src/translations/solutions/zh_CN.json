@@ -1,1 +1,29 @@
-{}
+{
+  "challenge": {
+    "title": "",
+    "content1": "",
+    "list1": "",
+    "list2": "",
+    "list3": "",
+    "content2": ""
+  },
+  "comparison": {
+    "title": "Comparison",
+    "description": "Simple comparison with other L2 protocols or frameworks"
+  },
+  "layer2": {
+    "opru": {
+      "title": "Optimistic Rollups",
+      "description": "Layer-2 solution with on-chain data off-chain computated. Its validity is verified with fraud-proof system"
+    },
+    "zk-rollup": {
+      "title": "zk Rollups",
+      "description": "Layer-2 solution with on-chain data off-chain computated. Its validity is always fully verified with validity proof(a.k.a. zero knowledge proof)"
+    },
+    "plasma": {
+      "title": "Tokamak Plasma",
+      "description": "Fully EVM-compatible Plasma implementation secured with continuous-rebase"
+    }
+  },
+  "solution": {}
+}
