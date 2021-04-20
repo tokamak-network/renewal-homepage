@@ -1,7 +1,8 @@
 <template>
   <div class="member">
-    <img class="memberImage" :src="member.image" alt="member.name" />
-    <div class="flex flex-row justify-between body">
+    <div v-if="!member.image" class="memberImage bordered"></div>
+    <img v-else class="memberImage" :src="member.image" alt="member.name" />
+    <div class="flex flex-row justify-between align-center body">
       <div class="flex flex-cols">
         <span class="memberName">{{ member.name }}</span>
         <span class="memberRole">{{ member.role }}</span>
@@ -59,6 +60,10 @@ export default {
   line-height: 1.38;
   letter-spacing: normal;
   color: #808992;
+}
+.bordered {
+  border-radius: 5px;
+  border: solid 1px #c6d2d9;
 }
 .body {
   width: 246px;
