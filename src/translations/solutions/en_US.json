@@ -27,5 +27,12 @@
       "description": "Fully EVM-compatible Plasma implementation secured with continuous-rebase"
     }
   },
-  "solution": {}
+  "solution": {
+    "title": "Solution",
+    "content1": "Tokamak Network is a network of Layer 2 networks, a protocol and platform that easily and securely builds and connects On-Demand Layer 2.",
+    "list1": "Easy custom layer 2 network deployment",
+    "list2": "Support all types of layer 2 protocols",
+    "list3": "Ensure full verification from day one within Tokamak Network ecosystem",
+    "list4": "Support interoperability via Cross-layer Message Protocol"
+  }
 }
