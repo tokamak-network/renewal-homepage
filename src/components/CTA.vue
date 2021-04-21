@@ -40,6 +40,7 @@
 <style lang="scss" scoped>
 .cta-section {
   margin-top: 50px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .cta-grid {
