@@ -91,7 +91,8 @@ export default {
 .grid {
   display: grid;
   column-gap: 40px;
-  grid-template-columns: repeat(auto-fit, 128px);
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-gap: 30px;
   justify-content: center;
   row-gap: 50px;
 }
