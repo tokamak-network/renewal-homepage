@@ -16,4 +16,5 @@ export default {};
 
 <style lang="scss" scope>
 @import "MainContainer.scss";
+@import "MainContainer-tablet.scss";
 </style>

@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import AxiosPlugin from "vue-axios-cors";
+import VueMq from "vue-mq";
 import VueI18n from "vue-i18n";
 import langShortCodes from "@/translations/getShortCodes";
 import languages from "@/translations";
@@ -22,6 +23,14 @@ const getDefaultLang = () => {
   }
   return "en_US";
 };
+
+Vue.use(VueMq, {
+  breakpoints: {
+    mobile: 840,
+    tablet: 1024,
+    desktop: Infinity,
+  },
+});
 
 const i18n = new VueI18n({
   locale: getDefaultLang(),

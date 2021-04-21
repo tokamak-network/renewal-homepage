@@ -14,6 +14,7 @@
             }}
             <span class="unit">USD</span>
           </div>
+          <div class="line" />
         </div>
         <div class="today-info">
           <div class="title">{{ $t("home.tokamak_info.trading_volume") }}</div>
@@ -26,6 +27,7 @@
             }}
             <span class="unit">USD</span>
           </div>
+          <div class="line" />
         </div>
         <div class="today-info">
           <div class="title">{{ $t("home.tokamak_info.staked_amount") }}</div>
@@ -63,4 +65,5 @@ export default {
 
 <style lang="scss" scope>
 @import "TokamakInfoContainer.scss";
+@import "TokamakInfoContainer-tablet.scss";
 </style>
