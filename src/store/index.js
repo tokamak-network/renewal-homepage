@@ -209,7 +209,6 @@ export default new Vuex.Store({
             document.title =
               Math.trunc(response.data[0].trade_price).toLocaleString("en-US") +
               " TON/KRW";
-            console.log(document.title);
           }
         });
     },

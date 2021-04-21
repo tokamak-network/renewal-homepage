@@ -31,10 +31,15 @@
       color: #1c1c1c;
       padding-left: 15px;
     }
-    > .tab:focus {
+    > .tab:focus, .tab:hover {
       border: none;
       outline: none;
       color: #2a72e5;
+      cursor: pointer;
+
     }
+    // > .tab:hover {
+    //   cursor: pointer;
+    // }
   }
 }

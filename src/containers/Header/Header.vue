@@ -58,10 +58,10 @@
           :class="{
             selected: showDrop === 'services',
           }"
-          @click="openDropDown('services')"
+          @mouseover="openDropDown('services')"
         >
           Services
-          <div>
+          <div @mouseleave="showDrop = ''">
             <transition name="fade">
               <services-dropdown v-show="showDrop === 'services'" />
             </transition>
@@ -72,10 +72,10 @@
           :class="{
             selected: showDrop === 'developers',
           }"
-          @click="openDropDown('developers')"
+          @mouseover="openDropDown('developers')"
         >
           Developers
-          <div>
+          <div @mouseleave="showDrop = ''">
             <transition name="fade">
               <developers-dropDown v-show="showDrop === 'developers'" />
             </transition>
@@ -100,6 +100,7 @@ import supportedLang from "./supportedLang";
 import DevelopersDropDown from "../DevelopersDropDown";
 import ServicesDropDown from "../ServicesDropDown";
 import { mapState, mapActions } from "vuex";
+
 export default {
   data() {
     return {
@@ -131,6 +132,7 @@ export default {
         return item.langCode === "en_US";
       });
       // this._i18n.locale = this.locale;
+      console.log(this.locale);
       this._i18n.locale = "en_US";
       this.currentFlag = storedLocale.flag;
       this.currentName = storedLocale.name;
@@ -144,11 +146,12 @@ export default {
       this.$store.dispatch("setRoadMap", obj.langCode);
     },
     openDropDown(tab) {
-      if (this.showDrop === tab) {
-        this.showDrop = "";
-      } else {
-        this.showDrop = tab;
-      }
+      //  if (this.showDrop === tab) {
+      //     this.showDrop = "";
+      //   }
+      //   else {
+      this.showDrop = tab;
+      // }
     },
   },
 };
