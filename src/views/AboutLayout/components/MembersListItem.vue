@@ -2,12 +2,12 @@
   <div class="member">
     <div v-if="!member.image" class="emptyImage bordered"></div>
     <img v-else class="memberImage" :src="member.image" alt="member.name" />
-    <div class="flex flex-row justify-between align-center body">
-      <div class="flex flex-cols">
+    <div class="flex flex-cols justify-between body">
+      <div class="flex flex-cols description">
         <span class="memberName">{{ member.name }}</span>
         <span class="memberRole">{{ member.role }}</span>
       </div>
-      <!-- <div class="social-links">
+      <div class="social-links">
         <a
           v-if="member.github"
           target="_blank"
@@ -24,7 +24,7 @@
         >
           <img src="../../../assets/linkedin-s-icon@3x.png" alt="" />
         </a>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
@@ -42,7 +42,7 @@ export default {
   object-fit: scale-down;
 }
 .emptyImage {
-  width: 100px;
+  width: 120px;
   height: 128px;
 }
 .memberName {
@@ -54,8 +54,9 @@ export default {
   line-height: 1.38;
   letter-spacing: normal;
   color: #1c1c1c;
-  word-break: break-all;
-  width: 128px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  width: 130px;
 }
 
 .memberRole {
@@ -67,8 +68,14 @@ export default {
   line-height: 1.38;
   letter-spacing: normal;
   color: #808992;
-  word-break: break-all;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
   width: 128px;
+  margin-top: 5px;
+}
+
+.description {
+  height: 70px;
 }
 
 .bordered {

@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <members-list :members="members" />
+    <div class="wrapper">
+      <members-list :members="members" />
+    </div>
     <div class="text-center">
       <cta-component />
     </div>
@@ -15,9 +17,16 @@ import KevinImage from "../../assets/team/kevin_pic@3x.png";
 import ZoeImage from "../../assets/team/zoe_pic@3x.png";
 import DarrenImage from "../../assets/team/darren_pic@3x.png";
 import JasonImage from "../../assets/team/jason_pic@3x.png";
-import JaceImage from "../../assets/team/jace_pic@3x.png";
+// import JaceImage from "../../assets/team/jace_pic@3x.png";
 import TomasImage from "../../assets/team/tomas_pic@3x.png";
 import LakmiImage from "../../assets/team/lakmi_pic@3x.png";
+import AidenImage from "../../assets/team/aiden_pic@3x.png";
+import IsaacImage from "../../assets/team/isaac_pic@3x.png";
+import NanoImage from "../../assets/team/nano_pic@3x.png";
+import LucasImage from "../../assets/team/lucas_pic@3x.png";
+import KadyrImage from "../../assets/team/Kadyr_pic@3x.png";
+import AleImage from "../../assets/team/ale_pic@3x.png";
+import FrankImage from "../../assets/team/frank_pic@3x.png";
 
 export default {
   data() {
@@ -38,11 +47,12 @@ export default {
           image: ZoeImage,
         },
         {
-          name: "Jason Hwang",
-          role: "Blockchain Engineer",
-          github: "https://github.com/cd4761",
-          linkedin: "https://linkedin.com/in/재승-황-3b207190",
-          image: JasonImage,
+          name: "Aiden Park",
+          role: "Senior Researcher",
+          github: "",
+          linkedin:
+            "https://www.linkedin.com/in/%EC%A0%95%EC%9B%90-%EB%B0%95-042848157/",
+          image: AidenImage,
         },
         {
           name: "Darren Kim",
@@ -53,19 +63,11 @@ export default {
           image: DarrenImage,
         },
         {
-          name: "Lakmi Weerapperuma",
-          role: "Software Engineer",
-          github: "https://github.com/Lakmi94",
-          linkedin: "https://www.linkedin.com/in/lakmi-kulathunga/",
-          image: LakmiImage,
-        },
-        {
-          name: "Jace Kang",
-          role: "Operation Manager",
-          github: "",
-          linkedin:
-            "https://www.linkedin.com/in/%EC%A3%BC%ED%98%95-jace-kang-%EA%B0%95-025a73148/",
-          image: JaceImage,
+          name: "Zena Park",
+          role: "Blockchain Engineer",
+          github: "https://github.com/Zena-park",
+          linkedin: "",
+          image: "",
         },
         {
           name: "Thomas Shin",
@@ -75,40 +77,18 @@ export default {
           image: TomasImage,
         },
         {
-          name: "Zena Park",
+          name: "Jason Hwang",
           role: "Blockchain Engineer",
-          github: "https://github.com/Zena-park",
-          linkedin: "",
-          image: "",
-        },
-        {
-          name: "Aiden Park",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin:
-            "https://www.linkedin.com/in/%EC%A0%95%EC%9B%90-%EB%B0%95-042848157/",
-          image: "",
-        },
-        {
-          name: "Ale Son",
-          role: "Software Engineer",
-          github: "",
-          linkedin: "",
-          image: "",
+          github: "https://github.com/cd4761",
+          linkedin: "https://linkedin.com/in/재승-황-3b207190",
+          image: JasonImage,
         },
         {
           name: "Kadyrbek Narmamatov",
           role: "Software Engineer",
           github: "https://github.com/SEFI2",
           linkedin: "http://linkedin.com/knarmamatov",
-          image: "",
-        },
-        {
-          name: "Nnachi Isaac Onuwa",
-          role: "Software Engineer",
-          github: "https://github.com/iamonuwa",
-          linkedin: "https://linkedin.com/in/iamonuwa",
-          image: "",
+          image: KadyrImage,
         },
         {
           name: "Harry Oh",
@@ -118,11 +98,67 @@ export default {
           image: "",
         },
         {
+          name: "Lakmi Weerapperuma",
+          role: "Software Engineer",
+          github: "https://github.com/Lakmi94",
+          linkedin: "https://www.linkedin.com/in/lakmi-kulathunga/",
+          image: LakmiImage,
+        },
+        {
+          name: "Ale Son",
+          role: "Software Engineer",
+          github: "",
+          linkedin: "",
+          image: AleImage,
+        },
+        {
+          name: "Nnachi Isaac Onuwa",
+          role: "Software Engineer",
+          github: "https://github.com/iamonuwa",
+          linkedin: "https://linkedin.com/in/iamonuwa",
+          image: IsaacImage,
+        },
+        {
+          name: "Harvey Jo",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "https://www.linkedin.com/in/%ED%98%81%EC%83%81-%EC%A1%B0-918103210/",
+          image: "",
+        },
+        {
+          name: "Lucas Jung",
+          role: "UX/UI Developer",
+          github: "",
+          linkedin: "https://www.linkedin.com/in/kyossiro/",
+          image: LucasImage,
+        },
+        {
+          name: "Frank Noh",
+          role: "Business Developer",
+          github: "",
+          linkedin: "https://www.linkedin.com/in/frank-noh-311870194/",
+          image: FrankImage,
+        },
+        {
+          name: "Simon Moon",
+          role: "Communication Manager",
+          github: "",
+          linkedin: "",
+          image: "",
+        },
+        {
           name: "Haley Choi",
-          role: "Operation Manager",
+          role: "HR Growth Manager",
           github: "",
           linkedin: "https://www.linkedin.com/in/hyejeonghaleychoi",
           image: "",
+        },
+        {
+          name: "Nano Kim",
+          role: "Operation Manager",
+          github: "",
+          linkedin: "http://www.linkedin.com/in/nano-kim-38b40a209",
+          image: NanoImage,
         },
       ],
     };
@@ -138,5 +174,10 @@ export default {
 .container {
   margin: 80px 0;
   width: 100vw;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 30px;
 }
 </style>
