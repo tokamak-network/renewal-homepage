@@ -98,9 +98,8 @@ button {
   border: solid 1px #6c9ed0;
   background: #0062c2;
   outline: none;
-  font-family: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
@@ -133,27 +132,34 @@ button:hover {
 }
 
 .menu-item {
+  display: flex;
+  flex-direction: column;
   /* font styles */
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
   text-align: center;
   color: #1c1c1c;
-
+  // justify-content: center;
+  // align-items: center;
   text-decoration: none;
-}
 
+  > .fade-enter-active, .fade-leave-active {
+    transition: opacity .3s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0.1;
+  }
+}
 .menu-item-sub {
   color: #3e495c;
 }
 
 .menu-item-sub:hover {
-  font-family: Roboto;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;

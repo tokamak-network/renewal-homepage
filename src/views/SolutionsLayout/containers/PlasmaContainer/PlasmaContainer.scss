@@ -1,0 +1,45 @@
+.plasma {
+  max-width: 1696px;
+  height: 327px;
+
+    > .plasma-section {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    
+    > .contents {
+      max-width: 360px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .img {
+        width: 104px;
+        height: 52px;
+        margin-bottom: 30px;
+      }
+      .title {
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: -0.5px;
+        text-align: left;
+        color: #1c1c1c;
+        margin-bottom: 8px;
+      }
+  
+      .content {
+        font-size: 14px;
+        font-weight: 600;
+        color: #4c4c4c;
+        line-height: 1.43;
+        letter-spacing: -0.35px;
+        margin-bottom: 78px;
+      }
+    }
+  }
+  .line {
+    width: 1696px;
+    height: 1px;
+    background-color: #dfe4ee;
+  }
+}

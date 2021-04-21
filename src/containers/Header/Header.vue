@@ -53,24 +53,34 @@
         >
           Solutions
         </router-link>
-        <router-link
-          :to="'/services'"
+        <div
           class="menu-item"
           :class="{
-            selected: $route.path.includes('services'),
+            selected: showDrop === 'services',
           }"
+          @click="openDropDown('services')"
         >
           Services
-        </router-link>
-        <router-link
-          :to="'/developers'"
+          <div>
+            <transition name="fade">
+              <services-dropdown v-show="showDrop === 'services'" />
+            </transition>
+          </div>
+        </div>
+        <div
           class="menu-item"
           :class="{
-            selected: $route.path.includes('developers'),
+            selected: showDrop === 'developers',
           }"
+          @click="openDropDown('developers')"
         >
           Developers
-        </router-link>
+          <div>
+            <transition name="fade">
+              <developers-dropDown v-show="showDrop === 'developers'" />
+            </transition>
+          </div>
+        </div>
         <router-link
           :to="'/about'"
           class="menu-item"
@@ -87,15 +97,21 @@
 
 <script>
 import supportedLang from "./supportedLang";
+import DevelopersDropDown from "../DevelopersDropDown";
+import ServicesDropDown from "../ServicesDropDown";
 import { mapState, mapActions } from "vuex";
-
 export default {
   data() {
     return {
       supportedLanguages: supportedLang,
       currentName: "English",
       currentFlag: "EN",
+      showDrop: "",
     };
+  },
+  components: {
+    "developers-dropDown": DevelopersDropDown,
+    "services-dropdown": ServicesDropDown,
   },
   computed: {
     ...mapState(["locale"]),
@@ -114,7 +130,6 @@ export default {
       const storedLocale = this.supportedLanguages.find((item) => {
         return item.langCode === "en_US";
       });
-
       // this._i18n.locale = this.locale;
       this._i18n.locale = "en_US";
       this.currentFlag = storedLocale.flag;
@@ -127,6 +142,13 @@ export default {
       this.setLocale({ locale: obj.langCode, save: true });
       this.$store.dispatch("setLocale", obj.langCode);
       this.$store.dispatch("setRoadMap", obj.langCode);
+    },
+    openDropDown(tab) {
+      if (this.showDrop === tab) {
+        this.showDrop = "";
+      } else {
+        this.showDrop = tab;
+      }
     },
   },
 };
