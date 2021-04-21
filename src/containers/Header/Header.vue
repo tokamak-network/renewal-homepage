@@ -58,10 +58,10 @@
           :class="{
             selected: showDrop==='services',
           }"
-          @click="openDropDown('services')"
+          @mouseover="openDropDown('services')"
         >
           Services
-          <div>
+          <div @mouseleave="showDrop=''">
              <transition name="fade">
             <services-dropdown v-show="showDrop==='services'"/>
              </transition>
@@ -70,12 +70,12 @@
         <div
           class="menu-item"
           :class="{
-            selected: showDrop==='developers',
+            selected: showDrop ==='developers',
           }"
-          @click="openDropDown('developers')"
+          @mouseover="openDropDown('developers')"
         >
           Developers
-          <div>
+          <div @mouseleave="showDrop=''">
               <transition name="fade">
             <developers-dropDown v-show="showDrop==='developers'"/>
               </transition>
@@ -144,12 +144,12 @@ export default {
       this.$store.dispatch("setRoadMap", obj.langCode);
     },
     openDropDown(tab) {
-     if (this.showDrop === tab) {
-        this.showDrop = "";
-      }
-      else {
+    //  if (this.showDrop === tab) {
+    //     this.showDrop = "";
+    //   }
+    //   else {
         this.showDrop = tab;
-      }
+      // }
     },
   },
 };

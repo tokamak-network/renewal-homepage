@@ -18,9 +18,9 @@
       </div>
       <div class="divider" />
       <div class="tab-title">TON Ecosystem</div>
-      <button class="tab" @click="click('https://dao.tokamak.network/#/')">DAO</button>
+      <button class="tab-linked" style="cursor: pointer;" @click="click('https://dao.tokamak.network/#/')">DAO</button>
       <button :disabled="true" class="tab">POWER TON</button>
-      <button class="tab" @click="click('https://staking.tokamak.network/')">Staking</button>
+      <button class="tab-linked" style="cursor: pointer;" @click="click('https://staking.tokamak.network/')">Staking</button>
     </div>
   </div>
 </template>

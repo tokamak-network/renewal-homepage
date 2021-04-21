@@ -7,11 +7,14 @@
     border-radius: 4px;
     box-shadow: 0 1px 4px 0 rgba(96, 97, 112, 0.14);
     background-color: #ffffff;
+    cursor: default;
+
  > .services-line {
  width: 203px;
   height: 2px;
   margin: 0 10px 3px;
-  background-color: #246fed
+  background-color: #246fed;
+
     }
 
   > .tab-container{
@@ -48,11 +51,31 @@
       outline: none;
       color: #2a72e5;
   }
+  >.tab-linked {
+    display: flex;
+    text-align: left;
+    width: 140px;
+    height: 32px; 
+    font-weight: normal;
+    border: none;
+    background-color: #ffffff;
+    color: #1c1c1c;
+    padding-left: 15px;
+    margin-left: 5px;
+    font-size: 13px;
+    align-items: center;
+  }
+  >.tab-linked:focus, .tab-linked:hover{
+    cursor: pointer;
+    color: #2a72e5;
+    outline: none;
+  }
   > .divider{ 
     width: 203px;
     height: 1px;
     margin: 10px;
     background-color: #f4f7f8;
+    cursor: default;
   }
 
   > .soon-tab{
