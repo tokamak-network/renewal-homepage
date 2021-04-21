@@ -58,7 +58,7 @@
           letter-spacing: normal;
           text-align: left;
           color: #4c4c4c;
-          
+
           > span {
             font-size: 12px;
             font-weight: normal;
@@ -79,7 +79,7 @@
   }
 
   > .line {
-    width: 1696px;
+    max-width: 1696px;
     height: 1px;
     background-color: #dfe4ee;
   }

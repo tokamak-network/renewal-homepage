@@ -32,7 +32,6 @@
         </div>
       </transition-group>
     </div>
-    <div class="line" />
   </div>
 </template>
 

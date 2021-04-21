@@ -1,10 +1,15 @@
 <template>
   <div class="home">
     <main-container />
+    <div class="line" />
     <intro-container />
+    <div class="line" />
     <blog-container />
+    <div class="line" />
     <tokamak-info-container />
+    <div class="line" />
     <roadmap-container />
+    <div class="line" />
     <supporter-container />
   </div>
 </template>

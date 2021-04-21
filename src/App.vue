@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <div class="line" />
-    <header-container />
-    <router-view />
-    <footer-container />
+    <div class="layout">
+      <header-container />
+      <router-view />
+      <footer-container />
+    </div>
   </div>
 </template>
 
@@ -34,11 +36,15 @@ export default {
   align-items: center;
 }
 .line {
-  width: 1920px;
+  width: 100%;
 
   height: 4px;
   margin-bottom: 22px;
   background-color: #2a72e5;
+}
+
+.layout {
+  max-width: 90%;
 }
 
 #nav {

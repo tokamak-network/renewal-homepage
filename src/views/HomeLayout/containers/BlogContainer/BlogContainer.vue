@@ -17,7 +17,6 @@
         <div class="post-date">{{ post.pubDate }}</div>
       </div>
     </div>
-    <div class="line" />
   </div>
 </template>
 

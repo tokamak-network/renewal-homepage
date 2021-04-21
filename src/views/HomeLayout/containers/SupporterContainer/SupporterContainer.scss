@@ -1,31 +1,35 @@
 .supporter-container {
   margin-top: 20px;
-  max-width: 1696px;
-  padding: 0 112px 0 112px;
+  width: 100%;
 
   > .supporter-header {
     font-size: 28px;
-      font-weight: 600;
-      line-height: 1.07;
-      letter-spacing: normal;
-      text-align: left;
-      color: #1c1c1c;
-      margin-right: 40px;
-      margin-bottom: 50px; 
+    font-weight: 600;
+    line-height: 1.07;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1c1c1c;
+    margin-right: 40px;
+    margin-bottom: 50px; 
   }
 
   > .supporter-section {
-    display: flex;
+    // display: flex;
     margin-bottom: 80px;
     justify-content: center;
+    overflow: auto;
+    display:flex;
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
 
     > .supporter {
       max-width: 380px;
-      max-height: 200px;
-      width: 380px;
+      // max-height: 200px;
+      width: 100%;
       height: 200px;
       border: solid 1px #dfe4ee;
       background-color: #ffffff;
+      margin: 5px 5px 5px 5px;
       
       display: flex;
       align-items: center;
@@ -38,7 +42,7 @@
   }
 
   > .line {
-    width: 1696px;
+    max-width: 1696px;
     height: 1px;
     background-color: #dfe4ee;
   }

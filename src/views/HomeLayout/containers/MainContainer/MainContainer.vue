@@ -7,7 +7,6 @@
     <div class="image">
       <div class="text">{{ $t("home.main.img") }}</div>
     </div>
-    <div class="line" />
   </div>
 </template>
 

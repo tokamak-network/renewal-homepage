@@ -1,6 +1,5 @@
-.info {
-  max-width: 1696px;
-  padding: 0 112px 0 112px;
+.info-section {
+  width: 100%;
 
   > .title {
     font-size: 28px;
@@ -13,12 +12,12 @@
   }
 
   > .today-info-section {
-    max-width: 1696px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 
     > .today-info {
-      width: 527px;
+      width: 30%;
 
       > .title {
         font-size: 24px;
@@ -55,11 +54,5 @@
         }
       }
     }
-  }
-
-  > .line {
-    width: 1696px;
-    height: 1px;
-    background-color: #dfe4ee;
   }
 }

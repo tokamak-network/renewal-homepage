@@ -3,4 +3,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  .line {
+    max-width: 1696px;
+    height: 1px;
+    background-color: #dfe4ee;
+    margin-bottom: 20px;
+  }
 }

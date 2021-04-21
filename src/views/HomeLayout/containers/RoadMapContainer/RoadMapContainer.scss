@@ -1,8 +1,6 @@
 .roadmaps {
   margin-top: 20px;
-  max-width: 1696px;
-  // height: 375px;
-  padding: 0 112px 0 112px;
+  width: 100%;
 
   > .roadmap-header {
     display: flex;
@@ -44,7 +42,7 @@
 
   > .roadmap-section {
 
-    max-width: 1696px;
+    width: 100%;
     overflow: hidden;
     margin-bottom: 80px;
 
@@ -113,11 +111,5 @@
         }
       } 
     }   
-  }
-
-  > .line {
-    width: 1696px;
-    height: 1px;
-    background-color: #dfe4ee;
   }
 }

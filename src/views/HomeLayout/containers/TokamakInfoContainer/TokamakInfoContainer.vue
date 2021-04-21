@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="info" v-if="loaded">
+  <div style="width: 100%">
+    <div class="info-section" v-if="loaded">
       <div class="title">{{ $t("home.tokamak_info.title") }}</div>
       <div class="today-info-section">
         <div class="today-info">
@@ -40,7 +40,6 @@
           </div>
         </div>
       </div>
-      <div class="line" />
     </div>
     <div v-else class="spinner-container">
       <loading-spinner />

@@ -39,7 +39,7 @@
           :to="'/'"
           class="menu-item"
           :class="{
-            selected: $route.path.includes('/'),
+            selected: $route.path === '/',
           }"
         >
           Home
@@ -50,6 +50,7 @@
           :class="{
             selected: $route.path.includes('solutions'),
           }"
+          @click="selectedMenu = 'solutions'"
         >
           Solutions
         </router-link>
@@ -110,6 +111,7 @@ export default {
       currentName: "English",
       currentFlag: "EN",
       showDrop: "",
+      selectedMenu: "",
     };
   },
   components: {
@@ -130,6 +132,7 @@ export default {
   methods: {
     ...mapActions(["setLocale"]),
     getCurrentLang() {
+      console.log(this.$route.path);
       const storedLocale = this.supportedLanguages.find((item) => {
         return item.langCode === "en_US";
       });
