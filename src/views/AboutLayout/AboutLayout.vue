@@ -1,5 +1,12 @@
 <template>
   <div class="container">
+    <div class="heading">
+      <h2>We are networking the Layer 2 networks</h2>
+      <span
+        >Learn more about who we are and what we are building in Tokamak
+        Network</span
+      >
+    </div>
     <div class="wrapper">
       <members-list :members="members" />
     </div>
@@ -122,7 +129,8 @@ export default {
           name: "Harvey Jo",
           role: "Blockchain Engineer",
           github: "",
-          linkedin: "https://www.linkedin.com/in/%ED%98%81%EC%83%81-%EC%A1%B0-918103210/",
+          linkedin:
+            "https://www.linkedin.com/in/%ED%98%81%EC%83%81-%EC%A1%B0-918103210/",
           image: "",
         },
         {
@@ -171,6 +179,35 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 78px;
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.37;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1c1c;
+    margin: 0;
+  }
+  span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #808992;
+  }
+}
 .container {
   margin: 80px 0;
   width: 100vw;
