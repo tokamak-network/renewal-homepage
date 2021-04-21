@@ -59,6 +59,7 @@
             selected: showDrop === 'services',
           }"
           @mouseover="openDropDown('services')"
+          @mouseleave="showDrop = ''"
         >
           Services
           <div @mouseleave="showDrop = ''">
@@ -73,6 +74,7 @@
             selected: showDrop === 'developers',
           }"
           @mouseover="openDropDown('developers')"
+          @mouseleave="showDrop = ''"
         >
           Developers
           <div @mouseleave="showDrop = ''">
