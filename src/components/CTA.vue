@@ -1,8 +1,10 @@
 <template>
   <div class="cta-section">
     <div class="heading">
-      <h2>Go to service</h2>
-      <span class="text-hint">We are networking the Layer 2 networks</span>
+      <h2>Want to get involved?</h2>
+      <span class="text-hint"
+        >Join the community or work with Tokamak Network team</span
+      >
     </div>
     <div class="">
       <div class="body">

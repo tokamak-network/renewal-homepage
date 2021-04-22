@@ -41,14 +41,14 @@ export default {
       members: [
         {
           name: "Kevin Jeong",
-          role: "CEO",
+          role: "Chief Executive Officer",
           github: "",
           linkedin: "",
           image: KevinImage,
         },
         {
           name: "Zoe Kim",
-          role: "COO",
+          role: "Chief Operating Officer",
           github: "",
           linkedin: "",
           image: ZoeImage,

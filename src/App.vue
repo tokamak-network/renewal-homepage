@@ -90,6 +90,7 @@ export default {
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   grid-gap: 30px;
   justify-content: center;
+  justify-items: center;
   row-gap: 50px;
 }
 </style>

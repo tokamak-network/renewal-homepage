@@ -39,7 +39,7 @@
             Copyright © 2021 All Rights Reserved.
           </div>
           <div style="margin-right: 60px">Privacy Policy</div>
-          <div class="copyright-content">Terms & Conditions</div>
+          <div>Terms & Conditions</div>
         </div>
         <div class="upward" @click="upward" />
       </div>
