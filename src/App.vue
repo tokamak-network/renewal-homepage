@@ -47,27 +47,28 @@ export default {
   }
 }
 
-.layout {
-  height: 100vh;
-  width: 90%;
+@media all and (min-width: 1697px) {
+  .layout {
+    height: 100vh;
+    width: 90%;
+  }
 }
-// }
 
-// @media all and (min-width: 376px) and (max-width: 1024px) {
-//   #app {
-//     font-stretch: normal;
-//     font-style: normal;
-//     color: #2c3e50;
-//     width: 100%;
+@media all and (min-width: 376px) and (max-width: 1024px) {
+  #app {
+    font-stretch: normal;
+    font-style: normal;
+    color: #2c3e50;
+    width: 100%;
 
-//     flex-direction: column;
-//     display: flex;
-//     align-items: center;
-//   }
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
 
-//   .layout {
-//     width: 100%;
-//     height: 100vh;
-//   }
-// }
+  .layout {
+    width: 100%;
+    height: 100vh;
+  }
+}
 </style>

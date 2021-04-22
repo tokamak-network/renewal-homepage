@@ -73,12 +73,12 @@
         justify-content: space-between;
 
         > .roadmap {
-          width: 380px;
+          width: 24%;
           position: relative;
 
           > .roadmap-subject {
-            width: 380px;
-            height: 33px;
+            // width: 380px;
+            height: 60px;
             font-size: 24px;
             font-weight: 600;
             font-stretch: normal;
@@ -88,6 +88,11 @@
             text-align: left;
             color: #246fed;
             margin-bottom: 20px;
+          }
+          > .roadmap-subject div {
+            display: inline-block;
+            vertical-align: text-bottom;
+            // height: 60px;
           }
 
           > .roadmap-title {
