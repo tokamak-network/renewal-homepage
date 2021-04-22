@@ -1,0 +1,117 @@
+<template>
+  <div class="cta-section">
+    <div class="heading">
+      <h2>Go to service</h2>
+      <span class="text-hint">We are networking the Layer 2 networks</span>
+    </div>
+    <div class="">
+      <div class="body">
+        <div class="cta-grid">
+          <a
+            href="https://discord.gg/SZw2WSR"
+            class="flex justify-between align-center action-cta"
+          >
+            <span>Join Community</span>
+            <img
+              class="navigation-arrow"
+              src="../assets/goto_arrow@3x.png"
+              alt="Go to Jobs"
+            />
+          </a>
+          <a
+            href="https://medium.com/onther-tech/job-openings-blockchain-tech-902098537088"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex justify-between align-center action-cta"
+          >
+            <span>Jobs</span>
+            <img
+              class="navigation-arrow"
+              src="../assets/goto_arrow@3x.png"
+              alt="Go to Jobs"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 78px;
+
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.37;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1c1c;
+    margin: 0;
+  }
+
+  span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #808992;
+  }
+}
+
+.cta-section {
+  margin-top: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cta-grid {
+  display: grid;
+  column-gap: 10px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 300px);
+  row-gap: 10px;
+  justify-items: center;
+}
+
+.body {
+  margin: 40px 0;
+  flex-direction: row;
+}
+
+.action-cta {
+  padding: 18px;
+  border-radius: 4px;
+  border: solid 1px #2a72e5;
+  background-color: #ffffff;
+  width: 250px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2a72e5;
+}
+
+.navigation-arrow {
+  width: 19px;
+  height: 12px;
+}
+</style>
