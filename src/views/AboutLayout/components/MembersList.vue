@@ -21,9 +21,9 @@ export default {
 <style lang="scss" scoped>
 .grid {
   display: grid;
-  column-gap: 40px;
+  column-gap: 60px;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  grid-gap: 30px;
+  grid-gap: 60px;
   justify-content: center;
   row-gap: 50px;
 }

@@ -2,8 +2,14 @@
   <div class="services">
     <div class="services-line" />
     <div class="tab-container">
-      <div class="tab-title">Layer2s</div>
-      <button class="tab" :disabled="true">Tokamak Plasma</button>
+      <div class="tab-title">Layer2</div>
+      <button
+        class="tab-linked"
+        style="cursor: pointer"
+        @click="click('https://docs.tokamak.network/#/')"
+      >
+        Tokamak Plasma
+      </button>
       <div class="soon-tab">
         <button class="tab" :disabled="true">Optimsitic Rollup</button>
         <div class="soon">SOON</div>
@@ -25,7 +31,6 @@
       >
         DAO
       </button>
-      <button :disabled="true" class="tab">POWER TON</button>
       <button
         class="tab-linked"
         style="cursor: pointer"

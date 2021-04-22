@@ -80,6 +80,8 @@
           color: #4c4c4c;
           // height: 110px;
           margin-bottom: 20px;
+          overflow-wrap: break-word;
+          word-wrap: break-word;
         }
         > .post-preview:hover {
           cursor: pointer;

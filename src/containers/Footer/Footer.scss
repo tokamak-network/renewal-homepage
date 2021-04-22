@@ -2,7 +2,7 @@
   > .team-info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
     width: 100%;
 
     > .onther {
@@ -86,6 +86,7 @@
 
   > .copyright {
     margin: 45px 0 45px 0;
+    padding-bottom: 45px;
 
     font-size: 16px;
     font-weight: normal;

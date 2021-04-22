@@ -3,7 +3,7 @@
     <div v-if="!member.image" class="emptyImage bordered"></div>
     <img v-else class="memberImage" :src="member.image" alt="member.name" />
     <div class="flex flex-cols justify-between body">
-      <div class="flex flex-cols description">
+      <div class="description">
         <div class="memberName">{{ member.name }}</div>
         <div class="memberRole">{{ member.role }}</div>
       </div>
@@ -40,10 +40,12 @@ export default {
   width: auto;
   height: 128px;
   object-fit: scale-down;
+  margin-bottom: 10px;
 }
 .emptyImage {
   width: 120px;
   height: 128px;
+  margin-bottom: 10px;
 }
 .memberName {
   font-family: "Open Sans", sans-serif;
@@ -75,7 +77,7 @@ export default {
 }
 
 .description {
-  height: 70px;
+  margin-bottom: 10px;
 }
 
 .bordered {

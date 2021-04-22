@@ -11,7 +11,7 @@
             href="https://discord.gg/SZw2WSR"
             class="flex justify-between align-center action-cta"
           >
-            <span>Join Community</span>
+            <span style="padding-left: 5px">Join Community</span>
             <img
               class="navigation-arrow"
               src="../assets/goto_arrow@3x.png"
@@ -24,7 +24,7 @@
             rel="noopener noreferrer"
             class="flex justify-between align-center action-cta"
           >
-            <span>Jobs</span>
+            <span style="padding-left: 5px">Jobs</span>
             <img
               class="navigation-arrow"
               src="../assets/goto_arrow@3x.png"
@@ -95,6 +95,8 @@
   border: solid 1px #2a72e5;
   background-color: #ffffff;
   width: 250px;
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
@@ -104,7 +106,7 @@ a {
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.36;
+  // line-height: 1.36;
   letter-spacing: normal;
   text-align: left;
   color: #2a72e5;
@@ -113,5 +115,6 @@ a {
 .navigation-arrow {
   width: 19px;
   height: 12px;
+  padding-top: 3px;
 }
 </style>

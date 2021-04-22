@@ -37,12 +37,14 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
 
   > .top-line {
     width: 100%;
+    max-width: 1920px;
 
     height: 4px;
-    margin-bottom: 22px;
+    margin: 0 0 22px 0;
     background-color: #2a72e5;
   }
 }
@@ -50,6 +52,7 @@ export default {
 @media all and (min-width: 1697px) {
   .layout {
     height: 100vh;
+    max-width: 1696px;
     width: 90%;
   }
 }

@@ -3,55 +3,35 @@
     margin-left: -82px;
     margin-top: 20px;
     width: 223px;
-    height: 319px;
+    height: 280px;
     border-radius: 4px;
     box-shadow: 0 1px 4px 0 rgba(96, 97, 112, 0.14);
     background-color: #ffffff;
     cursor: default;
 
  > .services-line {
- width: 203px;
-  height: 2px;
-  margin: 0 10px 3px;
-  background-color: #246fed;
-
-    }
+    width: 203px;
+    height: 2px;
+    margin: 0 10px 3px;
+    background-color: #246fed;
+  }
 
   > .tab-container{
     padding: 0 0 5px;
 
-> .tab-title{ 
+  > .tab-title{ 
     text-align: left;
-  font-size: 13px;
-  font-weight: bolder;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.23;
-  letter-spacing: normal;
-  color: #1c1c1c;
-  padding:7px 15px;
-}
+    font-size: 13px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    color: #1c1c1c;
+    padding:7px 15px;
+  }
 
   > .tab{ 
-      display: flex;
-    text-align: left;
-    width: 140px;
-    height: 32px; 
-    font-weight: normal;
-    border: none;
-    background-color: #ffffff;
-    color: #1c1c1c;
-    padding-left: 15px;
-    margin-left: 5px;
-    font-size: 13px;
-    align-items: center;
-  }
-  >.tab:focus {
-      border: none;
-      outline: none;
-      color: #2a72e5;
-  }
-  >.tab-linked {
     display: flex;
     text-align: left;
     width: 140px;
@@ -65,12 +45,31 @@
     font-size: 13px;
     align-items: center;
   }
-  >.tab-linked:focus, .tab-linked:hover{
+  > .tab:focus {
+      border: none;
+      outline: none;
+      color: #2a72e5;
+  }
+  > .tab-linked {
+    display: flex;
+    text-align: left;
+    width: 140px;
+    height: 32px; 
+    font-weight: normal;
+    border: none;
+    background-color: #ffffff;
+    color: #1c1c1c;
+    padding-left: 15px;
+    margin-left: 5px;
+    font-size: 13px;
+    align-items: center;
+  }
+  > .tab-linked:focus, .tab-linked:hover{
     cursor: pointer;
     color: #2a72e5;
     outline: none;
   }
-  > .divider{ 
+  > .divider { 
     width: 203px;
     height: 1px;
     margin: 10px;
@@ -78,7 +77,7 @@
     cursor: default;
   }
 
-  > .soon-tab{
+  > .soon-tab {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -94,26 +93,26 @@
         padding-left: 15px; 
         margin-left: 5px;
       }
-      >.tab:focus {
+
+      > .tab:focus {
         border: none;
         outline: none;
         color: #2a72e5;
-    }
-    > .soon {
+      }
+      > .soon {
         width: 49px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 3px;
-  border: solid 1px #dfe4ee;
-  background-color: #ffffff;
-  margin-right: 10px;
-  font-size: 10px;
-  font-weight: 600;
-  color: #83909f;
-
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        border: solid 1px #dfe4ee;
+        background-color: #ffffff;
+        margin-right: 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color: #83909f;
+      }
     }
-  }
   }  
 }
