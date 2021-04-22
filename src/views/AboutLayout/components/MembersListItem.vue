@@ -4,8 +4,13 @@
     <img v-else class="memberImage" :src="member.image" alt="member.name" />
     <div class="flex flex-cols justify-between body">
       <div class="flex flex-cols description">
+<<<<<<< HEAD
         <div class="memberName">{{ member.name }}</div>
         <div class="memberRole">{{ member.role }}</div>
+=======
+        <span class="memberName">{{ member.name }}</span>
+        <span class="memberRole">{{ member.role }}</span>
+>>>>>>> 651606677c38292edab6b6573c396c4cb72c3bed
       </div>
       <div class="social-links">
         <a

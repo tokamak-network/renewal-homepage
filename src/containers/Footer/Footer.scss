@@ -74,16 +74,29 @@ footer {
         }
       }
     }
-  
-    > .line {
-      height: 1px;
-      background-color: #dfe4ee;
-    }
-  
-    > .copyright {
-      font-size: 16px;
-      line-height: 1.88;
-      color: #999999;
+  }
+
+  > .line {
+    height: 1px;
+    background-color: #dfe4ee;
+  }
+
+  > .copyright {
+    margin: 45px 0 45px 0;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+
+    display: flex;
+    justify-content: space-between;
+
+    > .copyright-content {
       display: flex;
       justify-content: space-between;
       margin: 25px 0;
