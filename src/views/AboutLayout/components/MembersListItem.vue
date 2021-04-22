@@ -4,8 +4,8 @@
     <img v-else class="memberImage" :src="member.image" alt="member.name" />
     <div class="flex flex-cols justify-between body">
       <div class="flex flex-cols description">
-        <span class="memberName">{{ member.name }}</span>
-        <span class="memberRole">{{ member.role }}</span>
+        <div class="memberName">{{ member.name }}</div>
+        <div class="memberRole">{{ member.role }}</div>
       </div>
       <div class="social-links">
         <a

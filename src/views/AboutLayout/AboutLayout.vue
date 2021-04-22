@@ -210,7 +210,7 @@ export default {
 }
 .container {
   margin: 80px 0;
-  width: 100vw;
+  justify-items: center;
 }
 
 .wrapper {
