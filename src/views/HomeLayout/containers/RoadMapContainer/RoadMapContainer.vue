@@ -32,7 +32,6 @@
         </div>
       </transition-group>
     </div>
-    <div class="line" />
   </div>
 </template>
 
@@ -53,19 +52,41 @@ export default {
   computed: {
     ...mapState(["roadmap", "web3"]),
     selectedRoadmap() {
+      if (this.width > 1240) {
+        return this.roadmap.slice(this.page, this.page + 4);
+      } else if (this.width > 375 && this.width <= 1024) {
+        return this.roadmap.slice(this.page, this.page + 2);
+      }
       return this.roadmap.slice(this.page, this.page + 4);
     },
   },
+  created() {
+    this.width = window.innerWidth;
+    window.addEventListener("resize", this.handleResize);
+  },
+  destroyed() {
+    window.removeEventListener("resize", this.handleResize);
+  },
   methods: {
+    handleResize() {
+      this.width = window.innerWidth;
+    },
+    setCount() {
+      if (this.width > 1240) {
+        return 4;
+      } else if (this.width > 375 && this.width <= 1024) {
+        return 2;
+      }
+    },
     prev() {
       this.direction = false;
       this.page !== 0 ? (this.page = this.page - 1) : (this.page = 0);
     },
     next() {
       this.direction = true;
-      this.page + 4 < this.roadmapLength
+      this.page + this.setCount() < this.roadmapLength
         ? (this.page = this.page + 1)
-        : (this.page = this.roadmapLength - 4);
+        : (this.page = this.roadmapLength - this.setCount());
     },
     subjectChecker(index) {
       if (this.page != index) {
@@ -86,4 +107,5 @@ export default {
 
 <style lang="scss" scope>
 @import "RoadMapContainer.scss";
+@import "RoadMapContainer-tablet.scss";
 </style>

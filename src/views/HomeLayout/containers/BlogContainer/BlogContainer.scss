@@ -1,6 +1,5 @@
 .blog {
-  max-width: 1696px;
-  padding: 0 112px 0 112px;
+  width: 100%;
 
   > .blog-header {
     display: flex;
@@ -42,17 +41,16 @@
 
   > .post-section {
     display: flex;
-    max-width: 1696px;
+    width: 100%;
     justify-content: space-between;
+    margin-bottom: 80px;
 
     > .post {
-      max-width: 525px;
-      width: 100%;
+      width: 31%;
 
       > .img {
-        max-width: 525px;
         width: 100%;
-        height: 297px;
+        height: 55%;
         margin-bottom: 21px;
       }
       > .img:hover {
@@ -79,7 +77,8 @@
         letter-spacing: -0.35px;
         text-align: left;
         color: #4c4c4c;
-        height: 110px;
+        // height: 110px;
+        margin-bottom: 20px;
       }
       > .post-preview:hover {
         cursor: pointer;
@@ -94,13 +93,12 @@
         letter-spacing: -0.35px;
         text-align: left;
         color: #4c4c4c;
-        margin-bottom: 80px;
       }
     }    
   }
 
   > .line {
-    width: 1696px;
+    max-width: 1696px;
     height: 1px;
     background-color: #dfe4ee;
   }

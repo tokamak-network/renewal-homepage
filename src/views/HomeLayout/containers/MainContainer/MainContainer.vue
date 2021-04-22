@@ -7,7 +7,6 @@
     <div class="image">
       <div class="text">{{ $t("home.main.img") }}</div>
     </div>
-    <div class="line" />
   </div>
 </template>
 
@@ -17,4 +16,5 @@ export default {};
 
 <style lang="scss" scope>
 @import "MainContainer.scss";
+@import "MainContainer-tablet.scss";
 </style>

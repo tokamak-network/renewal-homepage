@@ -1,0 +1,41 @@
+@media all and (min-width: 376px) and (max-width: 1024px) {
+  .supporter-container {
+    width: 100%;
+    margin-bottom: 120px;
+
+    > .supporter-header {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.07;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1c1c1c;
+      margin-right: 40px;
+      margin-bottom: 50px; 
+      margin-top: 20px;
+    }
+
+    > .supporter-section {
+      margin-bottom: 0px;
+      overflow: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      > .supporter {
+        width: 100%;
+        height: 200px;
+        border: solid 1px #dfe4ee;
+        background-color: #ffffff;
+        margin: 5px 5px 5px 5px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      > .img {
+        width: 260px;
+      }
+    }
+  }
+}

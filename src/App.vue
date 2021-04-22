@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <header-container />
-    <router-view />
-    <footer-container />
+    <div class="line" />
+    <div class="layout">
+      <header-container />
+      <router-view />
+      <footer-container />
+    </div>
   </div>
 </template>
 
@@ -19,20 +22,52 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 #app {
+  font-family: "Open Sans", sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  color: #2c3e50;
+  max-width: 1920px;
+  width: 100%;
+
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.line {
+  width: 100%;
+
+  height: 4px;
+  margin-bottom: 22px;
+  background-color: #2a72e5;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
+.layout {
+  max-width: 90%;
+}
+@media all and (min-width: 376px) and (max-width: 1024px) {
+  #app {
+    font-family: "Open Sans", sans-serif;
+    font-stretch: normal;
+    font-style: normal;
     color: #2c3e50;
+    width: 100%;
 
-    &.router-link-exact-active {
-      color: #2a72e5;
-    }
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .line {
+    width: 100%;
+
+    height: 4px;
+    margin-bottom: 22px;
+    background-color: #2a72e5;
+  }
+
+  .layout {
+    width: 100%;
   }
 }
 

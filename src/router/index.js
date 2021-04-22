@@ -2,8 +2,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeLayout from "../views/HomeLayout";
 import SolutionsLayout from "../views/SolutionsLayout";
-import AboutLayout from "../views/AboutLayout";
 
+import AboutLayout from "../views/AboutLayout";
 Vue.use(VueRouter);
 
 const routes = [

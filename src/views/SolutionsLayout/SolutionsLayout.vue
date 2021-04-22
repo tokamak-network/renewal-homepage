@@ -1,5 +1,11 @@
 <template>
   <div class="solutions-layout">
+    <div class="solutions-title">
+      {{ $t("solutions.title") }}
+    </div>
+    <div class="solutions-subtitle">
+      {{ $t("solutions.sub-title") }}
+    </div>
     <challenge-container />
     <solution-container />
     <layer2-container />

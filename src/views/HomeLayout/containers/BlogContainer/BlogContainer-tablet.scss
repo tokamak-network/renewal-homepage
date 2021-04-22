@@ -1,0 +1,101 @@
+@media all and (min-width: 376px) and (max-width: 1024px) {
+  .blog {
+    width: 100%;
+
+    > .blog-header {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 51px;
+
+      > .title {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.07;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1c1c1c;
+        margin-right: 40px;
+      }
+      > .prev-arrow {
+        width: 40px;
+        height: 22px;
+        margin-top: 3px;
+
+        content: url("../../../../assets/arrow-pre.png");
+      }
+      > .prev-arrow:hover {
+        cursor: pointer;
+        content: url("../../../../assets/arrow-pre-active.png");
+      }
+      > .next-arrow {
+        width: 40px;
+        height: 22px;
+        margin-top: 3px;
+
+        content: url("../../../../assets/arrow-next.png");
+      }
+      > .next-arrow:hover {
+        cursor: pointer;
+        content: url("../../../../assets/arrow-next-active.png");
+      }
+    }
+
+    > .post-section {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 80px;
+
+      > .post {
+        width: 48%;
+
+        > .img {
+          width: 100%;
+          height: 55%;
+          margin-bottom: 21px;
+        }
+        > .img:hover {
+          cursor: pointer;
+        }
+
+        > .post-title {
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 1.3;
+          letter-spacing: -0.5px;
+          text-align: left;
+          color: #1c1c1c;
+          margin-bottom: 10px;
+        }
+        > .post-title:hover {
+          cursor: pointer;
+        }
+
+        > .post-preview {
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 1.43;
+          letter-spacing: -0.35px;
+          text-align: left;
+          color: #4c4c4c;
+          // height: 110px;
+          margin-bottom: 20px;
+        }
+        > .post-preview:hover {
+          cursor: pointer;
+        }
+
+        > .post-date {
+          font-size: 14px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.43;
+          letter-spacing: -0.35px;
+          text-align: left;
+          color: #4c4c4c;
+        }
+      }    
+    }
+  }
+}
