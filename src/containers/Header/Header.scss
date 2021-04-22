@@ -3,10 +3,7 @@
 
   height: 84px;
   background: #ffffff;
-  max-width: 1696px;
 
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .header-title {
@@ -167,4 +164,11 @@ button:hover {
   margin-left: 15px;
 
   z-index: 1;
+}
+
+.line {
+  width: inherit;
+  height: 4px;
+  margin-bottom: 22px;
+  background-color: #2a72e5;
 }
