@@ -71,4 +71,41 @@ export default {
     height: 100vh;
   }
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-rows {
+  flex-direction: row;
+}
+
+.flex-cols {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-gap: 30px;
+  justify-content: center;
+  row-gap: 50px;
+}
 </style>

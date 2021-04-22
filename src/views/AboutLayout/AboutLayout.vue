@@ -184,7 +184,6 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-bottom: 78px;
-
   h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 38px;
@@ -197,7 +196,6 @@ export default {
     color: #1c1c1c;
     margin: 0;
   }
-
   span {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -210,7 +208,6 @@ export default {
     color: #808992;
   }
 }
-
 .container {
   margin: 80px 0;
   width: 100vw;
