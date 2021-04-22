@@ -56,14 +56,8 @@ footer {
             text-align: left;
             color: #4c4c4c;
   
-            > span {
+            > small {
               font-size: 12px;
-              font-weight: normal;
-              font-stretch: normal;
-              font-style: normal;
-              line-height: 1.83;
-              letter-spacing: -0.3px;
-              text-align: left;
               color: #7f8993;
             }
           }
@@ -107,10 +101,11 @@ footer {
   footer {
     margin-bottom: 120px;
     .footer {
-      max-width: 960px;
+      max-width: 80vw;
       margin: 0 auto 30px;
       .team-info {
         grid-template-columns: 2fr 2fr 1fr 1fr;
+        margin-bottom: 60px;
         .office {
           width: auto;
           word-break: keep-all;
@@ -122,7 +117,7 @@ footer {
         }
       }
       .copyright {
-        margin: 25px 0 45px 0;
+        padding: 25px 0 20px 0;
         .copyright-content {
           flex-direction: row;
         }
