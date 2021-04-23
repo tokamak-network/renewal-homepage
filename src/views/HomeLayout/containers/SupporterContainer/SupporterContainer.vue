@@ -42,6 +42,7 @@
         />
       </a>
     </div>
+    <div class="gap" />
     <div class="supporter-section">
       <a
         href="https://www.dsrvlabs.com/en/"

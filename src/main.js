@@ -26,8 +26,8 @@ const getDefaultLang = () => {
 
 Vue.use(VueMq, {
   breakpoints: {
-    mobile: 840,
-    tablet: 1024,
+    mobile: 375,
+    tablet: 1280,
     desktop: Infinity,
   },
 });
