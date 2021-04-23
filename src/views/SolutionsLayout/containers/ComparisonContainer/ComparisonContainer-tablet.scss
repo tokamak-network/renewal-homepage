@@ -1,0 +1,121 @@
+@media all and (min-width: 376px) and (max-width: 1240px) {
+  .comparison-container {
+    margin-bottom: 180px;
+    overflow-wrap: break-word;
+      word-wrap: break-word;
+
+    > .title {
+      font-size: 28px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.07;
+      letter-spacing: normal;
+      text-align: center;
+      color: #1c1c1c;
+
+      // margin-bottom: 15px;
+    }
+
+    > .description {
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 3.75;
+      letter-spacing: normal;
+      text-align: center;
+      color: #808992;
+
+    }
+    > .comparison-table {
+      border: solid 1px #eff1f6;
+      border-spacing: 0;
+      text-align: center;
+      font-size: 13px;
+      margin-left: 20px;
+
+      .table-header {
+        height: 50px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.31;
+        letter-spacing: -0.33px;
+        text-align: center;
+        color: #1c1c1c;
+        border: solid 1px #eff1f6;
+      }
+
+      .table-header-tokamak {
+        height: 50px;
+        width: 157px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.31;
+        letter-spacing: -0.33px;
+        text-align: center;
+        background: #246fed;
+        color: #ffffff;
+        border-top: 2px solid #246fed;
+        border-left: 2px solid #246fed;
+        border-right: 2px solid #246fed;
+      }
+
+      .title {
+        width: 180px;
+        border: solid 1px #eff1f6;
+      }
+
+      .content {
+        border: solid 1px #eff1f6;
+        width: 106px;
+        height: 50px;
+      }
+
+      .content-title {
+        border: solid 1px #eff1f6;
+        width: 160px;
+        height: 50px;
+        font-size: 13px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.31;
+        letter-spacing: -0.33px;
+        text-align: left;
+        color: #1c1c1c;
+        padding-left: 20px;
+      }
+      .second-row {
+        background: #f9fcff;
+      }
+      .content-tokamak {
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.5;
+        letter-spacing: -0.3px;
+        text-align: center;
+        color: #1c1c1c;
+        border-left: 2px solid #246fed;
+        border-right: 2px solid #246fed;
+      }
+      .content-tokamak-last {
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.5;
+        letter-spacing: -0.3px;
+        text-align: center;
+        color: #1c1c1c;
+        border-left: 2px solid #246fed;
+        border-right: 2px solid #246fed;
+        border-bottom: 2px solid #246fed;
+      }
+    }
+  }
+}
