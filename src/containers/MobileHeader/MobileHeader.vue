@@ -1,138 +1,140 @@
 <template>
   <div class="mobile-header">
-      <transition name="slide">
-    <div v-if="isOpen" class="header-contents">
-      <div class="contents-line"></div>
-      <div class="header-top">
-        <div class="language">
-          <div
-            class="lang"
-            :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
-            @click="languageItemClicked(supportedLanguages[0])"
-          >
-            EN
+    <transition name="slide">
+      <div v-if="isOpen" class="header-contents">
+        <div class="contents-line"></div>
+        <div class="header-top">
+          <div class="language">
+            <div
+              class="lang"
+              :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
+              @click="languageItemClicked(supportedLanguages[0])"
+            >
+              EN
+            </div>
+            <div style="margin: 0 3px 0 3px">|</div>
+            <div
+              class="lang"
+              :style="currentFlag === 'KR' ? { color: '#246fed' } : {}"
+              @click="languageItemClicked(supportedLanguages[1])"
+            >
+              KR
+            </div>
+            <div style="margin: 0 3px 0 3px">|</div>
+            <div
+              class="lang"
+              :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
+              @click="languageItemClicked(supportedLanguages[2])"
+            >
+              CN
+            </div>
           </div>
-          <div style="margin: 0 3px 0 3px">|</div>
+          <img src="@/assets/Burger_close_icon.png" @click="isOpen = false" />
+        </div>
+        <div class="header-tabs">
           <div
-            class="lang"
-            :style="currentFlag === 'KR' ? { color: '#246fed' } : {}"
-            @click="languageItemClicked(supportedLanguages[1])"
+            class="menu-item"
+            :class="{
+              selected: $route.path === '/',
+            }"
+            @click="
+              route('/');
+              isOpen = false;
+            "
           >
-            KR
+            Home
           </div>
-          <div style="margin: 0 3px 0 3px">|</div>
           <div
-            class="lang"
-            :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
-            @click="languageItemClicked(supportedLanguages[2])"
+            class="menu-item"
+            :class="{
+              selected: $route.path.includes('solutions'),
+            }"
+            @click="
+              route('/solutions');
+              isOpen = false;
+            "
           >
-            CN
+            Solutions
           </div>
-        </div>
-        <img src="@/assets/Burger_close_icon.png" @click="isOpen = false" />
-      </div>
-      <div class="header-tabs">
-        <div
-          class="menu-item"
-          :class="{
-            selected: $route.path === '/',
-          }"
-          @click="
-            route('/');
-            isOpen = false;
-          "
-        >
-          Home
-        </div>
-        <div
-          class="menu-item"
-          :class="{
-            selected: $route.path.includes('solutions'),
-          }"
-          @click="
-            route('/solutions');
-            isOpen = false;
-          "
-        >
-          Solutions
-        </div>
-        <div class="menu-item-services">
-          Services
-          <div class="menu-item-sub">
-            <div class="menu-item-sub-title">
-              Layer 2
-              <button class="menu-item-sub-item-linked">Tokamak Plasma</button>
-              <div class="menu-item-sub-item">
-                Optimsitic Rollup
-                <div class="soon-container">SOON</div>
+          <div class="menu-item-services">
+            Services
+            <div class="menu-item-sub">
+              <div class="menu-item-sub-title">
+                Layer 2
+                <button class="menu-item-sub-item-linked">
+                  Tokamak Plasma
+                </button>
+                <div class="menu-item-sub-item">
+                  Optimsitic Rollup
+                  <div class="soon-container">SOON</div>
+                </div>
+                <div class="menu-item-sub-item">
+                  zk-rollup
+                  <div class="soon-container">SOON</div>
+                </div>
+                <div class="menu-item-sub-item">
+                  zk-opru
+                  <div class="soon-container">SOON</div>
+                </div>
               </div>
-              <div class="menu-item-sub-item">
-                zk-rollup
-                <div class="soon-container">SOON</div>
-              </div>
-              <div class="menu-item-sub-item">
-                zk-opru
-                <div class="soon-container">SOON</div>
+              <div class="menu-item-sub-title">
+                TON Ecosystem
+                <button
+                  class="menu-item-sub-item-linked"
+                  @click="click('https://dao.tokamak.network/#/')"
+                >
+                  DAO
+                </button>
+                <button
+                  class="menu-item-sub-item-linked"
+                  style="marginbottom: 0px"
+                  @click="click('https://staking.tokamak.network/')"
+                >
+                  Staking
+                </button>
               </div>
             </div>
-            <div class="menu-item-sub-title">
-              TON Ecosystem
+          </div>
+          <div class="menu-item-services" @click="isOpen = false">
+            Developers
+            <div class="menu-item-sub">
               <button
                 class="menu-item-sub-item-linked"
-                @click="click('https://dao.tokamak.network/#/')"
+                @click="click('https://github.com/Onther-Tech')"
               >
-                DAO
+                Github
               </button>
               <button
                 class="menu-item-sub-item-linked"
-                style="marginbottom: 0px"
-                @click="click('https://staking.tokamak.network/')"
+                @click="click('https://docs.tokamak.network/')"
               >
-                Staking
+                Documents
+              </button>
+              <button
+                class="menu-item-sub-item-linked"
+                @click="
+                  click('https://onther-tech.github.io/papers/tech-paper.pdf')
+                "
+              >
+                Papers
               </button>
             </div>
           </div>
-        </div>
-        <div class="menu-item-services" @click="isOpen = false">
-          Developers
-          <div class="menu-item-sub">
-            <button
-              class="menu-item-sub-item-linked"
-              @click="click('https://github.com/Onther-Tech')"
-            >
-              Github
-            </button>
-            <button
-              class="menu-item-sub-item-linked"
-              @click="click('https://docs.tokamak.network/')"
-            >
-              Documents
-            </button>
-            <button
-              class="menu-item-sub-item-linked"
-              @click="
-                click('https://onther-tech.github.io/papers/tech-paper.pdf')
-              "
-            >
-              Papers
-            </button>
+          <div
+            class="menu-item"
+            :class="{
+              selected: $route.path.includes('about'),
+            }"
+            @click="
+              route('/about');
+              isOpen = false;
+            "
+          >
+            About
           </div>
         </div>
-        <div
-          class="menu-item"
-          :class="{
-            selected: $route.path.includes('about'),
-          }"
-          @click="
-            route('/about');
-            isOpen = false;
-          "
-        >
-          About
-        </div>
       </div>
-    </div>
-      </transition>
+    </transition>
     <div class="header-container">
       <!-- <div class="line" /> -->
       <div class="logo-container">

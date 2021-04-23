@@ -78,8 +78,7 @@
         />
       </a>
     </div>
-    <div class="gap" />
-    <div class="gap" />
+    <div class="gap-mobile" />
     <div class="supporter-header">{{ $t("home.supporter.title2") }}</div>
     <div class="supporter-section">
       <a
