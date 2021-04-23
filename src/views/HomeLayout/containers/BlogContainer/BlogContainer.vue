@@ -38,7 +38,7 @@ export default {
       } else if (this.width > 375 && this.width <= 1024) {
         return this.posts.slice(this.page, this.page + 2);
       }
-      return this.posts.slice(this.page, this.page + 3);
+      return this.posts.slice(this.page, this.page + 1);
     },
   },
   created() {

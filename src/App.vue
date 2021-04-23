@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <div class="line" />
+    <div class="app-line" />
     <div class="layout">
-      <header-container />
+      <mobile-header-container v-if="$mq === 'mobile'" />
+      <header-container v-else />
       <router-view />
       <footer-container />
     </div>
@@ -12,12 +13,13 @@
 <script>
 import Header from "@/containers/Header";
 import Footer from "@/containers/Footer";
-
+import MobileHeader from "@/containers/MobileHeader";
 export default {
   name: "App",
   components: {
     "header-container": Header,
     "footer-container": Footer,
+    "mobile-header-container": MobileHeader,
   },
 };
 </script>
@@ -42,12 +44,16 @@ export default {
     display: flex;
     align-items: center;
   }
-  .line {
+  .app-line {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-
     height: 4px;
     margin-bottom: 22px;
     background-color: #2a72e5;
+    z-index: 1999;
   }
 
   .layout {

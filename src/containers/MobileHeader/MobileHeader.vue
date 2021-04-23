@@ -1,14 +1,9 @@
 <template>
-  <div class="header">
-    <!-- <div class="line" /> -->
-    <div class="header-title">
-      <img
-        src="@/assets/tokamak-symbol.svg"
-        class="tokamak-logo"
-        style="width: 45px; height: 30px"
-      />
-      <img src="@/assets/tokamak-text.svg" class="tokamak-text" />
-      <div class="language">
+  <div class="mobile-header">
+    <div v-if="isOpen" class="header-contents">
+       <!-- <div class="contents-line" /> -->
+       <div class="header-top">
+         <div class="language">
         <div
           class="lang"
           :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
@@ -33,93 +28,102 @@
           CN
         </div>
       </div>
-    </div>
-    <div style="display: flex; flex: 1; justify-content: center">
-      <div class="menu">
-        <router-link
-          :to="'/'"
+           <img  src="@/assets/Burger_close_icon.png"  @click="isOpen = false;"/> 
+        </div> 
+        <div class="header-tabs">
+           <div
           class="menu-item"
           :class="{
             selected: $route.path === '/',
           }"
+        @click="route('/'); isOpen = false;"
         >
           Home
-        </router-link>
-        <router-link
-          :to="'/solutions'"
+        </div>
+        <div
           class="menu-item"
           :class="{
             selected: $route.path.includes('solutions'),
           }"
-          @click="selectedMenu = 'solutions'"
+          @click="route('/solutions'); isOpen = false;"
         >
           Solutions
-        </router-link>
-        <div
+        </div>
+         <div
           class="menu-item"
           :class="{
-            selected: showDrop === 'services',
           }"
-          @mouseover="openDropDown('services')"
-          @mouseleave="showDrop = ''"
         >
           Services
-          <div @mouseleave="showDrop = ''">
-            <transition name="fade">
-              <services-dropdown v-show="showDrop === 'services'" />
-            </transition>
+          <div class="menu-item-sub">
+              <div class="menu-item-sub-title">Layer 2
+                <div class="menu-item-sub-item">Tokamak Plasma</div>
+                 <div class="menu-item-sub-item">
+                     Optimsitic Rollup
+                     <div class="soon-container">SOON</div>
+                 </div>
+                  <div class="menu-item-sub-item">zk-rollup
+                       <div class="soon-container">SOON</div>
+                  </div>
+                    <div class="menu-item-sub-item">zk-opru
+                       <div class="soon-container">SOON</div>
+                  </div>
+              </div>
+              <div class="menu-item-sub-title">TON Ecosystem  
+                <div class="menu-item-sub-item">DAO</div>
+                 <div class="menu-item-sub-item"> PowerTON</div>
+                  <div class="menu-item-sub-item" style="marginBottom: 0px">Staking</div>
+              </div>
           </div>
         </div>
-        <div
+         <div
           class="menu-item"
           :class="{
-            selected: showDrop === 'developers',
           }"
-          @mouseover="openDropDown('developers')"
-          @mouseleave="showDrop = ''"
+           @click="isOpen = false;"
         >
           Developers
-          <div @mouseleave="showDrop = ''">
-            <transition name="fade">
-              <developers-dropDown v-show="showDrop === 'developers'" />
-            </transition>
-          </div>
+
         </div>
-        <router-link
-          :to="'/about'"
+         <div
           class="menu-item"
           :class="{
             selected: $route.path.includes('about'),
           }"
+          @click="route('/about'); isOpen = false;"
         >
           About
-        </router-link>
-      </div>
+        </div>
+        </div>
+    </div>
+      <div class="header-container">
+       <!-- <div class="line" /> -->
+       <div class="logo-container">
+      <img class="logo" src="@/assets/mobile_logo.png" alt=""  width="205" height="30"/>
+       <img
+           class="menu-icon"
+           src="@/assets/Burger_icon.png" alt=""
+           width="30" height="30"
+            @click="isOpen = true;"
+      >
+       </div>
     </div>
   </div>
 </template>
-
 <script>
 import supportedLang from "./supportedLang";
-import DevelopersDropDown from "../DevelopersDropDown";
-import ServicesDropDown from "../ServicesDropDown";
 import { mapState, mapActions } from "vuex";
 
 export default {
-  data() {
-    return {
-      supportedLanguages: supportedLang,
+    data () {
+        return {
+    supportedLanguages: supportedLang,
       currentName: "English",
       currentFlag: "EN",
-      showDrop: "",
-      selectedMenu: "",
-    };
-  },
-  components: {
-    "developers-dropDown": DevelopersDropDown,
-    "services-dropdown": ServicesDropDown,
-  },
-  computed: {
+            isOpen: true,
+        }
+    },
+    computed: {
     ...mapState(["locale"]),
   },
   watch: {
@@ -151,18 +155,15 @@ export default {
       this.$store.dispatch("setLocale", obj.langCode);
       this.$store.dispatch("setRoadMap", obj.langCode);
     },
-    openDropDown(tab) {
-      //  if (this.showDrop === tab) {
-      //     this.showDrop = "";
-      //   }
-      //   else {
-      this.showDrop = tab;
-      // }
+     route (path) {
+      if (this.$route.path === path) {
+        return;
+      }
+      this.$router.push({ path });
     },
   },
 };
 </script>
-
 <style lang="scss" scoped>
-@import "Header.scss";
+@import "MobileHeader.scss";
 </style>
