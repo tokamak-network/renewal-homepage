@@ -53,9 +53,9 @@ export default {
   computed: {
     ...mapState(["roadmap", "web3"]),
     selectedRoadmap() {
-      if (this.width > 1240) {
+      if (this.width > 1270) {
         return this.roadmap.slice(this.page, this.page + 4);
-      } else if (this.width > 375 && this.width <= 1240) {
+      } else if (this.width > 700 && this.width <= 1270) {
         return this.roadmap.slice(this.page, this.page + 2);
       } else {
         return this.roadmap.slice(this.page, this.page + 1);
@@ -76,7 +76,7 @@ export default {
     setCount() {
       if (this.width > 1280) {
         return 4;
-      } else if (this.width > 375 && this.width <= 1280) {
+      } else if (this.width > 700 && this.width <= 1280) {
         return 2;
       } else {
         return 1;

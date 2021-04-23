@@ -36,7 +36,7 @@ export default {
     selectedPosts() {
       if (this.width > 1280) {
         return this.posts.slice(this.page, this.page + 3);
-      } else if (this.width > 375 && this.width <= 1280) {
+      } else if (this.width > 700 && this.width <= 1280) {
         return this.posts.slice(this.page, this.page + 2);
       } else {
         return this.posts.slice(this.page, this.page + 3);
@@ -57,7 +57,7 @@ export default {
     setCount() {
       if (this.width > 1240) {
         return 3;
-      } else if (this.width > 375 && this.width <= 1024) {
+      } else if (this.width > 700 && this.width <= 1024) {
         return 2;
       } else {
         return 3;
