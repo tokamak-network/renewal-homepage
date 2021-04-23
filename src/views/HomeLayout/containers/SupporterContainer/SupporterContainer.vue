@@ -131,4 +131,5 @@ export default {
 <style lang="scss" scope>
 @import "SupporterContainer.scss";
 @import "SupporterContainer-tablet.scss";
+@import "SupporterContainer-mobile.scss";
 </style>

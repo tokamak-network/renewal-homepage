@@ -14,7 +14,7 @@
         <div class="post-preview" @click="redirect(post.link)">
           {{ parsing(post.description) }}
         </div>
-        <div class="post-date">{{ post.pubDate }}</div>
+        <div class="post-date">{{ parseDate(post.pubDate) }}</div>
       </div>
     </div>
   </div>
@@ -22,6 +22,7 @@
 
 <script>
 import { mapState } from "vuex";
+import moment from "moment";
 
 export default {
   data() {
@@ -37,8 +38,9 @@ export default {
         return this.posts.slice(this.page, this.page + 3);
       } else if (this.width > 375 && this.width <= 1280) {
         return this.posts.slice(this.page, this.page + 2);
+      } else {
+        return this.posts.slice(this.page, this.page + 3);
       }
-      return this.posts.slice(this.page, this.page + 3);
     },
   },
   created() {
@@ -57,12 +59,22 @@ export default {
         return 3;
       } else if (this.width > 375 && this.width <= 1024) {
         return 2;
+      } else {
+        return 3;
       }
+    },
+    parseDate(date) {
+      return moment(date).format("MMM DD. YYYY");
     },
     parsing(content) {
       const start = content.indexOf("<p>");
       const end = content.indexOf("</p>");
       const parsed = content.slice(start + 3, end);
+
+      // const parser = new DOMParser();
+      // const doc = parser.parseFromString(parsed, "text/html");
+      // console.log(parsed.match(/<a>(.*)<\/a>/));
+      // console.log(parsed.match(/\d+/));
 
       if (parsed.length > 300) {
         return parsed.slice(0, 300);
@@ -100,4 +112,5 @@ export default {
 <style lang="scss" scope>
 @import "BlogContainer.scss";
 @import "BlogContainer-tablet.scss";
+@import "BlogContainer-mobile.scss";
 </style>

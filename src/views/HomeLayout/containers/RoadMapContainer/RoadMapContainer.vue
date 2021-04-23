@@ -57,8 +57,9 @@ export default {
         return this.roadmap.slice(this.page, this.page + 4);
       } else if (this.width > 375 && this.width <= 1240) {
         return this.roadmap.slice(this.page, this.page + 2);
+      } else {
+        return this.roadmap.slice(this.page, this.page + 1);
       }
-      return this.roadmap.slice(this.page, this.page + 4);
     },
   },
   created() {
@@ -77,6 +78,8 @@ export default {
         return 4;
       } else if (this.width > 375 && this.width <= 1280) {
         return 2;
+      } else {
+        return 1;
       }
     },
     prev() {
@@ -109,4 +112,5 @@ export default {
 <style lang="scss" scope>
 @import "RoadMapContainer.scss";
 @import "RoadMapContainer-tablet.scss";
+@import "RoadMapContainer-mobile.scss";
 </style>

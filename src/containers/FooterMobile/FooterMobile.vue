@@ -21,8 +21,6 @@
           <a href="https://twitter.com/tokamak_network">Twitter</a>
           <a href="https://www.facebook.com/OntherInc">Facebook</a>
           <a href="https://www.youtube.com/c/OntherInc">YouTube</a>
-        </div>
-        <div class="social-content">
           <a href="https://www.linkedin.com/company/onther-tech/">Linkedin</a>
           <a href="https://t.me/tokamak_network">Telegram</a>
           <a href="https://discord.gg/SZw2WSR"
@@ -35,10 +33,12 @@
     <div class="line" />
     <div class="copyright">
       <div class="copyright-content">
-        <div class="onther" style="margin-left: 30px">ONTHER PTE. LTD.</div>
+        <div class="onther">ONTHER PTE. LTD.</div>
         <div>Copyright © 2021 All Rights Reserved.</div>
-        <div>Privacy Policy</div>
-        <div class="copyright-content">Terms & Conditions</div>
+        <div style="display: flex; justify-content: flex-start">
+          <div style="margin-right: 30px">Privacy Policy</div>
+          <div class="copyright-content">Terms & Conditions</div>
+        </div>
       </div>
       <div class="upward" style="margin-right: 30px" @click="upward" />
     </div>
@@ -49,7 +49,6 @@
 export default {
   methods: {
     upward() {
-      console.log("mobile");
       window.scrollTo(0, 0);
     },
   },
@@ -57,5 +56,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "FooterTablet.scss";
 @import "FooterMobile.scss";
 </style>

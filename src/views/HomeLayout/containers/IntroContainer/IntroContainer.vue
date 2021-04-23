@@ -38,4 +38,5 @@ export default {};
 <style lang="scss" scope>
 @import "IntroContainer.scss";
 @import "IntroContainer-tablet.scss";
+@import "IntroContainer-mobile.scss";
 </style>
