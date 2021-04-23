@@ -10,7 +10,8 @@
       class="top-line"
     />
     <div class="layout">
-      <header-container />
+      <mobile-header-container v-if="$mq === 'mobile'" />
+      <header-container v-else />
       <router-view />
       <div v-if="width < 1240">
         <footer-mobile-container />
@@ -25,6 +26,7 @@
 <script>
 import Header from "@/containers/Header";
 import Footer from "@/containers/Footer";
+import MobileHeader from "@/containers/MobileHeader";
 import FooterMobile from "@/containers/FooterMobile";
 
 export default {
@@ -32,6 +34,7 @@ export default {
   components: {
     "header-container": Header,
     "footer-container": Footer,
+    "mobile-header-container": MobileHeader,
     "footer-mobile-container": FooterMobile,
   },
   data() {
