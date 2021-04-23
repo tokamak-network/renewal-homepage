@@ -10,7 +10,7 @@
       class="top-line"
     />
     <div class="layout">
-      <mobile-header-container v-if="$mq === 'mobile'" />
+      <mobile-header-container v-if="width < 375" />
       <header-container v-else />
       <router-view />
       <div v-if="width < 1240">
