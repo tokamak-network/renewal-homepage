@@ -2,7 +2,7 @@
   <div class="services">
     <div class="services-line" />
     <div class="tab-container">
-      <div class="tab-title">Layer2</div>
+      <div class="tab-title">Layer 2</div>
       <button
         class="tab-linked"
         style="cursor: pointer"

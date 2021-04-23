@@ -6,72 +6,74 @@
     <div class="description">
       {{ $t("solutions.comparison.description") }}
     </div>
-    <table class="comparison-table">
-      <thead>
-        <tr>
-          <th class="table-header title"></th>
-          <th class="table-header-tokamak">Tokamak Network</th>
-          <th class="table-header">Sidechain</th>
-          <th class="table-header">Plasma</th>
-          <th class="table-header">Optimistic Rollup</th>
-          <th class="table-header">Zk-Rollup</th>
-          <th class="table-header">Validium</th>
-          <th class="table-header">Polygon</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="second-row">
-          <td class="content-title">Scalability</td>
-          <td class="content-tokamak">Medium-High</td>
-          <td class="content">Medium</td>
-          <td class="content">Very High</td>
-          <td class="content">Medium</td>
-          <td class="content">Medium</td>
-          <td class="content">High</td>
-          <td class="content">Medium-High</td>
-        </tr>
-        <tr>
-          <td class="content-title">Security</td>
-          <td class="content-tokamak">High-Very High</td>
-          <td class="content">Low</td>
-          <td class="content">Low</td>
-          <td class="content">High</td>
-          <td class="content">Very High</td>
-          <td class="content">Medium</td>
-          <td class="content">High</td>
-        </tr>
-        <tr class="second-row">
-          <td class="content-title">Interoperability</td>
-          <td class="content-tokamak">High</td>
-          <td class="content">Low</td>
-          <td class="content">Low</td>
-          <td class="content">Medium</td>
-          <td class="content">Medium</td>
-          <td class="content">Medium</td>
-          <td class="content">Medium</td>
-        </tr>
-        <tr>
-          <td class="content-title">Ethereum Compatibility</td>
-          <td class="content-tokamak">High</td>
-          <td class="content">Medium</td>
-          <td class="content">High</td>
-          <td class="content">High</td>
-          <td class="content">High</td>
-          <td class="content">High</td>
-          <td class="content">High</td>
-        </tr>
-        <tr class="second-row">
-          <td class="content-title">Functionality</td>
-          <td class="content-tokamak-last">Low-High</td>
-          <td class="content">High</td>
-          <td class="content">High</td>
-          <td class="content">High</td>
-          <td class="content">Low</td>
-          <td class="content">Low</td>
-          <td class="content">Low-High</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="outer-mobile-table">
+      <div class="inner-mobile-table">
+        <table class="comparison-table">
+          <tbody>
+            <tr>
+              <th class="table-header title"></th>
+              <td class="table-header-tokamak">Tokamak Network</td>
+              <td class="table-header">Sidechain</td>
+              <td class="table-header">Plasma</td>
+              <td class="table-header">Optimistic Rollup</td>
+              <td class="table-header">Zk-Rollup</td>
+              <td class="table-header">Validium</td>
+              <td class="table-header">Polygon</td>
+            </tr>
+            <tr class="second-row">
+              <th class="content-title">Scalability</th>
+              <td class="content-tokamak">Medium-High</td>
+              <td class="content">Medium</td>
+              <td class="content">Very High</td>
+              <td class="content">Medium</td>
+              <td class="content">Medium</td>
+              <td class="content">High</td>
+              <td class="content">Medium-High</td>
+            </tr>
+            <tr>
+              <th class="content-title">Security</th>
+              <td class="content-tokamak">High-Very High</td>
+              <td class="content">Low</td>
+              <td class="content">Low</td>
+              <td class="content">High</td>
+              <td class="content">Very High</td>
+              <td class="content">Medium</td>
+              <td class="content">High</td>
+            </tr>
+            <tr class="second-row">
+              <th class="content-title">Interoperability</th>
+              <td class="content-tokamak">High</td>
+              <td class="content">Low</td>
+              <td class="content">Low</td>
+              <td class="content">Medium</td>
+              <td class="content">Medium</td>
+              <td class="content">Medium</td>
+              <td class="content">Medium</td>
+            </tr>
+            <tr>
+              <th class="content-title">Ethereum Compatibility</th>
+              <td class="content-tokamak">High</td>
+              <td class="content">Medium</td>
+              <td class="content">High</td>
+              <td class="content">High</td>
+              <td class="content">High</td>
+              <td class="content">High</td>
+              <td class="content">High</td>
+            </tr>
+            <tr class="second-row">
+              <th class="content-title">Functionality</th>
+              <td class="content-tokamak-last">Low-High</td>
+              <td class="content">High</td>
+              <td class="content">High</td>
+              <td class="content">High</td>
+              <td class="content">Low</td>
+              <td class="content">Low</td>
+              <td class="content">Low-High</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -82,4 +84,5 @@ export default {};
 <style lang="scss" scoped>
 @import "ComparisonContainer.scss";
 @import "ComparisonContainer-tablet.scss";
+@import "ComparisonContainer-mobile.scss";
 </style>

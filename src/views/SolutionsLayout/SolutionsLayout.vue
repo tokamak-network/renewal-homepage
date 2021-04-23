@@ -31,4 +31,5 @@ export default {
 
 <style lang="scss" scoped>
 @import "SolutionsLayout.scss";
+@import "SolutionsLayout-mobile.scss";
 </style>

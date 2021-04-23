@@ -8,15 +8,15 @@
           {{ $t("solutions.challenge.content1") }}
         </div>
         <div class="list">
-          <img src="@/assets/x-icon.svg" class="x_icon" />
+          <img src="@/assets/x_icon.svg" class="x_icon" />
           <div>{{ $t("solutions.challenge.list1") }}</div>
         </div>
         <div class="list">
-          <img src="@/assets/x-icon.svg" class="x_icon" />
+          <img src="@/assets/x_icon.svg" class="x_icon" />
           <div>{{ $t("solutions.challenge.list2") }}</div>
         </div>
         <div class="list">
-          <img src="@/assets/x-icon.svg" class="x_icon" />
+          <img src="@/assets/x_icon.svg" class="x_icon" />
           <div>{{ $t("solutions.challenge.list3") }}</div>
         </div>
         <div class="challenge-explain">
@@ -34,4 +34,5 @@ export default {};
 <style lang="scss" scoped>
 @import "ChallengeContainer.scss";
 @import "ChallengeContainer-tablet.scss";
+@import "ChallengeContainer-mobile.scss";
 </style>

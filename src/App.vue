@@ -10,11 +10,14 @@
       class="top-line"
     />
     <div class="layout">
-      <mobile-header-container v-if="width < 375" />
+      <mobile-header-container v-if="width < 700" />
       <header-container v-else />
       <router-view />
-      <div v-if="width < 1240">
+      <div v-if="width <= 700">
         <footer-mobile-container />
+      </div>
+      <div v-else-if="width <= 1270 && width > 701">
+        <footer-tablet-container />
       </div>
       <div v-else>
         <footer-container />
@@ -28,6 +31,7 @@ import Header from "@/containers/Header";
 import Footer from "@/containers/Footer";
 import MobileHeader from "@/containers/MobileHeader";
 import FooterMobile from "@/containers/FooterMobile";
+import FooterTablet from "@/containers/FooterTablet";
 
 export default {
   name: "App",
@@ -36,6 +40,7 @@ export default {
     "footer-container": Footer,
     "mobile-header-container": MobileHeader,
     "footer-mobile-container": FooterMobile,
+    "footer-tablet-container": FooterTablet,
   },
   data() {
     return {

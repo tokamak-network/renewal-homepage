@@ -36,4 +36,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "PlasmaContainer.scss";
+@import "PlasmaContainer-tablet.scss";
+@import "PlasmaContainer-mobile.scss";
 </style>

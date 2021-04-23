@@ -1,14 +1,15 @@
-@media all and (min-width: 701) and (max-width: 1270px) {
+@media all and (max-width: 700px) {
   .solution-container {
     margin-top: 80px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     width: 100%;
+    // margin-left: 20px;
     // justify-content: center;
 
     > .solution-img {
-      max-width: 416px;
+      max-width: 300px;
       margin: 0px;
     }
 
@@ -20,19 +21,21 @@
       font-style: normal;
       letter-spacing: normal;
       text-align: left;
-      margin: 20px 60px;
+      margin: 20px 20px;
 
       > .solution-title {
         margin-top: 10px;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: 600;
+        margin-left: 20px;
       }
 
       > .solution-content {
         margin-top: 25px;
-        font-size: 16px;
+        font-size: 13px;
         font-weight: normal;
-        margin-right: 40px;
+        margin-right: 20px;
+        margin-left: 20px;
 
         > .solution-intro {
           margin-bottom: 25px;
@@ -45,6 +48,14 @@
 
           > .x_icon {
             margin-right: 10px;
+          }
+
+          > .icon3 {
+            position: absolute;
+            margin-top: 4px;
+          }
+          > .list3 {
+            margin-left: 24px;
           }
         }
 

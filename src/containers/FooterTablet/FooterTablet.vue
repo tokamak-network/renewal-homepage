@@ -21,6 +21,8 @@
           <a href="https://twitter.com/tokamak_network">Twitter</a>
           <a href="https://www.facebook.com/OntherInc">Facebook</a>
           <a href="https://www.youtube.com/c/OntherInc">YouTube</a>
+        </div>
+        <div class="social-content">
           <a href="https://www.linkedin.com/company/onther-tech/">Linkedin</a>
           <a href="https://t.me/tokamak_network">Telegram</a>
           <a href="https://discord.gg/SZw2WSR"
@@ -56,5 +58,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "FooterMobile.scss";
+@import "FooterTablet.scss";
 </style>

@@ -31,4 +31,5 @@ export default {};
 <style lang="scss" scoped>
 @import "Layer2Container.scss";
 @import "Layer2Container-tablet.scss";
+@import "Layer2Container-mobile.scss";
 </style>

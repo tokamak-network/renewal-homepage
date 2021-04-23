@@ -1,17 +1,20 @@
-@media all and (min-width: 701) and (max-width: 1270px) {
+@media all and (max-width: 700px) {
   .layer2-container {
     display: flex;
-    justify-content: center;
-    max-width: 964px;
+    // justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    // max-width: 964px;
     margin: 120px 0 110px 0;
-    padding: 0 30px;
+    padding: 0px;
 
     > .layer2 {
       max-width: 300px;
-      margin: 0 15px;
+      margin: 0px;
       
       > .img {
         margin-bottom: 50px;
+        margin-right: 20px;
       }
 
       > .title {
@@ -34,6 +37,8 @@
         letter-spacing: -0.35px;
         text-align: center;
         color: #4c4c4c;
+
+        margin-bottom: 70px;
       }
     }
   }
