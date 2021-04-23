@@ -22,7 +22,7 @@ export default {
 .grid {
   display: grid;
   column-gap: 60px;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   grid-gap: 60px;
   justify-content: center;
   row-gap: 50px;
