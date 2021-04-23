@@ -1,49 +1,51 @@
-.challenge-container {
-  margin-top: 80px;
-  display: flex;
-  justify-content: center;
+@media all and (min-width: 1241px) {
+  .challenge-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
 
-  > .challenge-img {
-    max-width: 416px;
-    margin-right: 144px;
-  }
-
-  > .challenge {
-    margin-top: 20px;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: left;
-    max-width: 616px;
-
-    > .challenge-title {
-      margin-top: 10px;
-      font-size: 40px;
-      font-weight: 600;
+    > .challenge-img {
+      max-width: 416px;
+      margin-right: 144px;
     }
 
-    > .challenge-content {
-      margin-top: 25px;
-      font-size: 16px;
-      font-weight: normal;
+    > .challenge {
+      margin-top: 20px;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      text-align: left;
+      max-width: 616px;
 
-      > .challenge-intro {
-        margin-bottom: 25px;
+      > .challenge-title {
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 600;
       }
 
-      > .list {
-        display: flex;
-        justify-content: flex-start;
-        line-height: 1.88;
-
-        > .x_icon {
-          margin-right: 10px;
-        }
-      }
-
-      > .challenge-explain {
+      > .challenge-content {
         margin-top: 25px;
-        line-height: 1.5;
+        font-size: 16px;
+        font-weight: normal;
+
+        > .challenge-intro {
+          margin-bottom: 25px;
+        }
+
+        > .list {
+          display: flex;
+          justify-content: flex-start;
+          line-height: 1.88;
+
+          > .x_icon {
+            margin-right: 10px;
+          }
+        }
+
+        > .challenge-explain {
+          margin-top: 25px;
+          line-height: 1.5;
+        }
       }
     }
   }

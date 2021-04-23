@@ -33,4 +33,5 @@ export default {};
 
 <style lang="scss" scoped>
 @import "ChallengeContainer.scss";
+@import "ChallengeContainer-tablet.scss";
 </style>
