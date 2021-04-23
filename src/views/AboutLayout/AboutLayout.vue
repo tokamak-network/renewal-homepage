@@ -29,7 +29,7 @@ import TomasImage from "../../assets/team/tomas_pic@3x.png";
 import LakmiImage from "../../assets/team/lakmi_pic@3x.png";
 import AidenImage from "../../assets/team/aiden_pic@3x.png";
 import IsaacImage from "../../assets/team/isaac_pic@3x.png";
-import NanoImage from "../../assets/team/nano_pic@3x.png";
+// import NanoImage from "../../assets/team/nano_pic@3x.png";
 import LucasImage from "../../assets/team/lucas_pic@3x.png";
 import KadyrImage from "../../assets/team/Kadyr_pic@3x.png";
 import AleImage from "../../assets/team/ale_pic@3x.png";
@@ -42,15 +42,15 @@ export default {
         {
           name: "Kevin Jeong",
           role: "CEO",
-          github: "",
-          linkedin: "",
+          github: "https://github.com/ggs134",
+          linkedin: "https://www.linkedin.com/in/philosopher134/",
           image: KevinImage,
         },
         {
           name: "Zoe Kim",
           role: "COO",
-          github: "",
-          linkedin: "",
+          github: "https://github.com/khk77",
+          linkedin: "https://www.linkedin.com/in/zoe-kim-171a4116b/",
           image: ZoeImage,
         },
         {
@@ -97,13 +97,13 @@ export default {
           linkedin: "http://linkedin.com/knarmamatov",
           image: KadyrImage,
         },
-        {
-          name: "Harry Oh",
-          role: "Blockchain Engineer",
-          github: "https://github.com/harryoh",
-          linkedin: "https://www.linkedin.com/in/harry-oh/",
-          image: "",
-        },
+        // {
+        //   name: "Harry Oh",
+        //   role: "Blockchain Engineer",
+        //   github: "https://github.com/harryoh",
+        //   linkedin: "https://www.linkedin.com/in/harry-oh/",
+        //   image: "",
+        // },
         {
           name: "Lakmi Weerapperuma",
           role: "Software Engineer",
@@ -125,14 +125,14 @@ export default {
           linkedin: "https://linkedin.com/in/iamonuwa",
           image: IsaacImage,
         },
-        {
-          name: "Harvey Jo",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin:
-            "https://www.linkedin.com/in/%ED%98%81%EC%83%81-%EC%A1%B0-918103210/",
-          image: "",
-        },
+        // {
+        //   name: "Harvey Jo",
+        //   role: "Blockchain Engineer",
+        //   github: "",
+        //   linkedin:
+        //     "https://www.linkedin.com/in/%ED%98%81%EC%83%81-%EC%A1%B0-918103210/",
+        //   image: "",
+        // },
         {
           name: "Lucas Jung",
           role: "UX/UI Developer",
@@ -161,13 +161,13 @@ export default {
           linkedin: "https://www.linkedin.com/in/hyejeonghaleychoi",
           image: "",
         },
-        {
-          name: "Nano Kim",
-          role: "Operation Manager",
-          github: "",
-          linkedin: "http://www.linkedin.com/in/nano-kim-38b40a209",
-          image: NanoImage,
-        },
+        // {
+        //   name: "Nano Kim",
+        //   role: "Operation Manager",
+        //   github: "",
+        //   linkedin: "http://www.linkedin.com/in/nano-kim-38b40a209",
+        //   image: NanoImage,
+        // },
       ],
     };
   },
@@ -209,12 +209,12 @@ export default {
   }
 }
 .container {
-  margin: 80px 0;
-  width: 100vw;
+  margin: 80px 0 180px 0;
+  width: 100%;
 }
 
 .wrapper {
-  max-width: 960px;
+  max-width: 1110px;
   margin: 0 auto 30px;
 }
 </style>

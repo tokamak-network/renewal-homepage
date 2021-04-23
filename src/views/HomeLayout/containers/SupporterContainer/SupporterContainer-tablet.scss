@@ -1,7 +1,8 @@
-@media all and (min-width: 376px) and (max-width: 1024px) {
+@media all and (min-width: 376px) and (max-width: 1240px) {
   .supporter-container {
     width: 100%;
     margin-bottom: 120px;
+    margin-left: 30px;
 
     > .supporter-header {
       font-size: 28px;
@@ -14,15 +15,21 @@
       margin-bottom: 50px; 
       margin-top: 20px;
     }
+    > .gap {
+      height: 60px;
+    }
 
     > .supporter-section {
       margin-bottom: 0px;
-      overflow: auto;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(auto-fill, minmax(435px, 1fr));
+      // grid-gap: 60px;
+      column-gap: 60px;
+      row-gap: 50px;
+      justify-content: center;
 
       > .supporter {
-        width: 100%;
+        width: 90%;
         height: 200px;
         border: solid 1px #dfe4ee;
         background-color: #ffffff;

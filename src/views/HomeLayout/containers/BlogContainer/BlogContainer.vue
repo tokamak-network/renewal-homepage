@@ -33,9 +33,9 @@ export default {
   computed: {
     ...mapState(["posts", "web3"]),
     selectedPosts() {
-      if (this.width > 1240) {
+      if (this.width > 1280) {
         return this.posts.slice(this.page, this.page + 3);
-      } else if (this.width > 375 && this.width <= 1024) {
+      } else if (this.width > 375 && this.width <= 1280) {
         return this.posts.slice(this.page, this.page + 2);
       }
       return this.posts.slice(this.page, this.page + 1);
@@ -62,7 +62,12 @@ export default {
     parsing(content) {
       const start = content.indexOf("<p>");
       const end = content.indexOf("</p>");
-      return content.slice(start + 3, end);
+      const parsed = content.slice(start + 3, end);
+
+      if (parsed.length > 300) {
+        return parsed.slice(0, 300);
+      }
+      return parsed;
     },
     prev() {
       this.page !== 0 ? (this.page = this.page - 1) : (this.page = 0);

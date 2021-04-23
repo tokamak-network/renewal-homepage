@@ -2,19 +2,8 @@
   > .team-info {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 120px;
+    margin: 0 30px 120px 30px;
     width: 100%;
-
-    > .onther {
-      font-size: 28px;
-      font-weight: 800;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.07;
-      letter-spacing: normal;
-      text-align: left;
-      color: #1c1c1c;
-    }
 
     > .office {
 
@@ -46,7 +35,7 @@
         display: flex;
         justify-content: space-between;
 
-        width: 440px;
+        // width: 440px;
         > a {
           text-decoration: none;
 
@@ -58,6 +47,7 @@
           letter-spacing: normal;
           text-align: left;
           color: #4c4c4c;
+          margin-right: 20px;
 
           > span {
             font-size: 12px;
@@ -101,7 +91,20 @@
     justify-content: space-between;
 
     > .copyright-content {
+      width: 90%;
       display: flex;
+      justify-content: space-between;
+
+      > .onther {
+        font-size: 20px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: 1.07;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1c1c1c;
+      }
     }
 
     > .upward {

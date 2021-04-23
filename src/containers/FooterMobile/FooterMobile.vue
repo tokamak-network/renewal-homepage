@@ -1,20 +1,19 @@
 <template>
   <div class="footer">
     <div class="team-info">
-      <div class="onther" style="margin-right: 188px">ONTHER PTE. LTD.</div>
-      <div class="office" style="width: 367px; margin-right: 80px">
+      <div class="office" style="width: 296px">
         <div class="title">Office</div>
         <div class="content">
           10 Anson Road #23-140 International Plaza Singapore
         </div>
         <div class="content">E. info@onther.io</div>
       </div>
-      <div class="office" style="margin-right: 80px">
+      <div class="office">
         <div class="title">Jobs</div>
         <div class="content">Recruitment</div>
         <div class="content">job@onther.io</div>
       </div>
-      <div class="office">
+      <div class="office" style="margin-right: 60px">
         <div class="title">Social</div>
         <div class="social-content">
           <a href="https://github.com/onther-tech">Github</a>
@@ -36,13 +35,12 @@
     <div class="line" />
     <div class="copyright">
       <div class="copyright-content">
-        <div style="margin-right: 160px">
-          Copyright © 2021 All Rights Reserved.
-        </div>
-        <div style="margin-right: 60px">Privacy Policy</div>
+        <div class="onther" style="margin-left: 30px">ONTHER PTE. LTD.</div>
+        <div>Copyright © 2021 All Rights Reserved.</div>
+        <div>Privacy Policy</div>
         <div class="copyright-content">Terms & Conditions</div>
       </div>
-      <div class="upward" @click="upward" />
+      <div class="upward" style="margin-right: 30px" @click="upward" />
     </div>
   </div>
 </template>
@@ -51,6 +49,7 @@
 export default {
   methods: {
     upward() {
+      console.log("mobile");
       window.scrollTo(0, 0);
     },
   },
@@ -58,5 +57,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "Footer.scss";
+@import "FooterMobile.scss";
 </style>

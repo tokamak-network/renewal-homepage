@@ -47,6 +47,7 @@ export default {
       leftClicked: false,
       direction: true,
       roadmapLength: 9,
+      width: 0,
     };
   },
   computed: {
@@ -54,7 +55,7 @@ export default {
     selectedRoadmap() {
       if (this.width > 1240) {
         return this.roadmap.slice(this.page, this.page + 4);
-      } else if (this.width > 375 && this.width <= 1024) {
+      } else if (this.width > 375 && this.width <= 1240) {
         return this.roadmap.slice(this.page, this.page + 2);
       }
       return this.roadmap.slice(this.page, this.page + 4);
@@ -72,9 +73,9 @@ export default {
       this.width = window.innerWidth;
     },
     setCount() {
-      if (this.width > 1240) {
+      if (this.width > 1280) {
         return 4;
-      } else if (this.width > 375 && this.width <= 1024) {
+      } else if (this.width > 375 && this.width <= 1280) {
         return 2;
       }
     },

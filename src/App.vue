@@ -1,11 +1,24 @@
 <template>
   <div id="app">
-    <div class="app-line" />
+    <div
+      style="
+        width: 100%;
+        height: 4px;
+        margin-bottom: 22px;
+        background-color: #2a72e5;
+      "
+      class="top-line"
+    />
     <div class="layout">
       <mobile-header-container v-if="$mq === 'mobile'" />
       <header-container v-else />
       <router-view />
-      <footer-container />
+      <div v-if="width < 1240">
+        <footer-mobile-container />
+      </div>
+      <div v-else>
+        <footer-container />
+      </div>
     </div>
   </div>
 </template>
@@ -14,24 +27,68 @@
 import Header from "@/containers/Header";
 import Footer from "@/containers/Footer";
 import MobileHeader from "@/containers/MobileHeader";
+import FooterMobile from "@/containers/FooterMobile";
+
 export default {
   name: "App",
   components: {
     "header-container": Header,
     "footer-container": Footer,
     "mobile-header-container": MobileHeader,
+    "footer-mobile-container": FooterMobile,
+  },
+  data() {
+    return {
+      width: 0,
+    };
+  },
+  created() {
+    this.width = window.innerWidth;
+    window.addEventListener("resize", this.handleResize);
+  },
+  destroyed() {
+    window.removeEventListener("resize", this.handleResize);
+  },
+  methods: {
+    handleResize() {
+      this.width = window.innerWidth;
+    },
   },
 };
 </script>
 
-<style lang="scss">
-#app {
-  font-family: "Open Sans", sans-serif;
+<style lang="scss" scoped>
+@media all and (min-width: 1025px) {
+  #app {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+    > .top-line {
+      width: 100%;
+      max-width: 1920px;
+
+      height: 4px;
+      margin: 0 0 22px 0;
+      background-color: #2a72e5;
+    }
+    .layout {
+      height: 100vh;
+      max-width: 1696px;
+      width: 90%;
+    }
+  }
 }
 
-.layout {
-  height: 100vh;
-}
+// @media all and (min-width: 1697px) {
+//   .layout {
+//     height: 100vh;
+//     max-width: 1696px;
+//     width: 90%;
+//   }
+// }
 
 @media all and (min-width: 376px) and (max-width: 1024px) {
   #app {
@@ -43,17 +100,6 @@ export default {
     flex-direction: column;
     display: flex;
     align-items: center;
-  }
-  .app-line {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 4px;
-    margin-bottom: 22px;
-    background-color: #2a72e5;
-    z-index: 1999;
   }
 
   .layout {
