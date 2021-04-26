@@ -23,7 +23,7 @@
               <td class="table-header">Polygon</td>
             </tr>
             <tr class="second-row">
-              <th class="content-title">Scalability</th>
+              <th class="content-title second">Scalability</th>
               <td class="content-tokamak">Medium-High</td>
               <td class="content">Medium</td>
               <td class="content">Very High</td>
@@ -43,7 +43,7 @@
               <td class="content">High</td>
             </tr>
             <tr class="second-row">
-              <th class="content-title">Interoperability</th>
+              <th class="content-title second">Interoperability</th>
               <td class="content-tokamak">High</td>
               <td class="content">Low</td>
               <td class="content">Low</td>
@@ -63,7 +63,7 @@
               <td class="content">High</td>
             </tr>
             <tr class="second-row">
-              <th class="content-title">Functionality</th>
+              <th class="content-title second">Functionality</th>
               <td class="content-tokamak-last">Low-High</td>
               <td class="content">High</td>
               <td class="content">High</td>

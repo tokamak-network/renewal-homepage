@@ -474,22 +474,22 @@ export default new Vuex.Store({
           },
         ],
       };
-      await axios
-        .get(
-          "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/onther-tech",
-          {
-            headers: {
-              "Access-Control-Allow-Origin": "*",
-              "Access-Control-Allow-Methods":
-                "GET, POST, PATCH, PUT, DELETE, OPTIONS",
-              "Access-Control-Allow-Headers":
-                "Origin, Content-Type, X-Auth-Token",
-            },
-          }
-        )
-        .then((res) => {
-          console.log(res.titles);
-        });
+      // await axios
+      //   .get(
+      //     "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/onther-tech",
+      //     {
+      //       headers: {
+      //         "Access-Control-Allow-Origin": "*",
+      //         "Access-Control-Allow-Methods":
+      //           "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+      //         "Access-Control-Allow-Headers":
+      //           "Origin, Content-Type, X-Auth-Token",
+      //       },
+      //     }
+      //   )
+      //   .then((res) => {
+      //     console.log(res.titles);
+      //   });
 
       // console.log(contents.titles);
       commit("SET_POSTS", contents.items);

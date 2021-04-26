@@ -44,42 +44,44 @@
 
       > .inner-mobile-table {
         overflow-x: scroll;
+        // margin-left:20px;
 
         > .comparison-table tr {
           position: relative;
-          margin-left: 30px;
+          // margin-left: 30px;
         }
 
         > .comparison-table th {
           position: absolute;
 
           border: solid 1px #eff1f6;
-          min-width: 112px;
-          max-width: 112px!important;
+          min-width: 132px;
+          max-width: 132px!important;
           height: 50px;
+          left: 10px;
 
           padding-left: 1%!important;
-          margin-left: -10px;
+          // margin-left: 10px;
           text-transform: none!important;
 
-          font-size: 13px;
+          font-size: 12px;
           font-weight: bold;
           font-stretch: normal;
           font-style: normal;
-          line-height: 2.2;
+          line-height: 2.2!important;
           letter-spacing: -0.33px;
           text-align: left;
           color: #1c1c1c;
 
           z-index: 2;
-          // overflow-wrap: break-word;
-          // word-wrap: break-word;
+          overflow-wrap: break-word;
+          word-wrap: break-word;
 
-          // background: #f9fcff;
+          background: #ffffff;
         }
 
-        .content-title {
-          
+        > .comparison-table th .second {
+          background: #eff1f6;
         }
 
         > table {
@@ -91,8 +93,10 @@
           word-break: break-all;
           table-layout: fixed;
           margin-right: 20px;
+          // margin-left: 20px;
           width: 100%;
-          min-width: 700px;
+          min-width: 965px;
+          opacity: 1;
 
           overflow-x: scroll;
 
@@ -101,7 +105,8 @@
           }
 
           td {
-            margin-left: 30px;
+            overflow-x: scroll;
+            // margin-left: 30px;
           }
 
           .table-header {
@@ -118,7 +123,7 @@
           }
 
           .table-header-tokamak {
-            height: 50px;
+            height: 48px;
             min-width: 137px!important;
             max-width: 137px!important;
 
@@ -126,14 +131,13 @@
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
-            line-height: 1.2;
+            line-height: 2.2;
             letter-spacing: -0.33px;
             text-align: center;
 
             background: #246fed;
             color: #ffffff;
-
-            border-top: 2px solid #246fed;
+            border-top: 1px solid #246fed;
             border-left: 2px solid #246fed;
             border-right: 2px solid #246fed;
           }
