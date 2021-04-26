@@ -40,6 +40,8 @@
     max-height: 100vh;
     display: flex;
     // flex: 1;
+    box-shadow: 0 0 8px 0 rgba(127, 137, 147, 0.35);
+
     flex-direction: column;
     > .contents-line {
       // margin-top: 8px;
