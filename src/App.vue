@@ -63,7 +63,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media all and (min-width: 1025px) {
+@media all and (min-width: 1280px) {
   #app {
     font-family: "Open Sans", sans-serif;
     display: flex;
@@ -95,7 +95,7 @@ export default {
 //   }
 // }
 
-@media all and (min-width: 376px) and (max-width: 1024px) {
+@media all and (min-width: 700px) and (max-width: 1270px) {
   #app {
     font-stretch: normal;
     font-style: normal;

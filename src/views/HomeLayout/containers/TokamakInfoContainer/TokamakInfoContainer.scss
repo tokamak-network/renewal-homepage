@@ -1,56 +1,58 @@
-.info-section {
-  width: 100%;
-
-  > .title {
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 1.07;
-    letter-spacing: normal;
-    text-align: left;
-    color: #1c1c1c;
-    margin: 20px 0 44px 0;
-  }
-
-  > .today-info-section {
+@media all and (min-width: 1280px) {
+  .info-section {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
 
-    > .today-info {
-      width: 30%;
+    > .title {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.07;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1c1c1c;
+      margin: 20px 0 44px 0;
+    }
 
-      > .title {
-        font-size: 24px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.08;
-        letter-spacing: -0.6px;
-        text-align: left;
-        color: #1c1c1c;
-        margin-bottom: 60px;
-      }
-    
+    > .today-info-section {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
 
-      > .content {
-        display: flex;
-        justify-content: flex-end;
+      > .today-info {
+        width: 30%;
 
-        font-size: 45px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 0.58;
-        letter-spacing: -1.13px;
-        text-align: right;
-        color: #1c1c1c;
-        margin-bottom: 80px;
-        padding-right: 30px;
+        > .title {
+          font-size: 24px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.08;
+          letter-spacing: -0.6px;
+          text-align: left;
+          color: #1c1c1c;
+          margin-bottom: 60px;
+        }
+      
 
-        > .unit {
-          font-size: 25px;
-          letter-spacing: -0.63px;
-          margin-left: 10px;
+        > .content {
+          display: flex;
+          justify-content: flex-end;
+
+          font-size: 45px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 0.58;
+          letter-spacing: -1.13px;
+          text-align: right;
+          color: #1c1c1c;
+          margin-bottom: 80px;
+          padding-right: 30px;
+
+          > .unit {
+            font-size: 25px;
+            letter-spacing: -0.63px;
+            margin-left: 10px;
+          }
         }
       }
     }

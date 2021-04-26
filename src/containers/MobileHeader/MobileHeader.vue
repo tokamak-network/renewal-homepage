@@ -184,12 +184,10 @@ export default {
   methods: {
     ...mapActions(["setLocale"]),
     getCurrentLang() {
-      console.log(this.$route.path);
       const storedLocale = this.supportedLanguages.find((item) => {
         return item.langCode === "en_US";
       });
       // this._i18n.locale = this.locale;
-      console.log(this.locale);
       this._i18n.locale = "en_US";
       this.currentFlag = storedLocale.flag;
       this.currentName = storedLocale.name;
