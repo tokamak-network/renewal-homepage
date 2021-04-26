@@ -16,19 +16,23 @@
       <div class="office" style="margin-right: 60px">
         <div class="title">Social</div>
         <div class="social-content">
-          <a href="https://github.com/onther-tech">Github</a>
-          <a href="https://medium.com/onther-tech">Medium</a>
-          <a href="https://twitter.com/tokamak_network">Twitter</a>
-          <a href="https://www.facebook.com/OntherInc">Facebook</a>
-          <a href="https://www.youtube.com/c/OntherInc">YouTube</a>
+          <div @click="familyLink('Github')">Github</div>
+          <div @click="familyLink('Medium')">Medium</div>
+          <div @click="familyLink('Twitter')">Twitter</div>
+          <div @click="familyLink('Facebook')">Facebook</div>
+          <div @click="familyLink('YouTube')">YouTube</div>
         </div>
         <div class="social-content">
-          <a href="https://www.linkedin.com/company/onther-tech/">Linkedin</a>
-          <a href="https://t.me/tokamak_network">Telegram</a>
-          <a href="https://discord.gg/SZw2WSR"
-            >Discord <span>[KR/EN/CN]</span></a
-          >
-          <a href="http://blog.onther.io">Onther Blog</a>
+          <div style="margin-right: -1px" @click="familyLink('Linkedin')">
+            Linkedin
+          </div>
+          <div @click="familyLink('Telegram')">Telegram</div>
+          <div style="margin-left: -15px" @click="familyLink('Discord')">
+            Discord <span>[KR/EN/CN]</span>
+          </div>
+          <div style="margin-left: -15px" @click="familyLink('Blog')">
+            Onther Blog
+          </div>
         </div>
       </div>
     </div>
@@ -52,6 +56,24 @@ export default {
   methods: {
     upward() {
       window.scrollTo(0, 0);
+    },
+    familyLink(item) {
+      if (item === "Github")
+        window.open("https://github.com/onther-tech", "_blank");
+      else if (item === "Medium")
+        window.open("https://medium.com/onther-tech", "_blank");
+      else if (item === "Twitter")
+        window.open("https://twitter.com/tokamak_network", "_blank");
+      else if (item === "Facebook")
+        window.open("https://www.facebook.com/OntherInc", "_blank");
+      else if (item === "YouTube")
+        window.open("https://www.youtube.com/c/OntherInc", "_blank");
+      else if (item === "Linkedin")
+        window.open("https://www.linkedin.com/company/onther-tech/", "_blank");
+      else if (item === "Telegram")
+        window.open("https://t.me/tokamak_network", "_blank");
+      else if (item === "Discord") window.open("https://discord.gg/SZw2WSR");
+      else if (item === "Blog") window.open("http://blog.onther.io");
     },
   },
 };
