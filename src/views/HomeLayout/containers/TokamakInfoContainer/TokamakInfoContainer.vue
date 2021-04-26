@@ -15,7 +15,7 @@
             <span class="unit">USD</span>
           </div>
         </div>
-        <div class="line" />
+        <div class="line-tablet" />
         <div class="today-info">
           <div class="title">{{ $t("home.tokamak_info.trading_volume") }}</div>
           <div class="content">
@@ -28,7 +28,7 @@
             <span class="unit">USD</span>
           </div>
         </div>
-        <div class="line" />
+        <div class="line-tablet" />
         <div class="today-info">
           <div class="title">{{ $t("home.tokamak_info.staked_amount") }}</div>
           <div class="content">
