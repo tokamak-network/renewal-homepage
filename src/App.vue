@@ -73,7 +73,7 @@ export default {
 
     > .top-line {
       width: 100%;
-      max-width: 1920px;
+      // max-width: 1920px;
 
       height: 4px;
       margin: 0 0 22px 0;

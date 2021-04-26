@@ -1,17 +1,19 @@
 <template>
   <div class="comparison-container">
-    <div class="title">
-      {{ $t("solutions.comparison.title") }}
-    </div>
-    <div class="description">
-      {{ $t("solutions.comparison.description") }}
+    <div class="title-section">
+      <div class="title">
+        {{ $t("solutions.comparison.title") }}
+      </div>
+      <div class="description">
+        {{ $t("solutions.comparison.description") }}
+      </div>
     </div>
     <div class="outer-mobile-table">
       <div class="inner-mobile-table">
         <table class="comparison-table">
           <tbody>
             <tr>
-              <th class="table-header title"></th>
+              <th class="content-title"></th>
               <td class="table-header-tokamak">Tokamak Network</td>
               <td class="table-header">Sidechain</td>
               <td class="table-header">Plasma</td>
