@@ -30,9 +30,9 @@ export default new Vuex.Store({
       {
         index: "1",
         subject: "Networking the Layer 2 networks",
-        title: "Integrate all layer 2 protocol with TON ecosystem",
+        title: "Integrate all types of layer 2 protocols with TON ecosystem",
         contents: [
-          "Integrate all layer 2 protocols with TON seigniorage pool, PowerTON game, DAO governance",
+          "Integrate all layer 2 protocols with TON seigniorage pool, PowerTON game, and DAO governance",
         ],
       },
       {
@@ -60,7 +60,7 @@ export default new Vuex.Store({
         index: "5",
         subject: "Higher security, More Interoperability",
         title: "Eth 2.0 migration",
-        contents: [" Migrate data storage for rollup to Eth 2.0"],
+        contents: ["Migrate rollup data storage to Eth 2.0"],
       },
       {
         index: "6",

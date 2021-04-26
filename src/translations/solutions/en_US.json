@@ -1,13 +1,13 @@
 {
   "title": "Network of Layer 2 Networks",
-  "sub-title": "Tokamak Network helps people joining the decentralized world",
+  "sub-title": "Tokamak Network helps people join the decentralized world",
   "challenge": {
     "title": "Challenge",
     "content1": "Ethereum, a powerful platform for decentralized applications, has limitations.",
     "list1": "Low TPS",
     "list2": "High transaction fee",
     "list3": "No customization",
-    "content2": "Various Layer2 solutions are emerging in effort to tackle such challenges. All layer2 solutions are excellnt; however, a protocol that safely connects different layer2 solutions to expand and improve the ecosystem does not exist yet. This slows down the application and improvement of layer 2, causing fragmentation of the ecosystem."
+    "content2": "Various Layer 2 solutions are emerging in effort to tackle such challenges. All layer 2 solutions are excellent; however, a protocol that safely connects different layer 2 solutions to expand and improve the ecosystem does not exist yet. This slows down the application and improvement of layer 2, causing fragmentation of the ecosystem."
   },
   "comparison": {
     "title": "Comparison",
@@ -16,20 +16,20 @@
   "layer2": {
     "opru": {
       "title": "Optimistic Rollups",
-      "description": "Layer-2 solution with on-chain data off-chain computated. Its validity is verified with fraud-proof system"
+      "description": "Layer 2 solution with on-chain data computed off-chain. Its validity is verified with a fraud-proof system."
     },
     "zk-rollup": {
       "title": "zk Rollups",
-      "description": "Layer-2 solution with on-chain data off-chain computated. Its validity is always fully verified with validity proof(a.k.a. zero knowledge proof)"
+      "description": "Layer-2 solution with on-chain data computed off-chain. Its validity is always fully verified with validity proof (a.k.a. zero knowledge proof)"
     },
     "plasma": {
       "title": "Tokamak Plasma",
-      "description": "Fully EVM-compatible Plasma implementation secured with continuous-rebase"
+      "description": "Fully EVM-compatible Plasma implementation secured with continuous-rebase."
     }
   },
   "solution": {
     "title": "Solution",
-    "content1": "Tokamak Network is a network of Layer 2 networks, a protocol and platform that easily and securely builds and connects On-Demand Layer 2.",
+    "content1": "Tokamak Network is a network of Layer 2 networks; a protocol and a platform that easily and securely builds and connects Layer 2 networks.",
     "list1": "Easy custom layer 2 network deployment",
     "list2": "Support all types of layer 2 protocols",
     "list3": "Ensure full verification from day one within Tokamak Network ecosystem",

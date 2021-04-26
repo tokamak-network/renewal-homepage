@@ -1,11 +1,8 @@
 <template>
   <div class="container">
     <div class="heading">
-      <h2>We are networking the Layer 2 networks</h2>
-      <span
-        >Learn more about who we are and what we are building in Tokamak
-        Network</span
-      >
+      <h2>{{ $t("about.title") }}</h2>
+      <span>{{ $t("about.sub-title") }}</span>
     </div>
     <div class="wrapper">
       <members-list :members="members" />
