@@ -61,7 +61,14 @@
             <div class="menu-item-sub">
               <div class="menu-item-sub-title">
                 Layer 2
-                <button class="menu-item-sub-item-linked">
+                <button
+                  class="menu-item-sub-item-linked"
+                  @click="
+                    click(
+                      'https://docs.tokamak.network/docs/en/guides/getting-started/how-to-open-private-testnet-rootchain'
+                    )
+                  "
+                >
                   Tokamak Plasma
                 </button>
                 <div class="menu-item-sub-item">
@@ -88,7 +95,7 @@
                 <button
                   class="menu-item-sub-item-linked"
                   style="marginbottom: 0px"
-                  @click="click('https://staking.tokamak.network/')"
+                  @click="click('https://simple.staking.tokamak.network/')"
                 >
                   Staking
                 </button>

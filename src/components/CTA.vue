@@ -1,8 +1,8 @@
 <template>
   <div class="cta-section">
     <div class="heading">
-      <h2>Go to service</h2>
-      <span class="text-hint">We are networking the Layer 2 networks</span>
+      <h2>{{ $t("about.under") }}</h2>
+      <span class="text-hint">{{ $t("about.under-sub") }}</span>
     </div>
     <div class="">
       <div class="body">

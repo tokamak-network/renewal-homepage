@@ -6,7 +6,11 @@
       <button
         class="tab-linked"
         style="cursor: pointer"
-        @click="click('https://docs.tokamak.network/#/')"
+        @click="
+          click(
+            'https://docs.tokamak.network/docs/en/guides/getting-started/how-to-open-private-testnet-rootchain'
+          )
+        "
       >
         Tokamak Plasma
       </button>
@@ -34,7 +38,7 @@
       <button
         class="tab-linked"
         style="cursor: pointer"
-        @click="click('https://staking.tokamak.network/')"
+        @click="click('https://simple.staking.tokamak.network/')"
       >
         Staking
       </button>
