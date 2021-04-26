@@ -43,8 +43,8 @@
       > .inner-mobile-table {
         overflow-x: scroll;
         overflow-y: visible;
-        margin-left: 20px;
-        width: 90%;
+        margin-left: 450px;
+        // width: 90%;
 
         > .comparison-table {
           border: solid 1px #eff1f6;
@@ -57,11 +57,11 @@
 
           .table-header {
             height: 50px;
-            width: 93px;
+            min-width: 93px;
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
-            line-height: 2.31;
+            line-height: 1.3;
             letter-spacing: -0.33px;
             text-align: center;
             color: #1c1c1c;
@@ -70,13 +70,14 @@
 
           .table-header-tokamak {
             height: 50px;
-            width: 137px;
+            min-width: 137px;
+            max-width: 137px;
 
             font-size: 13px;
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
-            // line-height: 2.31;
+            line-height: 1.2;
             letter-spacing: -0.33px;
             text-align: center;
 
@@ -101,11 +102,11 @@
 
           .content-title {
             border: solid 1px #eff1f6;
-            width: 112px;
+            min-width: 112px;
             height: 50px;
 
             padding-left: 1%!important;
-    text-transform: none!important;
+            text-transform: none!important;
 
             font-size: 13px;
             font-weight: bold;
@@ -121,7 +122,7 @@
             background: #f9fcff;
           }
           .content-tokamak {
-            width: 137px;
+            max-width: 137px;
             font-size: 12px;
             font-weight: bold;
             font-stretch: normal;
