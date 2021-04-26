@@ -106,7 +106,7 @@ export default {
         window.open("https://makerdao.com/ko", "_blank");
       else if (item === "meter") window.open("https://meter.io", "_blank");
       else if (item === "dsrv")
-        window.open("https://www.dsrvlabs.com/en/", "_blank");
+        window.open("https://www.dsrvlabs.com", "_blank");
       else if (item === "bounce")
         window.open("https://bounce.finance/", "_blank");
       else if (item === "dxm") window.open("https://dxmcorp.com/", "_blank");
