@@ -34,8 +34,7 @@ import FrankImage from "../../assets/team/frank_pic@3x.png";
 import JaceImage from "../../assets/team/jace_pic@3x.png";
 import ZenaImage from "../../assets/team/zena_pic@3x.png";
 import SimonImage from "../../assets/team/simon_pic@3x.png";
-// import HaleyImage from "../../assets/team/haley_pic@3x.png";
-// import HaleyImage from "@/assets/team/haley_pic@3x.png";
+import HaleyImage from "../../assets/team/haley-pic@3x.png";
 
 export default {
   data() {
@@ -168,7 +167,7 @@ export default {
           role: "HR Growth Manager",
           github: "",
           linkedin: "https://www.linkedin.com/in/hyejeonghaleychoi",
-          image: "HaleyImage",
+          image: HaleyImage,
         },
         // {
         //   name: "Nano Kim",
@@ -226,5 +225,15 @@ export default {
 .wrapper {
   max-width: 1110px;
   margin: 0 auto 30px;
+}
+@media all and (max-width: 700px) {
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+  }
+  span {
+    max-width: 275px;
+    font-size: 14px;
+  }
 }
 </style>

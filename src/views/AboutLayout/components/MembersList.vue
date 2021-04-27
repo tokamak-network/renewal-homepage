@@ -28,4 +28,15 @@ export default {
   row-gap: 50px;
   margin: 0 40px;
 }
+@media all and (max-width: 700px) {
+  .grid {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 40px;
+    justify-content: center;
+    row-gap: 40px;
+    margin: 0 40px;
+  }
+}
 </style>

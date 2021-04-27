@@ -74,7 +74,7 @@ export default {
       if (parsed.length > 300) {
         return parsed.slice(0, 300).replace(/(<([^>]+)>)/gi, "");
       }
-      // console.log(parsed);
+
       return parsed.replace(/(<([^>]+)>)/gi, "");
     },
     prev() {
