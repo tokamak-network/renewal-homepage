@@ -87,7 +87,7 @@ export default {
       background-color: #2a72e5;
     }
     .layout {
-      height: 100vh;
+      // height: 100vh;
       max-width: 1696px;
       width: 90%;
     }
