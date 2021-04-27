@@ -2,31 +2,37 @@
   .comparison-container {
     margin-bottom: 180px;
     overflow-wrap: break-word;
-      word-wrap: break-word;
+    word-wrap: break-word;
+    
+    > .title-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-    > .title {
-      font-size: 28px;
-      font-weight: 600;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.07;
-      letter-spacing: normal;
-      text-align: center;
-      color: #1c1c1c;
+      > .title {
+        font-size: 28px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.07;
+        letter-spacing: normal;
+        text-align: center;
+        color: #1c1c1c;
 
-      // margin-bottom: 15px;
-    }
+        // margin-bottom: 15px;
+      }
 
-    > .description {
-      font-size: 16px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 3.75;
-      letter-spacing: normal;
-      text-align: center;
-      color: #808992;
+      > .description {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.75;
+        letter-spacing: normal;
+        text-align: center;
+        color: #808992;
 
+      }
     }
     > .outer-mobile-table {
       > .inner-mobile-table {

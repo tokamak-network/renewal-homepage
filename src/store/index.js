@@ -248,12 +248,8 @@ export default new Vuex.Store({
           "https://cors-anywhere.herokuapp.com/https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/onther-tech"
         )
         .then((res) => {
-          console.log(res.data.items);
           commit("SET_POSTS", res.data.items);
         });
-
-      // console.log(contents);
-      // commit("SET_POSTS", contents.items);
     },
   },
   modules: {},

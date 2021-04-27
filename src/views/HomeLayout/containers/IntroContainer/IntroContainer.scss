@@ -1,8 +1,17 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff) format('woff');
+}
 @media all and (min-width: 1280px) {
   .intro-section {
     width: 100%;
     height: 327px;
     margin-top: 51px;
+
+    font-family: "Open Sans", sans-serif!important;
 
     display: flex;
     justify-content: space-between;
@@ -17,6 +26,7 @@
       }
 
       .title {
+        font-family: "Open Sans", sans-serif!important;
         font-weight: bold;
         font-size: 20px;
         letter-spacing: -0.5px;
@@ -26,6 +36,7 @@
       }
 
       .content {
+        // font-family: "Open Sans", sans-serif!important;
         font-size: 14px;
         font-weight: 600;
         color: #4c4c4c;

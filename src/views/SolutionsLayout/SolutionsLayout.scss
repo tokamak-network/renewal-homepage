@@ -1,9 +1,17 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff) format('woff');
+}
+
 .solutions-layout {
   max-width: 1920px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: OpenSans;
+  font-family: "OpenSans", sans-serif!important;
 
   > .solutions-title {
     font-size: 38px;
