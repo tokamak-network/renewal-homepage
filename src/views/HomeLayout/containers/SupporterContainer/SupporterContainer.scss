@@ -36,6 +36,9 @@
         width: 260px;
       }
     }
+    > .supporter-section:hover {
+      cursor: pointer;
+    }
 
     > .line {
       max-width: 1696px;
