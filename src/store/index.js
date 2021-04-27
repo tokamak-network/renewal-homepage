@@ -152,6 +152,73 @@ export default new Vuex.Store({
         ],
       },
     ],
+    roadmapCN: [
+      {
+        index: "0",
+        subject: "连接 以太坊二层协议（Layer 2）网络",
+        title: "支持坦克网络（Tokamak Network）中的所有类型的二层协议",
+        contents: [
+          "支持Optimistic Rollup：Optimism、Arbitrum等",
+          "支持Zk-Rollup：StarkEx、zkSync等",
+          "支持Validium：StarkEx等",
+          "支持Plasma：Tokamak plasma等",
+          "添加自定义二层构建协议",
+        ],
+      },
+      {
+        index: "1",
+        subject: "连接 以太坊二层协议（Layer 2）网络",
+        title: "将所有类型的二层协议与TON生态系统集成在一起",
+        contents: [
+          "将所有二层协议与TON铸币池、PowerTON游戏和DAO治理集成在一起",
+        ],
+      },
+      {
+        index: "2",
+        subject: "连接 以太坊二层协议（Layer 2）网络",
+        title: "支持一键式跨Rollup转移",
+        contents: ["建立跨Rollup转移的流动资金池"],
+      },
+      {
+        index: "3",
+        subject: "连接 以太坊二层协议（Layer 2）网络",
+        title: "支持快速提现",
+        contents: ["建立快速提现的流动资金池"],
+      },
+      {
+        index: "4",
+        subject: "连接 以太坊二层协议（Layer 2）网络",
+        title: "从第一天开始就支持全面验证",
+        contents: [
+          "实施注意力挑战",
+          "为快速提现和跨Rollup转移的中介方建立额外奖励池",
+        ],
+      },
+      {
+        index: "5",
+        subject: "Higher security, More Interoperability",
+        title: "以太坊2.0迁移",
+        contents: ["将Rollup数据存储迁移到以太坊2.0"],
+      },
+      {
+        index: "6",
+        subject: "Higher security, More Interoperability",
+        title: "支持跨合约调用",
+        contents: ["支持Rollup间的任意消息调用"],
+      },
+      {
+        index: "7",
+        subject: "Higher security, More Interoperability",
+        title: "支持无状态验证",
+        contents: ["添加轻验证模式"],
+      },
+      {
+        index: "8",
+        subject: "Full verification with zkp",
+        title: "支持完全与以太坊兼容，支持可验证二层网络",
+        contents: ["迁移所有基于欺诈证明和有效性证明的二层协议"],
+      },
+    ],
   },
   mutations: {
     SET_WEB3(state, web3) {

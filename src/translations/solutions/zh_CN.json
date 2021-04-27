@@ -1,29 +1,38 @@
 {
+  "title": "二层网络的网络",
+  "sub-title": "坦克网络（Tokamak Network）帮助人们进入去中心化世界",
   "challenge": {
-    "title": "",
-    "content1": "",
-    "list1": "",
-    "list2": "",
-    "list3": "",
-    "content2": ""
+    "title": "挑战",
+    "content1": "以太坊，一个为去中心化应用程序提供支持的强大平台，但却具有一定局限性。",
+    "list1": "低TPS",
+    "list2": "高额交易费",
+    "list3": "不支持定制化功能",
+    "content2": "各种二层解决方案正在涌现，以应对此类挑战。所有二层解决方案都非常出色；但是，市场上依然没有一个可以安全连接不同二层解决方案以扩展和改善生态系统的协议，这意味着二层网络应用和优化速度会有所减慢，可能导致生态系统的碎片化."
   },
   "comparison": {
-    "title": "Comparison",
-    "description": "Simple comparison with other L2 protocols or frameworks"
+    "title": "比较",
+    "description": "与其他L2规约或架构的简单比较"
   },
   "layer2": {
     "opru": {
       "title": "Optimistic Rollups",
-      "description": "Layer-2 solution with on-chain data off-chain computated. Its validity is verified with fraud-proof system"
+      "description": "种支持链上数据链下计算的二层解决方案，其有效性已通过防欺诈系统进行了充分验证。"
     },
     "zk-rollup": {
       "title": "zk Rollups",
-      "description": "Layer-2 solution with on-chain data off-chain computated. Its validity is always fully verified with validity proof(a.k.a. zero knowledge proof)"
+      "description": "种支持链上数据链下计算的二层解决方案，其有效性已经通过有效性证明（也称为零知识证明）进行了充分验证。"
     },
     "plasma": {
       "title": "Tokamak Plasma",
-      "description": "Fully EVM-compatible Plasma implementation secured with continuous-rebase"
+      "description": "完全与EVM兼容的Plasma应用，同时具有可持续Rebase机制。"
     }
   },
-  "solution": {}
+  "solution": {
+    "title": "解决方案",
+    "content1": "坦克网络（Tokamak Network）是二层网络的网络，也是一个轻松、安全构建和连接二层网络的协议和平台。",
+    "list1": "轻松定制化二层网络部署",
+    "list2": "支持所有类型的二层协议",
+    "list3": "坦克网络（Tokamak Network）生态系统自始至终确保对所有二层网络进行全面验证",
+    "list4": "通过跨层消息协议支持互操作性"
+  }
 }
