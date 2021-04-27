@@ -272,11 +272,6 @@ export default new Vuex.Store({
             "SET_INFO",
             JSON.parse(JSON.stringify(response.data).replace(/]|[[]/g, ""))
           );
-          if (context.state.loaded) {
-            document.title =
-              Math.trunc(response.data[0].trade_price).toLocaleString("en-US") +
-              " TON/KRW";
-          }
         });
     },
     async getTotalStaked(context) {
