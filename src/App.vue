@@ -63,6 +63,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#app {
+  overflow: hidden;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 @media all and (min-width: 1280px) {
   #app {
     font-family: "Open Sans", sans-serif;
@@ -73,7 +80,7 @@ export default {
 
     > .top-line {
       width: 100%;
-      // max-width: 1920px;
+      max-width: 1920px;
 
       height: 4px;
       margin: 0 0 22px 0;
