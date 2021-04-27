@@ -13,7 +13,7 @@
         <table class="comparison-table">
           <tbody>
             <tr>
-              <th style="height: 55px" class="top"></th>
+              <th style="border-top: 2px solid #eff1f6" class="top"></th>
               <td class="table-header-tokamak">Tokamak Network</td>
               <td class="table-header">Sidechain</td>
               <td class="table-header">Plasma</td>

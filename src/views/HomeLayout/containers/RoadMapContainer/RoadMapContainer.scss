@@ -48,18 +48,18 @@
 
       .slide-right-leave-active,
       .slide-right-enter-active {
-        transition: 2.0s;
+        transition: transform 3.0s;
       }
       .slide-right-enter {
-        transform: translate(100%, 1);
+        transform: translate(100%, 0);
       }
       .slide-right-leave-to {
-        transform: translate(-100%, 1);
+        transform: translate(-100%, 0);
       }
 
       .slide-left-leave-active,
       .slide-left-enter-active {
-        transition: 2s;
+        transition: 2.0s;
       }
       .slide-left-enter {
         transform: translate(-100%, 0);
