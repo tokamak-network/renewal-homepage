@@ -2,8 +2,8 @@
   <div class="blog">
     <div class="blog-header">
       <div class="title">{{ $t("home.blog.title") }}</div>
-      <div class="prev-arrow" @click="prev" />
-      <div class="next-arrow" @click="next" />
+      <div v-if="width > 700" class="prev-arrow" @click="prev" />
+      <div v-if="width > 700" class="next-arrow" @click="next" />
     </div>
     <div class="post-section">
       <div v-for="post in selectedPosts" :key="post.guid" class="post">
@@ -12,7 +12,7 @@
           {{ post.title }}
         </div>
         <div class="post-preview" @click="redirect(post.link)">
-          {{ parsing(post.description) }}
+          {{ parsing(post.content) }}
         </div>
         <div class="post-date">{{ parseDate(post.pubDate) }}</div>
       </div>
@@ -71,15 +71,11 @@ export default {
       const end = content.indexOf("</p>");
       const parsed = content.slice(start + 3, end);
 
-      // const parser = new DOMParser();
-      // const doc = parser.parseFromString(parsed, "text/html");
-      // console.log(parsed.match(/<a>(.*)<\/a>/));
-      // console.log(parsed.match(/\d+/));
-
       if (parsed.length > 300) {
-        return parsed.slice(0, 300);
+        return parsed.slice(0, 300).replace(/(<([^>]+)>)/gi, "");
       }
-      return parsed;
+      // console.log(parsed);
+      return parsed.replace(/(<([^>]+)>)/gi, "");
     },
     prev() {
       this.page !== 0 ? (this.page = this.page - 1) : (this.page = 0);
@@ -92,19 +88,6 @@ export default {
     redirect(link) {
       window.open(link, '_blank'); // eslint-disable-line
     },
-    // getPosts() {
-    //   const options = {
-    //     url: "https://medium.com/feed/onther-tech",
-    //     method: "GET",
-    //   };
-    //   this.$axios(options)
-    //     .then((res) => {
-    //       console.log(res);
-    //     })
-    //     .catch((err) => {
-    //       console.error(err);
-    //     });
-    // },
   },
 };
 </script>
