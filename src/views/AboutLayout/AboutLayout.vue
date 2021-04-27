@@ -115,7 +115,7 @@ export default {
         {
           name: "Ale Son",
           role: "Software Engineer",
-          github: "",
+          github: "https://github.com/SonYoungsung",
           linkedin: "",
           image: AleImage,
         },
