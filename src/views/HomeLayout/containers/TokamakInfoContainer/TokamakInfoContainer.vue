@@ -44,7 +44,7 @@
       </div>
     </div>
     <div v-else class="spinner-container">
-      <loading-spinner />
+      <loading-spinner style="margin-bottom: 80px" />
     </div>
   </div>
 </template>
