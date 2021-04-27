@@ -78,7 +78,7 @@
 
           .content-title {
             border: solid 1px #eff1f6;
-            width: 180px;
+            width: 170px;
             height: 50px;
             font-size: 13px;
             font-weight: bold;
@@ -86,7 +86,8 @@
             font-style: normal;
             line-height: 2.31;
             letter-spacing: -0.33px;
-            text-align: center;
+            text-align: left;
+            padding-left: 1%!important;
             color: #1c1c1c;
           }
           .second-row {
@@ -97,12 +98,13 @@
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
-            line-height: 2.5;
+            // line-height: 2.5;
             letter-spacing: -0.3px;
             text-align: center;
             color: #1c1c1c;
             border-left: 2px solid #246fed;
             border-right: 2px solid #246fed;
+            border-bottom: solid 2px #eff1f6;
           }
           .content-tokamak-last {
             font-size: 12px;

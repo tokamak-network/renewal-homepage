@@ -1,4 +1,4 @@
-@media all and (max-width: 1280px) {
+@media all and (min-width: 701px) and (max-width: 1280px) {
   .comparison-container {
     margin-bottom: 180px;
     overflow-wrap: break-word;
@@ -57,13 +57,15 @@
 
           .table-header-tokamak {
             height: 50px;
-            max-width: 167px;
+            min-width: 160px;
+            max-width: 160px;
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
             line-height: 2.31;
             letter-spacing: -0.33px;
             text-align: center;
+            // padding: 0 1%!important;
             background: #246fed;
             color: #ffffff;
             border-top: 0.5px solid #246fed;
@@ -94,7 +96,7 @@
             letter-spacing: -0.33px;
             text-align: left;
             color: #1c1c1c;
-            padding-left: 20px;
+            padding: 0 1%!important;
           }
           .second-row {
             background: #f9fcff;
@@ -110,6 +112,7 @@
             color: #1c1c1c;
             border-left: 2px solid #246fed;
             border-right: 2px solid #246fed;
+            border-bottom: solid 2px #eff1f6;
           }
           .content-tokamak-last {
             font-size: 12px;

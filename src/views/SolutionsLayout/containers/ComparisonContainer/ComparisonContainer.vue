@@ -13,7 +13,7 @@
         <table class="comparison-table">
           <tbody>
             <tr>
-              <th class="content-title"></th>
+              <th style="height: 55px" class="top"></th>
               <td class="table-header-tokamak">Tokamak Network</td>
               <td class="table-header">Sidechain</td>
               <td class="table-header">Plasma</td>
@@ -23,7 +23,9 @@
               <td class="table-header">Polygon</td>
             </tr>
             <tr class="second-row">
-              <th class="content-title second">Scalability</th>
+              <th class="content-title second" style="background: #f9fcff">
+                <div class="margin">Scalability</div>
+              </th>
               <td class="content-tokamak">Medium-High</td>
               <td class="content">Medium</td>
               <td class="content">Very High</td>
@@ -33,7 +35,9 @@
               <td class="content">Medium-High</td>
             </tr>
             <tr>
-              <th class="content-title">Security</th>
+              <th class="content-title">
+                <div class="margin">Security</div>
+              </th>
               <td class="content-tokamak">High-Very High</td>
               <td class="content">Low</td>
               <td class="content">Low</td>
@@ -43,7 +47,9 @@
               <td class="content">High</td>
             </tr>
             <tr class="second-row">
-              <th class="content-title second">Interoperability</th>
+              <th class="content-title second" style="background: #f9fcff">
+                <div class="margin">Interoperability</div>
+              </th>
               <td class="content-tokamak">High</td>
               <td class="content">Low</td>
               <td class="content">Low</td>
@@ -53,7 +59,9 @@
               <td class="content">Medium</td>
             </tr>
             <tr>
-              <th class="content-title">Ethereum Compatibility</th>
+              <th class="content-title">
+                <div class="margin">Ethereum Compatibility</div>
+              </th>
               <td class="content-tokamak">High</td>
               <td class="content">Medium</td>
               <td class="content">High</td>
@@ -63,7 +71,9 @@
               <td class="content">High</td>
             </tr>
             <tr class="second-row">
-              <th class="content-title second">Functionality</th>
+              <th class="content-title second" style="background: #f9fcff">
+                <div class="margin">Functionality</div>
+              </th>
               <td class="content-tokamak-last">Low-High</td>
               <td class="content">High</td>
               <td class="content">High</td>
