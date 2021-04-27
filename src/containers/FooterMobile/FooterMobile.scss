@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff) format('woff');
+}
 @media all and (max-width: 700px) {
   .footer {
+    font-family: "OpenSans", sans-serif!important;
     > .team-info {
       // display: flex;
       // justify-content: space-between;

@@ -154,10 +154,10 @@ export default {
     ...mapActions(["setLocale"]),
     getCurrentLang() {
       const storedLocale = this.supportedLanguages.find((item) => {
-        return item.langCode === "en_US";
+        return item.langCode === this.locale;
       });
       // this._i18n.locale = this.locale;
-      this._i18n.locale = "en_US";
+      this._i18n.locale = this.locale;
       this.currentFlag = storedLocale.flag;
       this.currentName = storedLocale.name;
     },

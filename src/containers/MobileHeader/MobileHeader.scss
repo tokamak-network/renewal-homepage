@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff) format('woff');
+}
 .mobile-header {
+  font-family: "OpenSans", sans-serif!important;
   > .header-container {
     display: flex;
     flex-direction: column;
