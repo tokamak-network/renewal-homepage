@@ -23,8 +23,8 @@
               <td class="table-header">Polygon</td>
             </tr>
             <tr class="second-row">
-              <th class="content-title second" style="background: #f9fcff">
-                <div class="margin">Scalability</div>
+              <th class="content-title" style="background: #f9fcff">
+                <div class="margin-second">Scalability</div>
               </th>
               <td class="content-tokamak">Medium-High</td>
               <td class="content">Medium</td>
@@ -36,7 +36,7 @@
             </tr>
             <tr>
               <th class="content-title">
-                <div class="margin">Security</div>
+                <div class="margin-second">Security</div>
               </th>
               <td class="content-tokamak">High-Very High</td>
               <td class="content">Low</td>
@@ -47,8 +47,8 @@
               <td class="content">High</td>
             </tr>
             <tr class="second-row">
-              <th class="content-title second" style="background: #f9fcff">
-                <div class="margin">Interoperability</div>
+              <th class="content-title" style="background: #f9fcff">
+                <div class="margin-second">Interoperability</div>
               </th>
               <td class="content-tokamak">High</td>
               <td class="content">Low</td>
@@ -60,7 +60,7 @@
             </tr>
             <tr>
               <th class="content-title">
-                <div class="margin">Ethereum Compatibility</div>
+                <div class="margin-second">Ethereum Compatibility</div>
               </th>
               <td class="content-tokamak">High</td>
               <td class="content">Medium</td>
@@ -71,8 +71,8 @@
               <td class="content">High</td>
             </tr>
             <tr class="second-row">
-              <th class="content-title second" style="background: #f9fcff">
-                <div class="margin">Functionality</div>
+              <th class="content-title" style="background: #f9fcff">
+                <div class="margin-second">Functionality</div>
               </th>
               <td class="content-tokamak-last">Low-High</td>
               <td class="content">High</td>

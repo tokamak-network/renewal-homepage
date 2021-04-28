@@ -23,7 +23,8 @@
       display: flex;
       justify-content: space-between;
     }
-    > .menu-icon {
+    > .menu-icon:hover {
+      cursor: pointer;
     }
   }
   .slide-leave-active,
