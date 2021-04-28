@@ -62,7 +62,7 @@
               <div class="menu-item-sub-title">
                 Layer 2
                 <button
-                  class="menu-item-sub-item-linked"
+                  class="menu-item-sub-item menu-item-sub-item-linked"
                   @click="
                     click(
                       'https://docs.tokamak.network/docs/en/guides/getting-started/how-to-open-private-testnet-rootchain'
