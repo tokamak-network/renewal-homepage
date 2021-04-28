@@ -1,6 +1,5 @@
 .developers {
-  position: absolute;
-  margin-top: 20px;
+  position: absolute;;
   margin-left: -19px;
   // display: inline-block;
   // top: 116px;
@@ -14,7 +13,9 @@
     width: 100px;
     height: 2px;
     margin: 0 10px 3px;
-    background-color: #246fed;
+    padding-top: 20px;
+
+    border-bottom: 2px solid blue
   }
 
   > .tab-container {

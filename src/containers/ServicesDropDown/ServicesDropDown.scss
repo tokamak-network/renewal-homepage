@@ -1,19 +1,20 @@
 .services {
     position: absolute;
     margin-left: -82px;
-    margin-top: 20px;
     width: 223px;
-    height: 280px;
+    height: 300px;
     border-radius: 4px;
     box-shadow: 0 1px 4px 0 rgba(96, 97, 112, 0.14);
     background-color: #ffffff;
+    z-index: 2;
     cursor: default;
 
  > .services-line {
+   padding-top: 20px;
     width: 203px;
     height: 2px;
     margin: 0 10px 3px;
-    background-color: #246fed;
+    border-bottom: 2px solid blue
   }
 
   > .tab-container{

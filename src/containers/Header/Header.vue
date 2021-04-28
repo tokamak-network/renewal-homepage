@@ -165,9 +165,9 @@ export default {
       this.$i18n.locale = obj.langCode;
       this.currentName = obj.name;
       this.currentFlag = obj.flag;
-      this.setLocale({ locale: obj.langCode, save: true });
       this.$store.dispatch("setLocale", obj.langCode);
       this.$store.dispatch("setRoadMap", obj.langCode);
+      this.setLocale({ locale: obj.langCode, save: true });
     },
     openDropDown(tab) {
       //  if (this.showDrop === tab) {
