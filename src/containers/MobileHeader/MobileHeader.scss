@@ -107,11 +107,16 @@
                 display: flex;
                 flex-direction: row;
                 font-weight: normal;
+                height: 22px;
                 > .soon-container {
+display: flex;
+justify-content: center;
+align-items: center;
                   margin-left: 15px;
                   width: 49px;
                   height: 20px;
-                  padding: 3px 9px 3px 10px;
+                  font-size: 10px;
+                  // padding: 3px 9px 3px 10px;
                   border-radius: 3px;
                   border: solid 1px #dfe4ee;
                   background-color: #ffffff;
