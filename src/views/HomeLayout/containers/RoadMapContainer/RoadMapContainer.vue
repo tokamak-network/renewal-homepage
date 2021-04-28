@@ -6,11 +6,7 @@
       <div class="next-arrow" @click="next" />
     </div>
     <div class="roadmap-section">
-      <transition-group
-        tag="div"
-        name="direction ? 'slide-right' : 'slide-left"
-        class="transition"
-      >
+      <div class="transition">
         <div
           v-for="roadmap in selectedRoadmap"
           :key="roadmap.index"
@@ -30,7 +26,7 @@
             <div>{{ content }}</div>
           </div>
         </div>
-      </transition-group>
+      </div>
     </div>
   </div>
 </template>
