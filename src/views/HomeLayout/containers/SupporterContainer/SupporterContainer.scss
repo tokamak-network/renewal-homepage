@@ -47,14 +47,14 @@
         align-items: center;
         justify-content: center;
       }
+      > .supporter:hover {
+        cursor: pointer;
+      }
 
 
       > .img {
         width: 260px;
       }
-    }
-    > .supporter-section:hover {
-      cursor: pointer;
     }
 
     > .line {

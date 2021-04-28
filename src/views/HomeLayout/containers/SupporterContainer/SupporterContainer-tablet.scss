@@ -2,7 +2,7 @@
   .supporter-container {
     width: 100%;
     margin-bottom: 120px;
-    margin-left: 50px;
+    // margin-left: 50px;
     // margin-right: 30px;
 
     > .gap-mobile {
@@ -19,23 +19,25 @@
       margin-right: 40px;
       margin-bottom: 50px; 
       margin-top: 20px;
+      margin-left: 30px;
     }
     > .gap {
       height: 60px;
     }
 
     > .supporter-section {
+      max-width:1024px;
       margin-bottom: 0px;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(425px, 1fr));
-      // grid-gap: 60px;
-      column-gap: 60px;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  
+      justify-items: center;
       row-gap: 40px;
-      justify-content: center;
 
       > .supporter {
         // width: 100%;
-        max-width: 422px;
+        max-width: 360px;
+        min-width: 360px;
         height: 200px;
         border: solid 1px #dfe4ee;
         background-color: #ffffff;

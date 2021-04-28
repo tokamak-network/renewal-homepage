@@ -80,14 +80,12 @@ export default {
 
     > .top-line {
       width: 100%;
-      max-width: 1920px;
-
       height: 4px;
+
       margin: 0 0 22px 0;
       background-color: #2a72e5;
     }
     .layout {
-      // height: 100vh;
       max-width: 1696px;
       width: 90%;
     }

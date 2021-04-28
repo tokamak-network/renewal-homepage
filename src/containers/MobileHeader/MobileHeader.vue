@@ -193,10 +193,9 @@ export default {
     ...mapActions(["setLocale"]),
     getCurrentLang() {
       const storedLocale = this.supportedLanguages.find((item) => {
-        return item.langCode === "en_US";
+        return item.langCode === this.locale;
       });
-      // this._i18n.locale = this.locale;
-      this._i18n.locale = "en_US";
+      this._i18n.locale = this.locale;
       this.currentFlag = storedLocale.flag;
       this.currentName = storedLocale.name;
     },
@@ -204,9 +203,9 @@ export default {
       this.$i18n.locale = obj.langCode;
       this.currentName = obj.name;
       this.currentFlag = obj.flag;
-      this.setLocale({ locale: obj.langCode, save: true });
       this.$store.dispatch("setLocale", obj.langCode);
       this.$store.dispatch("setRoadMap", obj.langCode);
+      this.setLocale({ locale: obj.langCode, save: true });
     },
     route(path) {
       if (this.$route.path === path) {
