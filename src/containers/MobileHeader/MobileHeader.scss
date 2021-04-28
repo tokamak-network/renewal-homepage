@@ -47,6 +47,7 @@
     min-height: 100vh;
     max-height: 100vh;
     display: flex;
+    margin-bottom: 100px;
     // flex: 1;
     box-shadow: 0 0 8px 0 rgba(127, 137, 147, 0.35);
 
@@ -60,8 +61,8 @@
     > .header-top {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 29px;
-      margin-top: 25px;
+      margin-bottom: 20px;
+      margin-top: 20px;
       padding-left: 20px;
       padding-right: 10px;
       > .language {
@@ -92,7 +93,7 @@
         letter-spacing: normal;
         color: #1c1c1c;
         text-decoration: none;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         font-family: "Open Sans", sans-serif;
         > .menu-item-sub {
             margin: 15px 15px 0px 15px;
@@ -162,7 +163,7 @@
         letter-spacing: normal;
         color: #1c1c1c;
         text-decoration: none;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         font-family: "Open Sans", sans-serif;
 
         // > .fade-enter-active, .fade-leave-active {

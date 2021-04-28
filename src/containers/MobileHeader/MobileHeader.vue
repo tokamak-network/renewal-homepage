@@ -132,7 +132,7 @@
             :class="{
               selected: $route.path.includes('about'),
             }"
-            :style="{marginBottom:'60px'}"
+            :style="{marginBottom:'200px'}"
             @click="
               route('/about');
               isOpen = false;
