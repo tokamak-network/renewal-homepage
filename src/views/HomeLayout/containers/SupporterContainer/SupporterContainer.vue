@@ -33,9 +33,9 @@
           srcset="@/assets/meter@2x.png 2x, @/assets/meter@3x.png 3x"
         />
       </div>
-    </div>
+      <!-- </div>
     <div class="gap" />
-    <div class="supporter-section">
+    <div class="supporter-section"> -->
       <div @click="supporterLink('dsrv')" class="supporter">
         <img
           class="img"
