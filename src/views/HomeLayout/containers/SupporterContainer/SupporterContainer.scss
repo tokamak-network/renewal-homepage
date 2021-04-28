@@ -27,7 +27,11 @@
     > .supporter-section {
       margin-bottom: 60px;
       justify-content: center;
-      display:flex;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(380px, auto));
+      row-gap: 50px;
+      column-gap: 50;
+
 
       // justify-content: space-between;
 
