@@ -2,7 +2,9 @@
   .roadmaps {
     margin-top: 20px;
     width: 100%;
-    margin-left: 30px;
+    margin-left: 50px;
+    // padding: 0 40px;
+    height: 375px;
 
     > .roadmap-header {
       display: flex;
@@ -44,7 +46,7 @@
 
     > .roadmap-section {
 
-      width: 100%;
+      width: 95%;
       overflow: hidden;
       margin-bottom: 80px;
 

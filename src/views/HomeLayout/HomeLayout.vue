@@ -39,4 +39,6 @@ export default {
 
 <style lang="scss">
 @import "HomeLayout.scss";
+@import "HomeLayout-tablet.scss";
+@import "HomeLayout-mobile.scss";
 </style>

@@ -2,7 +2,12 @@
   .supporter-container {
     width: 100%;
     margin-bottom: 120px;
-    margin-left: 30px;
+    margin-left: 50px;
+    // margin-right: 30px;
+
+    > .gap-mobile {
+      height: 30px;
+    }
 
     > .supporter-header {
       font-size: 28px;
@@ -22,18 +27,19 @@
     > .supporter-section {
       margin-bottom: 0px;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(435px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(425px, 1fr));
       // grid-gap: 60px;
       column-gap: 60px;
-      row-gap: 50px;
+      row-gap: 40px;
       justify-content: center;
 
       > .supporter {
-        width: 90%;
+        // width: 100%;
+        max-width: 422px;
         height: 200px;
         border: solid 1px #dfe4ee;
         background-color: #ffffff;
-        margin: 5px 5px 5px 5px;
+        // margin: 5px 5px 5px 5px;
         
         display: flex;
         align-items: center;
