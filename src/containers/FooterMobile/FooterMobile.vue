@@ -1,5 +1,6 @@
 <template>
   <div class="footer">
+    <div class="mobile-line" />
     <div class="team-info">
       <div class="office" style="width: 296px">
         <div class="title">Office</div>

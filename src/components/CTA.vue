@@ -63,7 +63,8 @@
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 3.75;
+    margin-top: 10px;
+    line-height: 1.5;
     letter-spacing: normal;
     text-align: center;
     color: #808992;
@@ -116,5 +117,25 @@ a {
   width: 19px;
   height: 12px;
   padding-top: 3px;
+}
+@media all and (max-width: 700px) {
+  .cta-section {
+    margin-bottom: 120px !important;
+  }
+  .heading {
+    h2 {
+      font-size: 20px;
+    }
+    span {
+      width: 213px;
+      font-size: 14px;
+    }
+  }
+
+  .mobile-line {
+    width: 100%;
+    height: 1px;
+    background-color: #dfe4ee;
+  }
 }
 </style>
