@@ -187,6 +187,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media all and (max-width: 700px) {
+  .heading {
+    h2 {
+      font-size: 28px !important;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.21 !important;
+      letter-spacing: normal;
+      text-align: center;
+      color: #1c1c1c;
+    }
+    span {
+      font-size: 14px !important;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.29 !important;
+    }
+  }
+}
 .heading {
   display: flex;
   flex-direction: column;

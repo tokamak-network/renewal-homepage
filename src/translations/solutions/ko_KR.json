@@ -1,6 +1,6 @@
 {
   "title": "Network of Layer 2 Networks",
-  "sub-title": "Tokamak Network helps people joining the decentralized world",
+  "sub-title": "토카막 네트워크는 모든 이들이 탈중앙화된 세상에 쉽게 참여할 수 있게 합니다.",
   "challenge": {
     "title": "Challenge",
     "content1": "이더리움은 강력한 탈중앙 어플리케이션 플랫폼이지만, 몇가지 한계가 존재합니다.",
@@ -10,7 +10,7 @@
     "content2": "이러한 한계들을 극복하기 위해 많은 레이어 2 솔루션이 등장하고 있습니다. 각 레이어 2 솔루션들은 아주 훌륭하지만, 이 레이어 2들을 쉽고 안전하게 구축하고 이를 연결하여 생태계를 확장시키고 개선하는 프로토콜은 없습니다. 이는 레이어 2의 도입과 발전을 더디게 하고, 생태계를 파편화합니다."
   },
   "comparison": {
-    "title": "비교",
+    "title": "Comparison",
     "description": "다른 L2 프로토콜 혹은 프레임워크와의 간단한 비교"
   },
   "layer2": {
