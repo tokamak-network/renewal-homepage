@@ -5,6 +5,7 @@
         src="@/assets/tokamak-symbol.svg"
         class="tokamak-logo"
         style="width: 45px; height: 30px"
+        @click="$route.path !== '/' ? $router.push({ path: '/' }) : ''"
       />
       <img src="@/assets/tokamak-text.svg" class="tokamak-text" />
       <div class="language">
