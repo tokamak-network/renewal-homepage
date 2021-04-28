@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <main-container />
-    <div class="line" />
+    <div class="line-main" />
     <intro-container />
     <div class="line" />
     <blog-container />

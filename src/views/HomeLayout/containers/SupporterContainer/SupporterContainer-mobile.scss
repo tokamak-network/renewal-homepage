@@ -3,6 +3,7 @@
     width: 100%;
     margin-bottom: 60px;
     margin-left: 20px;
+    margin-right: 20px;
 
     > .supporter-header {
       font-size: 20px;
@@ -11,7 +12,7 @@
       letter-spacing: normal;
       text-align: left;
       color: #1c1c1c;
-      margin: 0px 40px 20px 10px;
+      margin: 0px 40px 20px 15px;
     }
     > .gap {
       height: 10px;
@@ -29,10 +30,11 @@
       // column-gap: 5px;
       row-gap: 10px;
       justify-content: center;
-      margin: 0 5px;
+      margin: 0 10px;
 
       > .supporter {
         width: 90%;
+        max-width: 155px;
         height: 70px;
         border: solid 1px #dfe4ee;
         background-color: #ffffff;
