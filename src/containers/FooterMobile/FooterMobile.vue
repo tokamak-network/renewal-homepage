@@ -37,8 +37,8 @@
         <div class="onther">ONTHER PTE. LTD.</div>
         <div>Copyright © 2021 All Rights Reserved.</div>
         <div style="display: flex; justify-content: flex-start">
-          <div style="margin-right: 30px">Privacy Policy</div>
-          <div class="copyright-content">Terms & Conditions</div>
+          <!-- <div style="margin-right: 30px">Privacy Policy</div>
+          <div class="copyright-content">Terms & Conditions</div> -->
         </div>
       </div>
       <div class="upward" style="margin-right: 30px" @click="upward" />

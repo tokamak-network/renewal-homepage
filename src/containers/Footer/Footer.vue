@@ -24,10 +24,10 @@
           <div @click="familyLink('YouTube')">YouTube</div>
         </div>
         <div class="social-content">
-          <div style="margin-right: -28px" @click="familyLink('Linkedin')">
+          <div style="margin-right: -37px" @click="familyLink('Linkedin')">
             Linkedin
           </div>
-          <div style="margin-right: -25px" @click="familyLink('Telegram')">
+          <div style="margin-right: -33px" @click="familyLink('Telegram')">
             Telegram
           </div>
           <div @click="familyLink('Discord')">
@@ -43,8 +43,8 @@
         <div style="margin-right: 160px">
           Copyright © 2021 All Rights Reserved.
         </div>
-        <div style="margin-right: 60px">Privacy Policy</div>
-        <div class="copyright-content">Terms & Conditions</div>
+        <!-- <div style="margin-right: 60px">Privacy Policy</div>
+        <div class="copyright-content">Terms & Conditions</div> -->
       </div>
       <div class="upward" @click="upward" />
     </div>
