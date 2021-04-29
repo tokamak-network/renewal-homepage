@@ -152,6 +152,7 @@
           alt=""
           width="205"
           height="30"
+          @click="$route.path !== '/' ? $router.push({ path: '/' }) : ''"
         />
         <img
           class="menu-icon"
