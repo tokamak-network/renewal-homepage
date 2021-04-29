@@ -17,7 +17,7 @@
                 style="
                   border: 1px solid #eff1f6;
                   margin-top: -2px;
-                  margin-left: -1px;
+                  margin-left: -2px;
                   border-collapse: separate;
                 "
                 class="top"
@@ -39,7 +39,9 @@
               >
                 <div class="margin-second">Scalability</div>
               </th>
-              <td class="content-tokamak">Medium-High</td>
+              <td class="content-tokamak">
+                <div class="tokamak-margin">Medium-High</div>
+              </td>
               <td class="content">Medium</td>
               <td class="content">Very High</td>
               <td class="content">Medium</td>
@@ -51,7 +53,9 @@
               <th class="content-title">
                 <div class="margin-second">Security</div>
               </th>
-              <td class="content-tokamak">High-Very High</td>
+              <td class="content-tokamak">
+                <div class="tokamak-margin">High-Very High</div>
+              </td>
               <td class="content">Low</td>
               <td class="content">Low</td>
               <td class="content">High</td>
@@ -63,7 +67,9 @@
               <th class="content-title" style="background: #f9fcff">
                 <div class="margin-second">Interoperability</div>
               </th>
-              <td class="content-tokamak">High</td>
+              <td class="content-tokamak">
+                <div class="tokamak-margin">High</div>
+              </td>
               <td class="content">Low</td>
               <td class="content">Low</td>
               <td class="content">Medium</td>
@@ -75,7 +81,9 @@
               <th class="content-title">
                 <div class="margin-second">Ethereum Compatibility</div>
               </th>
-              <td class="content-tokamak">High</td>
+              <td class="content-tokamak">
+                <div class="tokamak-margin">High</div>
+              </td>
               <td class="content">Medium</td>
               <td class="content">High</td>
               <td class="content">High</td>

@@ -48,7 +48,7 @@
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
-            line-height: 1.31;
+            line-height: 1.21;
             letter-spacing: -0.33px;
             text-align: center;
             color: #1c1c1c;
@@ -68,7 +68,7 @@
             // padding: 0 1%!important;
             background: #246fed;
             color: #ffffff;
-            border-top: 0.5px solid #246fed;
+            border-top: 2px solid #246fed;
             border-left: 2px solid #246fed;
             border-right: 2px solid #246fed;
           }
@@ -114,8 +114,14 @@
             color: #1c1c1c;
             border-left: 2px solid #246fed!important;
             border-right: 2px solid #246fed!important;
-            border-bottom: solid 1px #eff1f6;
-            border-collapse:separate;
+            
+            > .tokamak-margin {
+              border-bottom: 2px solid #eff1f6;
+              height: 100%;
+              width: 100%;
+              padding: 10px 0;
+              margin-bottom: -4px;
+            }
           }
           .content-tokamak-last {
             font-size: 12px;
