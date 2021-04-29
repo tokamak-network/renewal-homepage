@@ -9,7 +9,7 @@
         </div>
         <div class="content">E. info@onther.io</div>
       </div>
-      <div class="office">
+      <div class="office" style="margin: 40px 0">
         <div class="title">Jobs</div>
         <div class="content">Recruitment</div>
         <div class="content">job@onther.io</div>

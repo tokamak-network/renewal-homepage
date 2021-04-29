@@ -1,4 +1,9 @@
 @media all and (max-width: 700px) {
+  .th-gap {
+    background: red;
+    height: 64px!important;
+    // margin-top
+  }
   .comparison-container {
     margin-bottom: 60px;
     // overflow-wrap: break-word;
@@ -54,16 +59,16 @@
 
         > .comparison-table th {
           position: absolute;
-
           border: solid 1px #eff1f6;
           min-width: 132px;
           max-width: 132px!important;
           max-height: 50px;
           height: 100%;
-          left: 20px;
+          // bottom: 1;
+          left: 21px;
 
           padding-left: 1%!important;
-          // margin-left: 10px;
+          margin-left: -1px;
           text-transform: none!important;
 
           font-size: 12px;
@@ -138,7 +143,7 @@
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
-            line-height: 2.2;
+            line-height: 2;
             letter-spacing: -0.33px;
             text-align: center;
 
