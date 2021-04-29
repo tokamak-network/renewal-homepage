@@ -18,6 +18,7 @@
                   border: 1px solid #eff1f6;
                   margin-top: -2px;
                   margin-left: -1px;
+                  border-collapse: separate;
                 "
                 class="top"
               ></th>
@@ -32,7 +33,10 @@
               <td class="table-header">Polygon</td>
             </tr>
             <tr class="second-row" style="background: #f9fcff">
-              <th class="content-title" style="background: #f9fcff">
+              <th
+                class="content-title"
+                style="background: #f9fcff; border-collapse: separate"
+              >
                 <div class="margin-second">Scalability</div>
               </th>
               <td class="content-tokamak">Medium-High</td>

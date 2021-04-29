@@ -1,14 +1,14 @@
 <template>
   <div class="footer">
     <div class="team-info">
-      <div class="office" style="width: 296px">
+      <div class="office" style="max-width: 296px; margin-right: 20px">
         <div class="title">Office</div>
         <div class="content">
           10 Anson Road #23-140 International Plaza Singapore
         </div>
         <div class="content">E. info@onther.io</div>
       </div>
-      <div class="office">
+      <div class="office" style="margin-right: 20px">
         <div class="title">Jobs</div>
         <div class="content">Recruitment</div>
         <div class="content">job@onther.io</div>
