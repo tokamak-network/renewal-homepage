@@ -1,3 +1,6 @@
+.blank {
+  height: 20px;
+}
 .services {
     position: absolute;
     margin-left: -82px;
@@ -10,7 +13,6 @@
     cursor: default;
 
  > .services-line {
-   padding-top: 20px;
     width: 203px;
     height: 2px;
     margin: 0 10px 3px;

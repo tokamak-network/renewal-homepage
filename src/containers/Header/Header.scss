@@ -147,6 +147,8 @@ button:hover {
   background-color: #246fed;
   border-radius: 100px;
   visibility: hidden;
+  position: absolute;
+  top: 75px;
 }
 
 .item {
@@ -159,6 +161,8 @@ button:hover {
 .menu-item {
   display: flex;
   flex-direction: column;
+  // background: red;
+  position: absolute;
 
   font-size: 15px;
   font-weight: 600;
@@ -168,6 +172,7 @@ button:hover {
   text-align: center;
   color: #1c1c1c;
   text-decoration: none;
+  // padding-bottom:20px;
 
   > .fade-enter-active, .fade-leave-active {
     transition: opacity .1s;
