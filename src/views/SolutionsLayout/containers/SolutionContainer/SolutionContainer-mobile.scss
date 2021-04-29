@@ -14,9 +14,7 @@
     }
 
     > .solution {
-      max-width: 900px;
-      width: 100%;
-      margin-top: 20px;
+      width: 90%;
       font-stretch: normal;
       font-style: normal;
       letter-spacing: normal;
@@ -27,15 +25,16 @@
         margin-top: 10px;
         font-size: 20px;
         font-weight: 600;
-        margin-left: 20px;
+        margin-left: 10px;
       }
 
       > .solution-content {
+        background:red;
         margin-top: 25px;
         font-size: 13px;
         font-weight: normal;
         margin-right: 20px;
-        margin-left: 20px;
+        margin-left: 10px;
 
         > .solution-intro {
           margin-bottom: 25px;

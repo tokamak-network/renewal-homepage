@@ -44,6 +44,7 @@
 
       > .inner-mobile-table {
         overflow-x: scroll;
+        margin: 0 30px 0 10px;
         // margin-left:20px;
 
         > .comparison-table tr {
@@ -59,7 +60,7 @@
           max-width: 132px!important;
           max-height: 50px;
           height: 100%;
-          left: 10px;
+          left: 20px;
 
           padding-left: 1%!important;
           // margin-left: 10px;
@@ -101,7 +102,7 @@
           margin-right: 20px;
           // margin-left: 20px;
           width: 100%;
-          min-width: 1125px;
+          min-width: 1140px;
           opacity: 1;
 
           overflow-x: scroll;
@@ -116,7 +117,7 @@
           }
 
           .table-header {
-            height: 50px;
+            height: 49px;
             min-width: 93px;
             font-weight: bold;
             font-stretch: normal;
@@ -129,7 +130,7 @@
           }
 
           .table-header-tokamak {
-            height: 48px;
+            height: 98%!important;
             min-width: 137px!important;
             max-width: 137px!important;
 

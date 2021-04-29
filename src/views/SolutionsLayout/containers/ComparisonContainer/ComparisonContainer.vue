@@ -22,7 +22,7 @@
               <td class="table-header">Validium</td>
               <td class="table-header">Polygon</td>
             </tr>
-            <tr class="second-row">
+            <tr class="second-row" style="background: #f9fcff">
               <th class="content-title" style="background: #f9fcff">
                 <div class="margin-second">Scalability</div>
               </th>
@@ -46,7 +46,7 @@
               <td class="content">Medium</td>
               <td class="content">High</td>
             </tr>
-            <tr class="second-row">
+            <tr class="second-row" style="background: #f9fcff">
               <th class="content-title" style="background: #f9fcff">
                 <div class="margin-second">Interoperability</div>
               </th>
@@ -70,7 +70,7 @@
               <td class="content">High</td>
               <td class="content">High</td>
             </tr>
-            <tr class="second-row">
+            <tr class="second-row" style="background: #f9fcff">
               <th class="content-title" style="background: #f9fcff">
                 <div class="margin-second">Functionality</div>
               </th>
