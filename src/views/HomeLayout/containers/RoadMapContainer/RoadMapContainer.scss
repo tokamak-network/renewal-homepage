@@ -18,27 +18,33 @@
         color: #1c1c1c;
         margin-right: 40px;
       }
-      > .prev-arrow {
-        width: 40px;
-        height: 22px;
-        margin-top: 3px;
 
-        content: url("../../../../assets/arrow-pre.png");
-      }
-      > .prev-arrow:hover {
-        cursor: pointer;
-        content: url("../../../../assets/arrow-pre-active.png");
-      }
-      > .next-arrow {
-        width: 40px;
-        height: 22px;
-        margin-top: 3px;
+      > .arrow-section {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        > .prev-arrow {
+          width: 40px;
+          height: 22px;
+          margin-top: 3px;
 
-        content: url("../../../../assets/arrow-next.png");
-      }
-      > .next-arrow:hover {
-        cursor: pointer;
-        content: url("../../../../assets/arrow-next-active.png");
+          content: url("../../../../assets/arrow-pre.png");
+        }
+        > .prev-arrow:hover {
+          cursor: pointer;
+          content: url("../../../../assets/arrow-pre-active.png");
+        }
+        > .next-arrow {
+          width: 40px;
+          height: 22px;
+          margin-top: 3px;
+
+          content: url("../../../../assets/arrow-next.png");
+        }
+        > .next-arrow:hover {
+          cursor: pointer;
+          content: url("../../../../assets/arrow-next-active.png");
+        }
       }
     }
 
@@ -47,27 +53,27 @@
       overflow: hidden;
       margin-bottom: 80px;
 
-      // .slide-right-leave-active,
-      // .slide-right-enter-active {
-      //   transition: 3.0s;
-      // }
-      // .slide-right-enter {
-      //   transform: translate(100%, 0);
-      // }
-      // .slide-right-leave-to {
-      //   transform: translate(-100%, 0);
-      // }
+      .slide-right-leave-active,
+      .slide-right-enter-active {
+        transition: 3.0s;
+      }
+      .slide-right-enter {
+        transform: translate(100%, 0);
+      }
+      .slide-right-leave-to {
+        transform: translate(-100%, 0);
+      }
 
-      // .slide-left-leave-active,
-      // .slide-left-enter-active {
-      //   transition: transform 3.0s;
-      // }
-      // .slide-left-enter {
-      //   transform: translate(-100%, 0);
-      // }
-      // .slide-left-leave-to {
-      //   transform: translate(100%, 0);
-      // }
+      .slide-left-leave-active,
+      .slide-left-enter-active {
+        transition: transform 3.0s;
+      }
+      .slide-left-enter {
+        transform: translate(-100%, 0);
+      }
+      .slide-left-leave-to {
+        transform: translate(100%, 0);
+      }
 
       > .transition{
         display: flex;

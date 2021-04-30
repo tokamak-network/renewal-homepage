@@ -1,9 +1,11 @@
 @media all and (max-width: 700px) {
   .roadmaps {
-    margin-top: 20px;
+    // margin-top: 20px;
+    padding: 0 20px;
     width: 100%;
-    margin-left: 0px;
-    height: 347px;
+    // margin-left: 0px;
+    padding: 0 20px;
+    height: 387px;
 
     > .roadmap-header {
       display: flex;
@@ -12,7 +14,8 @@
       margin-left: 20px;
 
       > .title {
-        font-family: OpenSans;
+        max-width: 200px;
+        font-family: "OpenSans", sans-serif;
         font-size: 20px;
         font-weight: bold;
         font-stretch: normal;
@@ -23,36 +26,43 @@
         color: #1c1c1c;
         margin-right: 20px;
       }
-      > .prev-arrow {
-        width: 40px;
-        height: 22px;
-        margin-top: 3px;
-
-        content: url("../../../../assets/arrow-pre.png");
+      > .arrow-section {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        > .prev-arrow {
+          width: 40px;
+          height: 22px;
+          margin-top: 3px;
+  
+          content: url("../../../../assets/arrow-pre.png");
+        }
+        > .prev-arrow:hover {
+          cursor: pointer;
+          content: url("../../../../assets/arrow-pre-active.png");
+        }
+        > .next-arrow {
+          width: 40px;
+          height: 22px;
+          margin: 3px 20px 0 0;
+  
+          content: url("../../../../assets/arrow-next.png");
+        }
+        > .next-arrow:hover {
+          cursor: pointer;
+          content: url("../../../../assets/arrow-next-active.png");
+        }
       }
-      > .prev-arrow:hover {
-        cursor: pointer;
-        content: url("../../../../assets/arrow-pre-active.png");
-      }
-      > .next-arrow {
-        width: 40px;
-        height: 22px;
-        margin: 3px 20px 0 0;
-
-        content: url("../../../../assets/arrow-next.png");
-      }
-      > .next-arrow:hover {
-        cursor: pointer;
-        content: url("../../../../assets/arrow-next-active.png");
-      }
+     
     }
 
     > .roadmap-section {
 
-      width: 95%;
+      width: 100%;
+      max-width:320px;
       overflow: hidden;
       margin-bottom: 60px;
-      margin-left: 20px;
+      margin: 0 20px!important;
 
       .slide-right-leave-active,
       .slide-right-enter-active {
@@ -81,40 +91,46 @@
         justify-content: center;
         align-items: center;
       
-
+        margin-right: 20px;
         > .roadmap {
-          width: 90%;
-          position: relative;
+          width: 100%;
+          // position: relative;
+          // margin-right: 10px;
 
           > .roadmap-subject {
-            width: 380px;
-            height: 33px;
+            // width: 380px;
+            // height: 33px;
             font-size: 18px;
             font-weight: 600;
             font-stretch: normal;
             font-style: normal;
-            line-height: 1.25;
-            letter-spacing: -0.6px;
+            line-height: 1.37;
+            letter-spacing: -0.45px;
             text-align: left;
             color: #246fed;
             margin-bottom: 20px;
           }
 
           > .roadmap-title {
-            font-size: 13px;
+            font-size: 16px;
             font-weight: bold;
-            line-height: 1.3;
-            letter-spacing: -0.5px;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: -0.4px;
             text-align: left;
             color: #1c1c1c;
             margin-bottom: 10px;
+            margin-right: 20px;
           }
 
           > .roadmap-detail {
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 600;
-            line-height: 1.43;
-            letter-spacing: -0.35px;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.54;
+            letter-spacing: -0.33px;
             text-align: left;
             color: #4c4c4c;
             // height: 110px;

@@ -33,9 +33,6 @@
           srcset="@/assets/meter@2x.png 2x, @/assets/meter@3x.png 3x"
         />
       </div>
-      <!-- </div>
-    <div class="gap" />
-    <div class="supporter-section"> -->
       <div @click="supporterLink('dsrv')" class="supporter">
         <img
           class="img"
@@ -49,6 +46,18 @@
           src="@/assets/bounce.png"
           srcset="@/assets/bounce@2x.png 2x, @/assets/bounce@3x.png 3x"
         />
+      </div>
+      <div @click="supporterLink('Talken')" class="supporter">
+        <img class="img" src="@/assets/talken.svg" />
+      </div>
+      <div @click="supporterLink('paycoin')" class="supporter">
+        <img class="img" src="@/assets/paycoiin.svg" />
+      </div>
+      <div @click="supporterLink('bifrost')" class="supporter">
+        <img class="img" src="@/assets/bifrost.svg" />
+      </div>
+      <div @click="supporterLink('kdac')" class="supporter">
+        <img class="img" src="@/assets/kdac.png" />
       </div>
     </div>
     <div class="gap-mobile" />
@@ -114,6 +123,13 @@ export default {
           "https://www.linkedin.com/company/skytale-capital/about/",
           "_blank"
         );
+      else if (item === "Talken")
+        window.open("https://talken.io/main", "_blank");
+      else if (item === "paycoin")
+        window.open("https://payprotocol.io/", "_blank");
+      else if (item === "bifrost")
+        window.open("https://thebifrost.io/", "_blank");
+      else if (item === "kdac") window.open("", "_blank");
     },
   },
 };

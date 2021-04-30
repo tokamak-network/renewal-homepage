@@ -1,10 +1,12 @@
-@media all and (max-width: 1280px) {
+@media all and (min-width: 701px) and (max-width: 1280px) {
   .roadmaps {
     margin-top: 20px;
     width: 100%;
-    margin-left: 50px;
-    // padding: 0 40px;
+    // margin-left: 50px;
+    padding: 0 30px;
     height: 375px;
+    display: flex!important;
+    flex-direction: column;
 
     > .roadmap-header {
       display: flex;
@@ -18,29 +20,35 @@
         letter-spacing: normal;
         text-align: left;
         color: #1c1c1c;
+        margin-left: 30px!important;
         margin-right: 40px;
       }
-      > .prev-arrow {
-        width: 40px;
-        height: 22px;
-        margin-top: 3px;
+      > .arrow-section {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        > .prev-arrow {
+          width: 40px;
+          height: 22px;
+          margin-top: 3px;
 
-        content: url("../../../../assets/arrow-pre.png");
-      }
-      > .prev-arrow:hover {
-        cursor: pointer;
-        content: url("../../../../assets/arrow-pre-active.png");
-      }
-      > .next-arrow {
-        width: 40px;
-        height: 22px;
-        margin-top: 3px;
+          content: url("../../../../assets/arrow-pre.png");
+        }
+        > .prev-arrow:hover {
+          cursor: pointer;
+          content: url("../../../../assets/arrow-pre-active.png");
+        }
+        > .next-arrow {
+          width: 40px;
+          height: 22px;
+          margin-top: 3px;
 
-        content: url("../../../../assets/arrow-next.png");
-      }
-      > .next-arrow:hover {
-        cursor: pointer;
-        content: url("../../../../assets/arrow-next-active.png");
+          content: url("../../../../assets/arrow-next.png");
+        }
+        > .next-arrow:hover {
+          cursor: pointer;
+          content: url("../../../../assets/arrow-next-active.png");
+        }
       }
     }
 
@@ -73,6 +81,7 @@
       }
 
       > .transition {
+        margin-left: 30px;
         display: flex;
         justify-content: space-between;
 

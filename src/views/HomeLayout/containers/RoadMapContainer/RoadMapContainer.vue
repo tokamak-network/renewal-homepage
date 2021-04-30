@@ -2,8 +2,10 @@
   <div class="roadmaps">
     <div class="roadmap-header">
       <div class="title">{{ $t("home.roadmap.title") }}</div>
-      <div class="prev-arrow" @click="prev" />
-      <div class="next-arrow" @click="next" />
+      <div class="arrow-section">
+        <div class="prev-arrow" @click="prev" />
+        <div class="next-arrow" @click="next" />
+      </div>
     </div>
     <div class="roadmap-section">
       <div class="transition">
