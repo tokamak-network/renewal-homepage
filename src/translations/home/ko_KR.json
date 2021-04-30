@@ -36,7 +36,7 @@
   "tokamak_info": {
     "title": "TOKAMAK NETWORK TODAY",
     "price": "TON 가격",
-    "trading_volume": "rjfofid",
+    "trading_volume": "거래량",
     "staked_amount": "스테이킹된 TON"
   }
 }
