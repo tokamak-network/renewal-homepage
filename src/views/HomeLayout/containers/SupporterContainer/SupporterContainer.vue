@@ -50,13 +50,6 @@
           srcset="@/assets/bounce@2x.png 2x, @/assets/bounce@3x.png 3x"
         />
       </div>
-      <div @click="supporterLink('dxm')" class="supporter">
-        <img
-          class="img"
-          src="@/assets/dxm.png"
-          srcset="@/assets/dxm@2x.png 2x, @/assets/dxm@3x.png 3x"
-        />
-      </div>
     </div>
     <div class="gap-mobile" />
     <div class="supporter-header">{{ $t("home.supporter.title2") }}</div>

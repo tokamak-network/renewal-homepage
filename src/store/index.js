@@ -87,7 +87,7 @@ export default new Vuex.Store({
       {
         index: "0",
         subject: "Networking the Layer 2 networks",
-        title: "모든 레이어 2 프로토콜 지원.",
+        title: "모든 레이어 2 프로토콜 지원",
         contents: [
           "Optimistic Rollup 지원: Optimism, Arbitrum 등",
           "Zk-Rollup 지원: StarkEx, zkSync 등",
@@ -101,7 +101,7 @@ export default new Vuex.Store({
         subject: "Networking the Layer 2 networks",
         title: "TON 생태계와 각 레이어 2 프로토콜 통합 및 지원",
         contents: [
-          "톤 시뇨리지 풀, 파워톤 게임, DAO 거버넌스와 레이어 2 프로토콜간의 통합",
+          "톤 시뇨리지 풀, 파워톤 게임, DAO 거버넌스와 레이어 2 프로토콜 간의 통합",
         ],
       },
       {
@@ -135,7 +135,7 @@ export default new Vuex.Store({
         index: "6",
         subject: "Higher security, More Interoperability",
         title: "크로스 컨트랙트 콜 지원",
-        contents: ["롤업간 임의 메세지 콜 지원"],
+        contents: ["롤업 간 임의 메세지 콜 지원"],
       },
       {
         index: "7",
@@ -155,7 +155,7 @@ export default new Vuex.Store({
     roadmapCN: [
       {
         index: "0",
-        subject: "连接 以太坊二层协议（Layer 2）网络",
+        subject: "Networking the Layer 2 networks",
         title: "支持坦克网络（Tokamak Network）中的所有类型的二层协议",
         contents: [
           "支持Optimistic Rollup：Optimism、Arbitrum等",
@@ -167,7 +167,7 @@ export default new Vuex.Store({
       },
       {
         index: "1",
-        subject: "连接 以太坊二层协议（Layer 2）网络",
+        subject: "Networking the Layer 2 networks",
         title: "将所有类型的二层协议与TON生态系统集成在一起",
         contents: [
           "将所有二层协议与TON铸币池、PowerTON游戏和DAO治理集成在一起",
@@ -175,19 +175,19 @@ export default new Vuex.Store({
       },
       {
         index: "2",
-        subject: "连接 以太坊二层协议（Layer 2）网络",
+        subject: "Networking the Layer 2 networks",
         title: "支持一键式跨Rollup转移",
         contents: ["建立跨Rollup转移的流动资金池"],
       },
       {
         index: "3",
-        subject: "连接 以太坊二层协议（Layer 2）网络",
+        subject: "Networking the Layer 2 networks",
         title: "支持快速提现",
         contents: ["建立快速提现的流动资金池"],
       },
       {
         index: "4",
-        subject: "连接 以太坊二层协议（Layer 2）网络",
+        subject: "Networking the Layer 2 networks",
         title: "从第一天开始就支持全面验证",
         contents: [
           "实施注意力挑战",
