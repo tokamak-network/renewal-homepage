@@ -29,8 +29,8 @@
       justify-content: center;
       display: grid;
       grid-template-columns: repeat(auto-fit,minmax(380px, auto));
-      row-gap: 50px;
-      column-gap: 50;
+      row-gap: 30px;
+      column-gap: 30px;
 
 
       // justify-content: space-between;
@@ -41,7 +41,7 @@
         height: 200px;
         border: solid 1px #dfe4ee;
         background-color: #ffffff;
-        margin: 5px 30px;
+        // margin: 5px 30px;
         
         display: flex;
         align-items: center;
