@@ -78,7 +78,7 @@
         />
       </div>
       <div @click="supporterLink('alphain')" class="supporter">
-        <img class="img" src="@/assets/alphain.svg" />
+        <img class="img" src="@/assets/alphain.png" />
       </div>
       <div @click="supporterLink('skytale')" class="supporter">
         <img class="img" src="@/assets/skytale.png" />
