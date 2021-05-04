@@ -159,7 +159,7 @@ export default {
           name: "Jace Kang",
           role: "Operation Manager",
           github: "",
-          linkedin: "",
+          linkedin: "https://www.linkedin.com/in/joohyong-kang/",
           image: JaceImage,
         },
         {
