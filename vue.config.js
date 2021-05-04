@@ -8,7 +8,7 @@ module.exports = {
   //   https: true,
   //   hotOnly: false,
   // },
-  publicPath: "/renewal-homepage/",
+  publicPath: "/",
   outputDir: "docs",
   configureWebpack: {
     devtool: "source-map",
