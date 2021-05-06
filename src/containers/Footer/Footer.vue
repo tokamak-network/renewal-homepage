@@ -12,7 +12,7 @@
       <div class="office" style="margin-right: 80px">
         <div class="title">Jobs</div>
         <div class="content">Recruitment</div>
-        <div class="content">job@onther.io</div>
+        <div class="content">people@onther.io</div>
       </div>
       <div class="office">
         <div class="title">Social</div>
