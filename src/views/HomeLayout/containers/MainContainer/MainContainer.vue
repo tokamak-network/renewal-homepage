@@ -1,8 +1,6 @@
 <template>
   <div class="main-container">
-    <div class="description">
-      {{ $t("home.main.description1") }}
-    </div>
+    <div class="description">ON-DEMAND ETHEREUM LAYER 2 PLATFORM</div>
     <div class="image">
       <div class="sub-description">
         {{ $t("home.main.description2") }}
