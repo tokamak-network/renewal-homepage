@@ -80,6 +80,9 @@
       <div @click="supporterLink('alphain')" class="supporter">
         <img class="img" src="@/assets/alphain.png" />
       </div>
+      <div class="supporter">
+        <img class="img" src="@/assets/skytale.png" />
+      </div>
     </div>
   </div>
 </template>
