@@ -43,5 +43,8 @@
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-i18n": "~2.1.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "volta": {
+    "node": "13.14.0"
   }
 }
