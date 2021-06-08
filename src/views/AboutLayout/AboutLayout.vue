@@ -95,7 +95,7 @@ export default {
           name: "Kadyrbek Narmamatov",
           role: "Software Engineer",
           github: "https://github.com/SEFI2",
-          linkedin: "http://linkedin.com/knarmamatov",
+          linkedin: "http://linkedin.com/in/knarmamatov",
           image: KadyrImage,
         },
         // {
