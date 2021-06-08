@@ -20,11 +20,7 @@
         />
       </div>
       <div @click="supporterLink('matic')" class="supporter">
-        <img
-          class="img"
-          src="@/assets/matic.png"
-          srcset="@/assets/matic@2x.png 2x, @/assets/matic@3x.png 3x"
-        />
+        <img class="img" src="@/assets/polygon.png" />
       </div>
       <div @click="supporterLink('meter')" class="supporter">
         <img
@@ -59,6 +55,18 @@
       <div @click="supporterLink('kdac')" class="supporter">
         <img class="img" src="@/assets/kdac.png" />
       </div>
+      <div @click="supporterLink('dcent')" class="supporter">
+        <img class="img" src="@/assets/dcent.svg" />
+      </div>
+      <div @click="supporterLink('ozys')" class="supporter">
+        <img class="img" src="@/assets/ozys.png" />
+      </div>
+      <div @click="supporterLink('panony')" class="supporter">
+        <img class="img" src="@/assets/panony.svg" />
+      </div>
+      <!-- <div @click="supporterLink('staked')" class="supporter">
+        <img class="img" src="@/assets/staked.png" />
+      </div> -->
     </div>
     <div class="gap-mobile" />
     <div class="supporter-header">{{ $t("home.supporter.title2") }}</div>
@@ -103,7 +111,8 @@ export default {
           "https://medium.com/onther-tech/vitalik-buterins-big-announcements-about-plasma-evm-tokamak-network-636dc11ea257",
           "_blank"
         );
-      else if (item === "matic") window.open("https://matic.network", "_blank");
+      else if (item === "matic")
+        window.open("https://polygon.technology/", "_blank");
       else if (item === "maker")
         window.open("https://makerdao.com/ko", "_blank");
       else if (item === "meter") window.open("https://meter.io", "_blank");
@@ -130,6 +139,12 @@ export default {
       else if (item === "bifrost")
         window.open("https://thebifrost.io/", "_blank");
       else if (item === "kdac") window.open("", "_blank");
+      else if (item === "dcent")
+        window.open("https://dcentwallet.com/", "_blank");
+      else if (item === "ozys") window.open("https://orbitchain.io/", "_blank");
+      else if (item === "panony")
+        window.open("https://www.panony.com/", "_blank");
+      else if (item === "staked") window.open("https://staked.us/", "_blank");
     },
   },
 };
