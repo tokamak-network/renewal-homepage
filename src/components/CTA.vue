@@ -8,7 +8,7 @@
       <div class="body">
         <div class="cta-grid">
           <a
-            href="https://discord.gg/SZw2WSR"
+            href="https://discord.gg/J4chV2zuAK"
             class="flex justify-between align-center action-cta"
           >
             <span style="padding-left: 5px">Join Community</span>

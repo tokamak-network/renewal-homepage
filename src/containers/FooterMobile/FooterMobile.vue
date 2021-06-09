@@ -24,7 +24,7 @@
           <a href="https://www.youtube.com/c/OntherInc">YouTube</a>
           <a href="https://www.linkedin.com/company/onther-tech/">Linkedin</a>
           <a href="https://t.me/tokamak_network">Telegram</a>
-          <a href="https://discord.gg/SZw2WSR"
+          <a href="https://discord.gg/J4chV2zuAK"
             >Discord <span>[KR/EN/CN]</span></a
           >
           <a href="http://blog.onther.io">Onther Blog</a>

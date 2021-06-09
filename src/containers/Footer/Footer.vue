@@ -72,7 +72,7 @@ export default {
         window.open("https://www.linkedin.com/company/onther-tech/", "_blank");
       else if (item === "Telegram")
         window.open("https://t.me/tokamak_network", "_blank");
-      else if (item === "Discord") window.open("https://discord.gg/SZw2WSR");
+      else if (item === "Discord") window.open("https://discord.gg/J4chV2zuAK");
       else if (item === "Blog") window.open("http://blog.onther.io");
     },
   },

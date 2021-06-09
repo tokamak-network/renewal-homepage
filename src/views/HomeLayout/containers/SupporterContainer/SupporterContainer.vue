@@ -64,9 +64,9 @@
       <div @click="supporterLink('panony')" class="supporter">
         <img class="img" src="@/assets/panony.svg" />
       </div>
-      <!-- <div @click="supporterLink('staked')" class="supporter">
-        <img class="img" src="@/assets/staked.png" />
-      </div> -->
+      <div @click="supporterLink('staked')" class="supporter">
+        <img class="img" src="@/assets/staked.svg" />
+      </div>
     </div>
     <div class="gap-mobile" />
     <div class="supporter-header">{{ $t("home.supporter.title2") }}</div>
