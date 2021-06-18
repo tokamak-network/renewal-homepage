@@ -26,7 +26,7 @@ import TomasImage from "../../assets/team/tomas_pic@3x.png";
 import LakmiImage from "../../assets/team/lakmi_pic@3x.png";
 import AidenImage from "../../assets/team/aiden_pic@3x.png";
 import IsaacImage from "../../assets/team/isaac_pic@3x.png";
-// import NanoImage from "../../assets/team/nano_pic@3x.png";
+import NanoImage from "../../assets/team/nano_pic@3x.png";
 import LucasImage from "../../assets/team/lucas_pic@3x.png";
 import KadyrImage from "../../assets/team/Kadyr_pic@3x.png";
 import AleImage from "../../assets/team/ale_pic@3x.png";
@@ -98,13 +98,13 @@ export default {
           linkedin: "http://linkedin.com/in/knarmamatov",
           image: KadyrImage,
         },
-        // {
-        //   name: "Harry Oh",
-        //   role: "Blockchain Engineer",
-        //   github: "https://github.com/harryoh",
-        //   linkedin: "https://www.linkedin.com/in/harry-oh/",
-        //   image: "",
-        // },
+        {
+          name: "Harry Oh",
+          role: "Blockchain Engineer",
+          github: "https://github.com/harryoh",
+          linkedin: "https://www.linkedin.com/in/harry-oh/",
+          image: "",
+        },
         {
           name: "Lakmi Weerapperuma",
           role: "Software Engineer",
@@ -169,13 +169,13 @@ export default {
           linkedin: "https://www.linkedin.com/in/hyejeonghaleychoi",
           image: HaleyImage,
         },
-        // {
-        //   name: "Nano Kim",
-        //   role: "Operation Manager",
-        //   github: "",
-        //   linkedin: "http://www.linkedin.com/in/nano-kim-38b40a209",
-        //   image: NanoImage,
-        // },
+        {
+          name: "Nano Kim",
+          role: "Operation Manager",
+          github: "",
+          linkedin: "http://www.linkedin.com/in/nano-kim-38b40a209",
+          image: NanoImage,
+        },
       ],
     };
   },
