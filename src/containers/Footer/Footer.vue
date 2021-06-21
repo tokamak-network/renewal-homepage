@@ -5,7 +5,7 @@
       <div class="office" style="width: 367px; margin-right: 80px">
         <div class="title">Office</div>
         <div class="content">
-          10 Anson Road #23-140 International Plaza Singapore
+          111 SOMERSET ROAD #06-07 111 SOMERSET SINGAPORE 238164
         </div>
         <div class="content">E. info@onther.io</div>
       </div>
