@@ -98,13 +98,13 @@ export default {
           linkedin: "http://linkedin.com/in/knarmamatov",
           image: KadyrImage,
         },
-        {
-          name: "Harry Oh",
-          role: "Blockchain Engineer",
-          github: "https://github.com/harryoh",
-          linkedin: "https://www.linkedin.com/in/harry-oh/",
-          image: "",
-        },
+        // {
+        //   name: "Harry Oh",
+        //   role: "Blockchain Engineer",
+        //   github: "https://github.com/harryoh",
+        //   linkedin: "https://www.linkedin.com/in/harry-oh/",
+        //   image: "",
+        // },
         {
           name: "Lakmi Weerapperuma",
           role: "Software Engineer",
