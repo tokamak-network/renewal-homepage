@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="line-tablet" />
-        <div class="today-info">
+        <div class="today-info third">
           <div class="title">{{ $t("home.tokamak_info.staked_amount") }}</div>
           <div class="content">
             {{
@@ -65,6 +65,7 @@ export default {
 
 <style lang="scss" scope>
 @import "TokamakInfoContainer.scss";
+@import "TokamakInfoContainer-1280.scss";
 @import "TokamakInfoContainer-tablet.scss";
 @import "TokamakInfoContainer-mobile.scss";
 </style>

@@ -80,5 +80,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "Footer-1280.scss";
 @import "Footer.scss";
 </style>

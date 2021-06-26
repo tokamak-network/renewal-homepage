@@ -34,9 +34,9 @@ export default {
   computed: {
     ...mapState(["posts", "web3"]),
     selectedPosts() {
-      if (this.width > 1280) {
+      if (this.width > 1440) {
         return this.posts.slice(this.page, this.page + 3);
-      } else if (this.width > 700 && this.width <= 1280) {
+      } else if (this.width > 700 && this.width <= 1440) {
         return this.posts.slice(this.page, this.page + 2);
       } else {
         return this.posts.slice(this.page, this.page + 3);
@@ -94,6 +94,7 @@ export default {
 
 <style lang="scss" scope>
 @import "BlogContainer.scss";
+@import "BlogContainer-1280.scss";
 @import "BlogContainer-tablet.scss";
 @import "BlogContainer-mobile.scss";
 </style>

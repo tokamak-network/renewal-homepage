@@ -51,9 +51,9 @@ export default {
   computed: {
     ...mapState(["roadmap", "web3"]),
     selectedRoadmap() {
-      if (this.width > 1270) {
+      if (this.width > 1440) {
         return this.roadmap.slice(this.page, this.page + 4);
-      } else if (this.width > 700 && this.width <= 1270) {
+      } else if (this.width > 700 && this.width <= 1440) {
         return this.roadmap.slice(this.page, this.page + 2);
       } else {
         return this.roadmap.slice(this.page, this.page + 1);
@@ -109,6 +109,7 @@ export default {
 
 <style lang="scss" scope>
 @import "RoadMapContainer.scss";
+@import "RoadMapContainer-1280.scss";
 @import "RoadMapContainer-tablet.scss";
 @import "RoadMapContainer-mobile.scss";
 </style>
