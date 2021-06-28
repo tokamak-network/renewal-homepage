@@ -1,12 +1,15 @@
-@media all and (min-width: 1441px) {
+@media all and (min-width: 1025px) and (max-width: 1441px) {
   .solution-container {
-    margin-top: 80px;
     display: flex;
-    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: 1080px;
+    width: 95%;
+    margin: 80px 30px 0 30px;
 
     > .solution-img {
       max-width: 416px;
-      margin-left: 144px;
+      // margin-left: 144px;
     }
 
     > .solution {
@@ -15,11 +18,11 @@
       font-style: normal;
       letter-spacing: normal;
       text-align: left;
-      max-width: 616px;
+      width: 100%;
 
       > .solution-title {
         margin-top: 10px;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 600;
       }
 

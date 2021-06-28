@@ -33,6 +33,7 @@ export default {};
 
 <style lang="scss" scoped>
 @import "ChallengeContainer.scss";
+@import "ChallengeContainer-1280.scss";
 @import "ChallengeContainer-tablet.scss";
 @import "ChallengeContainer-mobile.scss";
 </style>

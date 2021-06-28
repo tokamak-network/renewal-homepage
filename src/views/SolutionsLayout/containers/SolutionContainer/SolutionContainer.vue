@@ -34,6 +34,7 @@ export default {};
 
 <style lang="scss" scoped>
 @import "SolutionContainer.scss";
+@import "SolutionContainer-1280.scss";
 @import "SolutionContainer-tablet.scss";
 @import "SolutionContainer-mobile.scss";
 </style>

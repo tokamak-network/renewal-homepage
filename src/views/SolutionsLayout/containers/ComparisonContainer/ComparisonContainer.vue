@@ -116,6 +116,7 @@ export default {};
 
 <style lang="scss" scoped>
 @import "ComparisonContainer.scss";
+@import "ComparisonContainer-1280.scss";
 @import "ComparisonContainer-tablet.scss";
 @import "ComparisonContainer-mobile.scss";
 </style>

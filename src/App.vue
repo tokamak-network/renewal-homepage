@@ -70,7 +70,7 @@ export default {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1441px) {
   #app {
     font-family: "Open Sans", sans-serif;
     display: flex;

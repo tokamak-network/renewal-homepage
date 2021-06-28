@@ -1,6 +1,9 @@
-@media all and (min-width: 1441px) {
+@media all and (min-width: 1024px) and (max-width: 1440px) {
   .comparison-container {
     margin-bottom: 180px;
+    max-width: 1080px;
+    width: 100%;
+
       > .title-section {
         display: flex;
         flex-direction: column;
