@@ -44,6 +44,13 @@
         >
           Staking
         </button>
+        <button
+          class="tab-linked"
+          style="cursor: pointer"
+          @click="click('https://wton-swapper.tokamak.network/')"
+        >
+          WTON Swapper
+        </button>
       </div>
     </div>
   </div>
