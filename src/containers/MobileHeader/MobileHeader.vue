@@ -99,6 +99,13 @@
                 >
                   Staking
                 </button>
+                <button
+                  class="menu-item-sub-item-linked"
+                  style="marginbottom: 0px"
+                  @click="click('https://wton-swapper.tokamak.network/')"
+                >
+                  WTON-Swapper
+                </button>
               </div>
             </div>
           </div>
