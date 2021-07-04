@@ -35,6 +35,7 @@ import JaceImage from "../../assets/team/jace_pic@3x.png";
 import ZenaImage from "../../assets/team/zena_pic@3x.png";
 import SimonImage from "../../assets/team/simon_pic@3x.png";
 import HaleyImage from "../../assets/team/haley-pic@3x.png";
+import HarryImage from "../../assets/team/harry-pic@3x.png";
 
 export default {
   data() {
@@ -98,13 +99,13 @@ export default {
           linkedin: "http://linkedin.com/in/knarmamatov",
           image: KadyrImage,
         },
-        // {
-        //   name: "Harry Oh",
-        //   role: "Blockchain Engineer",
-        //   github: "https://github.com/harryoh",
-        //   linkedin: "https://www.linkedin.com/in/harry-oh/",
-        //   image: "",
-        // },
+        {
+          name: "Harry Oh",
+          role: "Blockchain Engineer",
+          github: "https://github.com/harryoh",
+          linkedin: "https://www.linkedin.com/in/harry-oh/",
+          image: HarryImage,
+        },
         {
           name: "Lakmi Weerapperuma",
           role: "Software Engineer",
