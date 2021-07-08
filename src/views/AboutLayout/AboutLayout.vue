@@ -25,7 +25,6 @@ import JasonImage from "../../assets/team/jason_pic@3x.png";
 import TomasImage from "../../assets/team/tomas_pic@3x.png";
 import LakmiImage from "../../assets/team/lakmi_pic@3x.png";
 import AidenImage from "../../assets/team/aiden_pic@3x.png";
-import IsaacImage from "../../assets/team/isaac_pic@3x.png";
 import NanoImage from "../../assets/team/nano_pic@3x.png";
 import LucasImage from "../../assets/team/lucas_pic@3x.png";
 import KadyrImage from "../../assets/team/Kadyr_pic@3x.png";
@@ -36,6 +35,7 @@ import ZenaImage from "../../assets/team/zena_pic@3x.png";
 import SimonImage from "../../assets/team/simon_pic@3x.png";
 import HaleyImage from "../../assets/team/haley-pic@3x.png";
 import HarryImage from "../../assets/team/harry-pic@3x.png";
+import JosephImage from "../../assets/team/joseph-pic@3x.png";
 
 export default {
   data() {
@@ -120,13 +120,6 @@ export default {
           linkedin: "",
           image: AleImage,
         },
-        {
-          name: "Nnachi Isaac Onuwa",
-          role: "Software Engineer",
-          github: "https://github.com/iamonuwa",
-          linkedin: "https://linkedin.com/in/iamonuwa",
-          image: IsaacImage,
-        },
         // {
         //   name: "Harvey Jo",
         //   role: "Blockchain Engineer",
@@ -176,6 +169,13 @@ export default {
           github: "",
           linkedin: "http://www.linkedin.com/in/nano-kim-38b40a209",
           image: NanoImage,
+        },
+        {
+          name: "Joseph Nemelka",
+          role: "Business Developer",
+          github: "",
+          linkedin: "https://www.linkedin.com/in/joseph-nemelka-a3b703142/",
+          image: JosephImage,
         },
       ],
     };
