@@ -70,9 +70,9 @@
       <div @click="supporterLink('chainlink')" class="supporter">
         <img class="img" src="@/assets/chainlink.svg" />
       </div>
-      <!-- <div @click="supporterLink('decipher')" class="supporter">
+      <div @click="supporterLink('decipher')" class="supporter">
         <img class="img" src="@/assets/decipher.svg" />
-      </div> -->
+      </div>
     </div>
     <div class="gap-mobile" />
     <div class="supporter-header">{{ $t("home.supporter.title2") }}</div>
@@ -153,7 +153,8 @@ export default {
       else if (item === "staked") window.open("https://chain.link/", "_blank");
       else if (item === "chainlink")
         window.open("https://staked.us/", "_blank");
-      // else if (item === "decipher") window.open("https://decipher.ac/", "_blank");
+      else if (item === "decipher")
+        window.open("https://decipher.ac/", "_blank");
     },
   },
 };
