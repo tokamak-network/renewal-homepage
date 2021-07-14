@@ -36,6 +36,7 @@ import SimonImage from "../../assets/team/simon_pic@3x.png";
 import HaleyImage from "../../assets/team/haley-pic@3x.png";
 import HarryImage from "../../assets/team/harry-pic@3x.png";
 import JosephImage from "../../assets/team/joseph-pic@3x.png";
+import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
 
 export default {
   data() {
@@ -47,6 +48,12 @@ export default {
           github: "https://github.com/ggs134",
           linkedin: "https://www.linkedin.com/in/philosopher134/",
           image: KevinImage,
+        },
+        {
+          name: "June sim",
+          role: "Co-CEO",
+          linkedin: "https://www.linkedin.com/in/junsik-sim-a447421b2/",
+          image: JuneImage,
         },
         {
           name: "Zoe Kim",
