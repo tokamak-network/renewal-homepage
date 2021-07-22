@@ -7,7 +7,7 @@
         <div class="content">
           111 SOMERSET ROAD #06-07O 111 SOMERSET SINGAPORE 238164
         </div>
-        <div class="content">E. info@onther.io</div>
+        <div class="content">E. hello@tokamak.network</div>
       </div>
       <div class="office" style="margin: 40px 0">
         <div class="title">Jobs</div>
