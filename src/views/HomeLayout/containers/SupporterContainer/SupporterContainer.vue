@@ -73,6 +73,9 @@
       <div @click="supporterLink('decipher')" class="supporter">
         <img class="img" src="@/assets/decipher.svg" />
       </div>
+      <div @click="supporterLink('despread')" class="supporter">
+        <img class="img" src="@/assets/despread.svg" />
+      </div>
     </div>
     <div class="gap-mobile" />
     <div class="supporter-header">{{ $t("home.supporter.title2") }}</div>
@@ -155,6 +158,8 @@ export default {
         window.open("https://staked.us/", "_blank");
       else if (item === "decipher")
         window.open("https://decipher.ac/", "_blank");
+      else if (item === "despread")
+        window.open("https://www.despread.io/", "_blank");
     },
   },
 };
