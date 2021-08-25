@@ -33,7 +33,6 @@ import FrankImage from "../../assets/team/frank_pic@3x.png";
 import JaceImage from "../../assets/team/jace_pic@3x.png";
 import ZenaImage from "../../assets/team/zena_pic@3x.png";
 import SimonImage from "../../assets/team/simon_pic@3x.png";
-import HaleyImage from "../../assets/team/haley-pic@3x.png";
 import HarryImage from "../../assets/team/harry-pic@3x.png";
 import JosephImage from "../../assets/team/joseph-pic@3x.png";
 import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
@@ -162,13 +161,6 @@ export default {
           github: "",
           linkedin: "https://www.linkedin.com/in/joohyong-kang/",
           image: JaceImage,
-        },
-        {
-          name: "Haley Choi",
-          role: "HR Growth Manager",
-          github: "",
-          linkedin: "https://www.linkedin.com/in/hyejeonghaleychoi",
-          image: HaleyImage,
         },
         {
           name: "Nano Kim",
