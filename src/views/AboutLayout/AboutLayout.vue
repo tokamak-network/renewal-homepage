@@ -36,6 +36,7 @@ import SimonImage from "../../assets/team/simon_pic@3x.png";
 import HarryImage from "../../assets/team/harry-pic@3x.png";
 import JosephImage from "../../assets/team/joseph-pic@3x.png";
 import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
+import PraveenImage from "../../assets/team/praveen-pic@3x.png";
 
 export default {
   data() {
@@ -175,6 +176,13 @@ export default {
           github: "",
           linkedin: "https://www.linkedin.com/in/joseph-nemelka-a3b703142/",
           image: JosephImage,
+        },
+        {
+          name: "Praveen Surendran",
+          role: "Researcher",
+          github: "",
+          linkedin: "https://www.linkedin.com/in/praveen-s-058554115/",
+          image: PraveenImage,
         },
       ],
     };
