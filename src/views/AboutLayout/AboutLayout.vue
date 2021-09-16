@@ -37,6 +37,7 @@ import HarryImage from "../../assets/team/harry-pic@3x.png";
 import JosephImage from "../../assets/team/joseph-pic@3x.png";
 import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
 import PraveenImage from "../../assets/team/praveen-pic@3x.png";
+import JackImage from "../../assets/team/jack-pic@3x.png";
 
 export default {
   data() {
@@ -183,6 +184,13 @@ export default {
           github: "",
           linkedin: "https://www.linkedin.com/in/praveen-s-058554115/",
           image: PraveenImage,
+        },
+        {
+          name: "Jack Oh",
+          role: "Translator",
+          github: "",
+          linkedin: "https://www.linkedin.com/in/oh-yoon-sok-5b5004169/",
+          image: JackImage,
         },
       ],
     };
