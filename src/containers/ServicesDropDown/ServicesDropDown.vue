@@ -17,7 +17,7 @@
           Tokamak Plasma
         </button>
         <div class="soon-tab">
-          <button class="tab" :disabled="true">Optimsitic Rollup</button>
+          <button class="tab" :disabled="true">Optimistic Rollup</button>
           <div class="soon">SOON</div>
         </div>
         <div class="soon-tab">
