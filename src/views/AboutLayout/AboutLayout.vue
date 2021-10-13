@@ -38,6 +38,7 @@ import JosephImage from "../../assets/team/joseph-pic@3x.png";
 import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
 import PraveenImage from "../../assets/team/praveen-pic@3x.png";
 import JackImage from "../../assets/team/jack-pic@3x.png";
+import HarveyImage from "../../assets/team/harvey-pic@3x.png";
 import JamieImage from "../../assets/team/jamie-pic@3x.png";
 
 export default {
@@ -129,14 +130,6 @@ export default {
           linkedin: "",
           image: AleImage,
         },
-        // {
-        //   name: "Harvey Jo",
-        //   role: "Blockchain Engineer",
-        //   github: "",
-        //   linkedin:
-        //     "https://www.linkedin.com/in/%ED%98%81%EC%83%81-%EC%A1%B0-918103210/",
-        //   image: "",
-        // },
         {
           name: "Lucas Jung",
           role: "UX/UI Developer",
@@ -192,6 +185,14 @@ export default {
           github: "",
           linkedin: "https://www.linkedin.com/in/oh-yoon-sok-5b5004169/",
           image: JackImage,
+        },
+        {
+          name: "Harvey Jo",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin:
+            "https://www.linkedin.com/in/%ED%98%81%EC%83%81-%EC%A1%B0-918103210/",
+          image: HarveyImage,
         },
         {
           name: "Jamie Judd",
