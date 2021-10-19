@@ -138,13 +138,6 @@ export default {
           image: LucasImage,
         },
         {
-          name: "Frank Noh",
-          role: "Business Developer",
-          github: "",
-          linkedin: "https://www.linkedin.com/in/frank-noh-311870194/",
-          image: FrankImage,
-        },
-        {
           name: "Simon Moon",
           role: "Communication Manager",
           github: "",
