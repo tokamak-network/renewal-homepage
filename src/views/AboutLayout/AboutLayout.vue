@@ -24,7 +24,6 @@ import JasonImage from "../../assets/team/jason_pic@3x.png";
 // import JaceImage from "../../assets/team/jace_pic@3x.png";
 import TomasImage from "../../assets/team/tomas_pic@3x.png";
 import LakmiImage from "../../assets/team/lakmi_pic@3x.png";
-import AidenImage from "../../assets/team/aiden_pic@3x.png";
 import NanoImage from "../../assets/team/nano_pic@3x.png";
 import LucasImage from "../../assets/team/lucas_pic@3x.png";
 import KadyrImage from "../../assets/team/Kadyr_pic@3x.png";
@@ -63,14 +62,6 @@ export default {
           github: "https://github.com/khk77",
           linkedin: "https://www.linkedin.com/in/zoe-kim-171a4116b/",
           image: ZoeImage,
-        },
-        {
-          name: "Aiden Park",
-          role: "Senior Researcher",
-          github: "",
-          linkedin:
-            "https://www.linkedin.com/in/%EC%A0%95%EC%9B%90-%EB%B0%95-042848157/",
-          image: AidenImage,
         },
         {
           name: "Darren Kim",
