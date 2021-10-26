@@ -106,6 +106,13 @@
                 >
                   WTON-Swapper
                 </button>
+                <button
+                  class="menu-item-sub-item-linked"
+                  style="marginbottom: 0px"
+                  @click="click('https://tonstarter.tokamak.network/')"
+                >
+                  TON Starter
+                </button>
               </div>
             </div>
           </div>
