@@ -51,6 +51,13 @@
         >
           WTON Swapper
         </button>
+        <button
+          class="tab-linked"
+          style="cursor: pointer"
+          @click="click('https://tonstarter.tokamak.network/')"
+        >
+          TON Starter
+        </button>
       </div>
     </div>
   </div>
