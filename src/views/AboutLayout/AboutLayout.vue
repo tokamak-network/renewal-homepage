@@ -40,6 +40,7 @@ import PraveenImage from "../../assets/team/praveen-pic@3x.png";
 import JackImage from "../../assets/team/jack-pic@3x.png";
 import HarveyImage from "../../assets/team/harvey-pic@3x.png";
 import JamieImage from "../../assets/team/jamie-pic@3x.png";
+import IreneImage from "../../assets/team/irene-pic@3x.png";
 
 export default {
   data() {
@@ -201,6 +202,14 @@ export default {
           linkedin:
             "https://www.linkedin.com/in/jamie-judd-37639a36/?originalSubdomain=uk",
           image: JamieImage,
+        },
+        {
+          name: "Irene Bae",
+          role: "HR Manager",
+          github: "",
+          linkedin:
+            "https://www.linkedin.com/in/%EA%B7%BC%EC%98%81-%EB%B0%B0-88898a225/",
+          image: IreneImage,
         },
       ],
     };
