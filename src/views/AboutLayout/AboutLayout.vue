@@ -22,7 +22,7 @@ import ZoeImage from "../../assets/team/zoe_pic@3x.png";
 import DarrenImage from "../../assets/team/darren_pic@3x.png";
 import JasonImage from "../../assets/team/jason_pic@3x.png";
 // import JaceImage from "../../assets/team/jace_pic@3x.png";
-import TomasImage from "../../assets/team/tomas_pic@3x.png";
+// import TomasImage from "../../assets/team/tomas_pic@3x.png";
 import LakmiImage from "../../assets/team/lakmi_pic@3x.png";
 import NanoImage from "../../assets/team/nano_pic@3x.png";
 import LucasImage from "../../assets/team/lucas_pic@3x.png";
@@ -78,13 +78,13 @@ export default {
           linkedin: "",
           image: ZenaImage,
         },
-        {
-          name: "Thomas Shin",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin: "",
-          image: TomasImage,
-        },
+        // {
+        //   name: "Thomas Shin",
+        //   role: "Blockchain Engineer",
+        //   github: "",
+        //   linkedin: "",
+        //   image: TomasImage,
+        // },
         {
           name: "Jason Hwang",
           role: "Blockchain Engineer",
