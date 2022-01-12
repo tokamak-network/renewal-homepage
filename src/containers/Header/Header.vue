@@ -168,6 +168,7 @@ export default {
       this.currentFlag = obj.flag;
       this.$store.dispatch("setLocale", obj.langCode);
       this.$store.dispatch("setRoadMap", obj.langCode);
+      this.$store.dispatch("setWhitePaper", obj.langCode);
       this.setLocale({ locale: obj.langCode, save: true });
     },
     openDropDown(tab) {

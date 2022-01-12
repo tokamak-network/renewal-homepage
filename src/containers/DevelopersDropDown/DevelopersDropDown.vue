@@ -14,14 +14,20 @@
           class="tab"
           @click="click('https://onther-tech.github.io/papers/tech-paper.pdf')"
         >
-          Papers
+          Tech Papers
         </button>
+        <button class="tab" @click="click(whitepaper)">White Papers</button>
       </div>
     </div>
   </div>
 </template>
 <script>
+import { mapState } from "vuex";
+
 export default {
+  computed: {
+    ...mapState(["whitepaper"]),
+  },
   methods: {
     click(link) {
       window.open(link, "_blank");

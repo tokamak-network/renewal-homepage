@@ -137,7 +137,13 @@
                   click('https://onther-tech.github.io/papers/tech-paper.pdf')
                 "
               >
-                Papers
+                Tech Papers
+              </button>
+              <button
+                class="menu-item-sub-item-linked"
+                @click="click(whitepaper)"
+              >
+                White Papers
               </button>
             </div>
           </div>
@@ -194,7 +200,7 @@ export default {
     };
   },
   computed: {
-    ...mapState(["locale"]),
+    ...mapState(["locale", "whitepaper"]),
   },
   watch: {
     locale() {
@@ -220,6 +226,7 @@ export default {
       this.currentFlag = obj.flag;
       this.$store.dispatch("setLocale", obj.langCode);
       this.$store.dispatch("setRoadMap", obj.langCode);
+      this.$store.dispatch("setWhitePaper", obj.langCode);
       this.setLocale({ locale: obj.langCode, save: true });
     },
     route(path) {

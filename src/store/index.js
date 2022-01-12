@@ -16,6 +16,11 @@ export default new Vuex.Store({
     launched: false,
     loaded: false,
     locale: "en_US",
+    whitepaper: "",
+    whitepaperKR:
+      "https://onther-tech.github.io/tokamak.network/assets/TokamakWhitepaper(Kor)_March,2020(v2).pdf",
+    whitepaperEN:
+      "https://onther-tech.github.io/tokamak.network/assets/TokamakWhitepaper(Eng)_March,2020(v2).pdf",
     roadmapEN: [
       {
         index: "0",
@@ -232,6 +237,9 @@ export default new Vuex.Store({
     SET_ROADMAP(state, roadmap) {
       state.roadmap = roadmap;
     },
+    SET_WHITEPAPER(state, whitepaper) {
+      state.whitepaper = whitepaper;
+    },
     SET_TOTALSTAKED: (state, totalStaked) => {
       state.totalStaked = totalStaked;
     },
@@ -258,6 +266,7 @@ export default new Vuex.Store({
       await dispatch("getUSDInfo");
       await dispatch("getTotalStaked");
       await dispatch("setRoadMap", state.locale);
+      await dispatch("setWhitePaper", state.locale);
       commit("LAUNCHED");
       dispatch("setLoaded");
     },
@@ -305,6 +314,16 @@ export default new Vuex.Store({
       }
 
       commit("SET_ROADMAP", roadmap);
+    },
+    async setWhitePaper({ commit, state }, locale) {
+      let whitepaper;
+      if (locale === "ko_KR") {
+        whitepaper = state.whitepaperKR;
+      } else {
+        whitepaper = state.whitepaperEN;
+      }
+
+      commit("SET_WHITEPAPER", whitepaper);
     },
     async setPosts({ commit }) {
       await axios
