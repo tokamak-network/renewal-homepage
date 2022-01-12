@@ -52,7 +52,7 @@ export default {
           image: KevinImage,
         },
         {
-          name: "June sim",
+          name: "June Sim",
           role: "Co-CEO",
           linkedin: "https://www.linkedin.com/in/junsik-sim-a447421b2/",
           image: JuneImage,
