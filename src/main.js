@@ -7,6 +7,7 @@ import VueMq from "vue-mq";
 import VueI18n from "vue-i18n";
 import langShortCodes from "@/translations/getShortCodes";
 import languages from "@/translations";
+import VueGtag from "vue-gtag";
 
 Vue.use(VueI18n);
 
@@ -23,6 +24,11 @@ const getDefaultLang = () => {
   }
   return "en_US";
 };
+Vue.use(VueGtag, {
+  config: {
+    id: "G-QNH7DDS30D",
+  },
+});
 
 Vue.use(VueMq, {
   breakpoints: {
