@@ -79,6 +79,9 @@
       <div @click="supporterLink('dooropen')" class="supporter">
         <img class="img" src="@/assets/DOOROPEN.svg" />
       </div>
+      <div @click="supporterLink('ciphers')" class="supporter">
+        <img class="img" src="@/assets/ciphers@3x.png" />
+      </div>
     </div>
     <div class="gap-mobile" />
     <div class="supporter-header">{{ $t("home.supporter.title2") }}</div>
@@ -165,6 +168,7 @@ export default {
         window.open("https://www.despread.io/", "_blank");
       else if (item === "dooropen")
         window.open("https://dooropen.space/", "_blank");
+      else if (item === "ciphers") window.open("https://ciphers.co/", "_blank");
     },
   },
 };
