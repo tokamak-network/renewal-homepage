@@ -80,7 +80,7 @@
         <img class="img" src="@/assets/DOOROPEN.svg" />
       </div>
       <div @click="supporterLink('ciphers')" class="supporter">
-        <img class="img" src="@/assets/ciphers@3x.png" />
+        <img class="img" src="@/assets/ciphers.png" />
       </div>
     </div>
     <div class="gap-mobile" />
