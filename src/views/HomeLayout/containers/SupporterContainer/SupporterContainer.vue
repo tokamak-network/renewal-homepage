@@ -156,15 +156,15 @@ export default {
       else if (item === "ozys") window.open("https://orbitchain.io/", "_blank");
       else if (item === "panony")
         window.open("https://www.panony.com/", "_blank");
-      else if (item === "staked") window.open("https://chain.link/", "_blank");
+      else if (item === "staked") window.open("https://staked.us/", "_blank");
       else if (item === "chainlink")
-        window.open("https://staked.us/", "_blank");
+        window.open("https://chain.link/", "_blank");
       else if (item === "decipher")
-        window.open("https://decipher.ac/", "_blank");
+        window.open("https://medium.com/decipher-media", "_blank");
       else if (item === "despread")
         window.open("https://www.despread.io/", "_blank");
       else if (item === "dooropen")
-        window.open("https://www.dooropen.space/", "_blank");
+        window.open("https://dooropen.space/", "_blank");
     },
   },
 };
