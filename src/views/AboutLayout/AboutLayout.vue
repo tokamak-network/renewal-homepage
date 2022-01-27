@@ -39,6 +39,7 @@ import JackImage from "../../assets/team/jack-pic@3x.png";
 import HarveyImage from "../../assets/team/harvey-pic@3x.png";
 import JamieImage from "../../assets/team/jamie-pic@3x.png";
 import IreneImage from "../../assets/team/irene-pic@3x.png";
+import ChristianImage from "../../assets/team/christian-pic@3x.png";
 
 export default {
   data() {
@@ -189,6 +190,13 @@ export default {
           github: "",
           linkedin: "",
           image: IreneImage,
+        },
+        {
+          name: "Christian Allen",
+          role: "Software Engineer",
+          github: "",
+          linkedin: "",
+          image: ChristianImage,
         },
       ],
     };
