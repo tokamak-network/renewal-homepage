@@ -32,7 +32,7 @@ import JaceImage from "../../assets/team/jace_pic@3x.png";
 import ZenaImage from "../../assets/team/zena_pic@3x.png";
 import SimonImage from "../../assets/team/simon_pic@3x.png";
 import HarryImage from "../../assets/team/harry-pic@3x.png";
-import JosephImage from "../../assets/team/joseph-pic@3x.png";
+// import JosephImage from "../../assets/team/joseph-pic@3x.png";
 import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
 import PraveenImage from "../../assets/team/praveen-pic@3x.png";
 import JackImage from "../../assets/team/jack-pic@3x.png";
@@ -149,13 +149,6 @@ export default {
           github: "",
           linkedin: "",
           image: NanoImage,
-        },
-        {
-          name: "Joseph Nemelka",
-          role: "Business Developer",
-          github: "",
-          linkedin: "",
-          image: JosephImage,
         },
         {
           name: "Praveen Surendran",
