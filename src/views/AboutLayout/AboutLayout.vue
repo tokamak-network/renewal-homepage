@@ -42,6 +42,7 @@ import IreneImage from "../../assets/team/irene-pic@3x.png";
 import ChristianImage from "../../assets/team/christian-pic@3x.png";
 import ChloeImage from "../../assets/team/chloe-pic@3x.png";
 import RichardImage from "../../assets/team/richard-pic@3x.png";
+import SuahImage from "../../assets/team/suah_pic@3x.png";
 
 export default {
   data() {
@@ -206,6 +207,13 @@ export default {
           github: "",
           linkedin: "",
           image: RichardImage,
+        },
+        {
+          name: "Suah Kim",
+          role: "Core Researcher",
+          github: "",
+          linkedin: "",
+          image: SuahImage,
         },
       ],
     };
