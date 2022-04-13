@@ -45,6 +45,7 @@ import RichardImage from "../../assets/team/richard-pic@3x.png";
 import SuahImage from "../../assets/team/suah_pic@3x.png";
 import OscarImage from "../../assets/team/Oscar_pic@3x.png";
 import MonicaImage from "../../assets/team/monica-pic@3x.png";
+import OliviaImage from "../../assets/team/Olivia_pic@3x.png";
 
 export default {
   data() {
@@ -223,6 +224,13 @@ export default {
           github: "",
           linkedin: "",
           image: MonicaImage,
+        },
+        {
+          name: "Olivia Kyeong",
+          role: "Performance Marketer",
+          github: "",
+          linkedin: "",
+          image: OliviaImage,
         },
       ],
     };
