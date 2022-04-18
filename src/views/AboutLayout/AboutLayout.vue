@@ -46,6 +46,8 @@ import SuahImage from "../../assets/team/suah_pic@3x.png";
 import OscarImage from "../../assets/team/Oscar_pic@3x.png";
 import MonicaImage from "../../assets/team/monica-pic@3x.png";
 import OliviaImage from "../../assets/team/Olivia_pic@3x.png";
+import JayImage from "../../assets/team/jay-pic@3x.png";
+import KyleImage from "../../assets/team/kyle-pic@3x.png";
 
 export default {
   data() {
@@ -231,6 +233,20 @@ export default {
           github: "",
           linkedin: "",
           image: OliviaImage,
+        },
+        {
+          name: "Jay Park",
+          role: "Ux/UI Planner",
+          github: "",
+          linkedin: "",
+          image: JayImage,
+        },
+        {
+          name: "Kyle Heo",
+          role: "Smart Contract Developer",
+          github: "",
+          linkedin: "",
+          image: KyleImage,
         },
       ],
     };
