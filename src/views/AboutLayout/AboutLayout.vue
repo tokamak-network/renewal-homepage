@@ -30,7 +30,7 @@ import LucasImage from "../../assets/team/lucas_pic@3x.png";
 import AleImage from "../../assets/team/ale_pic@3x.png";
 import JaceImage from "../../assets/team/jace_pic@3x.png";
 import ZenaImage from "../../assets/team/zena_pic@3x.png";
-import SimonImage from "../../assets/team/simon_pic@3x.png";
+// import SimonImage from "../../assets/team/simon_pic@3x.png";
 import HarryImage from "../../assets/team/harry-pic@3x.png";
 // import JosephImage from "../../assets/team/joseph-pic@3x.png";
 import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
@@ -48,7 +48,7 @@ import MonicaImage from "../../assets/team/monica-pic@3x.png";
 import OliviaImage from "../../assets/team/Olivia_pic@3x.png";
 import JayImage from "../../assets/team/jay-pic@3x.png";
 import KyleImage from "../../assets/team/kyle-pic@3x.png";
-import JadenImage from "../../assets/team/jaden-pic@3x.png"
+import JadenImage from "../../assets/team/jaden-pic@3x.png";
 
 export default {
   data() {
@@ -129,13 +129,6 @@ export default {
           github: "",
           linkedin: "",
           image: LucasImage,
-        },
-        {
-          name: "Simon Moon",
-          role: "Communication Manager",
-          github: "",
-          linkedin: "",
-          image: SimonImage,
         },
         {
           name: "Jace Kang",
