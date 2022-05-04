@@ -244,7 +244,7 @@ export default {
         },
         {
           name: "Kyle Heo",
-          role: "Smart Contract Developer",
+          role: "Blockchain Engineer",
           github: "",
           linkedin: "",
           image: KyleImage,
