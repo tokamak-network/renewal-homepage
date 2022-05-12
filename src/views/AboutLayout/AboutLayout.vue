@@ -50,6 +50,7 @@ import JayImage from "../../assets/team/jay-pic@3x.png";
 import KyleImage from "../../assets/team/kyle-pic@3x.png";
 import JadenImage from "../../assets/team/jaden-pic@3x.png";
 import MattImage from "../../assets/team/matt-pic@3x.png";
+import StevenImage from "../../assets/team/steven-pic@3x.png";
 
 export default {
   data() {
@@ -249,6 +250,13 @@ export default {
           github: "",
           linkedin: "",
           image: JadenImage,
+        },
+        {
+          name: "Steven Lee",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: StevenImage,
         },
         {
           name: "Matt Mok",
