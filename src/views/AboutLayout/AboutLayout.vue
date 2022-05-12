@@ -49,6 +49,7 @@ import OliviaImage from "../../assets/team/Olivia_pic@3x.png";
 import JayImage from "../../assets/team/jay-pic@3x.png";
 import KyleImage from "../../assets/team/kyle-pic@3x.png";
 import JadenImage from "../../assets/team/jaden-pic@3x.png";
+import MattImage from "../../assets/team/matt-pic@3x.png";
 
 export default {
   data() {
@@ -248,6 +249,13 @@ export default {
           github: "",
           linkedin: "",
           image: JadenImage,
+        },
+        {
+          name: "Matt Mok",
+          role: "Legal Manager",
+          github: "",
+          linkedin: "",
+          image: MattImage,
         },
       ],
     };
