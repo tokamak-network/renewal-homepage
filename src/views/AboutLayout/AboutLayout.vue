@@ -51,6 +51,7 @@ import KyleImage from "../../assets/team/kyle-pic@3x.png";
 import JadenImage from "../../assets/team/jaden-pic@3x.png";
 import MattImage from "../../assets/team/matt-pic@3x.png";
 import StevenImage from "../../assets/team/steven-pic@3x.png";
+import RyanImage from "../../assets/team/ryan-pic@3x.png";
 
 export default {
   data() {
@@ -264,6 +265,13 @@ export default {
           github: "",
           linkedin: "",
           image: MattImage,
+        },
+        {
+          name: "Ryan Murray",
+          role: "UX/UI Designer & Planner",
+          github: "",
+          linkedin: "",
+          image: RyanImage,
         },
       ],
     };
