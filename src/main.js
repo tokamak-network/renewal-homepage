@@ -26,7 +26,7 @@ const getDefaultLang = () => {
 };
 Vue.use(VueGtag, {
   config: {
-    id: "G-QNH7DDS30D",
+    id: "UA-141664476-1",
   },
 });
 
