@@ -102,9 +102,9 @@
                 <button
                   class="menu-item-sub-item-linked"
                   style="marginbottom: 0px"
-                  @click="click('https://wton-swapper.tokamak.network/')"
+                  @click="click('https://swap.tokamak.network/')"
                 >
-                  WTON-Swapper
+                  Swapper
                 </button>
                 <button
                   class="menu-item-sub-item-linked"

@@ -47,9 +47,9 @@
         <button
           class="tab-linked"
           style="cursor: pointer"
-          @click="click('https://wton-swapper.tokamak.network/')"
+          @click="click('https://swap.tokamak.network/')"
         >
-          WTON Swapper
+          Swapper
         </button>
         <button
           class="tab-linked"
