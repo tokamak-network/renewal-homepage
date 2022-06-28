@@ -53,6 +53,7 @@ import MattImage from "../../assets/team/matt-pic@3x.png";
 import StevenImage from "../../assets/team/steven-pic@3x.png";
 import RyanImage from "../../assets/team/ryan-pic@3x.png";
 import TheoImage from "../../assets/team/theo-pic@3x.png";
+import WyattImage from "../../assets/team/wyatt-pic@3x.png";
 
 export default {
   data() {
@@ -280,6 +281,13 @@ export default {
           github: "",
           linkedin: "",
           image: TheoImage,
+        },
+        {
+          name: "Wyatt Park",
+          role: "Economist",
+          github: "",
+          linkedin: "",
+          image: WyattImage,
         },
       ],
     };
