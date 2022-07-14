@@ -58,6 +58,13 @@
         >
           TON Starter
         </button>
+        <button
+          class="tab-linked"
+          style="cursor: pointer"
+          @click="click('https://price.tokamak.network/')"
+        >
+          Price Dashboard
+        </button>
       </div>
     </div>
   </div>

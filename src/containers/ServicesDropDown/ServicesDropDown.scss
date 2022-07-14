@@ -5,7 +5,7 @@
     position: absolute;
     margin-left: -82px;
     width: 223px;
-    height: 340px;
+    height: 380px;
     border-radius: 4px;
     box-shadow: 0 1px 4px 0 rgba(96, 97, 112, 0.14);
     background-color: #ffffff;
@@ -21,6 +21,7 @@
 
   > .tab-container{
     padding: 0 0 5px;
+    z-index: auto;
 
   > .tab-title{ 
     text-align: left;

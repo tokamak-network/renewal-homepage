@@ -113,6 +113,13 @@
                 >
                   TON Starter
                 </button>
+                <button
+                  class="menu-item-sub-item-linked"
+                  style="marginbottom: 0px"
+                  @click="click('https://price.tokamak.network/')"
+                >
+                  Price Dashboard
+                </button>
               </div>
             </div>
           </div>
