@@ -51,7 +51,7 @@ import StevenImage from "../../assets/team/steven-pic@3x.png";
 import RyanImage from "../../assets/team/ryan-pic@3x.png";
 import TheoImage from "../../assets/team/theo-pic@3x.png";
 import WyattImage from "../../assets/team/wyatt-pic@3x.png";
-import StanImage from "../../assets/team/stan-pic@3x.png";
+// import StanImage from "../../assets/team/stan-pic@3x.png";
 
 export default {
   data() {
@@ -266,13 +266,13 @@ export default {
           linkedin: "",
           image: WyattImage,
         },
-        {
-          name: "Stan Lee",
-          role: "Marketing & Brand Designer",
-          github: "",
-          linkedin: "",
-          image: StanImage,
-        },
+        // {
+        //   name: "Stan Lee",
+        //   role: "Marketing & Brand Designer",
+        //   github: "",
+        //   linkedin: "",
+        //   image: StanImage,
+        // },
       ],
     };
   },
