@@ -104,7 +104,7 @@
                   style="marginbottom: 0px"
                   @click="click('https://swap.tokamak.network/')"
                 >
-                  Swapper
+                  Swap
                 </button>
                 <button
                   class="menu-item-sub-item-linked"

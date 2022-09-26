@@ -49,7 +49,7 @@
           style="cursor: pointer"
           @click="click('https://swap.tokamak.network/')"
         >
-          Swapper
+          Swap
         </button>
         <button
           class="tab-linked"
