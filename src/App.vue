@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <div
+    <tokamak-gnb/>
+    <!-- <div
       style="
         width: 100%;
         height: 4px;
@@ -8,7 +9,7 @@
         background-color: #2a72e5;
       "
       class="top-line"
-    />
+    /> -->
     <div class="layout">
       <mobile-header-container v-if="width < 700" />
       <header-container v-else />
@@ -32,7 +33,7 @@ import Footer from "@/containers/Footer";
 import MobileHeader from "@/containers/MobileHeader";
 import FooterMobile from "@/containers/FooterMobile";
 import FooterTablet from "@/containers/FooterTablet";
-
+import TokamakGNB from "@/containers/GNB";
 export default {
   name: "App",
   components: {
@@ -41,6 +42,7 @@ export default {
     "mobile-header-container": MobileHeader,
     "footer-mobile-container": FooterMobile,
     "footer-tablet-container": FooterTablet,
+    "tokamak-gnb": TokamakGNB,
   },
   data() {
     return {
