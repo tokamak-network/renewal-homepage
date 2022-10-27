@@ -3,6 +3,7 @@
     <tokamak-gnb />
     <div class="layout">
       <mobile-header-container v-if="width < 700" />
+      <header-tablet v-else-if="width <=1441 && width > 701"/>
       <header-container v-else />
       <router-view />
       <div v-if="width <= 700">
@@ -25,6 +26,8 @@ import MobileHeader from "@/containers/MobileHeader";
 import FooterMobile from "@/containers/FooterMobile";
 import FooterTablet from "@/containers/FooterTablet";
 import TokamakGNB from "@/containers/GNB";
+import HeaderTablet from "@/containers/HeaderTablet";
+
 export default {
   name: "App",
   components: {
@@ -33,6 +36,7 @@ export default {
     "mobile-header-container": MobileHeader,
     "footer-mobile-container": FooterMobile,
     "footer-tablet-container": FooterTablet,
+    "header-tablet":HeaderTablet,
     "tokamak-gnb": TokamakGNB,
   },
   data() {

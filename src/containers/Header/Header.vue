@@ -1,21 +1,17 @@
 <template>
   <div class="header">
     <div class="header-title">
-      <img
+      <div class="header-grid">
+        <div class="header-gridItem">
+          <img
         class="tokamak-logo"
         src="@/assets/tn_logo.svg"
         style="width: 250px; height: 30px"
         @click="$route.path !== '/' ? $router.push({ path: '/' }) : ''"
-      />
-      <div
-        style="
-          display: flex;
-          flex: 1;
-          justify-content: center;
-          justify-self: center;
-          margin-left: -140px;
-        "
-      >
+      /> 
+        </div>
+        <div class="header-gridItem" style="justify-content:center"> 
+      
         <div class="menu">
           <div class="item">
             <div class="dot" :class="{ visible: $route.path === '/' }" />
@@ -96,9 +92,10 @@
               About
             </router-link>
           </div>
-        </div>
-      </div>
-      <div class="language">
+       
+      </div> </div>
+        <div class="header-gridItem" style="justify-content:flex-end" >
+          <div class="language" style="display: flex">
         <div
           class="lang"
           :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
@@ -122,7 +119,9 @@
         >
           CN
         </div>
+      </div> </div>
       </div>
+
     </div>
   </div>
 </template>
