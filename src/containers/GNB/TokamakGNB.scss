@@ -12,21 +12,29 @@
   color: #ffffff;
   font-weight: bold;
   justify-content: center;
+  height: 45px;
 }
 .link {
   color: #ffffff;
   display: flex;
   align-items: center;
   font-size: 15px;
-  height: 45px;
+  line-height: 1.53;
   text-decoration: none;
   justify-content: center;
   font-family: 'Titillium Web', sans-serif;
   font-weight: bolder;
 }
 
-.link:hover {
-    cursor: pointer;
-    background: #ffffff;
+.active-link {
+  background: #ffffff;
     color: #353c48;
-  }
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 1.53;
+  text-decoration: none;
+  justify-content: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+}
