@@ -111,7 +111,7 @@
                   style="marginbottom: 0px"
                   @click="click('https://tonstarter.tokamak.network/')"
                 >
-                TONStarter
+                  TONStarter
                 </button>
                 <button
                   class="menu-item-sub-item-linked"

@@ -1,10 +1,6 @@
 <template>
   <div class="gnb">
-    <a
-      href=""
-      :style="{ width: '100px' }"
-      class="link"
-    >
+    <a href="" :style="{ width: '100px' }" class="link">
       <div>Vision</div>
     </a>
     <a
@@ -46,11 +42,9 @@
 </template>
 
 <script>
-import '@fontsource/titillium-web';
+import "@fontsource/titillium-web";
 export default {};
 </script>
 <style lang="scss" scoped>
 @import "TokamakGNB.scss";
-
-
 </style>

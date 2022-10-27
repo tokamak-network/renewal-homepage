@@ -2,12 +2,20 @@
   <div class="header">
     <div class="header-title">
       <img
-      class="tokamak-logo"
+        class="tokamak-logo"
         src="@/assets/tn_logo.svg"
         style="width: 250px; height: 30px"
         @click="$route.path !== '/' ? $router.push({ path: '/' }) : ''"
       />
-      <div style="display: flex; flex: 1; justify-content: center; justify-self: center; margin-left: -140px;">
+      <div
+        style="
+          display: flex;
+          flex: 1;
+          justify-content: center;
+          justify-self: center;
+          margin-left: -140px;
+        "
+      >
         <div class="menu">
           <div class="item">
             <div class="dot" :class="{ visible: $route.path === '/' }" />

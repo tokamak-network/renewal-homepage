@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <tokamak-gnb/>
+    <tokamak-gnb />
     <!-- <div
       style="
         width: 100%;
