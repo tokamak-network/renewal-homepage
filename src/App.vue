@@ -1,15 +1,6 @@
 <template>
   <div id="app">
     <tokamak-gnb />
-    <!-- <div
-      style="
-        width: 100%;
-        height: 4px;
-        margin-bottom: 22px;
-        background-color: #2a72e5;
-      "
-      class="top-line"
-    /> -->
     <div class="layout">
       <mobile-header-container v-if="width < 700" />
       <header-container v-else />
