@@ -52,6 +52,7 @@ import RyanImage from "../../assets/team/ryan-pic@3x.png";
 import TheoImage from "../../assets/team/theo-pic@3x.png";
 import WyattImage from "../../assets/team/wyatt-pic@3x.png";
 import AlexImage from "../../assets/team/alex-pic@3x.png";
+import EugeneImage from "../../assets/team/eugene-pic@3x.png";
 // import StanImage from "../../assets/team/stan-pic@3x.png";
 
 export default {
@@ -280,6 +281,13 @@ export default {
           github: "",
           linkedin: "",
           image: AlexImage,
+        },
+        {
+          name: "Eugene Cho",
+          role: "UXUI Planner & PM",
+          github: "",
+          linkedin: "",
+          image: EugeneImage,
         },
       ],
     };
