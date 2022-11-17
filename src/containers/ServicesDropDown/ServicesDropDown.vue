@@ -56,7 +56,14 @@
           style="cursor: pointer"
           @click="click('https://tonstarter.tokamak.network/')"
         >
-        TONStarter
+          TONStarter
+        </button>
+        <button
+          class="tab-linked"
+          style="cursor: pointer"
+          @click="click('https://tosv2.tokamak.network/')"
+        >
+          TOS V2
         </button>
         <button
           class="tab-linked"
