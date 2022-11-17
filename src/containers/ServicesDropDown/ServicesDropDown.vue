@@ -63,7 +63,7 @@
           style="cursor: pointer"
           @click="click('https://tosv2.tokamak.network/')"
         >
-          TOS V2
+          TOSv2
         </button>
         <button
           class="tab-linked"
