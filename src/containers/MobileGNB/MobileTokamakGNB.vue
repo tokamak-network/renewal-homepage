@@ -13,11 +13,11 @@
           class="gnb_mobile_menu"
           :style="[
             menu.title === 'Tokamak Network DAO'
-              ? { maxWidth: '186px' }
+              ? { minWidth: '186px' }
               : menu.title === 'Tokamak Network'
-                ? { maxWidth: '160px' }
+                ? { minWidth: '160px' }
                 : menu.title === 'Simple Staking'
-                  ? { maxWidth: '140px' }
+                  ? { minWidth: '140px' }
                   : {},
             menu.isFoucsed ? { fontWeight: 600 } : {},
             menu.isFoucsed ? { opacity: 1 } : { opacity: 0.25 },
