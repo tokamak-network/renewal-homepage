@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <tokamak-gnb />
+    <mobile-tokamak-gnb v-if="width < 700" />
+    <tokamak-gnb v-else />
     <div class="layout">
       <mobile-header-container v-if="width < 700" />
       <header-tablet v-else-if="width <=1441 && width > 701"/>
@@ -27,6 +28,7 @@ import FooterMobile from "@/containers/FooterMobile";
 import FooterTablet from "@/containers/FooterTablet";
 import TokamakGNB from "@/containers/GNB";
 import HeaderTablet from "@/containers/HeaderTablet";
+import MobileTokamakGNB from "@/containers/MobileGNB";
 
 export default {
   name: "App",
@@ -38,6 +40,8 @@ export default {
     "footer-tablet-container": FooterTablet,
     "header-tablet":HeaderTablet,
     "tokamak-gnb": TokamakGNB,
+    'mobile-tokamak-gnb': MobileTokamakGNB,
+
   },
   data() {
     return {
