@@ -1,18 +1,14 @@
 <template>
   <div id="app">
-    <div
-      style="
-        width: 100%;
-        height: 4px;
-        margin-bottom: 22px;
-        background-color: #2a72e5;
-      "
-      class="top-line"
-    />
-    <div class="layout">
+    <mobile-tokamak-gnb v-if="width < 700" />
+    <tokamak-gnb v-else />
+   
       <mobile-header-container v-if="width < 700" />
+      <header-tablet v-else-if="width <=1441 && width > 701"/>
       <header-container v-else />
+      <div class="layout">
       <router-view />
+      </div>
       <div v-if="width <= 700">
         <footer-mobile-container />
       </div>
@@ -22,7 +18,7 @@
       <div v-else>
         <footer-container />
       </div>
-    </div>
+  
   </div>
 </template>
 
@@ -32,6 +28,9 @@ import Footer from "@/containers/Footer";
 import MobileHeader from "@/containers/MobileHeader";
 import FooterMobile from "@/containers/FooterMobile";
 import FooterTablet from "@/containers/FooterTablet";
+import TokamakGNB from "@/containers/GNB";
+import HeaderTablet from "@/containers/HeaderTablet";
+import MobileTokamakGNB from "@/containers/MobileGNB";
 
 export default {
   name: "App",
@@ -41,6 +40,10 @@ export default {
     "mobile-header-container": MobileHeader,
     "footer-mobile-container": FooterMobile,
     "footer-tablet-container": FooterTablet,
+    "header-tablet":HeaderTablet,
+    "tokamak-gnb": TokamakGNB,
+    'mobile-tokamak-gnb': MobileTokamakGNB,
+
   },
   data() {
     return {

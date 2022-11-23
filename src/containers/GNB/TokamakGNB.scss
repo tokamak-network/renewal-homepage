@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gnb {
+  display: flex;
+  min-width: 100%;
+  background: #2775ff;
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+  height: 45px;
+}
+.link {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 1.53;
+  text-decoration: none;
+  justify-content: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+}
+
+.active-link {
+  background: #ffffff;
+    color: #353c48;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 1.53;
+  text-decoration: none;
+  justify-content: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+}

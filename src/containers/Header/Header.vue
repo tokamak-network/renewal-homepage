@@ -1,14 +1,101 @@
 <template>
   <div class="header">
     <div class="header-title">
-      <img
-        src="@/assets/tokamak-symbol.svg"
+      <div class="header-grid">
+        <div class="header-gridItem">
+          <img
         class="tokamak-logo"
-        style="width: 45px; height: 30px"
+        src="@/assets/tn_logo.svg"
+        style="width: 250px; height: 30px"
         @click="$route.path !== '/' ? $router.push({ path: '/' }) : ''"
-      />
-      <img src="@/assets/tokamak-text.svg" class="tokamak-text" />
-      <div class="language">
+      /> 
+        </div>
+        <div class="header-gridItem" style="justify-content:center"> 
+      
+        <div class="menu">
+          <div class="item">
+            <div class="dot" :class="{ visible: $route.path === '/' }" />
+            <router-link
+              :to="'/'"
+              class="menu-item"
+              :class="{
+                selected: $route.path === '/',
+              }"
+            >
+              Home
+            </router-link>
+          </div>
+          <div class="item">
+            <div
+              class="dot"
+              :class="{ visible: $route.path.includes('solutions') }"
+            />
+            <router-link
+              :to="'/solutions'"
+              class="menu-item"
+              :class="{
+                selected: $route.path.includes('solutions'),
+              }"
+              @click="selectedMenu = 'solutions'"
+            >
+              Solutions
+            </router-link>
+          </div>
+          <div class="item">
+            <div class="dot" :class="{ visible: showDrop === 'services' }" />
+            <div
+              class="menu-item"
+              :class="{
+                selected: showDrop === 'services',
+              }"
+              @mouseover="openDropDown('services')"
+              @mouseleave="showDrop = ''"
+            >
+              Services
+              <div @mouseleave="showDrop = ''">
+                <transition name="fade">
+                  <services-dropdown v-show="showDrop === 'services'" />
+                </transition>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="dot" :class="{ visible: showDrop === 'developers' }" />
+            <div
+              class="menu-item"
+              :class="{
+                selected: showDrop === 'developers',
+              }"
+              @mouseover="openDropDown('developers')"
+              @mouseleave="showDrop = ''"
+            >
+              Developers
+              <div @mouseleave="showDrop = ''">
+                <transition name="fade">
+                  <developers-dropDown v-show="showDrop === 'developers'" />
+                </transition>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div
+              class="dot"
+              :class="{ visible: $route.path.includes('about') }"
+            />
+            <router-link
+              :to="'/about'"
+              class="menu-item"
+              :class="{
+                selected: $route.path.includes('about'),
+              }"
+            >
+              About
+            </router-link>
+          </div>
+       
+      </div> </div>
+        <div class="header-gridItem" style="justify-content:flex-end" >
+          <div class="language" style="display: flex">
         <div
           class="lang"
           :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
@@ -32,90 +119,9 @@
         >
           CN
         </div>
+      </div> </div>
       </div>
-    </div>
-    <div style="display: flex; flex: 1; justify-content: center">
-      <div class="menu">
-        <div class="item">
-          <div class="dot" :class="{ visible: $route.path === '/' }" />
-          <router-link
-            :to="'/'"
-            class="menu-item"
-            :class="{
-              selected: $route.path === '/',
-            }"
-          >
-            Home
-          </router-link>
-        </div>
-        <div class="item">
-          <div
-            class="dot"
-            :class="{ visible: $route.path.includes('solutions') }"
-          />
-          <router-link
-            :to="'/solutions'"
-            class="menu-item"
-            :class="{
-              selected: $route.path.includes('solutions'),
-            }"
-            @click="selectedMenu = 'solutions'"
-          >
-            Solutions
-          </router-link>
-        </div>
-        <div class="item">
-          <div class="dot" :class="{ visible: showDrop === 'services' }" />
-          <div
-            class="menu-item"
-            :class="{
-              selected: showDrop === 'services',
-            }"
-            @mouseover="openDropDown('services')"
-            @mouseleave="showDrop = ''"
-          >
-            Services
-            <div @mouseleave="showDrop = ''">
-              <transition name="fade">
-                <services-dropdown v-show="showDrop === 'services'" />
-              </transition>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="dot" :class="{ visible: showDrop === 'developers' }" />
-          <div
-            class="menu-item"
-            :class="{
-              selected: showDrop === 'developers',
-            }"
-            @mouseover="openDropDown('developers')"
-            @mouseleave="showDrop = ''"
-          >
-            Developers
-            <div @mouseleave="showDrop = ''">
-              <transition name="fade">
-                <developers-dropDown v-show="showDrop === 'developers'" />
-              </transition>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div
-            class="dot"
-            :class="{ visible: $route.path.includes('about') }"
-          />
-          <router-link
-            :to="'/about'"
-            class="menu-item"
-            :class="{
-              selected: $route.path.includes('about'),
-            }"
-          >
-            About
-          </router-link>
-        </div>
-      </div>
+
     </div>
   </div>
 </template>
