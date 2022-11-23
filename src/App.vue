@@ -2,11 +2,13 @@
   <div id="app">
     <mobile-tokamak-gnb v-if="width < 700" />
     <tokamak-gnb v-else />
-    <div class="layout">
+   
       <mobile-header-container v-if="width < 700" />
       <header-tablet v-else-if="width <=1441 && width > 701"/>
       <header-container v-else />
+      <div class="layout">
       <router-view />
+      </div>
       <div v-if="width <= 700">
         <footer-mobile-container />
       </div>
@@ -16,7 +18,7 @@
       <div v-else>
         <footer-container />
       </div>
-    </div>
+  
   </div>
 </template>
 
