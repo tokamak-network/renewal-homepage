@@ -4,124 +4,138 @@
       <div class="header-grid">
         <div class="header-gridItem">
           <img
-        class="tokamak-logo"
-        src="@/assets/tn_logo.svg"
-        style="width: 250px; height: 30px"
-        @click="$route.path !== '/' ? $router.push({ path: '/' }) : ''"
-      /> 
+            class="tokamak-logo"
+            src="@/assets/tn_logo.svg"
+            style="width: 250px; height: 30px"
+            @click="$route.path !== '/' ? $router.push({ path: '/' }) : ''"
+          />
         </div>
-        <div class="header-gridItem" style="justify-content:center"> 
-      
-        <div class="menu">
-          <div class="item">
-            <div class="dot" :class="{ visible: $route.path === '/' }" />
-            <router-link
-              :to="'/'"
-              class="menu-item"
-              :class="{
-                selected: $route.path === '/',
-              }"
-            >
-              Home
-            </router-link>
-          </div>
-          <div class="item">
-            <div
-              class="dot"
-              :class="{ visible: $route.path.includes('solutions') }"
-            />
-            <router-link
-              :to="'/solutions'"
-              class="menu-item"
-              :class="{
-                selected: $route.path.includes('solutions'),
-              }"
-              @click="selectedMenu = 'solutions'"
-            >
-              Solutions
-            </router-link>
-          </div>
-          <div class="item">
-            <div class="dot" :class="{ visible: showDrop === 'services' }" />
-            <div
-              class="menu-item"
-              :class="{
-                selected: showDrop === 'services',
-              }"
-              @mouseover="openDropDown('services')"
-              @mouseleave="showDrop = ''"
-            >
-              Services
-              <div @mouseleave="showDrop = ''">
-                <transition name="fade">
-                  <services-dropdown v-show="showDrop === 'services'" />
-                </transition>
+        <div class="header-gridItem" style="justify-content: center">
+          <div class="menu">
+            <div class="item">
+              <div class="dot" :class="{ visible: $route.path === '/' }" />
+              <router-link
+                :to="'/'"
+                class="menu-item"
+                :class="{
+                  selected: $route.path === '/',
+                }"
+              >
+                Home
+              </router-link>
+            </div>
+            <div class="item">
+              <div
+                class="dot"
+                :class="{ visible: $route.path.includes('solutions') }"
+              />
+              <router-link
+                :to="'/solutions'"
+                class="menu-item"
+                :class="{
+                  selected: $route.path.includes('solutions'),
+                }"
+                @click="selectedMenu = 'solutions'"
+              >
+                Solutions
+              </router-link>
+            </div>
+            <div class="item">
+              <div class="dot" :class="{ visible: showDrop === 'services' }" />
+              <div
+                class="menu-item"
+                :class="{
+                  selected: showDrop === 'services',
+                }"
+                @mouseover="openDropDown('services')"
+                @mouseleave="showDrop = ''"
+              >
+                Services
+                <div @mouseleave="showDrop = ''">
+                  <transition name="fade">
+                    <services-dropdown v-show="showDrop === 'services'" />
+                  </transition>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="item">
-            <div class="dot" :class="{ visible: showDrop === 'developers' }" />
-            <div
-              class="menu-item"
-              :class="{
-                selected: showDrop === 'developers',
-              }"
-              @mouseover="openDropDown('developers')"
-              @mouseleave="showDrop = ''"
-            >
-              Developers
-              <div @mouseleave="showDrop = ''">
-                <transition name="fade">
-                  <developers-dropDown v-show="showDrop === 'developers'" />
-                </transition>
+            <div class="item">
+              <div
+                class="dot"
+                :class="{ visible: showDrop === 'developers' }"
+              />
+              <div
+                class="menu-item"
+                :class="{
+                  selected: showDrop === 'developers',
+                }"
+                @mouseover="openDropDown('developers')"
+                @mouseleave="showDrop = ''"
+              >
+                Developers
+                <div @mouseleave="showDrop = ''">
+                  <transition name="fade">
+                    <developers-dropDown v-show="showDrop === 'developers'" />
+                  </transition>
+                </div>
               </div>
             </div>
+            <!-- <div class="item">
+              <button
+                class="menu-item"
+                @click="
+                  click(
+                    'https://tokamak.notion.site/Tokamak-Network-Grant-Program-f2384b458ea341a0987c7e73a909aa21'
+                  )
+                "
+              >
+                Grant
+              </button>
+            </div> -->
+            <div class="item">
+              <div
+                class="dot"
+                :class="{ visible: $route.path.includes('about') }"
+              />
+              <router-link
+                :to="'/about'"
+                class="menu-item"
+                :class="{
+                  selected: $route.path.includes('about'),
+                }"
+              >
+                About
+              </router-link>
+            </div>
           </div>
-          <div class="item">
-            <div
-              class="dot"
-              :class="{ visible: $route.path.includes('about') }"
-            />
-            <router-link
-              :to="'/about'"
-              class="menu-item"
-              :class="{
-                selected: $route.path.includes('about'),
-              }"
-            >
-              About
-            </router-link>
-          </div>
-       
-      </div> </div>
-        <div class="header-gridItem" style="justify-content:flex-end" >
-          <div class="language" style="display: flex">
-        <div
-          class="lang"
-          :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
-          @click="languageItemClicked(supportedLanguages[0])"
-        >
-          EN
         </div>
-        <div style="margin: 0 3px 0 3px">|</div>
-        <div
-          class="lang"
-          :style="currentFlag === 'KR' ? { color: '#246fed' } : {}"
-          @click="languageItemClicked(supportedLanguages[1])"
-        >
-          KR
-        </div>
-        <div style="margin: 0 3px 0 3px">|</div>
-        <div
-          class="lang"
-          :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
-          @click="languageItemClicked(supportedLanguages[2])"
-        >
-          CN
-        </div>
-      </div> </div>
       </div>
-
+      <div class="header-gridItem" style="justify-content: flex-end">
+        <div class="language" style="display: flex">
+          <div
+            class="lang"
+            :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
+            @click="languageItemClicked(supportedLanguages[0])"
+          >
+            EN
+          </div>
+          <div style="margin: 0 3px 0 3px">|</div>
+          <div
+            class="lang"
+            :style="currentFlag === 'KR' ? { color: '#246fed' } : {}"
+            @click="languageItemClicked(supportedLanguages[1])"
+          >
+            KR
+          </div>
+          <div style="margin: 0 3px 0 3px">|</div>
+          <div
+            class="lang"
+            :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
+            @click="languageItemClicked(supportedLanguages[2])"
+          >
+            CN
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -184,6 +198,9 @@ export default {
       //   else {
       this.showDrop = tab;
       // }
+    },
+    click(link) {
+      window.open(link, "_blank");
     },
   },
 };

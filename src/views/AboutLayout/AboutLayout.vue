@@ -130,7 +130,7 @@ export default {
         },
         {
           name: "Lucas Jung",
-          role: "UX/UI Developer",
+          role: "Product Designer",
           github: "",
           linkedin: "",
           image: LucasImage,

@@ -107,15 +107,15 @@
 }
 
 button {
-  width: 76px;
-  height: 35px;
-  padding: 8px 20px;
-  border-radius: 19px;
-  border: solid 1px #6c9ed0;
-  background: #0062c2;
+  // width: 76px;
+  // height: 35px;
+  // padding: 8px 20px;
+  // border-radius: 19px;
+  border: none;
+  background: #fff;
   outline: none;
-  font-size: 14px;
-  font-weight: 600;
+  // font-size: 14px;
+  // font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
@@ -138,7 +138,7 @@ button:hover {
 
 .menu {
   width: 100%;
-  max-width: 500px;
+  max-width: 550px;
 
   display: flex;
   justify-content: space-between;
