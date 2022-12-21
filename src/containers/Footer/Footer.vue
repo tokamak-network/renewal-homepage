@@ -1,7 +1,9 @@
 <template>
   <div class="footer">
     <div class="team-info">
-      <div class="onther" style="margin-right: 188px">ONTHER PTE. LTD.</div>
+      <div class="onther" style="margin-right: 188px">
+        TOKAMAK NETWORK PTE. LTD.
+      </div>
       <div class="office" style="width: 367px; margin-right: 80px">
         <div class="title">Office</div>
         <div class="content">

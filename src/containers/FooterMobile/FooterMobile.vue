@@ -34,7 +34,7 @@
     <div class="line" />
     <div class="copyright">
       <div class="copyright-content">
-        <div class="onther">ONTHER PTE. LTD.</div>
+        <div class="onther">TOKAMAK NETWORK PTE. LTD.</div>
         <div>Copyright © 2021 All Rights Reserved.</div>
         <div style="display: flex; justify-content: flex-start">
           <!-- <div style="margin-right: 30px">Privacy Policy</div>
