@@ -4,9 +4,9 @@
     <div class="team-info">
       <div class="office" style="width: 296px">
         <div class="title">Office</div>
-        <div class="content">
+        <!-- <div class="content">
           111 SOMERSET ROAD #06-07O 111 SOMERSET SINGAPORE 238164
-        </div>
+        </div> -->
         <div class="content">E. hello@tokamak.network</div>
       </div>
       <div class="office" style="margin: 40px 0">
