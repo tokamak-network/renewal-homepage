@@ -79,7 +79,7 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="item">
+            <div class="item">
               <button
                 class="menu-item"
                 @click="
@@ -90,7 +90,7 @@
               >
                 Grant
               </button>
-            </div> -->
+            </div>
             <div class="item">
               <div
                 class="dot"

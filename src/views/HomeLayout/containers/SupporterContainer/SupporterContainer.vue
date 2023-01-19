@@ -2,6 +2,9 @@
   <div class="supporter-container">
     <div class="supporter-header">{{ $t("home.supporter.title1") }}</div>
     <div class="supporter-section">
+      <div @click="supporterLink('onther')" class="supporter">
+        <img class="img" src="@/assets/ontherinc.png" />
+      </div>
       <div @click="supporterLink('EF')" class="supporter">
         <img
           class="img"
@@ -126,6 +129,7 @@ export default {
           "https://medium.com/onther-tech/vitalik-buterins-big-announcements-about-plasma-evm-tokamak-network-636dc11ea257",
           "_blank"
         );
+      else if (item === "onther") window.open("https://onther.io/", "_blank");
       else if (item === "matic")
         window.open("https://polygon.technology/", "_blank");
       else if (item === "maker")

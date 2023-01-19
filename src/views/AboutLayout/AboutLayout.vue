@@ -18,41 +18,41 @@ import CTAComponent from "@/components/CTA";
 import MembersList from "./components/MembersList";
 
 import KevinImage from "../../assets/team/kevin_pic@3x.png";
-import ZoeImage from "../../assets/team/zoe_pic@3x.png";
-import DarrenImage from "../../assets/team/darren_pic@3x.png";
-import JasonImage from "../../assets/team/jason_pic@3x.png";
+// import ZoeImage from "../../assets/team/zoe_pic@3x.png";
+// import DarrenImage from "../../assets/team/darren_pic@3x.png";
+// import JasonImage from "../../assets/team/jason_pic@3x.png";
 // import JaceImage from "../../assets/team/jace_pic@3x.png";
 // import TomasImage from "../../assets/team/tomas_pic@3x.png";
-import LakmiImage from "../../assets/team/lakmi_pic@3x.png";
-import NanoImage from "../../assets/team/nano_pic@3x.png";
-import LucasImage from "../../assets/team/lucas_pic@3x.png";
+// import LakmiImage from "../../assets/team/lakmi_pic@3x.png";
+// import NanoImage from "../../assets/team/nano_pic@3x.png";
+// import LucasImage from "../../assets/team/lucas_pic@3x.png";
 // import KadyrImage from "../../assets/team/Kadyr_pic@3x.png";
 import AleImage from "../../assets/team/ale_pic@3x.png";
-import JaceImage from "../../assets/team/jace_pic@3x.png";
-import ZenaImage from "../../assets/team/zena_pic@3x.png";
+// import JaceImage from "../../assets/team/jace_pic@3x.png";
+// import ZenaImage from "../../assets/team/zena_pic@3x.png";
 // import SimonImage from "../../assets/team/simon_pic@3x.png";
-import HarryImage from "../../assets/team/harry-pic@3x.png";
+// import HarryImage from "../../assets/team/harry-pic@3x.png";
 // import JosephImage from "../../assets/team/joseph-pic@3x.png";
-import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
-import PraveenImage from "../../assets/team/praveen-pic@3x.png";
-// import JackImage from "../../assets/team/jack-pic@3x.png";
-import HarveyImage from "../../assets/team/harvey-pic@3x.png";
+// import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
+// import PraveenImage from "../../assets/team/praveen-pic@3x.png";
+// // import JackImage from "../../assets/team/jack-pic@3x.png";
+// import HarveyImage from "../../assets/team/harvey-pic@3x.png";
 import JamieImage from "../../assets/team/jamie-pic@3x.png";
-import IreneImage from "../../assets/team/irene-pic@3x.png";
-import ChloeImage from "../../assets/team/chloe-pic@3x.png";
-import RichardImage from "../../assets/team/richard-pic@3x.png";
+// import IreneImage from "../../assets/team/irene-pic@3x.png";
+// import ChloeImage from "../../assets/team/chloe-pic@3x.png";
+// import RichardImage from "../../assets/team/richard-pic@3x.png";
 import SuahImage from "../../assets/team/suah_pic@3x.png";
 // import OscarImage from "../../assets/team/Oscar_pic@3x.png";
-import MonicaImage from "../../assets/team/monica-pic@3x.png";
-import OliviaImage from "../../assets/team/Olivia_pic@3x.png";
+// import MonicaImage from "../../assets/team/monica-pic@3x.png";
+// import OliviaImage from "../../assets/team/Olivia_pic@3x.png";
 import JadenImage from "../../assets/team/jaden-pic@3x.png";
-// import MattImage from "../../assets/team/matt-pic@3x.png";
-import StevenImage from "../../assets/team/steven-pic@3x.png";
+// // import MattImage from "../../assets/team/matt-pic@3x.png";
+// import StevenImage from "../../assets/team/steven-pic@3x.png";
 import RyanImage from "../../assets/team/ryan-pic@3x.png";
-import TheoImage from "../../assets/team/theo-pic@3x.png";
+// import TheoImage from "../../assets/team/theo-pic@3x.png";
 import WyattImage from "../../assets/team/wyatt-pic@3x.png";
-import AlexImage from "../../assets/team/alex-pic@3x.png";
-import EugeneImage from "../../assets/team/eugene-pic@3x.png";
+// import AlexImage from "../../assets/team/alex-pic@3x.png";
+// import EugeneImage from "../../assets/team/eugene-pic@3x.png";
 // import StanImage from "../../assets/team/stan-pic@3x.png";
 
 export default {
@@ -67,108 +67,11 @@ export default {
           image: KevinImage,
         },
         {
-          name: "June Sim",
-          role: "Co-CEO",
-          linkedin: "https://www.linkedin.com/in/junsik-sim-a447421b2/",
-          image: JuneImage,
-        },
-        {
-          name: "Zoe Kim",
-          role: "COO",
-          github: "https://github.com/khk77",
-          linkedin: "https://www.linkedin.com/in/zoe-kim-171a4116b/",
-          image: ZoeImage,
-        },
-        {
-          name: "Darren Kim",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin: "",
-          image: DarrenImage,
-        },
-        {
-          name: "Zena Park",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin: "",
-          image: ZenaImage,
-        },
-        // {
-        //   name: "Thomas Shin",
-        //   role: "Blockchain Engineer",
-        //   github: "",
-        //   linkedin: "",
-        //   image: TomasImage,
-        // },
-        {
-          name: "Jason Hwang",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin: "",
-          image: JasonImage,
-        },
-        {
-          name: "Harry Oh",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin: "",
-          image: HarryImage,
-        },
-        {
-          name: "Lakmi Weerapperuma",
-          role: "Software Engineer",
-          github: "",
-          linkedin: "",
-          image: LakmiImage,
-        },
-        {
           name: "Ale Son",
           role: "Software Engineer",
           github: "",
           linkedin: "",
           image: AleImage,
-        },
-        {
-          name: "Lucas Jung",
-          role: "Product Designer",
-          github: "",
-          linkedin: "",
-          image: LucasImage,
-        },
-        {
-          name: "Jace Kang",
-          role: "Operation Manager",
-          github: "",
-          linkedin: "",
-          image: JaceImage,
-        },
-        {
-          name: "Nano Kim",
-          role: "Operation Manager",
-          github: "",
-          linkedin: "",
-          image: NanoImage,
-        },
-        {
-          name: "Praveen Surendran",
-          role: "Researcher",
-          github: "",
-          linkedin: "",
-          image: PraveenImage,
-        },
-        // {
-        //   name: "Jack Oh",
-        //   role: "Translator",
-        //   github: "",
-        //   linkedin: "",
-        //   image: JackImage,
-        // },
-        {
-          name: "Harvey Jo",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin: "",
-          image: HarveyImage,
         },
         {
           name: "Jamie Judd",
@@ -178,75 +81,19 @@ export default {
           image: JamieImage,
         },
         {
-          name: "Irene Bae",
-          role: "HR Manager",
-          github: "",
-          linkedin: "",
-          image: IreneImage,
-        },
-        {
-          name: "Chloe Lee",
-          role: "Operation Manager",
-          github: "",
-          linkedin: "",
-          image: ChloeImage,
-        },
-        {
-          name: "Richard Na",
-          role: "Business Researcher",
-          github: "",
-          linkedin: "",
-          image: RichardImage,
-        },
-        {
           name: "Suah Kim",
           role: "Core Researcher",
           github: "",
           linkedin: "",
           image: SuahImage,
         },
-        // {
-        //   name: "Oscar Kim",
-        //   role: "Global Contents Marketer",
-        //   github: "",
-        //   linkedin: "",
-        //   image: OscarImage,
-        // },
-        {
-          name: "Monica Kim",
-          role: "UX/UI Designer",
-          github: "",
-          linkedin: "",
-          image: MonicaImage,
-        },
-        {
-          name: "Olivia Kyeong",
-          role: "Performance Marketer",
-          github: "",
-          linkedin: "",
-          image: OliviaImage,
-        },
         {
           name: "Jaden Kong",
-          role: "HR Manager",
+          role: "Managing Director",
           github: "",
           linkedin: "",
           image: JadenImage,
         },
-        {
-          name: "Steven Lee",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin: "",
-          image: StevenImage,
-        },
-        // {
-        //   name: "Matt Mok",
-        //   role: "Legal Manager",
-        //   github: "",
-        //   linkedin: "",
-        //   image: MattImage,
-        // },
         {
           name: "Ryan Murray",
           role: "UX/UI Designer & Planner",
@@ -255,39 +102,11 @@ export default {
           image: RyanImage,
         },
         {
-          name: "Theo Lee",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin: "",
-          image: TheoImage,
-        },
-        {
           name: "Wyatt Park",
           role: "Economist",
           github: "",
           linkedin: "",
           image: WyattImage,
-        },
-        // {
-        //   name: "Stan Lee",
-        //   role: "Marketing & Brand Designer",
-        //   github: "",
-        //   linkedin: "",
-        //   image: StanImage,
-        // },
-        {
-          name: "Alex Kwon",
-          role: "BIZ Researcher",
-          github: "",
-          linkedin: "",
-          image: AlexImage,
-        },
-        {
-          name: "Eugene Cho",
-          role: "UXUI Planner & PM",
-          github: "",
-          linkedin: "",
-          image: EugeneImage,
         },
       ],
     };
