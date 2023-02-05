@@ -79,9 +79,6 @@
       <div @click="supporterLink('despread')" class="supporter">
         <img class="img" src="@/assets/despread.svg" />
       </div>
-      <div @click="supporterLink('dooropen')" class="supporter">
-        <img class="img" src="@/assets/DOOROPEN.svg" />
-      </div>
       <div @click="supporterLink('ciphers')" class="supporter">
         <img class="img" src="@/assets/ciphers.png" />
       </div>
@@ -170,8 +167,6 @@ export default {
         window.open("https://medium.com/decipher-media", "_blank");
       else if (item === "despread")
         window.open("https://www.despread.io/", "_blank");
-      else if (item === "dooropen")
-        window.open("https://dooropen.space/", "_blank");
       else if (item === "ciphers") window.open("https://ciphers.co/", "_blank");
     },
   },
