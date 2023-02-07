@@ -59,7 +59,7 @@ export default {
     },
     familyLink(item) {
       if (item === "Github")
-        window.open("https://github.com/onther-tech", "_blank");
+        window.open("https://github.com/tokamak-network", "_blank");
       else if (item === "Medium")
         window.open("https://medium.com/onther-tech", "_blank");
       else if (item === "Twitter")
@@ -69,7 +69,7 @@ export default {
       else if (item === "YouTube")
         window.open("https://www.youtube.com/c/OntherInc", "_blank");
       else if (item === "Linkedin")
-        window.open("https://www.linkedin.com/company/onther-tech/", "_blank");
+        window.open("https://www.linkedin.com/company/tokamaknetwork/", "_blank");
       else if (item === "Telegram")
         window.open("https://t.me/tokamak_network", "_blank");
       else if (item === "Discord") window.open("https://discord.gg/J4chV2zuAK");

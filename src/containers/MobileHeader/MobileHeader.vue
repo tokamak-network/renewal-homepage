@@ -128,7 +128,7 @@
             <div class="menu-item-sub">
               <button
                 class="menu-item-sub-item-linked"
-                @click="click('https://github.com/Onther-Tech')"
+                @click="click('https://github.com/tokamak-network')"
               >
                 Github
               </button>
@@ -141,7 +141,7 @@
               <button
                 class="menu-item-sub-item-linked"
                 @click="
-                  click('https://onther-tech.github.io/papers/tech-paper.pdf')
+                  click('https://tokamak-network.github.io/papers/tech-paper.pdf')
                 "
               >
                 Tech Papers
@@ -157,7 +157,7 @@
           <div
             class="menu-item-services"
             style="
-              cursor: pointer;
+              cursor: pointer
               hover: {
                 color: #2a72e5;
               }

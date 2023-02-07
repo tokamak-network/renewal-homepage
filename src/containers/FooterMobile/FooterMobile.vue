@@ -17,12 +17,12 @@
       <div class="office" style="margin-right: 60px">
         <div class="title">Social</div>
         <div class="social-content">
-          <a href="https://github.com/onther-tech">Github</a>
+          <a href="https://github.com/tokamak-network">Github</a>
           <a href="https://medium.com/onther-tech">Medium</a>
           <a href="https://twitter.com/tokamak_network">Twitter</a>
           <a href="https://www.facebook.com/OntherInc">Facebook</a>
           <a href="https://www.youtube.com/c/OntherInc">YouTube</a>
-          <a href="https://www.linkedin.com/company/onther-tech/">Linkedin</a>
+          <a href="https://www.linkedin.com/company/tokamaknetwork/">Linkedin</a>
           <a href="https://t.me/tokamak_network">Telegram</a>
           <a href="https://discord.gg/J4chV2zuAK"
             >Discord <span>[KR/EN/CN]</span></a

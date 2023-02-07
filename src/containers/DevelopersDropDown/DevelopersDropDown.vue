@@ -4,7 +4,7 @@
     <div class="developers">
       <div class="developers-line" />
       <div class="tab-container">
-        <button class="tab" @click="click('https://github.com/Onther-Tech')">
+        <button class="tab" @click="click('https://github.com/tokamak-network')">
           Github
         </button>
         <button class="tab" @click="click('https://docs.tokamak.network/')">
@@ -12,7 +12,7 @@
         </button>
         <button
           class="tab"
-          @click="click('https://onther-tech.github.io/papers/tech-paper.pdf')"
+          @click="click('https://tokamak-network.github.io/papers/tech-paper.pdf')"
         >
           Tech Papers
         </button>

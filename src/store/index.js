@@ -17,8 +17,8 @@ export default new Vuex.Store({
     loaded: false,
     locale: "en_US",
     whitepaper: "",
-    whitepaperKR: "https://onther-tech.github.io/papers/white-paper-kr.pdf",
-    whitepaperEN: "https://onther-tech.github.io/papers/white-paper-en.pdf",
+    whitepaperKR: "https://tokamak-network.github.io/papers/white-paper-kr.pdf",
+    whitepaperEN: "https://tokamak-network.github.io/papers/white-paper-en.pdf",
     roadmapEN: [
       {
         index: "0",
