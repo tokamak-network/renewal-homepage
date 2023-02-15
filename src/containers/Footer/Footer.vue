@@ -12,7 +12,7 @@
       <div class="office" style="margin-right: 80px">
         <div class="title">Jobs</div>
         <div class="content">Recruitment</div>
-        <div class="content">people@tokamak.network</div>
+        <div class="content">hr@tokamak.network</div>
       </div>
       <div class="office">
         <div class="title">Social</div>
@@ -20,8 +20,8 @@
           <div @click="familyLink('Github')">Github</div>
           <div @click="familyLink('Medium')">Medium</div>
           <div @click="familyLink('Twitter')">Twitter</div>
-          <div @click="familyLink('Facebook')">Facebook</div>
-          <div @click="familyLink('YouTube')">YouTube</div>
+          <!-- <div @click="familyLink('Facebook')">Facebook</div> -->
+          <!-- <div @click="familyLink('YouTube')">YouTube</div> -->
         </div>
         <div class="social-content">
           <div style="margin-right: -37px" @click="familyLink('Linkedin')">
@@ -33,7 +33,7 @@
           <div @click="familyLink('Discord')">
             Discord <span>[KR/EN/CN]</span>
           </div>
-          <div @click="familyLink('Blog')">Onther Blog</div>
+          <!-- <div @click="familyLink('Blog')">Onther Blog</div> -->
         </div>
       </div>
     </div>
@@ -64,12 +64,11 @@ export default {
         window.open("https://medium.com/onther-tech", "_blank");
       else if (item === "Twitter")
         window.open("https://twitter.com/tokamak_network", "_blank");
-      else if (item === "Facebook")
-        window.open("https://www.facebook.com/OntherInc", "_blank");
-      else if (item === "YouTube")
-        window.open("https://www.youtube.com/c/OntherInc", "_blank");
       else if (item === "Linkedin")
-        window.open("https://www.linkedin.com/company/tokamaknetwork/", "_blank");
+        window.open(
+          "https://www.linkedin.com/company/tokamaknetwork/",
+          "_blank"
+        );
       else if (item === "Telegram")
         window.open("https://t.me/tokamak_network", "_blank");
       else if (item === "Discord") window.open("https://discord.gg/J4chV2zuAK");

@@ -11,7 +11,7 @@
       <div class="office" style="margin-right: 20px">
         <div class="title">Jobs</div>
         <div class="content">Recruitment</div>
-        <div class="content">people@onther.io</div>
+        <div class="content">hr@onther.io</div>
       </div>
       <div class="office" style="margin-right: 60px">
         <div class="title">Social</div>
@@ -19,8 +19,8 @@
           <div @click="familyLink('Github')">Github</div>
           <div @click="familyLink('Medium')">Medium</div>
           <div @click="familyLink('Twitter')">Twitter</div>
-          <div @click="familyLink('Facebook')">Facebook</div>
-          <div @click="familyLink('YouTube')">YouTube</div>
+          <!-- <div @click="familyLink('Facebook')">Facebook</div>
+          <div @click="familyLink('YouTube')">YouTube</div> -->
         </div>
         <div class="social-content">
           <div style="margin-right: -1px" @click="familyLink('Linkedin')">
@@ -30,9 +30,9 @@
           <div style="margin-left: -15px" @click="familyLink('Discord')">
             Discord <span>[KR/EN/CN]</span>
           </div>
-          <div style="margin-left: -15px" @click="familyLink('Blog')">
+          <!-- <div style="margin-left: -15px" @click="familyLink('Blog')">
             Onther Blog
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -69,7 +69,10 @@ export default {
       else if (item === "YouTube")
         window.open("https://www.youtube.com/c/OntherInc", "_blank");
       else if (item === "Linkedin")
-        window.open("https://www.linkedin.com/company/tokamaknetwork/", "_blank");
+        window.open(
+          "https://www.linkedin.com/company/tokamaknetwork/",
+          "_blank"
+        );
       else if (item === "Telegram")
         window.open("https://t.me/tokamak_network", "_blank");
       else if (item === "Discord") window.open("https://discord.gg/J4chV2zuAK");
