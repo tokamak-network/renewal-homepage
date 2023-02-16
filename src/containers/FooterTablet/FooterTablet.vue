@@ -11,7 +11,7 @@
       <div class="office" style="margin-right: 20px">
         <div class="title">Jobs</div>
         <div class="content">Recruitment</div>
-        <div class="content">hr@onther.io</div>
+        <div class="content">hr@tokamak.network</div>
       </div>
       <div class="office" style="margin-right: 60px">
         <div class="title">Social</div>
