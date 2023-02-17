@@ -29,7 +29,7 @@ import KevinImage from "../../assets/team/kevin_pic@3x.png";
 // import KadyrImage from "../../assets/team/Kadyr_pic@3x.png";
 import AleImage from "../../assets/team/ale_pic@3x.png";
 // import JaceImage from "../../assets/team/jace_pic@3x.png";
-// import ZenaImage from "../../assets/team/zena_pic@3x.png";
+import ZenaImage from "../../assets/team/zena_pic@3x.png";
 // import SimonImage from "../../assets/team/simon_pic@3x.png";
 // import HarryImage from "../../assets/team/harry-pic@3x.png";
 // import JosephImage from "../../assets/team/joseph-pic@3x.png";
@@ -65,6 +65,13 @@ export default {
           github: "https://github.com/ggs134",
           linkedin: "https://www.linkedin.com/in/philosopher134/",
           image: KevinImage,
+        },
+        {
+          name: "Zena Park",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: ZenaImage,
         },
         {
           name: "Ale Son",
