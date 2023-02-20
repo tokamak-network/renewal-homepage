@@ -34,10 +34,109 @@
         </div>
       </div>
     </div>
+    <div class="heading" style="margin-top: 100px">
+      <h2>{{ $t("about.newsletter-title") }}</h2>
+      <span class="text-hint">{{ $t("about.newsletter-subtitle") }}</span>
+    </div>
+    <div class="body">
+      <div class="cta-grid">
+        <div class="subscribe" style="width: 500px">
+          <input
+            class="input"
+            type="email"
+            placeholder="Enter your e-mail here"
+            style="border: none; width: 350px; height: 30px"
+            @input="updateEmail($event.target.value)"
+          />
+          <button class="subs-button" @click="subscribe()">Subscribe</button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
+<script>
+import axios from "axios";
+
+export default {
+  data() {
+    return {
+      email: "",
+    };
+  },
+  methods: {
+    updateEmail(email) {
+      this.email = email;
+    },
+    async subscribe() {
+      const regex = new RegExp("[a-z0-9]+@[a-z]+\\.[a-z]{2,3}");
+      if (!regex.test(this.email)) {
+        window.alert("Please insert correct email");
+      } else {
+        const token = process.env.VUE_APP_ACCESS_TOKEN;
+        const headers = {
+          AccessToken: token,
+        };
+        await axios
+          .post(
+            process.env.VUE_APP_URL,
+            {
+              eventOccuredBy: "MANUAL",
+              subscribers: [
+                {
+                  email: this.email,
+                },
+              ],
+            },
+            { headers }
+          )
+          .then((res) => {
+            if (res.data.Value.update[0].email) {
+              window.alert(
+                `${res.data.Value.update[0].email} successfully inserted to subscribe list!`
+              );
+            }
+          })
+          .catch((err) => window.alert(err));
+      }
+    },
+  },
+};
+</script>
+
 <style lang="scss" scoped>
+.subscribe {
+  border-radius: 4px;
+  border: solid 1px #2a72e5;
+  background-color: #ffffff;
+  width: 250px;
+  display: flex;
+  width: 500px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px 0 10px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.input {
+  font-size: 20px;
+}
+.input:focus {
+  border: none;
+  outline: none;
+}
+.subs-button {
+  color: white;
+  background: #2a72e5;
+  border-radius: 6px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+}
 .heading {
   display: flex;
   flex-direction: column;
