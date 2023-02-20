@@ -4,34 +4,32 @@
       <h2>{{ $t("about.under") }}</h2>
       <span class="text-hint">{{ $t("about.under-sub") }}</span>
     </div>
-    <div class="">
-      <div class="body">
-        <div class="cta-grid">
-          <a
-            href="https://discord.gg/J4chV2zuAK"
-            class="flex justify-between align-center action-cta"
-          >
-            <span style="padding-left: 5px">Join Community</span>
-            <img
-              class="navigation-arrow"
-              src="../assets/goto_arrow@3x.png"
-              alt="Go to Jobs"
-            />
-          </a>
-          <a
-            href="https://medium.com/onther-tech/job-openings-blockchain-tech-902098537088"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex justify-between align-center action-cta"
-          >
-            <span style="padding-left: 5px">Jobs</span>
-            <img
-              class="navigation-arrow"
-              src="../assets/goto_arrow@3x.png"
-              alt="Go to Jobs"
-            />
-          </a>
-        </div>
+    <div class="body">
+      <div class="cta-grid">
+        <a
+          href="https://discord.gg/J4chV2zuAK"
+          class="flex justify-between align-center action-cta"
+        >
+          <span style="padding-left: 5px">Join Community</span>
+          <img
+            class="navigation-arrow"
+            src="../assets/goto_arrow@3x.png"
+            alt="Go to Jobs"
+          />
+        </a>
+        <a
+          href="https://medium.com/onther-tech/job-openings-blockchain-tech-902098537088"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex justify-between align-center action-cta"
+        >
+          <span style="padding-left: 5px">Jobs</span>
+          <img
+            class="navigation-arrow"
+            src="../assets/goto_arrow@3x.png"
+            alt="Go to Jobs"
+          />
+        </a>
       </div>
     </div>
     <div class="heading" style="margin-top: 100px">
