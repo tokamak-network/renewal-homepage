@@ -50,7 +50,7 @@ import JadenImage from "../../assets/team/jaden-pic@3x.png";
 // import StevenImage from "../../assets/team/steven-pic@3x.png";
 import RyanImage from "../../assets/team/ryan-pic@3x.png";
 // import TheoImage from "../../assets/team/theo-pic@3x.png";
-import WyattImage from "../../assets/team/wyatt-pic@3x.png";
+// import WyattImage from "../../assets/team/wyatt-pic@3x.png";
 // import AlexImage from "../../assets/team/alex-pic@3x.png";
 // import EugeneImage from "../../assets/team/eugene-pic@3x.png";
 // import StanImage from "../../assets/team/stan-pic@3x.png";
@@ -108,13 +108,13 @@ export default {
           linkedin: "",
           image: RyanImage,
         },
-        {
-          name: "Wyatt Park",
-          role: "Economist",
-          github: "",
-          linkedin: "",
-          image: WyattImage,
-        },
+        // {
+        //   name: "Wyatt Park",
+        //   role: "Economist",
+        //   github: "",
+        //   linkedin: "",
+        //   image: WyattImage,
+        // },
       ],
     };
   },
