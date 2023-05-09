@@ -1,6 +1,16 @@
 <template>
   <div class="home">
-    <main-container />
+    <div class="carousel">
+      <carousel
+        :perPage="1"
+        :paginationColor="'#D9D9D9'"
+        :paginationPadding="5"
+      >
+        <slide><main-container /> </slide>
+        <slide> <ad-container /> </slide>
+      </carousel>
+    </div>
+
     <div class="line-main" />
     <intro-container />
     <div class="line" />
@@ -21,6 +31,8 @@ import IntroContainer from "./containers/IntroContainer";
 import MainContainer from "./containers/MainContainer";
 import RoadMapContainer from "./containers/RoadMapContainer";
 import TokamakInfoContainer from "./containers/TokamakInfoContainer";
+import AdContainer from "./containers/AdContainer/AdContainer.vue";
+import { Carousel, Slide } from "vue-carousel";
 
 export default {
   components: {
@@ -30,6 +42,9 @@ export default {
     "main-container": MainContainer,
     "roadmap-container": RoadMapContainer,
     "tokamak-info-container": TokamakInfoContainer,
+    "ad-container": AdContainer,
+    Carousel,
+    Slide,
   },
   created() {
     this.$store.dispatch("launch");

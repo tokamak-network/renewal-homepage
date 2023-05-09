@@ -1,6 +1,10 @@
 <template>
   <div class="gnb">
-    <a href="https://vision.tokamak.network/" :style="{ width: '100px' }" class="link">
+    <a
+      href="https://vision.tokamak.network/"
+      :style="{ width: '100px' }"
+      class="link"
+    >
       <div>Vision</div>
     </a>
     <a
@@ -38,7 +42,6 @@
     >
       <div>TONStarter</div>
     </a>
-   
   </div>
 </template>
 

@@ -9,9 +9,12 @@
 @media all and (min-width: 1441px) {
   .footer {
     font-family: "OpenSans", sans-serif!important;
+    margin-left: 112px;
+    margin-right: 112px;
     > .team-info {
       display: flex;
       justify-content: space-between;
+    
       padding-bottom: 120px;
       width: 100%;
 

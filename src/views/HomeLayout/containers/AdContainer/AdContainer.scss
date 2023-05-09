@@ -1,0 +1,65 @@
+@media all and (min-width: 1441px) {
+  .main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .titles {
+    font-size: 58px;
+    font-weight: 700;
+    font-family: Roboto;
+    margin-right: 35px;
+
+    > .main-title {
+      color: #000000;
+    }
+    .sub-title {
+      color: #3c66f8;
+      margin-bottom: 53px;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: row;
+      margin-top: 24px;
+
+      > .learn-button {
+        height: 21px;
+        width: 92px;
+        background-color: #3c66f8;
+        border-radius: 10px;
+        border: none;
+        color: #ffffff;
+      }
+      .darius-button {
+        width: 176px;
+        height: 21px;
+        background-color: transparent;
+        border-radius: 10px;
+        border: none;
+        color: #8c8c8c;
+        border: 1px solid #8c8c8c;
+        margin-left: 7px;
+        font-size: 15px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  .logo {
+    height: 263px;
+    width: 280px;
+  }
+  .content {
+    font-size: 40px;
+    width: 100%;
+    text-align: left;
+  }
+}

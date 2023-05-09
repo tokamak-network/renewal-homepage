@@ -18,6 +18,7 @@
     "swiper": "^6.5.8",
     "vue": "^2.6.11",
     "vue-axios-cors": "^1.0.1",
+    "vue-carousel": "^0.18.0",
     "vue-cli": "^2.9.6",
     "vue-gtag": "^1.16.1",
     "vue-i18n": "^8.22.3",

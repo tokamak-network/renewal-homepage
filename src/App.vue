@@ -2,23 +2,22 @@
   <div id="app">
     <mobile-tokamak-gnb v-if="width < 700" />
     <tokamak-gnb v-else />
-   
-      <mobile-header-container v-if="width < 700" />
-      <header-tablet v-else-if="width <=1441 && width > 701"/>
-      <header-container v-else />
-      <div class="layout">
+
+    <mobile-header-container v-if="width < 700" />
+    <header-tablet v-else-if="width <= 1441 && width > 701" />
+    <header-container v-else />
+    <div class="layout">
       <router-view />
-      </div>
-      <div v-if="width <= 700">
-        <footer-mobile-container />
-      </div>
-      <div v-else-if="width <= 1270 && width > 701">
-        <footer-tablet-container />
-      </div>
-      <div v-else>
-        <footer-container />
-      </div>
-  
+    </div>
+    <div v-if="width <= 700">
+      <footer-mobile-container />
+    </div>
+    <div v-else-if="width <= 1270 && width > 701">
+      <footer-tablet-container />
+    </div>
+    <div v-else>
+      <footer-container />
+    </div>
   </div>
 </template>
 
@@ -40,10 +39,9 @@ export default {
     "mobile-header-container": MobileHeader,
     "footer-mobile-container": FooterMobile,
     "footer-tablet-container": FooterTablet,
-    "header-tablet":HeaderTablet,
+    "header-tablet": HeaderTablet,
     "tokamak-gnb": TokamakGNB,
-    'mobile-tokamak-gnb': MobileTokamakGNB,
-
+    "mobile-tokamak-gnb": MobileTokamakGNB,
   },
   data() {
     return {
