@@ -6,8 +6,8 @@
         :paginationColor="'#D9D9D9'"
         :paginationPadding="5"
       >
-        <slide><main-container /> </slide>
         <slide> <ad-container /> </slide>
+        <slide><main-container /> </slide>
       </carousel>
     </div>
 
