@@ -6,7 +6,7 @@
       <div class="button-container">
         <button class="learn-button">Learn More</button>
         <a
-          href="https://www.notion.so/onther/Darius-L2-Testnet-Dev-Document-5023767f30754d21876b049da68f0128"
+          href="https://onther.notion.site/Darius-L2-Testnet-Dev-Document-5023767f30754d21876b049da68f0128"
           class="darius-button"
           target="_blank"
           >Try Darius L2 Testnet</a
