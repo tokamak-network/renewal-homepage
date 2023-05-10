@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff)
+      format("woff");
+  }
+
+@media all and (max-width: 700px) {
+    .main-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .sub-container {
+        display: flex;
+        flex-direction: row;
+      }
+      .titles {
+        font-family: "Roboto";
+    
+        > .main-title {
+          color: #1c1c1c;
+          font-size: 30px;
+          font-weight: 900;
+          height: 39px;
+        }
+        .button-container {
+          display: flex;
+          flex-direction: column;
+          margin-top: 30px;
+          justify-content: center;
+          align-items: center;
+    
+          > .learn-button {
+            height: 44px;
+            width: 180px;
+            background-color: #3c66f8;
+            border-radius: 100px;
+            border: none;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.36;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 15px;
+          }
+          > .darius-button {
+            height: 100%;
+            background-color: transparent;
+            color: #8c8c8c;
+            text-decoration: none;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 600;
+          }
+    
+          > .darius-button:hover {
+            color: #1c1c1c;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .content {
+        height: 53px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 100;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 10px;
+        text-align: center;
+        color: #1c1c1c;
+        height: 21px;
+      }
+
+
+}

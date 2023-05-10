@@ -3,8 +3,9 @@
     <div class="carousel">
       <carousel
         :perPage="1"
-        :paginationColor="'#D9D9D9'"
+        :paginationColor="'#1c1c1c'"
         :paginationPadding="5"
+        :paginationActiveColor="'#2a72e5'"
       >
         <slide> <ad-container /> </slide>
         <slide><main-container /> </slide>

@@ -33,11 +33,16 @@
     object-fit: contain;
     width: 100%;
     background-image: url(../../assets/bg-img@3x.png);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 15px;
+
+
+    > .VueCarousel {
+      height: 601px;
+    }
   }
-   .VueCarousel-dot[data-v-438fd353]:focus{
+  .VueCarousel-dot[data-v-438fd353]:focus {
     outline: none !important;
   }
 }

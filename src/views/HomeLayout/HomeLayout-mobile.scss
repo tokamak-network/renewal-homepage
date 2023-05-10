@@ -20,4 +20,23 @@
       margin-bottom: 20px;
     }
   }
+  .carousel {
+    background-size: 100% 155px;
+    object-fit: contain;
+    // width: 100%;
+   
+    background-image: url(../../assets/bg-img@3x.png);
+    background-repeat:no-repeat;
+    background-position: bottom;
+    padding-bottom: 21px;
+
+    > .VueCarousel {
+      height: 343px;
+    }
+  }
+
+   .VueCarousel-dot[data-v-438fd353]:focus{
+    outline: none !important;
+   
+  }
 }
