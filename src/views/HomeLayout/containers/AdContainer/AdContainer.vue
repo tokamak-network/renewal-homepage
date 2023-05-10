@@ -2,7 +2,7 @@
   <div class="main-container">
     <div class="titles">
       <div class="main-title">L2 MAINNET LAUNCH</div>
-      <div class="content">COMING IN JUNE</div>
+      <div class="content">COMING IN JUNE 2023</div>
       <div class="button-container">
         <button class="learn-button">Learn More</button>
         <a
