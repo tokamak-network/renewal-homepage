@@ -40,7 +40,7 @@
     <div class="copyright">
       <div class="copyright-content">
         <div class="onther">TOKAMAK NETWORK</div>
-        <div>Copyright © 2021 All Rights Reserved.</div>
+        <div>Copyright © {{ year }} All Rights Reserved.</div>
         <div style="display: flex; justify-content: flex-start">
           <!-- <div style="margin-right: 30px">Privacy Policy</div>
           <div class="copyright-content">Terms & Conditions</div> -->
@@ -52,7 +52,18 @@
 </template>
 
 <script>
+import moment from "moment";
+
 export default {
+  data() {
+    return {
+      year: 2023,
+    };
+  },
+  created() {
+    const now = moment().year();
+    this.year = now;
+  },
   methods: {
     upward() {
       window.scrollTo(0, 0);

@@ -41,7 +41,7 @@
     <div class="copyright">
       <div class="copyright-content">
         <div style="margin-right: 160px">
-          Copyright © 2021 All Rights Reserved.
+          Copyright © {{ year }} All Rights Reserved.
         </div>
         <!-- <div style="margin-right: 60px">Privacy Policy</div>
         <div class="copyright-content">Terms & Conditions</div> -->
@@ -52,7 +52,18 @@
 </template>
 
 <script>
+import moment from "moment";
+
 export default {
+  data() {
+    return {
+      year: 2023,
+    };
+  },
+  created() {
+    const now = moment().year();
+    this.year = now;
+  },
   methods: {
     upward() {
       window.scrollTo(0, 0);
