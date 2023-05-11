@@ -33,6 +33,19 @@
           color: #3c66f8;
           margin-bottom: 53px;
         }
+        >.content {
+          height: 53px;
+          font-family: "Roboto", sans-serif;
+          font-size: 40px;
+          font-weight: 100;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: 10px;
+          text-align: center;
+          color: #1c1c1c;
+          margin-top: -5px;
+        }
         .ad-button-container {
           display: flex;
           flex-direction: column;
@@ -81,17 +94,5 @@
         height: 263px;
         width: 280px;
       }
-      .ad-content {
-        height: 53px;
-        font-family: "Roboto", sans-serif;
-        font-size: 40px;
-        font-weight: 100;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.5;
-        letter-spacing: 10px;
-        text-align: center;
-        color: #1c1c1c;
-        margin-top: -5px;
-      }
+    
   }

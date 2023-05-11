@@ -29,6 +29,19 @@
           height: 39px;
           text-align: center;
         }
+        >.content {
+          height: 53px;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-weight: 100;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: 4px;
+          text-align: center;
+          color: #1c1c1c;
+          height: 21px;
+        }
         .ad-button-container {
           display: flex;
           flex-direction: column;
@@ -71,20 +84,6 @@
             text-decoration: underline;
           }
         }
-      }
-
-      .ad-content {
-        height: 53px;
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-weight: 100;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.5;
-        letter-spacing: 10px;
-        text-align: center;
-        color: #1c1c1c;
-        height: 21px;
       }
 
 
