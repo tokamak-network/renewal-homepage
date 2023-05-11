@@ -1,13 +1,13 @@
 <template>
   <div class="main-container">
-    <div class="titles">
-      <div class="main-title">L2 MAINNET LAUNCH</div>
-      <div class="content">COMING IN JUNE 2023</div>
-      <div class="button-container">
-        <button class="learn-button">Learn More</button>
+    <div class="ad-titles">
+      <div class="ad-main-title">L2 MAINNET LAUNCH</div>
+      <div class="ad-content">COMING IN JUNE 2023</div>
+      <div class="ad-button-container">
+        <button class="ad-learn-button">Learn More</button>
         <a
           href="https://onther.notion.site/Darius-L2-Testnet-Dev-Document-5023767f30754d21876b049da68f0128"
-          class="darius-button"
+          class="ad-darius-button"
           target="_blank"
           >Try Darius L2 Testnet</a
         >

@@ -15,32 +15,32 @@
     justify-content: center;
     align-items: center;
   }
-  .sub-container {
+  .ad-sub-container {
     display: flex;
     flex-direction: row;
   }
-  .titles {
+  .ad-titles {
     font-family: "Roboto";
 
-    > .main-title {
+    > .ad-main-title {
       color: #1c1c1c;
       font-size: 105px;
       font-weight: 900;
       height: 138px;
     }
 
-    .sub-title {
+    .ad-sub-title {
       color: #3c66f8;
       margin-bottom: 53px;
     }
-    .button-container {
+    .ad-button-container {
       display: flex;
       flex-direction: column;
       margin-top: 36px;
       justify-content: center;
       align-items: center;
 
-      > .learn-button {
+      > .ad-learn-button {
         height: 44px;
         width: 180px;
         background-color: #3c66f8;
@@ -57,7 +57,7 @@
         color: #fff;
         margin-bottom: 15px;
       }
-      > .darius-button {
+      > .ad-darius-button {
         height: 100%;
         background-color: transparent;
         color: #8c8c8c;
@@ -70,18 +70,18 @@
         font-weight: 600;
       }
 
-      > .darius-button:hover {
+      > .ad-darius-button:hover {
         color: #1c1c1c;
         text-decoration: underline;
       }
     }
   }
 
-  .logo {
+  .ad-logo {
     height: 263px;
     width: 280px;
   }
-  .content {
+  .ad-content {
     height: 53px;
     font-family: "Roboto", sans-serif;
     font-size: 40px;

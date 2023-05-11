@@ -82,6 +82,7 @@
             <div class="item">
               <button
                 class="menu-item"
+                style="height: 24px; margin-bottom: -5px"
                 @click="
                   click(
                     'https://tokamak.notion.site/Tokamak-Network-Grant-Program-f2384b458ea341a0987c7e73a909aa21'
@@ -108,31 +109,31 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="header-gridItem" style="justify-content: flex-end">
-        <div class="language" style="display: flex">
-          <div
-            class="lang"
-            :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
-            @click="languageItemClicked(supportedLanguages[0])"
-          >
-            EN
-          </div>
-          <div style="margin: 0 3px 0 3px">|</div>
-          <div
-            class="lang"
-            :style="currentFlag === 'KR' ? { color: '#246fed' } : {}"
-            @click="languageItemClicked(supportedLanguages[1])"
-          >
-            KR
-          </div>
-          <div style="margin: 0 3px 0 3px">|</div>
-          <div
-            class="lang"
-            :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
-            @click="languageItemClicked(supportedLanguages[2])"
-          >
-            CN
+        <div class="header-gridItem" style="justify-content: flex-end">
+          <div class="language" style="display: flex">
+            <div
+              class="lang"
+              :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
+              @click="languageItemClicked(supportedLanguages[0])"
+            >
+              EN
+            </div>
+            <div style="margin: 0 3px 0 3px">|</div>
+            <div
+              class="lang"
+              :style="currentFlag === 'KR' ? { color: '#246fed' } : {}"
+              @click="languageItemClicked(supportedLanguages[1])"
+            >
+              KR
+            </div>
+            <div style="margin: 0 3px 0 3px">|</div>
+            <div
+              class="lang"
+              :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
+              @click="languageItemClicked(supportedLanguages[2])"
+            >
+              CN
+            </div>
           </div>
         </div>
       </div>
