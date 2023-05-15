@@ -7,6 +7,7 @@
         align-items: center;
       > .title {
         font-size: 28px;
+        font-family: "Open Sans", sans-serif!important;
         font-weight: 600;
         font-stretch: normal;
         font-style: normal;
@@ -20,7 +21,8 @@
 
       > .description {
         font-size: 16px;
-        font-weight: normal;
+        // font-family: "Open Sans", sans-serif!important;
+        font-weight: 300;
         font-stretch: normal;
         font-style: normal;
         line-height: 3.75;
@@ -39,8 +41,10 @@
 
           .table-header {
             height: 50px;
-            font-weight: bold;
+            // font-family: "Open Sans", sans-serif!important;
+            font-weight: 600;
             font-stretch: normal;
+            font-size: 13px;
             font-style: normal;
             line-height: 2.31;
             letter-spacing: -0.33px;
@@ -56,7 +60,9 @@
           .table-header-tokamak {
             height: 50px;
             width: 187px;
-            font-weight: bold;
+            // font-family: "Open Sans", sans-serif!important;
+            font-weight: 600;
+            font-size: 13px;
             font-stretch: normal;
             font-style: normal;
             line-height: 2.31;
@@ -78,6 +84,9 @@
             border: solid 1px #eff1f6;
             width: 140px;
             height: 50px;
+           
+            font-weight: 500;
+            font-size: 12px;
           }
 
           .content-title {
@@ -85,7 +94,8 @@
             width: 170px;
             height: 50px;
             font-size: 13px;
-            font-weight: bold;
+        
+            font-weight: 600;
             font-stretch: normal;
             font-style: normal;
             line-height: 2.31;
@@ -99,6 +109,7 @@
           }
           .content-tokamak {
             font-size: 12px;
+            // font-family: "Open Sans", sans-serif!important;
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
@@ -119,7 +130,8 @@
           }
           .content-tokamak-last {
             font-size: 12px;
-            font-weight: bold;
+            // font-family: "Open Sans", sans-serif!important;
+            font-weight: 600;
             font-stretch: normal;
             font-style: normal;
             line-height: 2.5;
