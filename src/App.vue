@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <mobile-tokamak-gnb v-if="width < 700" />
-    <tokamak-gnb v-else />
+    <new-gnb v-else />
 
     <mobile-header-container v-if="width < 700" />
     <header-tablet v-else-if="width <= 1441 && width > 701" />
@@ -27,7 +27,8 @@ import Footer from "@/containers/Footer";
 import MobileHeader from "@/containers/MobileHeader";
 import FooterMobile from "@/containers/FooterMobile";
 import FooterTablet from "@/containers/FooterTablet";
-import TokamakGNB from "@/containers/GNB";
+import NewGNB from "@/containers/NewGNB/NewGNB";
+// import TokamakGNB from "@/containers/GNB";
 import HeaderTablet from "@/containers/HeaderTablet";
 import MobileTokamakGNB from "@/containers/MobileGNB";
 
@@ -40,7 +41,8 @@ export default {
     "footer-mobile-container": FooterMobile,
     "footer-tablet-container": FooterTablet,
     "header-tablet": HeaderTablet,
-    "tokamak-gnb": TokamakGNB,
+    "new-gnb": NewGNB,
+    // "tokamak-gnb": TokamakGNB,
     "mobile-tokamak-gnb": MobileTokamakGNB,
   },
   data() {
