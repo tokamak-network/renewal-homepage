@@ -9,13 +9,13 @@
     <div class="layout">
       <router-view />
     </div>
-    <div v-if="width <= 700">
+    <!-- <div v-if="width <= 700">
       <footer-mobile-container />
-    </div>
-    <div v-else-if="width <= 1270 && width > 701">
+    </div> -->
+    <div v-if="width <= 1270 && width > 701">
       <footer-tablet-container />
     </div>
-    <div v-else>
+    <div v-else style="width: 100%">
       <footer-container />
     </div>
   </div>
@@ -23,9 +23,10 @@
 
 <script>
 import Header from "@/containers/Header";
-import Footer from "@/containers/Footer";
+// import Footer from "@/containers/Footer";
+import NewFooter from '@/containers/NewFooter';
 import MobileHeader from "@/containers/MobileHeader";
-import FooterMobile from "@/containers/FooterMobile";
+// import FooterMobile from "@/containers/FooterMobile";
 import FooterTablet from "@/containers/FooterTablet";
 import NewGNB from "@/containers/NewGNB/NewGNB";
 // import TokamakGNB from "@/containers/GNB";
@@ -36,9 +37,9 @@ export default {
   name: "App",
   components: {
     "header-container": Header,
-    "footer-container": Footer,
+    "footer-container": NewFooter,
     "mobile-header-container": MobileHeader,
-    "footer-mobile-container": FooterMobile,
+    // "footer-mobile-container": FooterMobile,
     "footer-tablet-container": FooterTablet,
     "header-tablet": HeaderTablet,
     "new-gnb": NewGNB,
