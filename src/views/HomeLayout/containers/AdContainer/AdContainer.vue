@@ -4,7 +4,12 @@
       <div class="ad-main-title">L2 MAINNET LAUNCH</div>
       <div class="content">COMING IN JUNE 2023</div>
       <div class="ad-button-container">
-        <button class="ad-learn-button">Learn More</button>
+        <a
+          href="https://medium.com/onther-tech/tokamak-network-l2-mainnet-launch-1a4f46cffc48"
+          target="_blank"
+          class="ad-learn-button"
+          >Learn More</a
+        >
         <a
           href="https://onther.notion.site/Darius-L2-Testnet-Dev-Document-5023767f30754d21876b049da68f0128"
           class="ad-darius-button"

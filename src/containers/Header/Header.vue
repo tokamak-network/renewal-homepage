@@ -6,7 +6,7 @@
           <img
             class="tokamak-logo"
             src="@/assets/tn_logo.svg"
-            style="width: 250px; height: 30px"
+            style="width: 250px; height: 30px; cursor: pointer"
             @click="$route.path !== '/' ? $router.push({ path: '/' }) : ''"
           />
         </div>
@@ -113,6 +113,7 @@
           <div class="language" style="display: flex">
             <div
               class="lang"
+              style="cursor: pointer"
               :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
               @click="languageItemClicked(supportedLanguages[0])"
             >
@@ -120,6 +121,7 @@
             </div>
             <div style="margin: 0 3px 0 3px">|</div>
             <div
+              style="cursor: pointer"
               class="lang"
               :style="currentFlag === 'KR' ? { color: '#246fed' } : {}"
               @click="languageItemClicked(supportedLanguages[1])"
@@ -128,6 +130,7 @@
             </div>
             <div style="margin: 0 3px 0 3px">|</div>
             <div
+              style="cursor: pointer"
               class="lang"
               :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
               @click="languageItemClicked(supportedLanguages[2])"

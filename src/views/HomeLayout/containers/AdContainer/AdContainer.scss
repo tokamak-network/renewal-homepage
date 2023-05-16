@@ -33,7 +33,7 @@
       color: #3c66f8;
       margin-bottom: 53px;
     }
-    >.content {
+    > .content {
       height: 53px;
       // font-family: "Roboto", sans-serif;
       font-size: 40px;
@@ -68,7 +68,13 @@
         letter-spacing: normal;
         text-align: center;
         color: #fff;
+        text-decoration: none;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
         margin-bottom: 15px;
+        cursor: pointer;
       }
       > .ad-darius-button {
         height: 100%;
@@ -89,6 +95,4 @@
       }
     }
   }
-
- 
 }

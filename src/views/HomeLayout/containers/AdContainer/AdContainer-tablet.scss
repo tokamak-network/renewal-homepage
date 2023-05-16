@@ -63,7 +63,13 @@
         letter-spacing: normal;
         text-align: center;
         color: #fff;
+        text-decoration: none;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
         margin-bottom: 15px;
+        cursor: pointer;
       }
       > .ad-darius-button {
         height: 100%;
