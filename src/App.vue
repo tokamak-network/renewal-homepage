@@ -12,10 +12,10 @@
     <!-- <div v-if="width <= 700">
       <footer-mobile-container />
     </div> -->
-    <div v-if="width <= 1270 && width > 701">
+    <!-- <div v-if="width <= 1270 && width > 701">
       <footer-tablet-container />
-    </div>
-    <div v-else style="width: 100%">
+    </div> -->
+    <div style="width: 100%">
       <footer-container />
     </div>
   </div>
@@ -24,10 +24,10 @@
 <script>
 import Header from "@/containers/Header";
 // import Footer from "@/containers/Footer";
-import NewFooter from '@/containers/NewFooter';
+import NewFooter from "@/containers/NewFooter";
 import MobileHeader from "@/containers/MobileHeader";
 // import FooterMobile from "@/containers/FooterMobile";
-import FooterTablet from "@/containers/FooterTablet";
+// import FooterTablet from "@/containers/FooterTablet";
 import NewGNB from "@/containers/NewGNB/NewGNB";
 // import TokamakGNB from "@/containers/GNB";
 import HeaderTablet from "@/containers/HeaderTablet";
@@ -40,7 +40,7 @@ export default {
     "footer-container": NewFooter,
     "mobile-header-container": MobileHeader,
     // "footer-mobile-container": FooterMobile,
-    "footer-tablet-container": FooterTablet,
+    // "footer-tablet-container": FooterTablet,
     "header-tablet": HeaderTablet,
     "new-gnb": NewGNB,
     // "tokamak-gnb": TokamakGNB,

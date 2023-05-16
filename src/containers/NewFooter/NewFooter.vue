@@ -1,6 +1,6 @@
 <template>
   <div class="new-footer">
-    <div class="mobile-line" v-if="width < 700" />
+    <div class="line" v-if="width < 700" />
     <div class="footer-container">
       <div class="container-item">
         <div class="new-title">About</div>
@@ -45,7 +45,8 @@
         <div class="new-content">Linkedin</div>
       </div>
     </div>
-    <div class="mobile-line" />
+    <div v-if="width > 1080" class="short-line" />
+    <div v-else class="line" />
     <div class="new-copyright">
       <div class="new-copyright-content">
         <div v-if="width < 700">

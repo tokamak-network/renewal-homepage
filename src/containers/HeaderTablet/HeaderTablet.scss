@@ -1,214 +1,214 @@
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff) format('woff');
-  }
-  .header {
-    width: 100%;
-  
-    height: 110px;
-    background: #ffffff;
-    // margin: 0 30px 0 30px;
-    font-family: "OpenSans", sans-serif!important;
-  }
-  
-  .header-title {
-    display: flex;
-    flex: 1;
-    max-width: 1696px;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 28px;
-    margin-top: 26px;
-    align-items: center;
-  
-    > .tokamak-logo {
-      width: 45px;
-      height: 30px;
-      object-fit: contain;
-      margin-left: 30px;
-    }
-    > .tokamak-logo:hover {
-      cursor: pointer;
-    }
-  
-    > .tokamak-text {
-      width: 207px;
-      height: 22px;
-      object-fit: contain;
-    }
-  
-    > .language {
-      color: #3e495c;
-      font-size: 14px;
-      display: flex;
-      justify-content: flex-end;
-      margin-right: 30px;
-  
-      > .lang:hover {
-        cursor: pointer;
-      }
-    }
-  }
-  
-  .header-sub {
-    background: #fafbfc;
-  }
-  
-  .logo-container {
-    display: flex;
-    align-items: center;
-  
-    .beta {
-      margin-top: 4px;
-  
-      font-size: 14px;
-      font-style: italic;
-      line-height: 1.14;
-      letter-spacing: normal;
-      text-align: left;
-      color: #1c1c1c;
-  
-      margin-left: 4px;
-  
-      &-sub {
-        color: #2a72e5;
-      }
-    }
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  
-    z-index: 1;
-  
-    &:hover {
-      cursor: pointer;
-    }
-  }
-  
-  .logo-tablet {
-    display: flex;
-    align-items: center;
-  
-    z-index: 1;
-  
-    &:hover {
-      cursor: pointer;
-    }
-  }
-  
-  button {
-    width: 76px;
-    height: 35px;
-    padding: 8px 20px;
-    border-radius: 19px;
-    border: solid 1px #6c9ed0;
-    background: #0062c2;
-    outline: none;
-    font-size: 14px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #a6c8e9
-  }
-  button:hover {
-    cursor: pointer;
-  }
-  
-  .claim {
-    background: #2a72e5;
-    color: #ffffff;
-  }
-  
-  .logo img {
-    width: 306px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff)
+    format("woff");
+}
+.header {
+  width: 100%;
+
+  height: 110px;
+  background: #ffffff;
+  // margin: 0 30px 0 30px;
+  font-family: "OpenSans", sans-serif !important;
+}
+
+.header-title {
+  display: flex;
+  flex: 1;
+  max-width: 1696px;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 28px;
+  margin-top: 26px;
+  align-items: center;
+
+  > .tokamak-logo {
+    width: 45px;
     height: 30px;
+    object-fit: contain;
+    margin-left: 30px;
   }
-  
-  .menu {
-    width: 100%;
-    max-width: 580px;
-  
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    // z-index: 1;
-  }
-  
-  .dot {
-    width: 4px;
-    height: 4px;
-    background-color: #246fed;
-    border-radius: 100px;
-    visibility: hidden;
-    position: absolute;
-    top: 118px;
-  }
-  
-  .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 3px;
-  }
-  
-  .menu-item {
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    border: none;
-    position: absolute;
-    font-family:  'Open Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #1c1c1c;
-    text-decoration: none;
-    // padding-bottom:20px;
-  
-    > .fade-enter-active, .fade-leave-active {
-      transition: opacity .1s;
-    }
-    .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-      opacity: 0.1;
-    }
-  }
-  .menu-item:hover {
+  > .tokamak-logo:hover {
     cursor: pointer;
   }
-  
-  
-  .selected {
-    color: #2a72e5;
+
+  > .tokamak-text {
+    width: 207px;
+    height: 22px;
+    object-fit: contain;
   }
-  
-  .visible {
-    visibility: visible;
-  }
-  
-  .container {
-    height: 84px;
+
+  > .language {
+    color: #3e495c;
+    font-size: 14px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 15px;
-  
-    z-index: 1;
+    justify-content: flex-end;
+    margin-right: 30px;
+
+    > .lang:hover {
+      cursor: pointer;
+    }
   }
-  
-  .line {
-    width: inherit;
-    height: 4px;
-    margin-bottom: 22px;
-    background-color: #2a72e5;
+}
+
+.header-sub {
+  background: #fafbfc;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+
+  .beta {
+    margin-top: 4px;
+
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1c1c1c;
+
+    margin-left: 4px;
+
+    &-sub {
+      color: #2a72e5;
+    }
   }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  z-index: 1;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.logo-tablet {
+  display: flex;
+  align-items: center;
+
+  z-index: 1;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+button {
+  width: 76px;
+  height: 35px;
+  padding: 8px 20px;
+  border-radius: 19px;
+  border: solid 1px #6c9ed0;
+  background: #0062c2;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a6c8e9;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.claim {
+  background: #2a72e5;
+  color: #ffffff;
+}
+
+.logo img {
+  width: 306px;
+  height: 30px;
+}
+
+.menu {
+  width: 100%;
+  max-width: 580px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20px;
+  // z-index: 1;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background-color: #246fed;
+  border-radius: 100px;
+  visibility: hidden;
+  position: absolute;
+  top: 66px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: none;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1c1c1c;
+  text-decoration: none;
+  // padding-bottom:20px;
+
+  > .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.1s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0.1;
+  }
+}
+.menu-item:hover {
+  cursor: pointer;
+}
+
+.selected {
+  color: #2a72e5;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.container {
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+
+  z-index: 1;
+}
+
+.line {
+  width: inherit;
+  height: 4px;
+  margin-bottom: 22px;
+  background-color: #2a72e5;
+}
