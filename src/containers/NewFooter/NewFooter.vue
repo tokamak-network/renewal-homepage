@@ -1,7 +1,10 @@
 <template>
   <div class="new-footer">
     <div class="line" v-if="width < 700" />
-    <div class="footer-container">
+    <div
+      class="footer-container"
+      :style="{ width: width < 1280 ? '95%' : '100%' }"
+    >
       <div class="container-item">
         <div class="new-title">About</div>
         <div class="new-content">Team</div>
@@ -45,9 +48,12 @@
         <div class="new-content">Linkedin</div>
       </div>
     </div>
-    <div v-if="width > 1080" class="short-line" />
-    <div v-else class="line" />
-    <div class="new-copyright">
+
+    <div class="line" />
+    <div
+      class="new-copyright"
+      :style="{ width: width < 1280 ? '95%' : '100%' }"
+    >
       <div class="new-copyright-content">
         <div v-if="width < 700">
           Copyright © {{ year }}
