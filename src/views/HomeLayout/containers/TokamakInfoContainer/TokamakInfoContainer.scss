@@ -4,7 +4,7 @@
 
     > .title {
       font-size: 28px;
-      font-weight: 600;
+      font-weight: 500;
       line-height: 1.07;
       letter-spacing: normal;
       text-align: left;
@@ -22,7 +22,7 @@
 
         > .title {
           font-size: 24px;
-          font-weight: 600;
+          font-weight: 500;
           font-stretch: normal;
           font-style: normal;
           line-height: 1.08;
@@ -36,9 +36,9 @@
         > .content {
           display: flex;
           justify-content: flex-end;
-
+          align-items: flex-end;
           font-size: 45px;
-          font-weight: 600;
+          font-weight: 500;
           font-stretch: normal;
           font-style: normal;
           line-height: 0.58;

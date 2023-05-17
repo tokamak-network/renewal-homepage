@@ -7,34 +7,8 @@
         style="width: 45px; height: 30px"
         @click="$route.path !== '/' ? $router.push({ path: '/' }) : ''"
       />
-      <img src="@/assets/tokamak-text.svg" class="tokamak-text" />
-      <div class="language">
-        <div
-          class="lang"
-          :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
-          @click="languageItemClicked(supportedLanguages[0])"
-        >
-          EN
-        </div>
-        <div style="margin: 0 3px 0 3px">|</div>
-        <div
-          class="lang"
-          :style="currentFlag === 'KR' ? { color: '#246fed' } : {}"
-          @click="languageItemClicked(supportedLanguages[1])"
-        >
-          KR
-        </div>
-        <div style="margin: 0 3px 0 3px">|</div>
-        <div
-          class="lang"
-          :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
-          @click="languageItemClicked(supportedLanguages[2])"
-        >
-          CN
-        </div>
-      </div>
-    </div>
-    <div style="display: flex; flex: 1; justify-content: center">
+      <!-- <img src="@/assets/tokamak-text.svg" class="tokamak-text" /> -->
+
       <div class="menu">
         <div class="item">
           <div class="dot" :class="{ visible: $route.path === '/' }" />
@@ -127,6 +101,32 @@
           >
             About
           </router-link>
+        </div>
+      </div>
+
+      <div class="language">
+        <div
+          class="lang"
+          :style="currentFlag === 'EN' ? { color: '#246fed' } : {}"
+          @click="languageItemClicked(supportedLanguages[0])"
+        >
+          EN
+        </div>
+        <div style="margin: 0 3px 0 3px">|</div>
+        <div
+          class="lang"
+          :style="currentFlag === 'KR' ? { color: '#246fed' } : {}"
+          @click="languageItemClicked(supportedLanguages[1])"
+        >
+          KR
+        </div>
+        <div style="margin: 0 3px 0 3px">|</div>
+        <div
+          class="lang"
+          :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
+          @click="languageItemClicked(supportedLanguages[2])"
+        >
+          CN
         </div>
       </div>
     </div>

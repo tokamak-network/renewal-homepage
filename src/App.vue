@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <mobile-tokamak-gnb v-if="width < 700" />
-    <tokamak-gnb v-else />
+    <new-gnb v-else />
 
     <mobile-header-container v-if="width < 700" />
     <header-tablet v-else-if="width <= 1441 && width > 701" />
@@ -9,13 +9,13 @@
     <div class="layout">
       <router-view />
     </div>
-    <div v-if="width <= 700">
+    <!-- <div v-if="width <= 700">
       <footer-mobile-container />
-    </div>
-    <div v-else-if="width <= 1270 && width > 701">
+    </div> -->
+    <!-- <div v-if="width <= 1270 && width > 701">
       <footer-tablet-container />
-    </div>
-    <div v-else>
+    </div> -->
+    <div style="width: 100%">
       <footer-container />
     </div>
   </div>
@@ -23,11 +23,13 @@
 
 <script>
 import Header from "@/containers/Header";
-import Footer from "@/containers/Footer";
+// import Footer from "@/containers/Footer";
+import NewFooter from "@/containers/NewFooter";
 import MobileHeader from "@/containers/MobileHeader";
-import FooterMobile from "@/containers/FooterMobile";
-import FooterTablet from "@/containers/FooterTablet";
-import TokamakGNB from "@/containers/GNB";
+// import FooterMobile from "@/containers/FooterMobile";
+// import FooterTablet from "@/containers/FooterTablet";
+import NewGNB from "@/containers/NewGNB/NewGNB";
+// import TokamakGNB from "@/containers/GNB";
 import HeaderTablet from "@/containers/HeaderTablet";
 import MobileTokamakGNB from "@/containers/MobileGNB";
 
@@ -35,12 +37,13 @@ export default {
   name: "App",
   components: {
     "header-container": Header,
-    "footer-container": Footer,
+    "footer-container": NewFooter,
     "mobile-header-container": MobileHeader,
-    "footer-mobile-container": FooterMobile,
-    "footer-tablet-container": FooterTablet,
+    // "footer-mobile-container": FooterMobile,
+    // "footer-tablet-container": FooterTablet,
     "header-tablet": HeaderTablet,
-    "tokamak-gnb": TokamakGNB,
+    "new-gnb": NewGNB,
+    // "tokamak-gnb": TokamakGNB,
     "mobile-tokamak-gnb": MobileTokamakGNB,
   },
   data() {

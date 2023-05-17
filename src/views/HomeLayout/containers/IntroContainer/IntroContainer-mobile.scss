@@ -29,7 +29,7 @@
 
       .title {
         font-size: 16px;
-        font-weight: bold;
+        font-weight: bold!important;
         font-stretch: normal;
         font-style: normal;
         line-height: 1.88;
@@ -42,7 +42,7 @@
 
       .content {
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 500;
         color: #4c4c4c;
         line-height: 1.43;
         letter-spacing: -0.35px;
