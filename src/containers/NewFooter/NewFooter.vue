@@ -52,7 +52,7 @@
     <div class="line" />
     <div
       class="new-copyright"
-      :style="{ width: width < 1280 ? '95%' : '100%' }"
+      :style="{ width: width < 700 ? '90%' : width < 1280 ? '95%' : '100%' }"
     >
       <div class="new-copyright-content">
         <div v-if="width < 700">
