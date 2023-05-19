@@ -34,7 +34,7 @@ import ZenaImage from "../../assets/team/zena_pic@3x.png";
 // import HarryImage from "../../assets/team/harry-pic@3x.png";
 // import JosephImage from "../../assets/team/joseph-pic@3x.png";
 // import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
-// import PraveenImage from "../../assets/team/praveen-pic@3x.png";
+import PraveenImage from "../../assets/team/praveen-pic@3x.png";
 // // import JackImage from "../../assets/team/jack-pic@3x.png";
 // import HarveyImage from "../../assets/team/harvey-pic@3x.png";
 import JamieImage from "../../assets/team/jamie-pic@3x.png";
@@ -43,7 +43,7 @@ import JamieImage from "../../assets/team/jamie-pic@3x.png";
 // import RichardImage from "../../assets/team/richard-pic@3x.png";
 import SuahImage from "../../assets/team/suah_pic@3x.png";
 // import OscarImage from "../../assets/team/Oscar_pic@3x.png";
-// import MonicaImage from "../../assets/team/monica-pic@3x.png";
+import MonicaImage from "../../assets/team/monica-pic@3x.png";
 // import OliviaImage from "../../assets/team/Olivia_pic@3x.png";
 import JadenImage from "../../assets/team/jaden-pic@3x.png";
 // // import MattImage from "../../assets/team/matt-pic@3x.png";
@@ -52,7 +52,7 @@ import RyanImage from "../../assets/team/ryan-pic@3x.png";
 // import TheoImage from "../../assets/team/theo-pic@3x.png";
 // import WyattImage from "../../assets/team/wyatt-pic@3x.png";
 // import AlexImage from "../../assets/team/alex-pic@3x.png";
-// import EugeneImage from "../../assets/team/eugene-pic@3x.png";
+import EugeneImage from "../../assets/team/eugene-pic@3x.png";
 // import StanImage from "../../assets/team/stan-pic@3x.png";
 
 export default {
@@ -102,6 +102,20 @@ export default {
           image: JadenImage,
         },
         {
+          name: "Praveen Surendran",
+          role: "Researcher",
+          github: "",
+          linkedin: "",
+          image: PraveenImage,
+        },
+        {
+          name: "Monica Kim",
+          role: "UX/UI Designer",
+          github: "",
+          linkedin: "",
+          image: MonicaImage,
+        },
+        {
           name: "Ryan Murray",
           role: "UX/UI Designer & Planner",
           github: "",
@@ -115,6 +129,13 @@ export default {
         //   linkedin: "",
         //   image: WyattImage,
         // },
+        {
+          name: "Eugene Cho",
+          role: "UXUI Planner & PM",
+          github: "",
+          linkedin: "",
+          image: EugeneImage,
+        },
       ],
     };
   },
