@@ -193,7 +193,7 @@
       <div class="logo-container">
         <img
           class="logo"
-          src="@/assets/mobile_logo.png"
+          src="@/assets/logo_mobile.png"
           alt=""
           width="205"
           height="30"
