@@ -25,7 +25,7 @@ import KevinImage from "../../assets/team/kevin_pic@3x.png";
 // import TomasImage from "../../assets/team/tomas_pic@3x.png";
 // import LakmiImage from "../../assets/team/lakmi_pic@3x.png";
 // import NanoImage from "../../assets/team/nano_pic@3x.png";
-// import LucasImage from "../../assets/team/lucas_pic@3x.png";
+import LucasImage from "../../assets/team/lucas_pic@3x.png";
 // import KadyrImage from "../../assets/team/Kadyr_pic@3x.png";
 import AleImage from "../../assets/team/ale_pic@3x.png";
 // import JaceImage from "../../assets/team/jace_pic@3x.png";
@@ -93,6 +93,13 @@ export default {
           github: "",
           linkedin: "",
           image: SuahImage,
+        },
+        {
+          name: "Lucas Jung",
+          role: "Product Designer",
+          github: "",
+          linkedin: "",
+          image: LucasImage,
         },
         {
           name: "Jaden Kong",
