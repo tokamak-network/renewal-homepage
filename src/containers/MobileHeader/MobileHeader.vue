@@ -138,7 +138,7 @@
               >
                 Documents
               </button>
-              <button
+              <!-- <button
                 class="menu-item-sub-item-linked"
                 @click="
                   click(
@@ -147,7 +147,7 @@
                 "
               >
                 Tech Papers
-              </button>
+              </button> -->
               <button
                 class="menu-item-sub-item-linked"
                 @click="click(whitepaper)"
