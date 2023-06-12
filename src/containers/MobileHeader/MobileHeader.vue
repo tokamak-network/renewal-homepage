@@ -140,16 +140,6 @@
               </button>
               <button
                 class="menu-item-sub-item-linked"
-                @click="
-                  click(
-                    'https://tokamak-network.github.io/papers/tech-paper.pdf'
-                  )
-                "
-              >
-                Tech Papers
-              </button>
-              <button
-                class="menu-item-sub-item-linked"
                 @click="click(whitepaper)"
               >
                 White Papers

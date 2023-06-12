@@ -13,14 +13,6 @@
         <button class="tab" @click="click('https://docs.tokamak.network/')">
           Documents
         </button>
-        <button
-          class="tab"
-          @click="
-            click('https://tokamak-network.github.io/papers/tech-paper.pdf')
-          "
-        >
-          Tech Papers
-        </button>
         <button class="tab" @click="click(whitepaper)">White Papers</button>
       </div>
     </div>
