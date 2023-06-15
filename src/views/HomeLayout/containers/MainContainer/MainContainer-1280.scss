@@ -1,4 +1,11 @@
-@media all and (min-width:1025px) and (max-width: 1440px) {
+// @font-face {
+//   font-family: 'arial-black', sans-serif;
+//   font-style: normal;
+//   font-weight: 900;
+//   font-display: swap;
+//   src: url(https://www.dafontfree.net/embed/YXJpYWwtYmxhY2stcmVndWxhciZkYXRhLzk0Ni9hLzIwNjQzNC9hcmlibGsudHRm) format('ttf');
+// }
+@media all and (min-width: 1025px) and (max-width: 1440px) {
   .main-container {
     width: 100%;
     font-size: 70px;
@@ -6,18 +13,15 @@
     letter-spacing: normal;
     text-align: left;
     color: #1c1c1c;
-    margin-top: 120px;
+    margin-top: 38px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    
     > .description {
-      width: 940px;
-      height: 174px;
-      font-family: Arial;
+      font-family: "arial-black", sans-serif;
       font-size: 70px;
       font-weight: 900;
       font-stretch: normal;
@@ -26,18 +30,32 @@
       letter-spacing: normal;
       text-align: center;
       color: #1c1c1c;
-      z-index: 0;
+      z-index: 1;
+      width: 600px;
+     
+    }
+    > .mini-description {
+      font-family: "arial-black", sans-serif;
+      font-size: 35px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+
+      letter-spacing: normal;
+      text-align: center;
+      color: #1c1c1c;
+      z-index: 1;
     }
 
     > .image {
       position: relative;
-      // background-image: url(../../../../assets/bg-img@3x.png);
+      background-image: url(../../../../assets/bg-img@3x.png);
       width: 100%;
       height: 234px;
-      // background-size: cover;
+      background-size: cover;
       bottom: 80px;
-      margin-bottom: -80px!important;
-    
+      margin-bottom: -80px !important;
+
       object-fit: contain;
       opacity: 0.8;
       display: flex;
@@ -45,12 +63,12 @@
       align-items: center;
 
       > .sub-description {
-        width: 400px;
-        height: 40px;
+        width: 604px;
+        height: 52px;
         margin: 89px 105px 0;
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: normal;
+        font-family: 'Roboto-regular', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
         font-stretch: normal;
         font-style: normal;
         line-height: 1.33;

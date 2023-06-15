@@ -1,13 +1,28 @@
 <template>
   <div class="main-container">
-    <div class="description">ON-DEMAND ETHEREUM LAYER 2 PLATFORM</div>
-    <div class="image">
-      <div class="sub-description">
-        {{ $t("home.main.description2") }}
+    <div class="description">L2 ON-DEMAND</div>
+    <div class="mini-description">ETHEREUM PLATFORM</div>
+
+    <div class="sub-description">
+      {{ $t("home.main.description2") }}
+    </div>
+    <div class="button-container">
+      <div class="titan">
+        <div class="live">Live</div>
+        <button class="titan-button">
+          <div class="titan-text">TITAN</div>
+          <div class="tok-container">
+            <div class="tok-text">Tokamak</div>
+            <div class="op-text">OP</div>
+          </div>
+        </button>
       </div>
-      <div class="line-tablets" />
+      <button class="demand">L2 ON-DEMAND</button>
+    </div>
+    <div class="image">
       <!-- <div class="text">{{ $t("home.main.img") }}</div> -->
     </div>
+    <div class="line-tablets" />
   </div>
 </template>
 
