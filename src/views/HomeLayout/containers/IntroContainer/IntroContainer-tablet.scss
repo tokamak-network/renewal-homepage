@@ -5,20 +5,20 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff) format('woff');
 }
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1024px) { // Devices with a viewport width of 1024px or less
   .intro-section {
     width: 100%;
     height: 577px!important;
-    // margin-top: 51px;
+    margin: 41px 0 0 30px;
     font-family: "Open Sans", sans-serif!important;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     flex: 1;
 
     .contents{
       width: 90%;
-      margin-left: 30px;
+      max-width: 300px;
 
       .img {
         height: 52px;
@@ -41,6 +41,10 @@
         line-height: 1.43;
         letter-spacing: -0.35px;
         margin-bottom: 78px;
+
+        &__info-text {
+          color: #808992;
+        }
       }
     }
   }

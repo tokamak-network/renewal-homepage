@@ -10,7 +10,7 @@
     width: 100%;
     height: 1047px!important;
     height: 100%;
-    margin-top: 41px;
+    margin: 41px 0 0 20px;
     font-family: "Open Sans", sans-serif!important;
 
     display: grid;
@@ -18,9 +18,9 @@
     justify-content: space-between;
     flex: 1;
 
+
     .contents{
-      width: 90%;
-      margin-left: 20px;
+      max-width: 320px;
 
       .img {
         height: 52px;
@@ -47,6 +47,10 @@
         line-height: 1.43;
         letter-spacing: -0.35px;
         margin-bottom: 78px;
+
+        &__info-text {
+          color: #808992;
+        }
       }
     }
   }

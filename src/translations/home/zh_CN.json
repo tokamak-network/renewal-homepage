@@ -4,20 +4,18 @@
   },
   "intro": {
     "specific1": {
-      "title": "轻松进行二层网络部署",
-      "content": "使用坦克网络（Tokamak Network）构建可定制的二层网络。通过Tokamak Network实现轻松开发和更多增长。"
+      "title": "Better Interoperability",
+      "content": "Tokamak Network allows fast transactions with optimistic and ZK rollups, and interoperability with other L2 solutions.",
+      "info": "(Coming Later)"
     },
     "specific2": {
-      "title": "二层互操作性",
-      "content": "自定义二层网络可以连接到坦克网络（Tokamak Network）中任何其他二层网络，跨层消息协议无需经过基础层即可进行网络通信。"
+      "title": "L2 On-Demand",
+      "content": "Tokamak Network simplifies service scaling and ecosystem integration with easy L2 deployment. See below for more details.",
+      "info": "(Coming Later)"
     },
     "specific3": {
-      "title": "更高的安全性",
-      "content": "质押TON代币可以为您的二层网络提供了更高级别的安全性。坦克网络（Tokamak Network）自始至终确保对所有二层网络进行全面验证。"
-    },
-    "specific4": {
-      "title": "去中心化治理",
-      "content": "坦克网络（Tokamak Network）由持有TON的参与者共同治理。去中心化治理模式允许网络升级、生态系统扩展和协议优化更加可定制化，还能进行自动协调。"
+      "title": "Scalable Ecosystem",
+      "content": "Tokamak Network supports TONStarter, a decentralized launchpad that simplifies fundraising and easily integrates with Tokamak Network’s L2."
     }
   },
   "main": {

@@ -18,7 +18,8 @@
     flex: 1;
 
     .contents{
-      width: 20%;
+      width: calc(100% / 3);
+      margin-right: 60px;
 
       .img {
         height: 52px;
@@ -45,7 +46,12 @@
         line-height: 1.43;
         letter-spacing: -0.35px;
         margin-bottom: 78px;
+
+        &__info-text {
+          color: #808992;
+        }
       }
+
     }
   }
 }

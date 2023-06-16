@@ -4,20 +4,18 @@
   },
   "intro": {
     "specific1": {
-      "title": "쉬운 커스텀 레이어 2 구축",
-      "content": "토카막 네트워크로 손쉽게 커스텀 레이어 2 네트워크를 만들어보세요. 간편한 레이어 2 구축을 통해 토카막 네트워크는 더 빠르게 확장할 수 있습니다."
+      "title": "Better Interoperability",
+      "content": "Tokamak Network allows fast transactions with optimistic and ZK rollups, and interoperability with other L2 solutions.",
+      "info": "(Coming Later)"
     },
     "specific2": {
-      "title": "상호 운용성",
-      "content": "여러분의 커스텀 레이어 2는 토카막 네트워크의 모든 다른 레이어 2와 연결될 수 있습니다. 토카막 네트워크는 베이스 레이어를 거치지 않고 크로스-레이어 메세지 프로토콜을 지원합니다."
+      "title": "L2 On-Demand",
+      "content": "Tokamak Network simplifies service scaling and ecosystem integration with easy L2 deployment. See below for more details.",
+      "info": "(Coming Later)"
     },
     "specific3": {
-      "title": "높은 안전성",
-      "content": "토카막 네트워크는 여러분의 레이어 2에 높은 안전성을 제공합니다. 토카막 네트워크의 모든 레이어 2는 외부 검증자 없이 처음부터 완전히 검증됩니다."
-    },
-    "specific4": {
-      "title": "탈중앙화 거버넌스",
-      "content": "토카막 네트워크는 모든 TON 보유자에 의해 운영됩니다. 이러한 탈중앙화된 거버넌스는 모든 네트워크 업그레이드, 생태계 확장, 프로토콜 개선 등이 자율적으로 조정되고 실행될 수 있도록 합니다."
+      "title": "Scalable Ecosystem",
+      "content": "Tokamak Network supports TONStarter, a decentralized launchpad that simplifies fundraising and easily integrates with Tokamak Network’s L2."
     }
   },
   "main": {

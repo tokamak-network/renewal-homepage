@@ -4,20 +4,18 @@
   },
   "intro": {
     "specific1": {
-      "title": "Easy Layer 2 Network Deployment",
-      "content": "Build customizable layer 2 networks with Tokamak Network. Achieve more growth with easy development through Tokamak Network."
+      "title": "Better Interoperability",
+      "content": "Tokamak Network allows fast transactions with optimistic and ZK rollups, and interoperability with other L2 solutions.",
+      "info": "(Coming Later)"
     },
     "specific2": {
-      "title": "Layer 2 Interoperability",
-      "content": "Your custom layer 2 network can be connected to any other layer 2 in Tokamak Network. The Cross-Layer Message Protocol supports network communication without going through base layer."
+      "title": "L2 On-Demand",
+      "content": "Tokamak Network simplifies service scaling and ecosystem integration with easy L2 deployment. See below for more details.",
+      "info": "(Coming Later)"
     },
     "specific3": {
-      "title": "Higher Security",
-      "content": "Staking TON provides a higher level of security for your layer 2 network. Tokamak Network ensures that all layer 2 networks are fully verified from day one."
-    },
-    "specific4": {
-      "title": "Decentralized Governance",
-      "content": "Tokamak Network is governed by TON stakeholders. Decentralized governance allows network upgrades, ecosystem expansion, and protocol improvement to be coordinated and enacted autonomously."
+      "title": "Scalable Ecosystem",
+      "content": "Tokamak Network supports TONStarter, a decentralized launchpad that simplifies fundraising and easily integrates with Tokamak Network’s L2."
     }
   },
   "main": {
