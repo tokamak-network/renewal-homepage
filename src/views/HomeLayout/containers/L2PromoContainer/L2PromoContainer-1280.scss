@@ -1,0 +1,95 @@
+
+  @media all and (min-width: 1025px) and (max-width: 1440px) {
+    .container {
+        width: 100%;
+        justify-content: center;
+        .header {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 60px;
+            
+            &__title {
+                font-family: "arial-black", sans-serif;
+                font-size: 38px;
+                font-weight: 600;
+                line-height: 1.37;
+                color: #1c1c1c;
+            }
+            &__description {
+                width: 1024px;
+                height: 46px;
+                font-size: 16px;
+                line-height: 1.5;
+                color: #808992;
+                margin-top:15px;
+            }
+        }
+
+        .content {
+            margin: 60px 0 60px 30px;
+            text-align: center;
+            display: flex;
+            &__service {
+                flex-direction: column;
+                align-items: center;
+                display: flex;
+
+                .img {
+                    width: 300px;
+                    height: 250px;
+                }
+
+                .title {
+                    font-size: 40px;
+                    font-weight: 600;
+                    line-height: 2.30;
+                    text-align: center;
+                    color: #1c1c1c;
+                    margin: 90px 0 20px 0;
+                    font-family: "Open Sans", sans-serif !important;
+                    display: flex;
+                    flex-direction: row;
+                    
+                    &__op {
+                        font-size: 22px;
+                        font-weight: bold;
+                        line-height: 4.86;
+                        color: #ff0420;
+                    }
+
+                    &__zk {
+                        font-size: 22px;
+                        font-weight: bold;
+                        line-height: 4.86;
+                        color: #06d863;
+                    }
+                }
+
+                .description {
+                    max-width: 590px;
+                    height: 94px;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    text-align: left;
+                    color: #1c1c1c;
+                    margin: 20px 15px 30px;
+                    font-family: "Open Sans", sans-serif!important;
+                }
+                .info {
+                    width: 180px;
+                    height: 44px;
+                    border-radius: 100px;
+                    border: solid 1px #dfe4ee;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 1.36;
+                    justify-content: center;
+                    color: #808992;
+                }
+            }
+        }
+    }
+}

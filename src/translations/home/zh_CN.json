@@ -99,5 +99,11 @@
     "price": "TON 价码",
     "trading_volume": "成交量",
     "staked_amount": "TON 立桩金额"
+  },
+  "l2": {
+    "content": "Rather than relying on someone else’s L2 network, create your own L2 based on your specific needs. Choose a permissionless L2 architecture that meets your requirements without compromising on speed or security. This service is coming later.",
+    "serviceIntro1": "Customized L2 stack built on Optimism, which offers fast and affordable computation and state updates by using optimistic rollup. Along with Optimism’s capabilities, this stack also includes a flexible transaction fee to enhance the user experience.",
+    "serviceIntro2": "Cutting-edge virtual machine for L2, designed to work with ZKSNARKS. It supports a previously unseen L2 rollup architecture that reduces computational complexity without compromising security or privacy.",
+    "btnText": "Coming Later"
   }
 }

@@ -1,0 +1,107 @@
+@media all and (max-width: 1024px) {
+    .container {
+      width: 100%;
+      margin-left: 30px;
+      margin-right: 30px;
+      justify-content: center;
+  
+      .header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 60px;
+  
+        &__title {
+          font-family: "arial-black", sans-serif;
+          font-size: 38px;
+          font-weight: 800;
+          line-height: 1.37;
+          color: #1c1c1c;
+        }
+  
+        &__description {
+          width: 800px;
+          height: 46px;
+          font-size: 16px;
+          line-height: 1.5;
+          color: #808992;
+          margin-top: 15px 112px 0 112px;
+        }
+      }
+  
+      .content {
+        display: flex;
+        margin: 60px 30px 60px 30px;
+        text-align: center;
+        justify-content: center;
+  
+        &__service {
+          flex-direction: column;
+          align-items: center;
+          display: flex;
+  
+          .img {
+            width: 300px;
+            height: 170px;
+          }
+  
+          .title {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 2.30;
+            text-align: center;
+            color: #1c1c1c;
+            margin: 40px 1px 10px 0;
+            font-family: "Open Sans", sans-serif !important;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+  
+            &__op {
+              font-size: 11px;
+              font-weight: bold;
+              line-height: 4.86;
+              color: #ff0420;
+            }
+  
+            &__zk {
+              font-size: 11px;
+              font-weight: bold;
+              line-height: 4.86;
+              color: #06d863;
+            }
+          }
+  
+          .description {
+            max-width: 452px;
+            height: 80px;
+            font-size: 14px;
+            line-height: 1.43;
+            text-align: left;
+            color: #4c4c4c;
+            margin-bottom: 30px;
+            padding-right: 30px;
+            margin-right:30px;
+            justify-content: center;
+            letter-spacing: -0.35px;
+            font-family: "Open Sans", sans-serif !important;
+          }
+  
+          .info {
+            width: 180px;
+            height: 44px;
+            border-radius: 100px;
+            border: solid 1px #dfe4ee;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.36;
+            justify-content: center;
+            color: #808992;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  

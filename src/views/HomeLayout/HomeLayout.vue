@@ -4,6 +4,8 @@
     <div class="line-main" />
     <intro-container />
     <div class="line" />
+    <l2-promo-container />
+    <div class="line" />
     <blog-container />
     <div class="line" />
     <tokamak-info-container />
@@ -21,12 +23,14 @@ import IntroContainer from "./containers/IntroContainer";
 import MainContainer from "./containers/MainContainer";
 import RoadMapContainer from "./containers/RoadMapContainer";
 import TokamakInfoContainer from "./containers/TokamakInfoContainer";
+import L2PromoContainer from "./containers/L2PromoContainer";
 
 export default {
   components: {
     "supporter-container": SupporterContainer,
     "blog-container": BlogContainer,
     "intro-container": IntroContainer,
+    "l2-promo-container": L2PromoContainer,
     "main-container": MainContainer,
     "roadmap-container": RoadMapContainer,
     "tokamak-info-container": TokamakInfoContainer,
