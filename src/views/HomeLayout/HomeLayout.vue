@@ -2,6 +2,7 @@
   <div class="home">
     <main-container />
     <div class="line-main" />
+    <video-container />
     <intro-container />
     <div class="line" />
     <l2-promo-container />
@@ -24,6 +25,7 @@ import MainContainer from "./containers/MainContainer";
 import RoadMapContainer from "./containers/RoadMapContainer";
 import TokamakInfoContainer from "./containers/TokamakInfoContainer";
 import L2PromoContainer from "./containers/L2PromoContainer";
+import VideoContainer from "./containers/VideoContainer/VideoContainer.vue";
 
 export default {
   components: {
@@ -34,6 +36,7 @@ export default {
     "main-container": MainContainer,
     "roadmap-container": RoadMapContainer,
     "tokamak-info-container": TokamakInfoContainer,
+    "video-container": VideoContainer,
   },
   created() {
     this.$store.dispatch("launch");

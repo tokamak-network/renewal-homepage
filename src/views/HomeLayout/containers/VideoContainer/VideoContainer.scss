@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: "arial-black", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://www.dafontfree.net/embed/YXJpYWwtYmxhY2stcmVndWxhciZkYXRhLzk0Ni9hLzIwNjQzNC9hcmlibGsudHRm)
+      format("ttf");
+}
+@media all and (min-width: 1441px) {
+.intro-video {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 90px;
+    justify-content: center;
+
+    &__title {
+      font-family: "arial-black", sans-serif;
+      font-size: 38px;
+      font-weight: 800;
+      line-height: 1.37;
+    }
+
+    &__subtitle {
+      width: 1180px;
+      height: 46px;
+      flex-direction: column;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #808992;
+      margin-top: 15px;
+      font-family: "Roboto-regular", sans-serif;
+    }
+
+    &__content {
+        align-items: center;
+        margin-top: 50px;
+
+        &__iframe {
+            width: 1024px;
+            height: 576px;
+        }
+    }
+  }
+}

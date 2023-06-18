@@ -3,6 +3,7 @@
     "title": "최근 블로그 글"
   },
   "intro": {
+    "subText": "Tokamak Network isn’t solely focused on building a single, perfect L2 network. Instead, it aims to support multiple types of networks based on users’ needs and simplify the deployment of customized L2 networks that can interoperate effectively with each other.",
     "specific1": {
       "title": "Better Interoperability",
       "content": "Tokamak Network allows fast transactions with optimistic and ZK rollups, and interoperability with other L2 solutions.",
