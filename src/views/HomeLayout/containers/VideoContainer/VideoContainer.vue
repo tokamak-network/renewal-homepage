@@ -3,19 +3,39 @@
     <div class="intro-video__title">JOIN L2 NETWORKS</div>
     <div class="intro-video__subtitle">{{ $t("home.intro.subText") }}</div>
     <div class="intro-video__content">
-      <iframe
-        id="promotionalVideo"
-        title="L2 Promotional Video"
-        class="intro-video__content__iframe"
-        src="https://www.youtube.com/watch?v=FS1c5C170e8"
-      >
-      </iframe>
+      <video ref="videoPlayer" controls class="intro-video__content__player">
+        <source :src="videoUrl" type="video/mp4" />
+      </video>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      videoUrl: require("@/assets/testing.mp4"),
+    };
+  },
+  mounted() {
+    this.$refs.videoPlayer.addEventListener(
+      "loadedmetadata",
+      this.onVideoLoaded
+    );
+  },
+  beforeDestroy() {
+    this.$refs.videoPlayer.removeEventListener(
+      "loadedmetadata",
+      this.onVideoLoaded
+    );
+  },
+  methods: {
+    playVideo() {
+      this.$refs.videoPlayer.play();
+      this.isPlaying = true;
+    },
+  },
+};
 </script>
 
 <style lang="scss" scope>
