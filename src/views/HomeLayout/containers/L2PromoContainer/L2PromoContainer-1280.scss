@@ -3,6 +3,7 @@
     .container {
         width: 100%;
         justify-content: center;
+        font-family: "Open Sans", sans-serif;
         .header {
             display: flex;
             flex-direction: column;
@@ -12,9 +13,8 @@
             margin-top: 60px;
             
             &__title {
-                font-family: "arial-black", sans-serif;
                 font-size: 38px;
-                font-weight: 600;
+                font-weight: 800;
                 line-height: 1.37;
                 color: #1c1c1c;
             }
@@ -24,7 +24,7 @@
                 font-size: 16px;
                 line-height: 1.5;
                 color: #808992;
-                margin-top:15px;
+                margin-top: 15px;
             }
         }
 
@@ -43,15 +43,15 @@
                 }
 
                 .title {
-                    font-size: 40px;
-                    font-weight: 600;
-                    line-height: 2.30;
-                    text-align: center;
-                    color: #1c1c1c;
-                    margin: 90px 0 20px 0;
-                    font-family: "Open Sans", sans-serif !important;
+                    margin-top: 60px;
+                    margin-bottom: -10px;
                     display: flex;
                     flex-direction: row;
+                    font-size: 40px;
+                    font-weight: 600;
+                    line-height: 2.68;
+                    text-align: center;
+                    color: #1c1c1c;
                     
                     &__op {
                         font-size: 22px;
@@ -76,7 +76,6 @@
                     text-align: left;
                     color: #1c1c1c;
                     margin: 20px 15px 30px;
-                    font-family: "Open Sans", sans-serif!important;
                 }
                 .info {
                     width: 180px;

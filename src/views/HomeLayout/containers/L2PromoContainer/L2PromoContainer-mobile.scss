@@ -1,26 +1,10 @@
 
-@font-face {
-    font-family: "arial-black", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url(https://www.dafontfree.net/embed/YXJpYWwtYmxhY2stcmVndWxhciZkYXRhLzk0Ni9hLzIwNjQzNC9hcmlibGsudHRm)
-      format("ttf");
-  }
-  
-  @font-face {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff)
-      format("woff");
-  }
   @media all and (max-width: 700px) {
     .container {
         width: 100%;
         margin: 0 20px 0 20px;
         justify-content: center;
+        font-family: "Open Sans", sans-serif;
         .header {
             display: flex;
             flex-direction: column;
@@ -29,10 +13,9 @@
             margin-top: 40px;
             
             &__title {
-                font-family: "arial-black", sans-serif;
-                font-size: 38px;
-                font-weight: 600;
-                line-height: 1.37;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 1.35;
                 color: #1c1c1c;
             }
             &__description {
@@ -41,12 +24,12 @@
                 font-size: 14px;
                 line-height: 1.29;
                 color: #808992;
-                margin-top:10px;
+                margin-top: 10px;
             }
         }
 
         .content {
-            margin: 70px 20px 30px 20px;
+            margin: 70px 0 30px 0;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -71,7 +54,6 @@
                     text-align: center;
                     color: #1c1c1c;
                     margin: 40px 1px 10px 0;
-                    font-family: "Open Sans", sans-serif !important;
                     display: flex;
                     flex-direction: row;
                     
@@ -102,7 +84,6 @@
                     letter-spacing: -0.33px;
                     text-align: left;
                     color: #4c4c4c;
-                    font-family: "Open Sans", sans-serif !important;
                 }
 
                 .info {

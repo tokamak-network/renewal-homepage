@@ -4,6 +4,7 @@
       margin-left: 30px;
       margin-right: 30px;
       justify-content: center;
+      font-family: "Open Sans", sans-serif;
   
       .header {
         display: flex;
@@ -13,7 +14,7 @@
         margin-top: 60px;
   
         &__title {
-          font-family: "arial-black", sans-serif;
+          font-family: "Open Sans", sans-serif;
           font-size: 38px;
           font-weight: 800;
           line-height: 1.37;
@@ -26,7 +27,7 @@
           font-size: 16px;
           line-height: 1.5;
           color: #808992;
-          margin-top: 15px 112px 0 112px;
+          margin: 15px 112px 0 112px;
         }
       }
   
@@ -53,7 +54,6 @@
             text-align: center;
             color: #1c1c1c;
             margin: 40px 1px 10px 0;
-            font-family: "Open Sans", sans-serif !important;
             display: flex;
             flex-direction: row;
             justify-content: center;

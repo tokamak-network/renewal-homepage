@@ -1,24 +1,8 @@
 
-@font-face {
-    font-family: "arial-black", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url(https://www.dafontfree.net/embed/YXJpYWwtYmxhY2stcmVndWxhciZkYXRhLzk0Ni9hLzIwNjQzNC9hcmlibGsudHRm)
-      format("ttf");
-  }
-  
-  @font-face {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff)
-      format("woff");
-  }
 @media all and (min-width: 1441px) {
     .container {
         width: 100%;
+        font-family: "Open Sans", sans-serif;
         .header {
             display: flex;
             flex-direction: column;
@@ -29,12 +13,11 @@
             
             &__title {
                 font-size: 38px;
-                font-weight: 600;
+                font-weight: 800;
                 line-height: 1.37;
                 color: #1c1c1c;
             }
             &__description {
-                font-family: "Open Sans", sans-serif !important;
                 width: 1180px;
                 height: 46px;
                 font-size: 16px;
@@ -60,16 +43,16 @@
                 }
 
                 .title {
-                    font-size: 40px;
-                    font-weight: 600;
-                    line-height: 2.30;
-                    text-align: center;
-                    color: #1c1c1c;
-                    margin: 90px 0 20px 0;
-                    font-family: "Open Sans", sans-serif !important;
+                    margin-top: 90px;
+                    margin-bottom: -10px;
                     display: flex;
                     flex-direction: row;
                     align-items: flex-end;
+                    font-size: 40px;
+                    font-weight: 600;
+                    line-height: 2.68;
+                    text-align: center;
+                    color: #1c1c1c;
                     
                     &__op {
                         font-size: 22px;
@@ -89,13 +72,12 @@
                 .description {
                     max-width: 700px;
                     height: 70px;
-                    margin: 20px 87px 30px;
+                    margin: 0 87px 30px 0;
                     font-size: 16px;
                     font-style: normal;
                     line-height: 1.5;
                     text-align: left;
                     color: #1c1c1c;
-                    font-family: "Open Sans", sans-serif !important;
 
                     :first-child {
                         padding-right: 80px;

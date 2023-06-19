@@ -7,6 +7,7 @@
     src: url(https://www.dafontfree.net/embed/YXJpYWwtYmxhY2stcmVndWxhciZkYXRhLzk0Ni9hLzIwNjQzNC9hcmlibGsudHRm)
       format("ttf");
 }
+
 @media all and (min-width: 1441px) {
 .intro-video {
     display: flex;
@@ -16,7 +17,7 @@
     justify-content: center;
 
     &__title {
-      font-family: "arial-black", sans-serif;
+      font-family: "Open Sans", sans-serif;
       font-size: 38px;
       font-weight: 800;
       line-height: 1.37;
@@ -30,7 +31,7 @@
       line-height: 1.5;
       color: #808992;
       margin-top: 15px;
-      font-family: "Open Sans", sans-serif !important;
+      font-family: "Open Sans", sans-serif;
     }
 
     &__content {
