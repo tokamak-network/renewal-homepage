@@ -20,14 +20,6 @@
             >
               KR
             </div>
-            <div style="margin: 0 3px 0 3px">|</div>
-            <div
-              class="lang"
-              :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
-              @click="languageItemClicked(supportedLanguages[2])"
-            >
-              CN
-            </div>
           </div>
           <img src="@/assets/Burger_close_icon.png" @click="isOpen = false" />
         </div>
