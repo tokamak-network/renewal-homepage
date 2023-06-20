@@ -83,6 +83,7 @@
           align-items: center;
           flex-direction: column;
           margin-bottom: 15px;
+          cursor: pointer;
 
           > .titan-text {
             width: 54px;
@@ -125,6 +126,7 @@
         font-stretch: normal;
         font-style: normal;
         z-index: 1;
+        cursor: pointer;
       }
     }
 
