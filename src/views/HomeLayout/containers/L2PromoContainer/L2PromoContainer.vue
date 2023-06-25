@@ -1,5 +1,5 @@
-<template>
-  <div class="container" id="layertwo">
+<template id="layertwo">
+  <div class="container">
     <div class="header">
       <div class="header__title">L2 ON-DEMAND</div>
       <div class="header__description">{{ $t("home.l2.header") }}</div>
