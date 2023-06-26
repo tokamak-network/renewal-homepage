@@ -25,6 +25,8 @@
       min-width: 150px;
       margin-bottom: 30px;
       margin-right: 20px;
+      display: flex;
+      flex-direction: column;
     }
     .new-title {
       font-weight: 600;
@@ -49,6 +51,9 @@
       letter-spacing: normal;
       text-align: left;
       color: #4c4c4c;
+      text-decoration: none;
+      background: none;
+      border: none;
     }
   }
 

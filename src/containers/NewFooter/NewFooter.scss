@@ -16,7 +16,10 @@
       justify-content: space-between;
       flex-direction: row;
     }
-
+    .container-item {
+      display: flex;
+      flex-direction: column;
+    }
     .new-title {
       font-weight: 600;
       font-family: "OpenSans", sans-serif !important;
@@ -41,7 +44,17 @@
       letter-spacing: normal;
       text-align: left;
       color: #4c4c4c;
+      text-decoration: none;
+      background: none;
+      border: none;
+      padding: 0px;
+
     }
+
+    .new-content:hover{
+      cursor: pointer;
+    }
+
     > .line {
       width: 100%;
       height: 1px;

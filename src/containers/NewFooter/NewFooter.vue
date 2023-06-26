@@ -7,47 +7,182 @@
     >
       <div class="container-item">
         <div class="new-title">About</div>
-        <div class="new-content">Team</div>
-        <div class="new-content">Careers</div>
-        <div class="new-content">Partners</div>
+        <router-link class="new-content" :to="'/about'">Team</router-link>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="
+            click(
+              'https://medium.com/onther-tech/onther-looking-to-recruit-blockchain-contributor-984ea4368824'
+            )
+          "
+        >
+          Careers
+        </button>
+        <a href="/#partners" class="new-content">Partners</a>
       </div>
       <div class="container-item">
         <div class="new-title">Mainnet</div>
-        <div class="new-content">Darius</div>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('http://titan.tokamak.network/')"
+        >
+          Titan
+        </button>
       </div>
       <div class="container-item">
         <div class="new-title">L2 On-Demand</div>
-        <div><a href="#layer2" class="new-content">Tokamak OPTIMISM</a></div>
+        <div>
+          <a href="/#layer2" class="new-content"
+            >Tokamak
+            <span
+              style="
+                vertical-align: super;
+                display: inline-block;
+                font-size: smaller;
+                margin-left: -2px;
+              "
+            >
+              Op
+            </span></a
+          >
+        </div>
         <div class="new-content">
-          <a href="#layer2" class="new-content">Tokamak zkEVM+</a>
+          <a href="/#layer2" class="new-content"
+            >Tokamak
+            <span
+              style="
+                vertical-align: super;
+                display: inline-block;
+                font-size: smaller;
+                margin-left: -2px;
+              "
+            >
+              ZK+
+            </span></a
+          >
         </div>
       </div>
       <div class="container-item">
         <div class="new-title">Ecosystem</div>
-        <div class="new-content">Swap</div>
-        <div class="new-content">Bridge</div>
-        <div class="new-content">Staking</div>
-        <div class="new-content">DAO</div>
-        <div class="new-content">Launchpad</div>
+        <button class="new-content" style="cursor: pointer" @click="click('')">
+          Bridge & Swap
+        </button>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://simple.staking.tokamak.network/staking')"
+        >
+          Staking
+        </button>
+
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://dao.tokamak.network/#/')"
+        >
+          DAO
+        </button>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://tonstarter.tokamak.network/')"
+        >
+          Launchpad
+        </button>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://price.tokamak.network/#/')"
+        >
+          Price Dashboard
+        </button>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://explorer.titan.tokamak.network')"
+        >
+          Block Explorer
+        </button>
       </div>
+
       <div class="container-item">
         <div class="new-title">Developers</div>
-        <div class="new-content">Grant</div>
-        <div class="new-content">Bug Bounty</div>
-        <div class="new-content">Github</div>
-        <div class="new-content">Documentation</div>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="
+            click(
+              'hhttps://tokamak.notion.site/Tokamak-Network-Grant-Program-f2384b458ea341a0987c7e73a909aa21'
+            )
+          "
+        >
+          Grant
+        </button>
+
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://github.com/tokamak-network')"
+        >
+          Github
+        </button>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://tokamaknetwork.gitbook.io/')"
+        >
+          Documentation
+        </button>
       </div>
       <div
         class="container-item"
         :style="{ width: width < 700 ? '' : '150px' }"
       >
         <div class="new-title">Community</div>
-        <div class="new-content">Medium</div>
-        <div class="new-content">Twitter</div>
-        <div class="new-content">Kakaotalk</div>
-        <div class="new-content">Discord</div>
-        <div class="new-content">Telegram</div>
-        <div class="new-content">Linkedin</div>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://medium.com/onther-tech')"
+        >
+          Medium
+        </button>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://twitter.com/tokamak_network')"
+        >
+          Twitter
+        </button>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://open.kakao.com/o/g2zlglHd')"
+        >
+          KakaoTalk (KR)
+        </button>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://discord.com/invite/J4chV2zuAK')"
+        >
+          Discord (EN)
+        </button>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://t.me/tokamak_network')"
+        >
+          Telegram
+        </button>
+        <button
+          class="new-content"
+          style="cursor: pointer"
+          @click="click('https://www.linkedin.com/company/tokamaknetwork/')"
+        >
+          LinkedIn
+        </button>
       </div>
     </div>
 
@@ -96,6 +231,9 @@ export default {
   methods: {
     upward() {
       window.scrollTo(0, 0);
+    },
+    click(link) {
+      window.open(link, "_blank");
     },
     familyLink(item) {
       if (item === "Github")
