@@ -22,6 +22,10 @@ const routes = [
     name: "About",
     component: AboutLayout,
   },
+  {
+    path: "/layer2",
+    hash: "#layer2",
+  },
 ];
 
 const router = new VueRouter({
