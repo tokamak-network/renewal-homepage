@@ -17,7 +17,7 @@
       </div>
       <div class="container-item">
         <div class="new-title">L2 On-Demand</div>
-        <div class="new-content">Tokamak OPTIMISM</div>
+        <div><a href="#layer2" class="new-content">Tokamak OPTIMISM</a></div>
         <div class="new-content">Tokamak zkEVM+</div>
       </div>
       <div class="container-item">
