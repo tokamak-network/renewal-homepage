@@ -19,7 +19,7 @@
       :style="{
         width: width < 1280 ? '100%' : width < 1441 ? '95%' : '90%',
         margin: width > 1280 ? '0px 30px' : '',
-        maxWidth: width > 1920? '1696px':''
+        maxWidth: width > 1920 ? '1696px' : '',
       }"
     >
       <footer-container />
