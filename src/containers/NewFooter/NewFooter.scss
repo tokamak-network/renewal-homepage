@@ -12,9 +12,10 @@
     > .footer-container {
       display: flex;
       height: 240px;
-     width: 100%;
+      width: 100%;
       justify-content: space-between;
       flex-direction: row;
+      margin-left:20px;
     }
     .container-item {
       display: flex;
