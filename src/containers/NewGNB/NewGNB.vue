@@ -23,7 +23,7 @@
     </a>
     <a
       href="https://bridge.tokamak.network/#/"
-      :style="{ width: '190px' }"
+      style="width: 168px; margin-left: -22px"
       class="link"
     >
       <div>Bridge & Swap</div>
@@ -37,14 +37,14 @@
     </a>
     <a
       href="https://dao.tokamak.network/#/"
-      :style="{ width: '114px' }"
+      :style="{ width: '100px' }"
       class="link"
     >
       <div>DAO</div>
     </a>
     <a
       href="https://tonstarter.tokamak.network/"
-      :style="{ width: '114px' }"
+      :style="{ width: '100px' }"
       class="link"
     >
       <div>Launchpad</div>
