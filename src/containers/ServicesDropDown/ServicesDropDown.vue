@@ -90,7 +90,7 @@
           style="cursor: pointer"
           @click="click('https://explorer.titan.tokamak.network/')"
         >
-        <div>
+          <div>
             Tokamak
             <span
               style="
