@@ -15,28 +15,28 @@
       <div>Tokamak Network</div>
     </a>
     <a
-      href="https://simple.staking.tokamak.network/"
+      href="https://titan.tokamak.network/"
       :style="{ width: '137px' }"
       class="link"
     >
       <div>L2 Mainnet</div>
     </a>
     <a
-      href="https://dao.tokamak.network/#/"
+      href="https://bridge.tokamak.network/#/"
       :style="{ width: '190px' }"
       class="link"
     >
       <div>Bridge & Swap</div>
     </a>
     <a
-      href="https://swap.tokamak.network/"
+      href="https://simple.staking.tokamak.network/"
       :style="{ width: '76px' }"
       class="link"
     >
       <div>Staking</div>
     </a>
     <a
-      href="https://tonstarter.tokamak.network/"
+      href="https://dao.tokamak.network/#/"
       :style="{ width: '114px' }"
       class="link"
     >
