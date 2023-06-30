@@ -3,9 +3,8 @@
     <div class="description">L2 ON-DEMAND</div>
     <div class="mini-description">ETHEREUM PLATFORM</div>
 
-    <div class="sub-description">
-      {{ $t("home.main.description2") }}
-    </div>
+    <div class="sub-description" v-html="$t('home.main.description2')"></div>
+
     <div class="button-container">
       <div class="titan">
         <div class="live">Live</div>
@@ -31,7 +30,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    isTranslatedToKorean() {
+      return this.$i18n.locale === "ko";
+    },
+  },
+};
 </script>
 
 <style lang="scss" scope>

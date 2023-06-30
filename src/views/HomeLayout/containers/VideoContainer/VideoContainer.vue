@@ -1,7 +1,7 @@
 <template>
   <div class="intro-video">
     <div class="intro-video__title">JOIN L2 NETWORKS</div>
-    <div class="intro-video__subtitle">{{ $t("home.intro.subText") }}</div>
+    <div class="intro-video__subtitle" v-html="$t('home.intro.subText')"></div>
     <div class="intro-video__content">
       <!-- <video ref="videoPlayer" controls class="intro-video__content__player">
         <source
