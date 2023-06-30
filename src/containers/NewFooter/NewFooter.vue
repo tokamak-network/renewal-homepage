@@ -1,6 +1,9 @@
 <template>
   <div class="new-footer">
-    <div class="line" v-if="width < 700" />
+    <div
+      class="line"
+      :style="{ visibility: width < 700 ? 'visible' : 'hidden' }"
+    />
     <div
       class="footer-container"
       :style="{ width: width < 1280 ? '95%' : '100%' }"
