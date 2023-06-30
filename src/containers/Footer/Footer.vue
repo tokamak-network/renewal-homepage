@@ -1,13 +1,13 @@
 <template>
   <div class="footer">
     <div class="team-info">
-      <div class="onther" style="margin-right: 188px">TOKAMAK NETWORK</div>
-      <div class="office" style="width: 367px; margin-right: 80px">
+      <div class="onther" style="margin-right: 73px; width: 296px">TOKAMAK NETWORK</div>
+      <div class="office" style="width: 227px; margin-right: 80px">
         <div class="title">Office</div>
         <!-- <div class="content">
           111 SOMERSET ROAD #06-07O 111 SOMERSET SINGAPORE 238164
         </div> -->
-        <div class="content">E. hello@tokamak.network</div>
+        <div class="content" style="color: #4c4c4c;">E. hello@tokamak.network</div>
       </div>
       <div class="office" style="margin-right: 80px">
         <div class="title">Jobs</div>
@@ -17,20 +17,16 @@
       <div class="office">
         <div class="title">Social</div>
         <div class="social-content">
-          <div @click="familyLink('Github')">Github</div>
-          <div @click="familyLink('Medium')">Medium</div>
-          <div @click="familyLink('Twitter')">Twitter</div>
+          <div style="margin-right: 50px" @click="familyLink('Github')">Github</div>
+          <div style="margin-right: 50px" @click="familyLink('Medium')">Medium</div>
+          <div style="margin-right: 50px" @click="familyLink('Twitter')">Twitter</div>
           <!-- <div @click="familyLink('Facebook')">Facebook</div> -->
           <!-- <div @click="familyLink('YouTube')">YouTube</div> -->
         </div>
         <div class="social-content">
-          <div style="margin-right: -37px" @click="familyLink('Linkedin')">
-            Linkedin
-          </div>
-          <div style="margin-right: -33px" @click="familyLink('Telegram')">
-            Telegram
-          </div>
-          <div @click="familyLink('Discord')">
+          <div style="margin-right: 38px" @click="familyLink('Linkedin')">Linkedin</div>
+          <div style="margin-right: 42px" @click="familyLink('Telegram')">Telegram</div>
+          <div style="margin-right: 50px" @click="familyLink('Discord')">
             Discord <span>[KR/EN/CN]</span>
           </div>
           <!-- <div @click="familyLink('Blog')">Onther Blog</div> -->

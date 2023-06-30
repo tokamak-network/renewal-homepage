@@ -1,7 +1,7 @@
 @media all and (max-width: 700px) {
   .th-gap {
     background: red;
-    height: 64px!important;
+    height: 64px !important;
     // margin-top
   }
   .comparison-container {
@@ -25,10 +25,10 @@
         letter-spacing: normal;
         text-align: center;
         color: #1c1c1c;
-  
+
         // margin-bottom: 15px;
       }
-  
+
       > .description {
         font-size: 14px;
         font-weight: normal;
@@ -38,38 +38,37 @@
         letter-spacing: normal;
         text-align: center;
         color: #808992;
-  
+
         margin: 10px 0 30px 0px;
-  
+
         width: 280px;
       }
     }
 
     > .outer-mobile-table {
-
       > .inner-mobile-table {
         overflow-x: scroll;
         margin: 0 30px 0 10px;
         // margin-left:20px;
 
         > .comparison-table tr {
-          position: relative;
+          // position: relative;
           // margin-left: 30px;
         }
 
         > .comparison-table th {
-          position: absolute;
+          // position: absolute;
           border: solid 1px #eff1f6;
           min-width: 132px;
-          max-width: 132px!important;
+          max-width: 132px !important;
           max-height: 50px;
           height: 100%;
           // bottom: 1;
           left: 21px;
 
-          padding-left: 1%!important;
+          padding-left: 1% !important;
           margin-left: -2px;
-          text-transform: none!important;
+          text-transform: none !important;
 
           font-size: 12px;
           font-weight: bold;
@@ -113,7 +112,7 @@
           overflow-x: scroll;
 
           tr {
-            display: table-row
+            display: table-row;
           }
 
           td {
@@ -135,9 +134,9 @@
           }
 
           .table-header-tokamak {
-            height: 98%!important;
-            min-width: 137px!important;
-            max-width: 137px!important;
+            height: 98% !important;
+            min-width: 137px !important;
+            max-width: 137px !important;
 
             font-size: 13px;
             font-weight: bold;
@@ -166,11 +165,11 @@
             // padding-left: 30px;
           }
           th .second-row {
-            background: #f9fcff!important;
+            background: #f9fcff !important;
           }
           .content-tokamak {
-            max-width: 137px!important;
-            min-width: 137px!important;
+            max-width: 137px !important;
+            min-width: 137px !important;
             font-size: 12px;
             // margin-left:300px!important;
             font-weight: bold;
@@ -185,8 +184,8 @@
             border-bottom: solid 1px #eff1f6;
           }
           .content-tokamak-last {
-            max-width: 137px!important;
-            min-width: 137px!important;
+            max-width: 137px !important;
+            min-width: 137px !important;
             font-size: 12px;
             font-weight: bold;
             font-stretch: normal;

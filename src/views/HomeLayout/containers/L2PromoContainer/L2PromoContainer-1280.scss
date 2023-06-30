@@ -1,0 +1,98 @@
+
+  @media all and (min-width: 1025px) and (max-width: 1440px) {
+    .container {
+        width: 100%;
+        justify-content: center;
+        font-family: "Open Sans", sans-serif;
+        .header {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 60px;
+            
+            &__title {
+                font-size: 38px;
+                font-weight: 800;
+                line-height: 1.37;
+                color: #1c1c1c;
+            }
+            &__description {
+                width: 1024px;
+                height: 46px;
+                font-size: 16px;
+                line-height: 1.5;
+                color: #808992;
+                margin-top: 15px;
+            }
+        }
+
+        .content {
+            margin: 60px 0 60px 0;
+            text-align: center;
+            display: flex;
+            column-gap: 60px;
+            &__service {
+                max-width: 580px; 
+                flex-direction: column;
+                align-items: center;
+                display: flex;
+
+                .img {
+                    width: 300px;
+                    height: 250px;
+                }
+
+                .title {
+                    margin-top: 60px;
+                    margin-bottom: -20px;
+                    display: flex;
+                    flex-direction: row;
+                    font-size: 40px;
+                    font-weight: 600;
+                    line-height: 2.68;
+                    text-align: center;
+                    color: #1c1c1c;
+                    align-items: center;
+                    
+                    &__op {
+                        font-size: 22px;
+                        font-weight: bold;
+                        padding-bottom:8px;
+                        margin-left: 4px;
+                        color: #ff0420;
+                    }
+
+                    &__zk {
+                        font-size: 22px;
+                        font-weight: bold;
+                        padding-bottom:8px;
+                        margin-left: 4px;
+                        color: #06d863;
+                    }
+                }
+
+                .description {
+                    height: 94px;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    text-align: left;
+                    color: #1c1c1c;
+                    margin: 0 0 30px 30px;
+                }
+                .info {
+                    width: 180px;
+                    height: 44px;
+                    border-radius: 100px;
+                    border: solid 1px #dfe4ee;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 1.36;
+                    justify-content: center;
+                    color: #808992;
+                }
+            }
+        }
+    }
+}

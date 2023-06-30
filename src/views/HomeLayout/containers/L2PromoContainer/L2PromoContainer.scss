@@ -1,0 +1,100 @@
+
+@media all and (min-width: 1441px) {
+    .container {
+        width: 100%;
+        font-family: "Open Sans", sans-serif;
+        .header {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 90px;
+            
+            &__title {
+                font-size: 38px;
+                font-weight: 800;
+                line-height: 1.37;
+                color: #1c1c1c;
+            }
+            &__description {
+                width: 1180px;
+                height: 46px;
+                font-size: 16px;
+                line-height: 1.5;
+                color: #808992;
+                margin: 15px 128px 0px 128px;
+            }
+        }
+
+        .content {
+            margin: 150px 0 80px 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            column-gap: 174px;
+            &__service {
+                max-width: 700px; 
+                flex-direction: column;
+                align-items: center;
+                display: flex;
+
+                .img {
+                    width: 300px;
+                    height: 250px;
+                }
+
+                .title {
+                    margin-top: 90px;
+                    margin-bottom: -10px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    font-size: 40px;
+                    font-weight: 600;
+                    line-height: 2.68;
+                    text-align: center;
+                    color: #1c1c1c;
+                    
+                    &__op {
+                        font-size: 22px;
+                        font-weight: bold;
+                        line-height: 5.60;
+                        margin-left: 4px;
+                        color: #ff0420;
+                    }
+
+                    &__zk {
+                        font-size: 22px;
+                        font-weight: bold;
+                        line-height: 5.60;
+                        margin-left: 4px;
+                        color: #06d863;
+                    }
+                }
+
+                .description {
+                    width: 100%;
+                    margin: 0 0 30px 30px;
+                    font-size: 16px;
+                    font-style: normal;
+                    line-height: 1.5;
+                    text-align: left;
+                    color: #1c1c1c;
+
+                }
+                .info {
+                    width: 180px;
+                    height: 44px;
+                    border-radius: 100px;
+                    border: solid 1px #dfe4ee;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 1.36;
+                    justify-content: center;
+                    color: #808992;
+                }
+            }
+        }
+    }
+}

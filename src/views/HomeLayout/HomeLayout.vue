@@ -1,19 +1,11 @@
 <template>
   <div class="home">
-    <div class="carousel">
-      <carousel
-        :perPage="1"
-        :paginationColor="'#1c1c1c'"
-        :paginationPadding="5"
-        :paginationActiveColor="'#2a72e5'"
-      >
-        <slide> <ad-container /> </slide>
-        <slide><main-container /> </slide>
-      </carousel>
-    </div>
-
+    <main-container />
     <div class="line-main" />
+    <video-container />
     <intro-container />
+    <div class="line" />
+    <l2-promo-container />
     <div class="line" />
     <blog-container />
     <div class="line" />
@@ -32,20 +24,19 @@ import IntroContainer from "./containers/IntroContainer";
 import MainContainer from "./containers/MainContainer";
 import RoadMapContainer from "./containers/RoadMapContainer";
 import TokamakInfoContainer from "./containers/TokamakInfoContainer";
-import AdContainer from "./containers/AdContainer/AdContainer.vue";
-import { Carousel, Slide } from "vue-carousel";
+import L2PromoContainer from "./containers/L2PromoContainer";
+import VideoContainer from "./containers/VideoContainer/VideoContainer.vue";
 
 export default {
   components: {
     "supporter-container": SupporterContainer,
     "blog-container": BlogContainer,
     "intro-container": IntroContainer,
+    "l2-promo-container": L2PromoContainer,
     "main-container": MainContainer,
     "roadmap-container": RoadMapContainer,
     "tokamak-info-container": TokamakInfoContainer,
-    "ad-container": AdContainer,
-    Carousel,
-    Slide,
+    "video-container": VideoContainer,
   },
   created() {
     this.$store.dispatch("launch");

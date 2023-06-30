@@ -10,17 +10,14 @@
         >
           Github
         </button>
-        <button class="tab" @click="click('https://docs.tokamak.network/')">
-          Documents
-        </button>
-        <!-- <button
+        <button
           class="tab"
           @click="
-            click('https://tokamak-network.github.io/papers/tech-paper.pdf')
+            click('https://tokamaknetwork.gitbook.io/home/01-basic/vision')
           "
         >
-          Tech Papers
-        </button> -->
+          Documents
+        </button>
         <button class="tab" @click="click(whitepaper)">White Papers</button>
       </div>
     </div>

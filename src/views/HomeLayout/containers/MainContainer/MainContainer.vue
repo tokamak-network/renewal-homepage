@@ -1,18 +1,42 @@
 <template>
   <div class="main-container">
-    <div class="description">ON-DEMAND ETHEREUM LAYER 2 PLATFORM</div>
-    <div class="image">
-      <div class="sub-description">
-        {{ $t("home.main.description2") }}
+    <div class="description">L2 ON-DEMAND</div>
+    <div class="mini-description">ETHEREUM PLATFORM</div>
+
+    <div class="sub-description" v-html="$t('home.main.description2')"></div>
+
+    <div class="button-container">
+      <div class="titan">
+        <div class="live">Live</div>
+        <a
+          target="_blank"
+          class="titan-button"
+          href="http://titan.tokamak.network/"
+        >
+          <div class="titan-text">TITAN</div>
+          <div class="tok-container">
+            <div class="tok-text">Tokamak</div>
+            <div class="op-text">OP</div>
+          </div>
+        </a>
       </div>
-      <div class="line-tablets" />
+      <a target="_blank" href="/#layer2" class="demand">L2 ON-DEMAND</a>
+    </div>
+    <div class="image">
       <!-- <div class="text">{{ $t("home.main.img") }}</div> -->
     </div>
+    <div class="line-tablets" />
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    isTranslatedToKorean() {
+      return this.$i18n.locale === "ko";
+    },
+  },
+};
 </script>
 
 <style lang="scss" scope>

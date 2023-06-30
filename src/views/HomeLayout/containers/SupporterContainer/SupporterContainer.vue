@@ -1,5 +1,5 @@
 <template>
-  <div class="supporter-container">
+  <div class="supporter-container" id="partners">
     <div class="supporter-header">{{ $t("home.supporter.title1") }}</div>
     <div class="supporter-section">
       <div @click="supporterLink('onther')" class="supporter">

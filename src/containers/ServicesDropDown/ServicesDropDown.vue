@@ -4,19 +4,15 @@
     <div class="services">
       <div class="services-line" />
       <div class="tab-container">
-        <div class="tab-title">Layer 2</div>
+        <div class="tab-title">Mainnet</div>
         <button
           class="tab-linked"
           style="cursor: pointer"
-          @click="
-            click(
-              'https://docs.tokamak.network/docs/en/guides/getting-started/how-to-open-private-testnet-rootchain'
-            )
-          "
+          @click="click('http://titan.tokamak.network/')"
         >
-          Tokamak Plasma
+          Titan
         </button>
-        <div class="soon-tab">
+        <!-- <div class="soon-tab">
           <button class="tab" :disabled="true">Optimistic Rollup</button>
           <div class="soon">SOON</div>
         </div>
@@ -27,15 +23,15 @@
         <div class="soon-tab">
           <button class="tab" :disabled="true">zk-opru</button>
           <div class="soon">SOON</div>
-        </div>
+        </div> -->
         <div class="divider" />
-        <div class="tab-title">TON Ecosystem</div>
+        <div class="tab-title">Ecosystem</div>
         <button
           class="tab-linked"
           style="cursor: pointer"
-          @click="click('https://dao.tokamak.network/#/')"
+          @click="click('https://bridge.tokamak.network/#/')"
         >
-          DAO
+          Bridge & Swap
         </button>
         <button
           class="tab-linked"
@@ -47,23 +43,16 @@
         <button
           class="tab-linked"
           style="cursor: pointer"
-          @click="click('https://swap.tokamak.network/')"
+          @click="click('https://dao.tokamak.network/#/')"
         >
-          Swap
+          DAO
         </button>
         <button
           class="tab-linked"
           style="cursor: pointer"
           @click="click('https://tonstarter.tokamak.network/')"
         >
-          TONStarter
-        </button>
-        <button
-          class="tab-linked"
-          style="cursor: pointer"
-          @click="click('https://tosv2.tokamak.network/')"
-        >
-          TOSv2
+          Launchpad
         </button>
         <button
           class="tab-linked"
@@ -72,6 +61,53 @@
         >
           Price Dashboard
         </button>
+        <button
+          class="tab-linked"
+          style="cursor: pointer"
+          @click="click('https://explorer.titan.tokamak.network/')"
+        >
+          Block Explorer
+        </button>
+        <div class="divider" />
+        <div class="tab-title">L2 On-Demand</div>
+        <button
+          class="tab-linked"
+          style="cursor: pointer"
+          @click="click('/#layer2', true)"
+        >
+          <div>
+            Tokamak
+            <span
+              style="
+                vertical-align: super;
+                display: inline-block;
+                font-size: smaller;
+                margin-left: -2px;
+              "
+            >
+              Op
+            </span>
+          </div>
+        </button>
+        <button
+          class="tab-linked"
+          style="cursor: pointer"
+          @click="click('/#layer2', true)"
+        >
+          <div>
+            Tokamak
+            <span
+              style="
+                vertical-align: super;
+                display: inline-block;
+                font-size: smaller;
+                margin-left: -2px;
+              "
+            >
+              ZK+
+            </span>
+          </div>
+        </button>
       </div>
     </div>
   </div>
@@ -79,8 +115,8 @@
 <script>
 export default {
   methods: {
-    click(link) {
-      window.open(link, "_blank");
+    click(link, l2) {
+      l2 ? window.open(link, "_self") : window.open(link, "_blank");
     },
   },
 };

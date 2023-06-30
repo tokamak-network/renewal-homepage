@@ -1,0 +1,106 @@
+
+  @media all and (max-width: 700px) {
+    .container {
+        width: 100%;
+        margin: 0 20px 0 20px;
+        justify-content: center;
+        font-family: "Open Sans", sans-serif;
+        .header {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin-top: 40px;
+            
+            &__title {
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 1.35;
+                color: #1c1c1c;
+            }
+            &__description {
+                width: 320px;
+                height: 109px;
+                font-size: 14px;
+                line-height: 1.29;
+                color: #808992;
+                margin-top: 10px;
+            }
+        }
+
+        .content {
+            margin: 70px 0 30px 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            
+            &__service {
+                // max-width: 320px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 20px 0 20px;
+
+
+                .img {
+                    width: 300px;
+                    height: 170px;
+                }
+
+                .title {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 2.30;
+                    text-align: center;
+                    color: #1c1c1c;
+                    margin: 40px 1px 10px 0;
+                    display: flex;
+                    flex-direction: row;
+                    
+                    &__op {
+                        font-size: 11px;
+                        font-weight: bold;
+                        line-height: 4.86;
+                        margin-left: 1px;
+                        color: #ff0420;
+                    }
+
+                    &__zk {
+                        font-size: 11px;
+                        font-weight: bold;
+                        line-height: 4.86;
+                        margin-left: 1px;
+                        color: #06d863;
+                    }
+                }
+
+                .description {
+                    height: 98px;
+                    margin: 0px 20px 30px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.54;
+                    text-align: left;
+                    color: #4c4c4c;
+                }
+
+                .info {
+                    width: 180px;
+                    height: 44px;
+                    border-radius: 100px;
+                    border: solid 1px #dfe4ee;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 1.36;
+                    justify-content: center;
+                    color: #808992;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}

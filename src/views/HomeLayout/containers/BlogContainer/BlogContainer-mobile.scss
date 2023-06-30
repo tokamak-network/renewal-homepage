@@ -15,7 +15,7 @@
       > .title {
         margin-top: 5px;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1.07;
         letter-spacing: normal;
         text-align: left;
@@ -63,15 +63,16 @@
           width: 100%;
           height: auto;
           margin-bottom: 16px;
+          border: solid 1px #dfe4ee;
         }
         > .img:hover {
           cursor: pointer;
         }
 
         > .post-title {
-          font-family:"Open Sans";
+          font-family: "Open Sans", sans-serif!important;
           font-size: 16px;
-          font-weight: bold;
+          font-weight: 600;
           font-stretch: normal;
           font-style: normal;
           line-height: 1.25;
@@ -86,7 +87,7 @@
 
         > .post-preview {
           font-size: 13px;
-          font-weight: 600;
+          font-weight: 500;
           line-height: 1.43;
           letter-spacing: -0.35px;
           text-align: left;
@@ -102,7 +103,7 @@
 
         > .post-date {
           font-size: 14px;
-          font-weight: 600;
+          font-weight: 500;
           font-stretch: normal;
           font-style: normal;
           line-height: 1.43;

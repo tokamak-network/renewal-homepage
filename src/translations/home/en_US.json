@@ -3,26 +3,25 @@
     "title": "RECENT BLOG POSTS"
   },
   "intro": {
+    "subText": "Tokamak Network isn’t solely focused on building a single, perfect L2 network. Instead, it aims to support multiple types of networks based on users’ needs and simplify the deployment of customized L2 networks that can interoperate effectively with each other.",
     "specific1": {
-      "title": "Easy Layer 2 Network Deployment",
-      "content": "Build customizable layer 2 networks with Tokamak Network. Achieve more growth with easy development through Tokamak Network."
+      "title": "Better Interoperability",
+      "content": "Tokamak Network allows fast transactions with optimistic and ZK rollups, and interoperability with other L2 solutions.",
+      "info": "(Coming Later)"
     },
     "specific2": {
-      "title": "Layer 2 Interoperability",
-      "content": "Your custom layer 2 network can be connected to any other layer 2 in Tokamak Network. The Cross-Layer Message Protocol supports network communication without going through base layer."
+      "title": "L2 On-Demand",
+      "content": "Tokamak Network simplifies service scaling and ecosystem integration with easy L2 deployment. See below for more details.",
+      "info": "(Coming Later)"
     },
     "specific3": {
-      "title": "Higher Security",
-      "content": "Staking TON provides a higher level of security for your layer 2 network. Tokamak Network ensures that all layer 2 networks are fully verified from day one."
-    },
-    "specific4": {
-      "title": "Decentralized Governance",
-      "content": "Tokamak Network is governed by TON stakeholders. Decentralized governance allows network upgrades, ecosystem expansion, and protocol improvement to be coordinated and enacted autonomously."
+      "title": "Scalable Ecosystem",
+      "content": "Tokamak Network supports TONStarter, a decentralized launchpad that simplifies fundraising and easily integrates with Tokamak Network’s L2."
     }
   },
   "main": {
     "description1": "ON-DEMAND LAYER 2 PLATFORM",
-    "description2": "Tokamak Network is a protocol platform for building and connecting layer 2 networks",
+    "description2": "Tokamak Network offers customized L2 networks & simple way to deploy your own L2 based on your needs",
     "img": ""
   },
   "roadmap": {
@@ -101,5 +100,11 @@
     "price": "TON Price",
     "trading_volume": "Trading volume",
     "staked_amount": "TON Staked AMOUNT"
+  },
+  "l2": {
+    "header": "Rather than relying on someone else’s L2 network, create your own L2 based on your specific needs. Choose a permissionless L2 architecture that meets your requirements without compromising on speed or security. This service is coming later.",
+    "serviceIntro1": "Customized L2 stack built on Optimism, which offers fast and affordable computation and state updates by using optimistic rollup. Along with Optimism’s capabilities, this stack also includes a flexible transaction fee to enhance the user experience.",
+    "serviceIntro2": "Cutting-edge virtual machine for L2, designed to work with ZKSNARKS. It supports a previously unseen L2 rollup architecture that reduces computational complexity without compromising security or privacy.",
+    "infoText": "COMING LATER"
   }
 }

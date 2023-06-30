@@ -82,7 +82,7 @@
             <div class="item">
               <button
                 class="menu-item"
-                style="height: 24px; margin-bottom: -5px"
+                style="height: 24px; margin-bottom: -6px"
                 @click="
                   click(
                     'https://tokamak.notion.site/Tokamak-Network-Grant-Program-f2384b458ea341a0987c7e73a909aa21'
@@ -127,15 +127,6 @@
               @click="languageItemClicked(supportedLanguages[1])"
             >
               KR
-            </div>
-            <div style="margin: 0 3px 0 3px">|</div>
-            <div
-              style="cursor: pointer"
-              class="lang"
-              :style="currentFlag === 'CN' ? { color: '#246fed' } : {}"
-              @click="languageItemClicked(supportedLanguages[2])"
-            >
-              CN
             </div>
           </div>
         </div>
