@@ -9,15 +9,19 @@
     <div class="button-container">
       <div class="titan">
         <div class="live">Live</div>
-        <button class="titan-button">
+        <a
+          target="_blank"
+          class="titan-button"
+          href="http://titan.tokamak.network/"
+        >
           <div class="titan-text">TITAN</div>
           <div class="tok-container">
             <div class="tok-text">Tokamak</div>
             <div class="op-text">OP</div>
           </div>
-        </button>
+        </a>
       </div>
-      <button class="demand">L2 ON-DEMAND</button>
+      <a target="_blank" href="/#layer2" class="demand">L2 ON-DEMAND</a>
     </div>
     <div class="image">
       <!-- <div class="text">{{ $t("home.main.img") }}</div> -->

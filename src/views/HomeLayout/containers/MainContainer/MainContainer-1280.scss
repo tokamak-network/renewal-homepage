@@ -98,6 +98,7 @@
           justify-content: center;
           align-items: center;
           flex-direction: column;
+          text-decoration: none;
           cursor: pointer;
 
           > .titan-text {
@@ -129,7 +130,9 @@
       > .demand {
         width: 180px;
         height: 48px;
-       
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 25px;
         border: solid 1px #dfe4ee;
         background-color: #fff;
@@ -137,6 +140,7 @@
         color: #1c1c1c;
         font-family: "OpenSans", sans-serif !important;
         font-size: 18px;
+        text-decoration: none;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;

@@ -96,6 +96,7 @@
           background-color: #2a72e5;
           opacity: 1;
           border: none;
+          text-decoration: none;
           z-index: 1;
           color: #fff;
           font-family: "OpenSans", sans-serif !important;
@@ -134,7 +135,9 @@
       > .demand {
         width: 180px;
         height: 48px;
-       
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 25px;
         border: solid 1px #dfe4ee;
         background-color: #fff;
@@ -144,6 +147,7 @@
         font-size: 18px;
         font-weight: bold;
         font-stretch: normal;
+        text-decoration: none;
         font-style: normal;
         z-index: 1;
         cursor: pointer;

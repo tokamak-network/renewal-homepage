@@ -80,6 +80,7 @@
           font-family: "OpenSans", sans-serif !important;
           display: flex;
           justify-content: center;
+          text-decoration: none;
           align-items: center;
           flex-direction: column;
           margin-bottom: 15px;
@@ -114,7 +115,9 @@
       > .demand {
         width: 180px;
         height: 48px;
-       
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 25px;
         border: solid 1px #dfe4ee;
         background-color: #fff;
@@ -124,6 +127,7 @@
         font-size: 18px;
         font-weight: bold;
         font-stretch: normal;
+        text-decoration: none;
         font-style: normal;
         z-index: 1;
         cursor: pointer;
