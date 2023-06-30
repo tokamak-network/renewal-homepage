@@ -26,7 +26,11 @@
         </div> -->
         <div class="divider" />
         <div class="tab-title">Ecosystem</div>
-        <button class="tab-linked" style="cursor: pointer" @click="click('')">
+        <button
+          class="tab-linked"
+          style="cursor: pointer"
+          @click="click('https://bridge.tokamak.network/#/')"
+        >
           Bridge & Swap
         </button>
         <button
@@ -69,7 +73,7 @@
         <button
           class="tab-linked"
           style="cursor: pointer"
-          @click="click('https://explorer.titan.tokamak.network/')"
+          @click="click('/#layer2', true)"
         >
           <div>
             Tokamak
@@ -88,7 +92,7 @@
         <button
           class="tab-linked"
           style="cursor: pointer"
-          @click="click('https://explorer.titan.tokamak.network/')"
+          @click="click('/#layer2', true)"
         >
           <div>
             Tokamak
@@ -111,8 +115,8 @@
 <script>
 export default {
   methods: {
-    click(link) {
-      window.open(link, "_blank");
+    click(link, l2) {
+      l2 ? window.open(link, "_self") : window.open(link, "_blank");
     },
   },
 };
