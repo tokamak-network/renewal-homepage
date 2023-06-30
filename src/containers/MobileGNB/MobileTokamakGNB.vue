@@ -57,7 +57,7 @@ export default {
         },
         {
           title: "L2 Mainnet",
-          url: "https://tokamak.network/#/",
+          url: "http://titan.tokamak.network/",
           isFoucsed: false,
         },
         {
