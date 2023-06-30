@@ -37,9 +37,11 @@
 
             
             &__service {
+                // max-width: 320px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                margin: 0 20px 0 20px;
 
 
                 .img {
@@ -75,15 +77,13 @@
                 }
 
                 .description {
-                    width: 320px;
                     height: 98px;
-                    margin: -20px 20px 30px;
+                    margin: 0px 20px 30px;
                     font-size: 13px;
                     font-weight: 600;
                     font-stretch: normal;
                     font-style: normal;
                     line-height: 1.54;
-                    letter-spacing: -0.33px;
                     text-align: left;
                     color: #4c4c4c;
                 }
