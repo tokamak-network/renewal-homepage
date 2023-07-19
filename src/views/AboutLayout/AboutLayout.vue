@@ -36,7 +36,7 @@ import ZenaImage from "../../assets/team/zena_pic@3x.png";
 // import JuneImage from "../../assets/team/co-ceo-pic@3x.png";
 import PraveenImage from "../../assets/team/praveen-pic@3x.png";
 // // import JackImage from "../../assets/team/jack-pic@3x.png";
-// import HarveyImage from "../../assets/team/harvey-pic@3x.png";
+import HarveyImage from "../../assets/team/harvey-pic@3x.png";
 import JamieImage from "../../assets/team/jamie-pic@3x.png";
 // import IreneImage from "../../assets/team/irene-pic@3x.png";
 // import ChloeImage from "../../assets/team/chloe-pic@3x.png";
@@ -142,6 +142,13 @@ export default {
           github: "",
           linkedin: "",
           image: EugeneImage,
+        },
+        {
+          name: "Harvey Jo",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: HarveyImage,
         },
       ],
     };
