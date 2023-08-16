@@ -6,7 +6,7 @@
         <h2>Limited edition for celebrating the opening of Titan L2</h2> -->
         <a
           class="go-button"
-          href="https://titan-nft-event.vercel.app/"
+          href="https://nft.event.tokamak.network/"
           target="_blank"
           >Let's go</a
         >

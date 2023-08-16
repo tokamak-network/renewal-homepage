@@ -1,6 +1,6 @@
 <template>
   <a
-    href="https://titan-nft-event.vercel.app/"
+    href="https://nft.event.tokamak.network/"
     target="_blank"
     class="nft-button"
   ></a>
