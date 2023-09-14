@@ -24,8 +24,7 @@
     >
       <footer-container />
     </div>
-    <nft-modal v-show="showModal" @close-modal="showModal = false" />
-    <nft-button />
+   
   </div>
 </template>
 
@@ -40,9 +39,6 @@ import NewGNB from "@/containers/NewGNB/NewGNB";
 // import TokamakGNB from "@/containers/GNB";
 import HeaderTablet from "@/containers/HeaderTablet";
 import MobileTokamakGNB from "@/containers/MobileGNB";
-import NFTModal from "./components/NFTModal/NFTModal.vue";
-import VueCookies from "vue-cookies";
-import NFTButton from "./components/NFTButton/NFTButton.vue";
 export default {
   name: "App",
   components: {
@@ -55,22 +51,16 @@ export default {
     "new-gnb": NewGNB,
     // "tokamak-gnb": TokamakGNB,
     "mobile-tokamak-gnb": MobileTokamakGNB,
-    "nft-modal": NFTModal,
-    "nft-button": NFTButton,
   },
   data() {
     return {
       width: 0,
-      showModal: true,
     };
   },
   created() {
     this.width = window.innerWidth;
     window.addEventListener("resize", this.handleResize);
     document.body.style.overflow = this.showModal ? "hidden" : "auto";
-    if (VueCookies.isKey("nftModal")) {
-      this.showModal = false;
-    }
   },
   destroyed() {
     window.removeEventListener("resize", this.handleResize);
