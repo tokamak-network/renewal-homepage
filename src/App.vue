@@ -9,12 +9,6 @@
     <div class="layout">
       <router-view />
     </div>
-    <!-- <div v-if="width <= 700">
-      <footer-mobile-container />
-    </div> -->
-    <!-- <div v-if="width <= 1270 && width > 701">
-      <footer-tablet-container />
-    </div> -->
     <div
       :style="{
         width: width < 1280 ? '100%' : width < 1441 ? '95%' : '90%',
