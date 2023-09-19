@@ -1,0 +1,102 @@
+// @font-face {
+//     font-family: 'Open Sans';
+//     font-style: normal;
+//     font-weight: 300;
+//     font-display: swap;
+//     src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff) format('woff');
+//   }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000da;
+  align-items: center;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.modal {
+  text-align: center;
+  background-color: white;
+  height: 535px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+
+  > .background-image {
+    height: 480px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    object-fit: contain;
+    background-size: 400px 480px;
+    background-image: url(../../assets/NFTbg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+
+h1 {
+  color: #fff;
+  font-size: 65px;
+
+  letter-spacing: 0.98px;
+  font-weight: bold;
+  margin-top: 30px;
+  line-height: 99px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin: 0px;
+  color: #fff;
+  font-size: 18px;
+
+  letter-spacing: 0.9px;
+  font-weight: 100;
+  width: 252px;
+  height: 51px;
+}
+
+.go-button {
+  width: 180px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 100px;
+  background-color: #2a72e5;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+.close {
+   
+    display: flex;
+    justify-content: space-between;
+  height: 55px;
+ padding: 0px 30px;
+ align-items: center;
+}
+
+.close-button{
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #7c7c7c;
+    font-weight: normal;
+    margin: 0px;
+}

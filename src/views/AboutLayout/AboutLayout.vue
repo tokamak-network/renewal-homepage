@@ -16,7 +16,6 @@
 <script>
 import CTAComponent from "@/components/CTA";
 import MembersList from "./components/MembersList";
-
 import KevinImage from "../../assets/team/kevin_pic@3x.png";
 // import ZoeImage from "../../assets/team/zoe_pic@3x.png";
 // import DarrenImage from "../../assets/team/darren_pic@3x.png";

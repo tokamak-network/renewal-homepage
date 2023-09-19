@@ -20,6 +20,7 @@
     "vue-axios-cors": "^1.0.1",
     "vue-carousel": "^0.18.0",
     "vue-cli": "^2.9.6",
+    "vue-cookies": "^1.8.3",
     "vue-gtag": "^1.16.1",
     "vue-i18n": "^8.22.3",
     "vue-mq": "^1.0.1",

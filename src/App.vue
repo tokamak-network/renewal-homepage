@@ -9,12 +9,6 @@
     <div class="layout">
       <router-view />
     </div>
-    <!-- <div v-if="width <= 700">
-      <footer-mobile-container />
-    </div> -->
-    <!-- <div v-if="width <= 1270 && width > 701">
-      <footer-tablet-container />
-    </div> -->
     <div
       :style="{
         width: width < 1280 ? '100%' : width < 1441 ? '95%' : '90%',
@@ -24,6 +18,7 @@
     >
       <footer-container />
     </div>
+   
   </div>
 </template>
 
@@ -38,7 +33,6 @@ import NewGNB from "@/containers/NewGNB/NewGNB";
 // import TokamakGNB from "@/containers/GNB";
 import HeaderTablet from "@/containers/HeaderTablet";
 import MobileTokamakGNB from "@/containers/MobileGNB";
-
 export default {
   name: "App",
   components: {
@@ -60,6 +54,7 @@ export default {
   created() {
     this.width = window.innerWidth;
     window.addEventListener("resize", this.handleResize);
+    document.body.style.overflow = this.showModal ? "hidden" : "auto";
   },
   destroyed() {
     window.removeEventListener("resize", this.handleResize);
@@ -67,6 +62,11 @@ export default {
   methods: {
     handleResize() {
       this.width = window.innerWidth;
+    },
+  },
+  watch: {
+    showModal(newVal) {
+      document.body.style.overflow = newVal ? "hidden" : "auto";
     },
   },
 };
