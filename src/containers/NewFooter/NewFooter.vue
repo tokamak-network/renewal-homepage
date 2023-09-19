@@ -16,7 +16,7 @@
           style="cursor: pointer"
           @click="
             click(
-              'https://medium.com/onther-tech/onther-looking-to-recruit-blockchain-contributor-984ea4368824'
+              'https://tokamak.notion.site/TOKAMAK-NETWORK-CAREERS-5d338cfbb1a94eb8b8b8ecd81754e626'
             )
           "
         >
