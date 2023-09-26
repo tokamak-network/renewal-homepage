@@ -161,13 +161,6 @@
         <button
           class="new-content"
           style="cursor: pointer"
-          @click="click('https://open.kakao.com/o/g2zlglHd')"
-        >
-          KakaoTalk (KR)
-        </button>
-        <button
-          class="new-content"
-          style="cursor: pointer"
           @click="click('https://discord.com/invite/J4chV2zuAK')"
         >
           Discord (EN)

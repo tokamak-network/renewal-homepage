@@ -18,7 +18,6 @@
     >
       <footer-container />
     </div>
-   
   </div>
 </template>
 
