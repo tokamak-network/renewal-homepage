@@ -117,7 +117,7 @@
           style="cursor: pointer"
           @click="
             click(
-              'hhttps://tokamak.notion.site/Tokamak-Network-Grant-Program-f2384b458ea341a0987c7e73a909aa21'
+              'https://tokamak.notion.site/Tokamak-Network-Grant-Program-f2384b458ea341a0987c7e73a909aa21'
             )
           "
         >

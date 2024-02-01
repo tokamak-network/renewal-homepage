@@ -46,9 +46,9 @@
           srcset="@/assets/bounce@2x.png 2x, @/assets/bounce@3x.png 3x"
         />
       </div>
-      <div @click="supporterLink('Talken')" class="supporter">
+      <!-- <div @click="supporterLink('Talken')" class="supporter">
         <img class="img" src="@/assets/talken.svg" />
-      </div>
+      </div> -->
       <div @click="supporterLink('paycoin')" class="supporter">
         <img class="img" src="@/assets/paycoiin.svg" />
       </div>
@@ -148,8 +148,8 @@ export default {
           "https://www.linkedin.com/company/skytale-capital/about/",
           "_blank"
         );
-      else if (item === "Talken")
-        window.open("https://talken.io/main", "_blank");
+      // else if (item === "Talken")
+      //   window.open("https://talken.io/main", "_blank");
       else if (item === "paycoin")
         window.open("https://payprotocol.io/", "_blank");
       else if (item === "bifrost")
