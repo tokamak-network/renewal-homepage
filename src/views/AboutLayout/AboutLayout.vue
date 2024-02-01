@@ -53,6 +53,9 @@ import RyanImage from "../../assets/team/ryan-pic@3x.png";
 // import AlexImage from "../../assets/team/alex-pic@3x.png";
 import EugeneImage from "../../assets/team/eugene-pic@3x.png";
 // import StanImage from "../../assets/team/stan-pic@3x.png";
+import DylanImage from "../../assets/team/Dylan_pic@3x.png";
+import SuhyeonImage from "../../assets/team/Suhyeon_pic@3x.png";
+import BraveImage from "../../assets/team/Brave_pic@3x.png";
 
 export default {
   data() {
@@ -148,6 +151,27 @@ export default {
           github: "",
           linkedin: "",
           image: HarveyImage,
+        },
+        {
+          name: "Suhyeon Lee",
+          role: "Researcher",
+          github: "",
+          linkedin: "",
+          image: SuhyeonImage,
+        },
+        {
+          name: "Nguyen Zung",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: BraveImage,
+        },
+        {
+          name: "Dylan Zhu",
+          role: "Software Engineer",
+          github: "",
+          linkedin: "",
+          image: DylanImage,
         },
       ],
     };
