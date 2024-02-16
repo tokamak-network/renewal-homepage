@@ -18,9 +18,9 @@ export default new Vuex.Store({
     locale: "en_US",
     whitepaper: "",
     whitepaperKR:
-      "https://tokamak-network.github.io/papers/tokamak-cryptoeconomics-kr.pdf",
+      "https://github.com/tokamak-network/papers/blob/master/cryptoeconomics/tokamak-cryptoeconomics-kr.md",
     whitepaperEN:
-      "https://tokamak-network.github.io/papers/tokamak-cryptoeconomics-en.pdf",
+      "https://github.com/tokamak-network/papers/blob/master/cryptoeconomics/tokamak-cryptoeconomics-en.md",
     roadmapEN: [
       {
         index: "0",
