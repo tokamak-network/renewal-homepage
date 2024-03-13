@@ -46,7 +46,7 @@ import MonicaImage from "../../assets/team/monica-pic@3x.png";
 // import OliviaImage from "../../assets/team/Olivia_pic@3x.png";
 import JadenImage from "../../assets/team/jaden-pic@3x.png";
 // // import MattImage from "../../assets/team/matt-pic@3x.png";
-// import StevenImage from "../../assets/team/steven-pic@3x.png";
+import StevenImage from "../../assets/team/steven-pic@3x.png";
 import RyanImage from "../../assets/team/ryan-pic@3x.png";
 // import TheoImage from "../../assets/team/theo-pic@3x.png";
 // import WyattImage from "../../assets/team/wyatt-pic@3x.png";
@@ -56,6 +56,7 @@ import EugeneImage from "../../assets/team/eugene-pic@3x.png";
 import DylanImage from "../../assets/team/Dylan_pic@3x.png";
 import SuhyeonImage from "../../assets/team/Suhyeon_pic@3x.png";
 import BraveImage from "../../assets/team/Brave_pic@3x.png";
+import NamImage from "../../assets/team/Nam_pic@3x.png";
 
 export default {
   data() {
@@ -172,6 +173,20 @@ export default {
           github: "",
           linkedin: "",
           image: DylanImage,
+        },
+        {
+          name: "Pham Tien Nam",
+          role: "L2 Engineer",
+          github: "",
+          linkedin: "",
+          image: NamImage,
+        },
+        {
+          name: "Steven Lee",
+          role: "L2 Engineer",
+          github: "",
+          linkedin: "",
+          image: StevenImage,
         },
       ],
     };
