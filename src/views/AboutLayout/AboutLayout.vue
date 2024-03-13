@@ -130,13 +130,6 @@ export default {
           linkedin: "",
           image: RyanImage,
         },
-        // {
-        //   name: "Wyatt Park",
-        //   role: "Economist",
-        //   github: "",
-        //   linkedin: "",
-        //   image: WyattImage,
-        // },
         {
           name: "Eugene Cho",
           role: "UXUI Planner & PM",
