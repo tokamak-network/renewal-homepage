@@ -25,7 +25,6 @@
       href="https://bridge.tokamak.network/#/"
       style="width: 136px"
       class="link"
-      target="_blank"
     >
       <div>Bridge & Swap</div>
     </a>
