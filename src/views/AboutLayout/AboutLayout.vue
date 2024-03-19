@@ -55,6 +55,7 @@ import DylanImage from "../../assets/team/Dylan_pic@3x.png";
 import SuhyeonImage from "../../assets/team/Suhyeon_pic@3x.png";
 import BraveImage from "../../assets/team/Brave_pic@3x.png";
 import NamImage from "../../assets/team/Nam_pic@3x.png";
+import JakeImage from "../../assets/team/Jake_pic@3x.png";
 
 export default {
   data() {
@@ -178,6 +179,13 @@ export default {
           github: "",
           linkedin: "",
           image: StevenImage,
+        },
+        {
+          name: "Jake Jang",
+          role: "ZKP Researcher",
+          github: "",
+          linkedin: "",
+          image: JakeImage,
         },
       ],
     };
