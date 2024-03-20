@@ -20,7 +20,7 @@
           </div>
         </a>
       </div>
-      <a target="_blank" href="/#layer2" class="demand">L2 ON-DEMAND</a>
+      <a href="/#layer2" class="demand">L2 ON-DEMAND</a>
     </div>
     <div class="image">
       <!-- <div class="text">{{ $t("home.main.img") }}</div> -->
