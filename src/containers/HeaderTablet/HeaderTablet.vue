@@ -10,7 +10,7 @@
       <!-- <img src="@/assets/tokamak-text.svg" class="tokamak-text" /> -->
 
       <div class="menu">
-        <div class="item">
+        <!-- <div class="item">
           <div class="dot" :class="{ visible: $route.path === '/' }" />
           <router-link
             :to="'/'"
@@ -21,7 +21,7 @@
           >
             Home
           </router-link>
-        </div>
+        </div> -->
         <div class="item">
           <div
             class="dot"

@@ -24,7 +24,7 @@
           <img src="@/assets/Burger_close_icon.png" @click="isOpen = false" />
         </div>
         <div class="header-tabs">
-          <div
+          <!-- <div
             class="menu-item"
             :class="{
               selected: $route.path === '/',
@@ -35,7 +35,7 @@
             "
           >
             Home
-          </div>
+          </div> -->
           <div
             class="menu-item"
             :class="{
