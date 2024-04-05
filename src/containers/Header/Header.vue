@@ -12,7 +12,7 @@
         </div>
         <div class="header-gridItem" style="justify-content: center">
           <div class="menu">
-            <div class="item">
+            <!-- <div class="item">
               <div class="dot" :class="{ visible: $route.path === '/' }" />
               <router-link
                 :to="'/'"
@@ -23,7 +23,7 @@
               >
                 Home
               </router-link>
-            </div>
+            </div> -->
             <div class="item">
               <div
                 class="dot"

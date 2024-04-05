@@ -29,6 +29,7 @@
           <a href="https://discord.gg/J4chV2zuAK"
             >Discord <span>[KR/EN/CN]</span></a
           >
+          <a href="https://docs.tokamak.network">Documentation</a>
           <!-- <a href="http://blog.onther.io">Onther Blog</a> -->
         </div>
       </div>

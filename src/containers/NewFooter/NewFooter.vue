@@ -134,7 +134,7 @@
         <button
           class="new-content"
           style="cursor: pointer"
-          @click="click('https://tokamaknetwork.gitbook.io/')"
+          @click="click('https://docs.tokamak.network')"
         >
           Documentation
         </button>
