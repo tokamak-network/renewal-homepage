@@ -52,66 +52,80 @@
             Services
             <div class="menu-item-sub">
               <div class="menu-item-sub-title">
-                Layer 2
+                Mainnet
                 <button
                   class="menu-item-sub-item menu-item-sub-item-linked"
-                  @click="
-                    click(
-                      'https://docs.tokamak.network/docs/en/guides/getting-started/how-to-open-private-testnet-rootchain'
-                    )
-                  "
+                  @click="click('http://titan.tokamak.network/')"
                 >
-                  Tokamak Plasma
+                  Titan
                 </button>
-                <div class="menu-item-sub-item">
-                  Optimsitic Rollup
-                  <div class="soon-container">SOON</div>
-                </div>
-                <div class="menu-item-sub-item">
-                  zk-rollup
-                  <div class="soon-container">SOON</div>
-                </div>
-                <div class="menu-item-sub-item">
-                  zk-opru
-                  <div class="soon-container">SOON</div>
-                </div>
               </div>
               <div class="menu-item-sub-title">
                 TON Ecosystem
                 <button
-                  class="menu-item-sub-item-linked"
+                  class="menu-item-sub-item menu-item-sub-item-linked"
                   @click="click('https://dao.tokamak.network/#/')"
                 >
                   DAO
                 </button>
                 <button
-                  class="menu-item-sub-item-linked"
+                  class="menu-item-sub-item menu-item-sub-item-linked"
                   style="marginbottom: 0px"
                   @click="click('https://simple.staking.tokamak.network/')"
                 >
                   Staking
                 </button>
                 <button
-                  class="menu-item-sub-item-linked"
+                  class="menu-item-sub-item menu-item-sub-item-linked"
                   style="marginbottom: 0px"
                   @click="click('https://swap.tokamak.network/')"
                 >
                   Swap
                 </button>
                 <button
-                  class="menu-item-sub-item-linked"
+                  class="menu-item-sub-item menu-item-sub-item-linked"
                   style="marginbottom: 0px"
                   @click="click('https://tonstarter.tokamak.network/')"
                 >
                   TONStarter
                 </button>
                 <button
-                  class="menu-item-sub-item-linked"
+                  class="menu-item-sub-item menu-item-sub-item-linked"
                   style="marginbottom: 0px"
                   @click="click('https://price.tokamak.network/')"
                 >
                   Price Dashboard
                 </button>
+              </div>
+              <div class="menu-item-sub-title">
+                L2 On-demand
+                <div class="menu-item-sub-item menu-item-sub-item-linked">
+                  Tokamak
+                  <span
+                    style="
+                      vertical-align: super;
+                      display: inline-block;
+                      font-size: smaller;
+                      margin-left: 2px;
+                      margin-bottom: 2px;
+                    "
+                  >
+                    Op
+                  </span>
+                </div>
+                <div class="menu-item-sub-item menu-item-sub-item-linked">
+                  Tokamak
+                  <span
+                    style="
+                      vertical-align: super;
+                      display: inline-block;
+                      font-size: very-smaller;
+                      margin-left: 2px;
+                    "
+                  >
+                    ZK+
+                  </span>
+                </div>
               </div>
             </div>
           </div>
