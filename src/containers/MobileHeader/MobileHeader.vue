@@ -99,7 +99,10 @@
               </div>
               <div class="menu-item-sub-title">
                 L2 On-demand
-                <div class="menu-item-sub-item menu-item-sub-item-linked">
+                <button
+                  class="menu-item-sub-item menu-item-sub-item-linked"
+                  @click="click('/#layer2', true)"
+                >
                   Tokamak
                   <span
                     style="
@@ -112,8 +115,11 @@
                   >
                     Op
                   </span>
-                </div>
-                <div class="menu-item-sub-item menu-item-sub-item-linked">
+                </button>
+                <button
+                  class="menu-item-sub-item menu-item-sub-item-linked"
+                  @click="click('/#layer2', true)"
+                >
                   Tokamak
                   <span
                     style="
@@ -125,7 +131,7 @@
                   >
                     ZK+
                   </span>
-                </div>
+                </button>
               </div>
             </div>
           </div>
@@ -256,8 +262,8 @@ export default {
       }
       this.$router.push({ path });
     },
-    click(link) {
-      window.open(link, "_blank");
+    click(link, l2) {
+      l2 ? window.open(link, "_self") : window.open(link, "_blank");
     },
   },
 };
