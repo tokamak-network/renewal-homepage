@@ -61,12 +61,13 @@
                 </button>
               </div>
               <div class="menu-item-sub-title">
-                TON Ecosystem
+                Ecosystem
                 <button
                   class="menu-item-sub-item menu-item-sub-item-linked"
-                  @click="click('https://dao.tokamak.network/#/')"
+                  style="marginbottom: 0px"
+                  @click="click('https://bridge.tokamak.network/')"
                 >
-                  DAO
+                  Bridge & Swap
                 </button>
                 <button
                   class="menu-item-sub-item menu-item-sub-item-linked"
@@ -77,17 +78,16 @@
                 </button>
                 <button
                   class="menu-item-sub-item menu-item-sub-item-linked"
-                  style="marginbottom: 0px"
-                  @click="click('https://swap.tokamak.network/')"
+                  @click="click('https://dao.tokamak.network/#/')"
                 >
-                  Swap
+                  DAO
                 </button>
                 <button
                   class="menu-item-sub-item menu-item-sub-item-linked"
                   style="marginbottom: 0px"
                   @click="click('https://tonstarter.tokamak.network/')"
                 >
-                  TONStarter
+                  Launchpad
                 </button>
                 <button
                   class="menu-item-sub-item menu-item-sub-item-linked"
@@ -96,9 +96,16 @@
                 >
                   Price Dashboard
                 </button>
+                <button
+                  class="menu-item-sub-item menu-item-sub-item-linked"
+                  style="marginbottom: 0px"
+                  @click="click('https://explorer.titan.tokamak.network/')"
+                >
+                  Block Explorer
+                </button>
               </div>
               <div class="menu-item-sub-title">
-                L2 On-demand
+                L2 On-Demand
                 <button
                   class="menu-item-sub-item menu-item-sub-item-linked"
                   @click="click('/#layer2', true)"
@@ -113,7 +120,7 @@
                       margin-bottom: 2px;
                     "
                   >
-                    Op
+                    OP
                   </span>
                 </button>
                 <button
@@ -125,7 +132,7 @@
                     style="
                       vertical-align: super;
                       display: inline-block;
-                      font-size: very-smaller;
+                      font-size: smaller;
                       margin-left: 2px;
                     "
                   >
