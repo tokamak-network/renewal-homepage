@@ -18,7 +18,7 @@
           />
         </a>
         <a
-          href="https://medium.com/onther-tech/job-openings-blockchain-tech-902098537088"
+          href="https://tokamak.notion.site/Tokamak-Network-Onboarding-523bc627bd374326b5dfbec3d3b0a8e1"
           target="_blank"
           rel="noopener noreferrer"
           class="flex justify-between align-center action-cta"

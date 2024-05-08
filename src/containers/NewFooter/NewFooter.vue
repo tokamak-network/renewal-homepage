@@ -16,7 +16,7 @@
           style="cursor: pointer"
           @click="
             click(
-              'https://tokamak.notion.site/TOKAMAK-NETWORK-CAREERS-5d338cfbb1a94eb8b8b8ecd81754e626'
+              'https://tokamak.notion.site/Tokamak-Network-Onboarding-523bc627bd374326b5dfbec3d3b0a8e1'
             )
           "
         >
