@@ -287,7 +287,7 @@ export default new Vuex.Store({
     },
     async getTotalStaked(context) {
       await axios
-        .get("https://price-api.tokamak.network/staking/current")
+        .get("https://price.api.tokamak.network/staking/current")
         .then((response) => {
           context.commit("SET_TOTALSTAKED", response.data);
         });
@@ -327,7 +327,7 @@ export default new Vuex.Store({
     },
     async setPosts({ commit }) {
       await axios
-        .get("https://price-api.tokamak.network/posts")
+        .get("https://price.api.tokamak.network/posts")
         .then((res) => {
           commit("SET_POSTS", res.data);
         })
