@@ -5,7 +5,7 @@
       <div class="content">COMING IN JUNE 2023</div>
       <div class="ad-button-container">
         <a
-          href="https://medium.com/onther-tech/tokamak-network-l2-mainnet-launch-1a4f46cffc48"
+          href="https://medium.com/tokamak-network/tokamak-network-l2-mainnet-launch-1a4f46cffc48"
           target="_blank"
           class="ad-learn-button"
           >Learn More</a
