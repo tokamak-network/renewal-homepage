@@ -56,9 +56,9 @@ import SuhyeonImage from "../../assets/team/Suhyeon_pic@3x.png";
 import BraveImage from "../../assets/team/Brave_pic@3x.png";
 import NamImage from "../../assets/team/Nam_pic@3x.png";
 import JakeImage from "../../assets/team/Jake_pic@3x.png";
-import ShivanshImage from "../../assets/tea/shivansh-pic@3x.png";
-import ShrutiImage from "../../assets/tea/shruti-pic@3x.png";
-import MuhammedImage from "../../assets/tea/muhammed-pic@3x.png";
+import ShivanshImage from "../../assets/team/shivansh-pic@3x.png";
+import ShrutiImage from "../../assets/team/shruti-pic@3x.png";
+import MuhammedImage from "../../assets/team/muhammed-pic@3x.png";
 
 export default {
   data() {
