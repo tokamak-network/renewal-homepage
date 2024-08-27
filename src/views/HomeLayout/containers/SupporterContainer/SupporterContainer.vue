@@ -123,7 +123,7 @@ export default {
     supporterLink(item) {
       if (item === "EF")
         window.open(
-          "https://medium.com/onther-tech/vitalik-buterins-big-announcements-about-plasma-evm-tokamak-network-636dc11ea257",
+          "https://medium.com/tokamak-network/vitalik-buterins-big-announcements-about-plasma-evm-tokamak-network-636dc11ea257",
           "_blank"
         );
       else if (item === "onther") window.open("https://onther.io/", "_blank");
