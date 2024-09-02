@@ -72,7 +72,7 @@ export default {
       if (item === "Github")
         window.open("https://github.com/tokamak-network", "_blank");
       else if (item === "Medium")
-        window.open("https://medium.com/onther-tech", "_blank");
+        window.open("https://medium.com/tokamak-network", "_blank");
       else if (item === "Twitter")
         window.open("https://twitter.com/tokamak_network", "_blank");
       else if (item === "Facebook")
