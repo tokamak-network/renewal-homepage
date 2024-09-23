@@ -27,9 +27,7 @@
           <div style="margin-right: 50px" @click="familyLink('Medium')">
             Medium
           </div>
-          <div style="margin-right: 50px" @click="familyLink('Twitter')">
-            Twitter
-          </div>
+          <div style="margin-right: 50px" @click="familyLink('Twitter')">X</div>
           <!-- <div @click="familyLink('Facebook')">Facebook</div> -->
           <!-- <div @click="familyLink('YouTube')">YouTube</div> -->
         </div>
@@ -38,7 +36,7 @@
             Linkedin
           </div>
           <div style="margin-right: 42px" @click="familyLink('Telegram')">
-            Telegram
+            Telegram (EN)
           </div>
           <div style="margin-right: 50px" @click="familyLink('Discord')">
             Discord <span>[KR/EN/CN]</span>

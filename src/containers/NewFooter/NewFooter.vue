@@ -149,21 +149,21 @@
           style="cursor: pointer"
           @click="click('https://twitter.com/tokamak_network')"
         >
-          Twitter
+          X
         </button>
         <button
           class="new-content"
           style="cursor: pointer"
           @click="click('https://discord.com/invite/J4chV2zuAK')"
         >
-          Discord (EN)
+          Discord
         </button>
         <button
           class="new-content"
           style="cursor: pointer"
           @click="click('https://t.me/tokamak_network')"
         >
-          Telegram
+          Telegram (EN)
         </button>
         <button
           class="new-content"

@@ -18,7 +18,7 @@
         <div class="social-content">
           <div @click="familyLink('Github')">Github</div>
           <div @click="familyLink('Medium')">Medium</div>
-          <div @click="familyLink('Twitter')">Twitter</div>
+          <div @click="familyLink('Twitter')">X</div>
           <!-- <div @click="familyLink('Facebook')">Facebook</div>
           <div @click="familyLink('YouTube')">YouTube</div> -->
         </div>
