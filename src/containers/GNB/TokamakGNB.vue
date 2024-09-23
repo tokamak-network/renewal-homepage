@@ -35,13 +35,6 @@
     >
       <div>Swap</div>
     </a>
-    <a
-      href="https://tonstarter.tokamak.network/"
-      :style="{ width: '114px' }"
-      class="link"
-    >
-      <div>TONStarter</div>
-    </a>
   </div>
 </template>
 

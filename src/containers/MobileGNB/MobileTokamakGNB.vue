@@ -75,11 +75,6 @@ export default {
           url: "https://dao.tokamak.network//",
           isFoucsed: false,
         },
-        {
-          title: "Launchpad",
-          url: "https://tonstarter.tokamak.network/",
-          isFoucsed: false,
-        },
       ],
       width: 0,
       currentPosition: 0,
