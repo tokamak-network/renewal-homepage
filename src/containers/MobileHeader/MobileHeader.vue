@@ -85,13 +85,6 @@
                 <button
                   class="menu-item-sub-item menu-item-sub-item-linked"
                   style="marginbottom: 0px"
-                  @click="click('https://tonstarter.tokamak.network/')"
-                >
-                  Launchpad
-                </button>
-                <button
-                  class="menu-item-sub-item menu-item-sub-item-linked"
-                  style="marginbottom: 0px"
                   @click="click('https://price.tokamak.network/')"
                 >
                   Price Dashboard

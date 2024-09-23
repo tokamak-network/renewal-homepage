@@ -42,13 +42,6 @@
     >
       <div>DAO</div>
     </a>
-    <a
-      href="https://tonstarter.tokamak.network/"
-      :style="{ width: '110px' }"
-      class="link"
-    >
-      <div>Launchpad</div>
-    </a>
   </div>
 </template>
 

@@ -90,13 +90,6 @@
         <button
           class="new-content"
           style="cursor: pointer"
-          @click="click('https://tonstarter.tokamak.network/')"
-        >
-          Launchpad
-        </button>
-        <button
-          class="new-content"
-          style="cursor: pointer"
           @click="click('https://price.tokamak.network/#/')"
         >
           Price Dashboard

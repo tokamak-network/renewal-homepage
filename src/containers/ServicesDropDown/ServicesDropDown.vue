@@ -50,13 +50,6 @@
         <button
           class="tab-linked"
           style="cursor: pointer"
-          @click="click('https://tonstarter.tokamak.network/')"
-        >
-          Launchpad
-        </button>
-        <button
-          class="tab-linked"
-          style="cursor: pointer"
           @click="click('https://price.tokamak.network/')"
         >
           Price Dashboard
