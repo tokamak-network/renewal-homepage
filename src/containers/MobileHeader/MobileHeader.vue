@@ -160,12 +160,12 @@
           </div>
           <div
             class="menu-item-services"
-            style="
-              cursor: pointer
+            :style="{
+              cursor: 'pointer',
               hover: {
-                color: #2a72e5;
-              }
-            "
+                color: '#2a72e5',
+              },
+            }"
             @click="
               click(
                 'https://tokamak.notion.site/Tokamak-Network-Grant-Program-f2384b458ea341a0987c7e73a909aa21'
