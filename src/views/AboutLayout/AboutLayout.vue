@@ -36,7 +36,7 @@ import PraveenImage from "../../assets/team/praveen-pic@3x.png";
 // // import JackImage from "../../assets/team/jack-pic@3x.png";
 import HarveyImage from "../../assets/team/harvey-pic@3x.png";
 import JamieImage from "../../assets/team/jamie-pic@3x.png";
-// import IreneImage from "../../assets/team/irene-pic@3x.png";
+import IreneImage from "../../assets/team/irene-pic@3x.png";
 // import ChloeImage from "../../assets/team/chloe-pic@3x.png";
 // import RichardImage from "../../assets/team/richard-pic@3x.png";
 import SuahImage from "../../assets/team/suah_pic@3x.png";
@@ -59,6 +59,10 @@ import JakeImage from "../../assets/team/Jake_pic@3x.png";
 import ShivanshImage from "../../assets/team/shivansh-pic@3x.png";
 import ShrutiImage from "../../assets/team/shruti-pic@3x.png";
 import MuhammedImage from "../../assets/team/muhammed-pic@3x.png";
+import AmanImage from "../../assets/team/aman.png";
+import MehdiImage from "../../assets/team/mehdi-pic@3x.png";
+import MohammadImage from "../../assets/team/mohammad-pic@3x.png";
+import ParthImage from "../../assets/team/parth-pic@3x.png";
 
 export default {
   data() {
@@ -217,6 +221,41 @@ export default {
           github: "",
           linkedin: "",
           image: TheoImage,
+        },
+        {
+          name: "Aman Ullah",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: AmanImage,
+        },
+        {
+          name: "Mehdi Meriane",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: MehdiImage,
+        },
+        {
+          name: "Mohammad Rahm",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: MohammadImage,
+        },
+        {
+          name: "Parth Patel",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: ParthImage,
+        },
+        {
+          name: "Irene Bae",
+          role: "HR Manager",
+          github: "",
+          linkedin: "",
+          image: IreneImage,
         },
       ],
     };
