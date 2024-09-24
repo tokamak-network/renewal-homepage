@@ -230,7 +230,7 @@ export default {
           image: AmanImage,
         },
         {
-          name: "Mehdi Meriane",
+          name: "Mehdi Beriane",
           role: "Blockchain Engineer",
           github: "",
           linkedin: "",
