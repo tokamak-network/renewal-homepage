@@ -56,13 +56,16 @@ import SuhyeonImage from "../../assets/team/Suhyeon_pic@3x.png";
 import BraveImage from "../../assets/team/Brave_pic@3x.png";
 import NamImage from "../../assets/team/Nam_pic@3x.png";
 import JakeImage from "../../assets/team/Jake_pic@3x.png";
-import ShivanshImage from "../../assets/team/shivansh-pic@3x.png";
+// import ShivanshImage from "../../assets/team/shivansh-pic@3x.png";
 import ShrutiImage from "../../assets/team/shruti-pic@3x.png";
 import MuhammedImage from "../../assets/team/muhammed-pic@3x.png";
 import AmanImage from "../../assets/team/aman.png";
 import MehdiImage from "../../assets/team/mehdi-pic@3x.png";
 import MohammadImage from "../../assets/team/mohammad-pic@3x.png";
 import ParthImage from "../../assets/team/parth-pic@3x.png";
+import NegruImage from "../../assets/team/Negru.jpg";
+import VictorImage from "../../assets/team/Victor.jpg";
+import SinghImage from "../../assets/team/Singh.jpg";
 
 export default {
   data() {
@@ -195,13 +198,6 @@ export default {
           image: JakeImage,
         },
         {
-          name: "Shivansh Shrivastava",
-          role: "Blockchain Engineer",
-          github: "",
-          linkedin: "",
-          image: ShivanshImage,
-        },
-        {
           name: "Shruti Shrivastava",
           role: "Business Developer",
           github: "",
@@ -256,6 +252,27 @@ export default {
           github: "",
           linkedin: "",
           image: IreneImage,
+        },
+        {
+          name: "Singh Shailendra",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: SinghImage,
+        },
+        {
+          name: "Negru George",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: NegruImage,
+        },
+        {
+          name: "Victor Hazard",
+          role: "Software Engineer",
+          github: "",
+          linkedin: "",
+          image: VictorImage,
         },
       ],
     };
