@@ -8,7 +8,7 @@
           class="tab"
           @click="click('https://github.com/tokamak-network')"
         >
-          Github
+          GitHub
         </button>
         <button class="tab" @click="click('https://docs.tokamak.network')">
           Documents

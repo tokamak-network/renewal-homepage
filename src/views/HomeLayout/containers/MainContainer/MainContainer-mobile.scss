@@ -55,8 +55,9 @@
     > .button-container {
       display: flex;
       margin-top: 20px;
-      align-items: flex-end;
+      align-items: center;
       flex-direction: column;
+      justify-content: center;
 
       > .titan {
         display: flex;
@@ -113,7 +114,7 @@
       }
 
       > .demand {
-        width: 180px;
+        width: 200px;
         height: 48px;
         display: flex;
         justify-content: center;
@@ -121,7 +122,7 @@
         border-radius: 25px;
         border: solid 1px #dfe4ee;
         background-color: #fff;
-        margin-left: 20px;
+        // margin-left: 20px;
         color: #1c1c1c;
         font-family: "OpenSans", sans-serif !important;
         font-size: 18px;
@@ -131,6 +132,42 @@
         font-style: normal;
         z-index: 1;
         cursor: pointer;
+
+        > .demand-button {
+          font-family: "OpenSans", sans-serif !important;
+          font-size: 18px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          text-decoration: none;
+
+          > .titan-text {
+            // width: 54px;
+            font-family: "OpenSans", sans-serif !important;
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #1c1c1c;
+            text-decoration: none;
+          }
+          > .tok-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            > .tok-text {
+              font-size: 10px;
+              color: #1c1c1c;
+            }
+
+            > .op-text {
+              font-size: 6px;
+            }
+          }
+        }
       }
     }
 

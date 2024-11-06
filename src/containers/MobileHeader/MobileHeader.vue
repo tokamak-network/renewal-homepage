@@ -52,13 +52,31 @@
             Services
             <div class="menu-item-sub">
               <div class="menu-item-sub-title">
-                Mainnet
+                L2 Mainnet
                 <button
                   class="menu-item-sub-item menu-item-sub-item-linked"
                   @click="click('http://titan.tokamak.network/')"
                 >
                   Titan
                 </button>
+                <div class="menu-item-sub-item menu-item-sub-item-linked">
+                  └
+                  <button
+                    class="menu-item-sub-item button-container"
+                    style="cursor: pointer"
+                    @click="click('http://explorer.titan.tokamak.network/')"
+                  >
+                    Explorer
+                  </button>
+                  /
+                  <button
+                    class="menu-item-sub-item button-container"
+                    style="cursor: pointer"
+                    @click="click('http://bridge.titan.tokamak.network/')"
+                  >
+                    Bridge
+                  </button>
+                </div>
               </div>
               <div class="menu-item-sub-title">
                 Ecosystem
@@ -92,45 +110,9 @@
                 <button
                   class="menu-item-sub-item menu-item-sub-item-linked"
                   style="marginbottom: 0px"
-                  @click="click('https://explorer.titan.tokamak.network/')"
+                  @click="click('https://rolluphub.tokamak.network/')"
                 >
-                  Block Explorer
-                </button>
-              </div>
-              <div class="menu-item-sub-title">
-                L2 On-Demand
-                <button
-                  class="menu-item-sub-item menu-item-sub-item-linked"
-                  @click="click('/#layer2', true)"
-                >
-                  Tokamak
-                  <span
-                    style="
-                      vertical-align: super;
-                      display: inline-block;
-                      font-size: smaller;
-                      margin-left: 2px;
-                      margin-bottom: 2px;
-                    "
-                  >
-                    OP
-                  </span>
-                </button>
-                <button
-                  class="menu-item-sub-item menu-item-sub-item-linked"
-                  @click="click('/#layer2', true)"
-                >
-                  Tokamak
-                  <span
-                    style="
-                      vertical-align: super;
-                      display: inline-block;
-                      font-size: smaller;
-                      margin-left: 2px;
-                    "
-                  >
-                    ZK+
-                  </span>
+                  L2 On-Demand
                 </button>
               </div>
             </div>
@@ -142,7 +124,7 @@
                 class="menu-item-sub-item-linked"
                 @click="click('https://github.com/tokamak-network')"
               >
-                Github
+                GitHub
               </button>
               <button
                 class="menu-item-sub-item-linked"

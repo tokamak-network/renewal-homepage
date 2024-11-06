@@ -18,7 +18,12 @@
         <div class="content__service description">
           {{ $t("home.l2.serviceIntro1") }}
         </div>
-        <div class="content__service info">{{ $t("home.l2.infoText") }}</div>
+        <div
+          class="content__service deploy"
+          @click="click('https://rolluphub.tokamak.network/')"
+        >
+          Deploy
+        </div>
       </div>
       <div class="content__service">
         <img
@@ -40,7 +45,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    click(link, l2) {
+      l2 ? window.open(link, "_self") : window.open(link, "_blank");
+    },
+  },
+};
 </script>
 
 <style lang="scss" scope>

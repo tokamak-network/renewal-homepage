@@ -7,7 +7,7 @@
 
     <div class="button-container">
       <div class="titan">
-        <div class="live">Live</div>
+        <!-- <div class="live">Live</div> -->
         <a
           target="_blank"
           class="titan-button"
@@ -20,7 +20,14 @@
           </div>
         </a>
       </div>
-      <a href="/#layer2" class="demand">L2 ON-DEMAND</a>
+      <div class="demand">
+        <a href="https://rolluphub.tokamak.network" class="demand-button">
+          <div class="titan-text">Tokamak Rollup Hub</div>
+          <div class="tok-container">
+            <div class="tok-text">Devnet Open</div>
+          </div>
+        </a>
+      </div>
     </div>
     <div class="image">
       <!-- <div class="text">{{ $t("home.main.img") }}</div> -->
