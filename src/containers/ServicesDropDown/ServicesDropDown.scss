@@ -68,6 +68,22 @@
     font-size: 13px;
     align-items: center;
   }
+
+  > .tab-linked .tab-linked.tab-linked {
+    
+    text-align: left;
+    width: 140px;
+    height: 32px; 
+    font-weight: normal;
+    border: none;
+    background-color: #ffffff;
+    color: #1c1c1c;
+    // padding-left: 15px;
+    // margin-left: 5px;
+    font-size: 13px;
+    align-items: center;
+  }
+
   > .tab-linked:focus, .tab-linked:hover{
     cursor: pointer;
     color: #2a72e5;

@@ -22,6 +22,8 @@
             ? { minWidth: '90px' }
             : menu.title === 'Bridge & Swap'
             ? { minWidth: '112px' }
+            : menu.title === 'L2 On-Demand'
+            ? { minWidth: '112px' }
             : {},
           menu.isFoucsed ? { fontWeight: 600 } : {},
           menu.isFoucsed ? { opacity: 1 } : { opacity: 0.25 },
@@ -58,6 +60,11 @@ export default {
         {
           title: "L2 Mainnet",
           url: "http://titan.tokamak.network/",
+          isFoucsed: false,
+        },
+        {
+          title: "L2 On-Demand",
+          url: "https://rolluphub.tokamak.network",
           isFoucsed: false,
         },
         {

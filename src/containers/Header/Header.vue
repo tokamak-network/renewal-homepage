@@ -71,7 +71,7 @@
                 @mouseover="openDropDown('developers')"
                 @mouseleave="showDrop = ''"
               >
-                Developers
+                Developer
                 <div @mouseleave="showDrop = ''">
                   <transition name="fade">
                     <developers-dropDown v-show="showDrop === 'developers'" />

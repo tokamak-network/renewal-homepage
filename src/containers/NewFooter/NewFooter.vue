@@ -20,12 +20,12 @@
             )
           "
         >
-          Careers
+          Onboarding
         </button>
-        <a href="/#partners" class="new-content">Partners</a>
+        <a href="/#partners" class="new-content">Partners & Grant</a>
       </div>
       <div class="container-item">
-        <div class="new-title">Mainnet</div>
+        <div class="new-title">L2 Mainnet</div>
         <button
           class="new-content"
           style="cursor: pointer"
@@ -33,8 +33,26 @@
         >
           Titan
         </button>
+        <div>
+          └
+          <button
+            class="new-content"
+            style="cursor: pointer"
+            @click="click('http://explorer.titan.tokamak.network/')"
+          >
+            Explorer
+          </button>
+          /
+          <button
+            class="new-content"
+            style="cursor: pointer"
+            @click="click('http://bridge.titan.tokamak.network/')"
+          >
+            Bridge
+          </button>
+        </div>
       </div>
-      <div class="container-item">
+      <!-- <div class="container-item">
         <div class="new-title">L2 On-Demand</div>
         <div>
           <a href="/#layer2" class="new-content"
@@ -66,8 +84,8 @@
             </span></a
           >
         </div>
-      </div>
-      <div class="container-item">
+      </div> -->
+      <!-- <div class="container-item">
         <div class="new-title">Ecosystem</div>
         <button class="new-content" style="cursor: pointer" @click="click('')">
           Bridge & Swap
@@ -101,7 +119,7 @@
         >
           Block Explorer
         </button>
-      </div>
+      </div> -->
 
       <div class="container-item">
         <div class="new-title">Developers</div>
@@ -122,7 +140,7 @@
           style="cursor: pointer"
           @click="click('https://github.com/tokamak-network')"
         >
-          Github
+          GitHub
         </button>
         <button
           class="new-content"
@@ -149,7 +167,7 @@
           style="cursor: pointer"
           @click="click('https://twitter.com/tokamak_network')"
         >
-          X
+          X (Twitter)
         </button>
         <button
           class="new-content"

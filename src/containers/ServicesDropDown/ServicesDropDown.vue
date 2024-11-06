@@ -4,7 +4,7 @@
     <div class="services">
       <div class="services-line" />
       <div class="tab-container">
-        <div class="tab-title">Mainnet</div>
+        <div class="tab-title">L2 Mainnet</div>
         <button
           class="tab-linked"
           style="cursor: pointer"
@@ -12,6 +12,24 @@
         >
           Titan
         </button>
+        <div class="tab-linked">
+          └
+          <button
+            class="tab-linked"
+            style="cursor: pointer"
+            @click="click('http://explorer.titan.tokamak.network/')"
+          >
+            Explorer
+          </button>
+          /
+          <button
+            class="tab-linked"
+            style="cursor: pointer"
+            @click="click('http://bridge.titan.tokamak.network/')"
+          >
+            Bridge
+          </button>
+        </div>
         <!-- <div class="soon-tab">
           <button class="tab" :disabled="true">Optimistic Rollup</button>
           <div class="soon">SOON</div>
@@ -57,49 +75,9 @@
         <button
           class="tab-linked"
           style="cursor: pointer"
-          @click="click('https://explorer.titan.tokamak.network/')"
+          @click="click('https://rolluphub.tokamak.network')"
         >
-          Block Explorer
-        </button>
-        <div class="divider" />
-        <div class="tab-title">L2 On-Demand</div>
-        <button
-          class="tab-linked"
-          style="cursor: pointer"
-          @click="click('/#layer2', true)"
-        >
-          <div>
-            Tokamak
-            <span
-              style="
-                vertical-align: super;
-                display: inline-block;
-                font-size: smaller;
-                margin-left: -2px;
-              "
-            >
-              Op
-            </span>
-          </div>
-        </button>
-        <button
-          class="tab-linked"
-          style="cursor: pointer"
-          @click="click('/#layer2', true)"
-        >
-          <div>
-            Tokamak
-            <span
-              style="
-                vertical-align: super;
-                display: inline-block;
-                font-size: smaller;
-                margin-left: -2px;
-              "
-            >
-              ZK+
-            </span>
-          </div>
+          L2 On-Demand
         </button>
       </div>
     </div>
