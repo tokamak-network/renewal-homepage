@@ -47,7 +47,7 @@
         <button
           class="tab-linked"
           style="cursor: pointer"
-          @click="click('https://bridge.tokamak.network/#/')"
+          @click="click('https://bridge.tokamak.network/')"
         >
           Bridge & Swap
         </button>
@@ -61,7 +61,7 @@
         <button
           class="tab-linked"
           style="cursor: pointer"
-          @click="click('https://dao.tokamak.network/#/')"
+          @click="click('https://dao.tokamak.network/')"
         >
           DAO
         </button>

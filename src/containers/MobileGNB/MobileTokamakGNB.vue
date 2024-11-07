@@ -54,7 +54,7 @@ export default {
       menus: [
         {
           title: "Tokamak Network",
-          url: "https://tokamak.network/#/",
+          url: "https://tokamak.network/",
           isFoucsed: true,
         },
         {
@@ -69,17 +69,17 @@ export default {
         },
         {
           title: "Bridge & Swap",
-          url: "https://bridge.tokamak.network/#/",
+          url: "https://bridge.tokamak.network/",
           isFoucsed: false,
         },
         {
           title: "Staking",
-          url: "https://simple.staking.tokamak.network/#/",
+          url: "https://simple.staking.tokamak.network/",
           isFoucsed: false,
         },
         {
           title: "DAO",
-          url: "https://dao.tokamak.network//",
+          url: "https://dao.tokamak.network/",
           isFoucsed: false,
         },
       ],
