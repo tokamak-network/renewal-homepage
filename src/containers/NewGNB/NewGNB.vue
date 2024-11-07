@@ -8,7 +8,7 @@
       <div>Vision</div>
     </a> -->
     <a
-      href="https://tokamak.network/#/"
+      href="https://tokamak.network/"
       :style="{ width: '158px' }"
       class="active-link"
     >
@@ -28,11 +28,7 @@
     >
       <div>L2 On-Demand</div>
     </a>
-    <a
-      href="https://bridge.tokamak.network/#/"
-      style="width: 136px"
-      class="link"
-    >
+    <a href="https://bridge.tokamak.network/" style="width: 136px" class="link">
       <div>Bridge & Swap</div>
     </a>
     <a
@@ -43,7 +39,7 @@
       <div>Staking</div>
     </a>
     <a
-      href="https://dao.tokamak.network/#/"
+      href="https://dao.tokamak.network/"
       :style="{ width: '68px' }"
       class="link"
     >
