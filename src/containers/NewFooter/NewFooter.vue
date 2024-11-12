@@ -38,7 +38,7 @@
           <button
             class="new-content"
             style="cursor: pointer"
-            @click="click('http://explorer.titan.tokamak.network/')"
+            @click="click('https://explorer.titan.tokamak.network/')"
           >
             Explorer
           </button>
@@ -46,7 +46,7 @@
           <button
             class="new-content"
             style="cursor: pointer"
-            @click="click('http://bridge.titan.tokamak.network/')"
+            @click="click('https://bridge.tokamak.network/')"
           >
             Bridge
           </button>
