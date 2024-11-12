@@ -72,7 +72,7 @@
                   <button
                     class="menu-item-sub-item button-container"
                     style="cursor: pointer"
-                    @click="click('http://bridge.titan.tokamak.network/')"
+                    @click="click('http://bridge.tokamak.network/')"
                   >
                     Bridge
                   </button>

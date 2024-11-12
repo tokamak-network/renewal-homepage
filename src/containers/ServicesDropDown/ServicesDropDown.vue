@@ -25,7 +25,7 @@
           <button
             class="tab-linked"
             style="cursor: pointer"
-            @click="click('http://bridge.titan.tokamak.network/')"
+            @click="click('http://bridge.tokamak.network/')"
           >
             Bridge
           </button>
