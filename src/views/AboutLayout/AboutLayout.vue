@@ -45,7 +45,7 @@ import MonicaImage from "../../assets/team/monica-pic@3x.png";
 // import OliviaImage from "../../assets/team/Olivia_pic@3x.png";
 import JadenImage from "../../assets/team/jaden-pic@3x.png";
 // // import MattImage from "../../assets/team/matt-pic@3x.png";
-import StevenImage from "../../assets/team/steven-pic@3x.png";
+// import StevenImage from "../../assets/team/steven-pic@3x.png";
 import RyanImage from "../../assets/team/ryan-pic@3x.png";
 import TheoImage from "../../assets/team/theo-pic@3x.png";
 // import WyattImage from "../../assets/team/wyatt-pic@3x.png";
@@ -183,13 +183,13 @@ export default {
           linkedin: "",
           image: NamImage,
         },
-        {
-          name: "Steven Lee",
-          role: "L2 Engineer",
-          github: "",
-          linkedin: "",
-          image: StevenImage,
-        },
+        // {
+        //   name: "Steven Lee",
+        //   role: "L2 Engineer",
+        //   github: "",
+        //   linkedin: "",
+        //   image: StevenImage,
+        // },
         {
           name: "Jake Jang",
           role: "ZKP Researcher",
