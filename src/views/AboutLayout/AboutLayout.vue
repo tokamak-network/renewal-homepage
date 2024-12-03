@@ -44,7 +44,7 @@ import SuahImage from "../../assets/team/suah_pic@3x.png";
 import MonicaImage from "../../assets/team/monica-pic@3x.png";
 // import OliviaImage from "../../assets/team/Olivia_pic@3x.png";
 import JadenImage from "../../assets/team/jaden-pic@3x.png";
-// // import MattImage from "../../assets/team/matt-pic@3x.png";
+// import MattImage from "../../assets/team/matt-pic@3x.png";
 // import StevenImage from "../../assets/team/steven-pic@3x.png";
 import RyanImage from "../../assets/team/ryan-pic@3x.png";
 import TheoImage from "../../assets/team/theo-pic@3x.png";
@@ -66,6 +66,7 @@ import ParthImage from "../../assets/team/parth-pic@3x.png";
 import NegruImage from "../../assets/team/Negru.jpg";
 import VictorImage from "../../assets/team/Victor.jpg";
 import SinghImage from "../../assets/team/Singh.jpg";
+import KaidenImage from "../../assets/team/Kaiden.jpg";
 
 export default {
   data() {
@@ -273,6 +274,13 @@ export default {
           github: "",
           linkedin: "",
           image: VictorImage,
+        },
+        {
+          name: "Kaiden Araki",
+          role: "Blockchain Engineer",
+          github: "",
+          linkedin: "",
+          image: KaidenImage,
         },
       ],
     };
