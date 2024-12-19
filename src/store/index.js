@@ -277,7 +277,7 @@ export default new Vuex.Store({
     },
     async getCurrencyInfo(context) {
       await axios
-        .get("https://api.upbit.com/v1/ticker?markets=KRW-TON")
+        .get("https://api.upbit.com/v1/ticker?markets=KRW-tokamak")
         .then((response) => {
           context.commit(
             "SET_INFO",
