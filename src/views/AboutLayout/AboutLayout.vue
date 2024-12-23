@@ -67,6 +67,7 @@ import NegruImage from "../../assets/team/Negru.jpg";
 import VictorImage from "../../assets/team/Victor.jpg";
 import SinghImage from "../../assets/team/Singh.jpg";
 import KaidenImage from "../../assets/team/Kaiden.jpg";
+import JamesImage from "../../assets/team/James Bello 1.png";
 
 export default {
   data() {
@@ -281,6 +282,13 @@ export default {
           github: "",
           linkedin: "",
           image: KaidenImage,
+        },
+        {
+          name: "James Bello",
+          role: "Software Engineer",
+          github: "",
+          linkedin: "",
+          image: JamesImage,
         },
       ],
     };
